@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{527E7874-7599-46E0-A085-836CD4A65A00}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DDM_Lite_Full_Test</RootNamespace>
+    <AssemblyName>DDM_Lite_Full_Test</AssemblyName>
+    <RanorexVersion>6.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>b9508001-ff08-435f-8c16-d72c5053f5db</projectdefaultrepository>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>0d56c336-d990-43ee-b40a-4ac0fbe0eb54</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Full_TestRepository.cs">
+      <BoundTo>b9508001-ff08-435f-8c16-d72c5053f5db</BoundTo>
+      <DependentUpon>DDM_Lite_Full_TestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>9f6be5d1-0278-4830-aac7-d576b6f2a70c</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_Assembly_Search.cs">
+      <BoundTo>7fe6d72e-7253-499e-bec2-34dc19cdde60</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_Assembly_Search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dfd6a95c-d4b0-456a-af1e-0a7ceaa2c9a9</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_Assembly_Search.UserCode.cs">
+      <BoundTo>7fe6d72e-7253-499e-bec2-34dc19cdde60</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_Assembly_Search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>58e7dd8b-7a13-42d4-835b-a9d8ccbe4702</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_File_Search.cs">
+      <BoundTo>fdafe0f1-6485-445f-9487-f691d9fe5742</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_File_Search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5d9fa69-480d-4ec6-bfca-da5596009e34</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_File_Search.UserCode.cs">
+      <BoundTo>fdafe0f1-6485-445f-9487-f691d9fe5742</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_File_Search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e2e8531d-c95e-4ffd-a738-150b3442d3b6</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_Part_Search.cs">
+      <BoundTo>c6a4df5b-812d-4248-bc65-952b600de471</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_Part_Search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e8c82b22-69d3-48e3-8f2d-e545b4d297e9</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_Part_Search.UserCode.cs">
+      <BoundTo>c6a4df5b-812d-4248-bc65-952b600de471</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_Part_Search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5cee327b-621f-4990-95e3-ed975f03da7b</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_Reports.cs">
+      <BoundTo>e2e97b98-683b-431f-8b8a-92720f7f229d</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_Reports.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>86bcebe1-3d10-42be-9670-1c115e3e5f74</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Oregon_Reports.UserCode.cs">
+      <BoundTo>e2e97b98-683b-431f-8b8a-92720f7f229d</BoundTo>
+      <DependentUpon>DDM_Lite_Oregon_Reports.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4edeed72-2ee8-4f69-811e-3891b53012d6</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b03d7c68-7fce-4429-a7c2-725c3fd95ded</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Cambridge_Test.cs">
+      <BoundTo>765bd134-b65a-4e16-97bd-fae285dc3758</BoundTo>
+      <DependentUpon>DDM_Lite_Cambridge_Test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ec77a9af-4b59-4c1e-9a3c-62675366b421</id>
+    </Compile>
+    <Compile Include="DDM_Lite_Cambridge_Test.UserCode.cs">
+      <BoundTo>765bd134-b65a-4e16-97bd-fae285dc3758</BoundTo>
+      <DependentUpon>DDM_Lite_Cambridge_Test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b483994-6381-4ac3-a62b-d81a69ca3fcb</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>c7f5bff9-5040-4dde-a51c-7214521b6dac</id>
+    </None>
+    <None Include="DDM_Lite_Full_TestRepository.rximg">
+      <BoundTo>b9508001-ff08-435f-8c16-d72c5053f5db</BoundTo>
+      <DependentUpon>DDM_Lite_Full_TestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>c58a0af1-c36c-4a12-880a-50f4772182c4</id>
+    </None>
+    <None Include="DDM_Lite_Full_TestRepository.rxrep">
+      <id>b9508001-ff08-435f-8c16-d72c5053f5db</id>
+      <repoid>d315a84e-f4af-45b7-95a1-afd898d4c3af</repoid>
+      <reporootid>c5654659-32e8-4ac8-a8cd-472c06821f08</reporootid>
+    </None>
+    <None Include="DDM_Lite_Cambridge_Test.rxrec">
+      <BoundTo>b9508001-ff08-435f-8c16-d72c5053f5db</BoundTo>
+      <id>765bd134-b65a-4e16-97bd-fae285dc3758</id>
+      <recordtableid>6da83ccc-435d-418e-a502-e8939ed4de72</recordtableid>
+    </None>
+    <None Include="DDM_Lite_Oregon_Assembly_Search.rxrec">
+      <BoundTo>b9508001-ff08-435f-8c16-d72c5053f5db</BoundTo>
+      <id>7fe6d72e-7253-499e-bec2-34dc19cdde60</id>
+      <recordtableid>a368dd37-7649-4947-85dd-af2997151333</recordtableid>
+    </None>
+    <None Include="DDM_Lite_Oregon_File_Search.rxrec">
+      <BoundTo>b9508001-ff08-435f-8c16-d72c5053f5db</BoundTo>
+      <id>fdafe0f1-6485-445f-9487-f691d9fe5742</id>
+      <recordtableid>5b6138cc-e4c8-4e34-bf25-886e6d6a475f</recordtableid>
+    </None>
+    <None Include="DDM_Lite_Oregon_Part_Search.rxrec">
+      <BoundTo>b9508001-ff08-435f-8c16-d72c5053f5db</BoundTo>
+      <id>c6a4df5b-812d-4248-bc65-952b600de471</id>
+      <recordtableid>2bcef746-e8db-4feb-9d1b-3846112dc345</recordtableid>
+    </None>
+    <None Include="DDM_Lite_Oregon_Reports.rxrec">
+      <BoundTo>b9508001-ff08-435f-8c16-d72c5053f5db</BoundTo>
+      <id>e2e97b98-683b-431f-8b8a-92720f7f229d</id>
+      <recordtableid>80cfc446-1163-4d09-a02e-c4350b99f65d</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DDM_Lite_Full_Test.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7f908643-c589-40cc-b8f5-9dccf0353299</id>
+    </Content>
+    <Content Include="DDM_Lite_Full_Test.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>8e607cbc-08c7-4177-80af-bb1a92ffa6dc</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

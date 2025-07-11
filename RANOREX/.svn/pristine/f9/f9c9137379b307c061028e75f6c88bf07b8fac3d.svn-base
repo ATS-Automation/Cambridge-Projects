@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="00f8297e-a94c-4858-8c0b-aedb48d1e6bd"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RunHeartbeatBatchFile"
+	namespace="UpchainMechDeployTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="RunHeartbeatBatchFile"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="RunBatchFileLocal"
+		namespace="UpchainMechDeployTest"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="404728d0-cd41-4f30-8544-b7348cdb5ac0">
+				<argument
+				argname="path"
+				id="dd5b4275-b5a8-4dab-ad13-289206050df8">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						\\ca01a9001\pgmis\Deployment_DEV\Ranorex\PLMHeartbeat\HeartbeatCopy.bat
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="BatchFile Completed Successfully"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="3167440c-d7a6-4cf8-a1f7-6daf6dc4c72a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="9d894477-4c0b-47ec-af4c-9a60679fe97c"
+	name="UpchainMechDeployTestRepository"
+	relativepath="UpchainMechDeployTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="UpchainMechDeployTestRepository"
+		namespace="UpchainMechDeployTest">
+		</codegen>
+		<rootfolder
+		id="397711e0-9cf9-4fd1-b60f-219dc8d44fa0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RunHeartbeatBatchFile.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,1596 @@
+﻿<repository
+id="f397231c-781f-483d-997f-7fdb5e0a817e"
+name="CamDesignerRepository"
+rxversion="8.1">
+	<codegen
+	classname="CamDesignerRepository"
+	namespace="CamDesigner">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="95645d5a-794d-472d-b538-8587e65881f6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="57f652f3-62ef-4fab-9c98-91b94448835f"
+		isrooted="True"
+		name="CamDesigner"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			capname="container"
+			id="8af66da1-b634-4ca3-8ee9-c27d50188c4c"
+			isrooted="True"
+			name="Navigation"
+			searchtimeout="30000ms"
+			usecache="False">
+				<folder
+				capname="tabpage"
+				id="4a945f97-c400-4c70-86f3-e0410f2209f4"
+				isrooted="True"
+				name="Ribbon"
+				searchtimeout="30000ms"
+				usecache="False">
+					<folder
+					capname="container"
+					id="cc28274f-31b3-4e35-99bb-1a60726910f1"
+					isrooted="True"
+					name="New"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="button"
+						id="a43600e7-84d6-4bd1-9163-b77fdf432024"
+						name="NewProject"
+						searchtimeout="30000ms">
+							/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]//tabpage[@index='0']/container[@caption='New']/button[1]
+						</item>
+						<item
+						capname="button"
+						id="a13ed493-01b9-408d-902b-d31e261441cf"
+						name="NewStation"
+						searchtimeout="30000ms">
+							/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]//tabpage[@index='0']/container[@caption='New']/button[2]
+						</item>
+						<item
+						capname="button"
+						id="3d66d908-d5bf-4d6e-9f29-a4d29723c42e"
+						name="NewCam"
+						searchtimeout="30000ms">
+							/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]//tabpage[@index='0']/container[@caption='New']/button[3]
+						</item>
+						<basepath>
+							/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]//tabpage[@index='0']/container[@caption='New']
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]//tabpage[@index='0']
+					</basepath>
+				</folder>
+				<folder
+				capname="tree"
+				id="a4db26a1-9fe3-4bad-b9ed-352cfd72acd1"
+				isrooted="True"
+				name="Tree"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					addcaps="unknown,wpfelement"
+					capname="checkbox"
+					id="97cb0fcf-350d-493c-8bfd-2ea134446122"
+					name="LayoutTesting"
+					refimgid="7fe2b879-282a-4352-8651-72c49841c9cf"
+					searchtimeout="30000ms">
+						/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]/container/?/?/tree/treeitem/?/?/?/text[@text='Layout Testing']/..//checkbox
+					</item>
+					<basepath>
+						/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]/container/?/?/tree
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[1]
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="03c8eb80-142e-4c88-b20c-6b04c7264a31"
+			isrooted="True"
+			name="Header"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,wpfelement"
+				capname="button"
+				id="07bc670e-8b91-4e19-92df-32b377894677"
+				name="SaveCurrent"
+				refimgid="750034dd-6470-4e4e-9e04-1b29945e9833"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[2]/container/container[2]/button[2]
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="1678d94b-2a5b-455c-bbc1-b32bda0fe1fb"
+				name="HeaderDescription"
+				refimgid="cbb648b8-56ee-42a2-bb9b-e85254fafe9f"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[2]//text[@caption~'^CAM\ -\ ']
+				</item>
+				<item
+				addcaps="container,wpfelement"
+				capname="checkbox"
+				id="c33bbc97-66dd-4345-b3ed-8c35029aeae5"
+				name="SomeContainer"
+				refimgid="ff9448d5-a15b-4403-ad98-cfbcb57b3092"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[2]/container/container[2]/checkbox[1]
+				</item>
+				<basepath>
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[2]
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="7b5117de-0ee2-4f33-9093-20211808a56d"
+			isrooted="True"
+			name="CamGeometry"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="combobox,wpfelement"
+				capname="combobox"
+				id="96a302ad-1980-4efb-ab3a-b7abc97f18ff"
+				name="ModSine"
+				refimgid="3a3be99b-df83-4387-83c7-b0e19bead15d"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container//container[@caption='Segment List']/?/?/tabpage[@title='Detailed']/?/?/table/container[@automationid='PART_RowsPresenter']/row[@index='1']/cell[@columnindex='3']/combobox
+				</item>
+				<item
+				addcaps="checkbox,wpfelement"
+				capname="combobox"
+				id="367719cb-769c-4f12-a299-2e0ac3598806"
+				name="ToggleButton"
+				refimgid="6ccfbfbe-39f4-4af5-ad88-e1bfece86694"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container/container[@caption='Segment List']/?/?/tabpage[@title='Detailed']/?/?/table/container[@automationid='PART_RowsPresenter']/?/?/cell[@columnindex='3' and @rowindex='1']/combobox
+				</item>
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="995605a8-216e-4e61-aed4-2c67ead42165"
+				name="AutoSs"
+				refimgid="0d43b54d-29c2-488c-850f-fa871f385593"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container//container[@caption='Segment List']/?/?/tabpage[@title='Simple']/?/?/table/container[@automationid='PART_RowsPresenter']/row[@index='0']/cell[@columnindex='4']/button[@text='Auto &#223;']
+				</item>
+				<basepath>
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,wpfelement"
+			capname="container"
+			id="cd4b4d73-811b-49cc-ad80-a00f513c873c"
+			isrooted="True"
+			name="SomeContainer"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="9357a2ad-4888-43ce-996d-3a2a3a179881"
+				name="DrawingTemplateText"
+				refimgid="65b9201b-4c8c-4578-99a5-d68012b1e011"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[4]/container/container/container[1]/combobox//text
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="192e3912-cc46-47e4-ac90-5b8c93ae1b22"
+				name="DriveDesignerText"
+				refimgid="fc1379f8-66cc-4f78-9a7c-fee755755b2e"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[4]/container/container/container[2]/combobox//text
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="8d488d3f-17cb-48ff-b9e8-8c1c8151a908"
+				name="PropertyListText"
+				refimgid="44b0a98e-f70d-4895-a284-fe5610692510"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[4]/container/container/container[3]/combobox//text
+				</item>
+				<basepath>
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[4]
+				</basepath>
+			</folder>
+			<item
+			addcaps="tabpage,wpfelement"
+			capname="tabpage"
+			id="8cf59265-0a2d-4c57-9450-4e4876c05c0a"
+			name="Limits"
+			refimgid="0aad51ce-e5d1-47ed-bc81-c0c6a8617009"
+			searchtimeout="30000ms">
+				/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[5]/?/?/tabpagelist/tabpage[@title='Limits']
+			</item>
+			<item
+			addcaps="tabpage,wpfelement"
+			capname="tabpage"
+			id="6f046c1b-a6fe-4fe1-9e0c-642d231132c4"
+			name="PropertyLists"
+			refimgid="892de2c6-0c6f-4ebb-bced-f4a64e6c4fb4"
+			searchtimeout="30000ms">
+				/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[5]/?/?/tabpagelist/tabpage[@title='Property Lists']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="f8cc24e7-2067-427e-97e9-2e9630dd425c"
+			name="SelectedArmLayoutText"
+			refimgid="880e04b9-d05b-425f-806c-587b279d5e50"
+			searchtimeout="30000ms">
+				/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//container[@caption='Arm Layout']/combobox/container[@automationid='templateRoot']/?/?/text
+			</item>
+			<folder
+			capname="tabpage"
+			id="5c03aec8-1e8c-47a0-8e2a-f7f8b68dd377"
+			isrooted="True"
+			name="SimpleGrid"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="af941d3d-7f77-4f10-8fa6-cd07387dfa5d"
+				name="SomeCell"
+				refimgid="7bd4df7a-ae93-4225-9adf-bfbc7c7a9f3e"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container/container[@caption='Segment List']/?/?/tabpage[@title='Simple']/?/?/table/container[@automationid='PART_RowsPresenter']/row[@index='2']/cell[2]
+				</item>
+				<item
+				addcaps="row,wpfelement"
+				capname="row"
+				id="623c986f-2001-4d1c-8cb6-001a5b50bbe4"
+				name="Row4"
+				refimgid="dda78d11-3e91-477e-9f1a-2785bba9a93e"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container/container[@caption='Segment List']/?/?/tabpage[@title='Simple']/?/?/table/container[@automationid='PART_RowsPresenter']/row[@index='4']
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="bf4aa102-a485-4d61-aa15-53ee9c192c34"
+				name="Row2h"
+				refimgid="ee5be7bf-03c3-4945-aebb-355e92605246"
+				searchtimeout="30000ms">
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container/container[@caption='Segment List']/?/?/tabpage[@title='Simple']/?/?/table/container[@automationid='PART_RowsPresenter']/row[2]/cell[4]
+				</item>
+				<basepath>
+					/form[@wpfnative='True' and @title&gt;'Cam Designer']/container/container[3]/element[@automationid='dockingManager']/container[1]//element/container/container/container/container[@caption='Segment List']/?/?/tabpage[@title='Simple']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@wpfnative='True' and @title&gt;'Cam Designer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPY6ApCA0NZQZSLNiwvb09iGYEYqyA
+MSoqyqWxsfF0YWHh6qCgoNUBAQEoOCQkZJW3t3cmVD0qCA4Oturr63t37dq1/ykpKf+lpKT+S0pK
+/ldUVPxvYGDwX1NT87+MjMz/xMTE61AtCBAdHa3e3t7+9NatW/+am5v/c3Bw/AcK/+fm5v5fUlLy
+f+/evf/Xrl37X0RE5H9CQsJ9iC4oSEpKkmpqarp55cqVP8uWLfsvJCQE1szCwvI/Pj7+H9CAC+vW
+rXt348aN/2JiYqgGaGlpsdXV1R09efLkj6NHj/5XVlYGa2ZkZPzv7u7+v7W19ZKTk5Pv5s2b72MY
+UF9fz5ScnJwItPXrnTt3/ltbW4M1g7C+vv7/rq6ub8AAqwIZsGXLlmcYBgD97TZlypRPt2/f/g8M
+/f9MTExgzSA6Jibm/6xZs/729va+B+HVq1f/Xbx48X9RUVGIAcC4NgBKvLp///7/2tra/+zs7OAA
+k5CQAIc8LgwPxLa2tutAZ//dvXs3OJoEBQXBkmFhYb+AsdAFjCotYABqgHBgYKDF9u3br718+RIc
+jRkZGfcYSktLW+bOnbsdmGi2A52/PTIycntsbOz2tLS0PmBqEwH7EQo8PDzYKysrG4Be2l5cXLwd
+aGg3AyhJysvLc6BjaFLFAMjqcakZUoCBAQDW3Aqwvo8k8QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="6a40a161-7178-4be5-89ea-317721438616"
+		isrooted="True"
+		name="CamDesignerUniversal"
+		refpath="/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<folder
+			capname="tree"
+			id="03d0d825-927b-4d5b-9354-fc0bc9881ae8"
+			isrooted="True"
+			name="TreeView"
+			refimgid="ec752bb8-e989-44d3-b356-01d56cc5af3f"
+			searchtimeout="30000ms"
+			usecache="False">
+				<folder
+				capname="treeitem"
+				id="ca5e52c1-0a3c-4b13-93b3-dcc044682dad"
+				isrooted="True"
+				name="TemplatesFolder"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="treeitem"
+					id="d1515bf0-3c74-41c0-bc37-31a969da954a"
+					name="FirstTemplate"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[1]/treeitem[1]
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[1]
+					</basepath>
+				</folder>
+				<folder
+				capname="treeitem"
+				id="795078f9-bdf4-42d8-b030-15495dd9312a"
+				isrooted="True"
+				name="FavouritesFolder"
+				searchtimeout="30000ms"
+				usecache="False">
+					<folder
+					capname="treeitem"
+					id="54b41d6c-937a-4182-a01a-cf40c528cb8a"
+					isrooted="True"
+					name="LastFavourite"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="text"
+						id="404c8930-cf47-44f8-877e-8ec19d8a8019"
+						name="LastFavouriteText"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[2]/treeitem[last()='True']/text[4]
+						</item>
+						<basepath>
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[2]/treeitem[last()='True']
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[2]
+					</basepath>
+				</folder>
+				<folder
+				capname="treeitem"
+				id="8b0bfd73-2a2a-4950-8b02-594bbbfe4ada"
+				isrooted="True"
+				name="LastProject"
+				refimgid="874db954-537f-4dff-b7cf-9211d737c417"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="text"
+					id="3b344ca6-f7f2-4ac2-aa05-7ec37d520402"
+					name="ProjectLabel"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/text[1]
+					</item>
+					<item
+					capname="text"
+					id="176d028a-362c-451d-876b-16bd82910726"
+					name="ProjectTextbox"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/text[@classname='TextBox']
+					</item>
+					<folder
+					capname="treeitem"
+					id="5099c8e3-e0b9-4904-a8cb-1b2338b8ff22"
+					isrooted="True"
+					name="Station"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="text"
+						id="4f4ccb56-c9ce-4d1a-9bdf-f26aac0de404"
+						name="StationLabel"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/text[2]
+						</item>
+						<item
+						capname="text"
+						id="1fcc6001-692c-4916-a90e-37bf442eceff"
+						name="StationTextbox"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/text[@classname='TextBox']
+						</item>
+						<folder
+						capname="treeitem"
+						id="8ec1b4cf-939a-4771-81e3-b90b3710c061"
+						isrooted="True"
+						name="Cam"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							capname="text"
+							id="df0ed99c-bab1-486c-80a7-94a641b545c0"
+							name="CamPositionTextbox"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[3]
+							</item>
+							<item
+							capname="text"
+							id="7e974a07-9a26-497e-b15a-6150f011b519"
+							name="CamDescriptionTextbox"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[6]
+							</item>
+							<item
+							capname="text"
+							id="e01f7269-e1f5-433c-99fe-93a5a47ffd57"
+							name="CamIDText"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[4]
+							</item>
+							<item
+							capname="text"
+							id="87b3873c-f228-435f-b198-4572c87e5075"
+							name="CamPositionLabel"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[2]
+							</item>
+							<item
+							capname="text"
+							id="4c135be2-2449-4326-9ca4-573146d8a8ac"
+							name="CamDescriptionLabel"
+							refimgid="51837265-847b-4d96-b319-30ba2db91d96"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[5]
+							</item>
+							<basepath>
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']
+							</basepath>
+						</folder>
+						<folder
+						capname="treeitem"
+						id="aa6eca56-5067-4084-b4e9-87d4b1d9994e"
+						isrooted="True"
+						name="FirstCam"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							capname="text"
+							id="e0db1804-0ea0-4f00-83c6-fe173de3bde5"
+							name="FirstCamIDText"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[1]/text[4]
+							</item>
+							<basepath>
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[1]
+							</basepath>
+						</folder>
+						<basepath>
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']
+				</basepath>
+			</folder>
+			<folder
+			capname="tabpagelist"
+			id="b6c48ab5-71ed-4fa7-9144-608a4baa2850"
+			isrooted="True"
+			name="Content"
+			searchtimeout="5000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="af8b3e8d-4b41-4058-81b3-0338ce1621fe"
+				isrooted="True"
+				name="CamGeometry"
+				refimgid="d41656ac-6dc2-4b2e-bf7a-367995c97706"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="text"
+					id="020ddb93-5479-4c66-baf8-2d5d6cf1d085"
+					name="CamGeometryTextbox"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Geometry']/../..//text[@classname='TextBox' and @enabled='True'][$Index]
+					</item>
+					<item
+					capname="radiobutton"
+					id="d8c96dd7-dbd0-4dff-9ab0-a0cd09b28270"
+					name="CamGeometryRadio"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Geometry']/../..//radiobutton[@enabled='True'][$Index]
+					</item>
+					<folder
+					capname="combobox"
+					id="3d501c04-2e64-45ca-82cf-4a34a8cde0b9"
+					isrooted="True"
+					name="ArmLayout"
+					searchtimeout="30000ms"
+					usecache="False">
+						<basepath>
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Geometry']/../..//combobox
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Geometry']/../..
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="32a0ceea-9429-4db8-a09f-a7517982a7cb"
+				isrooted="True"
+				name="CamDetails"
+				refimgid="bbcd1213-3261-4774-b720-1ced95708892"
+				searchtimeout="30000ms"
+				usecache="False">
+					<folder
+					capname="tabpage"
+					id="8fbc03be-6a56-4a3f-96f0-40fa3714bccc"
+					isrooted="True"
+					name="Simple"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="63bde079-cd83-4ddb-8065-fb0e01fee68d"
+						name="FirstCell"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/?/?/cell[@rowindex='0'][1]
+						</item>
+						<item
+						addcaps="button,uiautomation,uiautomationinvoke"
+						capname="button"
+						id="921f229c-66fe-4c5f-a526-869bad6565f6"
+						name="AutoH"
+						refimgid="930d1bdf-508e-447a-af6d-12db36daf786"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[4]/cell[@classname='DataGridCell' and @text='' and @columnindex='5']/button[@name='Auto h']
+						</item>
+						<item
+						addcaps="button,uiautomation,uiautomationinvoke"
+						capname="button"
+						id="762afeec-7117-4b83-88fc-5903b1663756"
+						name="Row5AutoH"
+						refimgid="97438552-17b9-4ea2-a7e0-a5e9b29fda92"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[6]/cell[7]/button
+						</item>
+						<item
+						addcaps="button,uiautomation,uiautomationinvoke"
+						capname="button"
+						id="45702a1a-ff37-45ee-846f-d9e584be04b7"
+						name="AutoSs"
+						refimgid="9f33342c-931b-4ebc-9fb8-37c54ca2880e"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[5]/cell[@classname='DataGridCell' and @text='' and @columnindex='4']/button[@name='Auto &#223;']
+						</item>
+						<item
+						addcaps="cell,uiautomation,uiautomationinvoke,uiautomationvalue"
+						capname="cell"
+						id="57753a91-8bc1-4602-9c32-e49125e8a277"
+						name="Row3Beta"
+						refimgid="906668b1-4752-4aed-b476-194dbd1c2e71"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[4]/cell[2]
+						</item>
+						<item
+						addcaps="cell,uiautomation,uiautomationinvoke,uiautomationvalue"
+						capname="button"
+						id="7d3f0911-34c3-4d02-9fa9-3635b2f20ccf"
+						name="Row4AutoBeta"
+						refimgid="8fd8e906-b61b-4dbd-a560-63a8765ca656"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[5]/cell[@classname='DataGridCell' and @text='' and @columnindex='4']/button[@name='Auto &#223;']
+						</item>
+						<item
+						addcaps="row,uiautomation,uiautomationinvoke"
+						capname="row"
+						id="671eb05c-4b1e-4463-a153-3a6f1c14a36b"
+						name="Row1"
+						refimgid="608e1b99-936d-43b5-b556-114b415ca2c1"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[2]
+						</item>
+						<folder
+						capname="row"
+						id="5838aec3-b65a-426d-810b-e63e9f7bceab"
+						isrooted="True"
+						name="Row2"
+						refimgid="66ff4142-83b2-4b11-991b-8edc2ac74bb1"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							capname="button"
+							id="fec5b245-9cec-42f9-b081-887555d60984"
+							name="Configure"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[3]//button[@name='Configure']
+							</item>
+							<item
+							capname="cell"
+							id="b6ee1133-81a4-4c23-9d35-c9132d4133d2"
+							name="h"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[3]/cell[@classname='DataGridCell' and @columnindex='2']
+							</item>
+							<basepath>
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[3]
+							</basepath>
+						</folder>
+						<folder
+						capname="row"
+						id="b1547c93-f267-4284-81f7-e964b4887135"
+						isrooted="True"
+						name="Row4"
+						refimgid="f7909db9-29b0-4c73-99b6-5cca5d6717bd"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							capname="button"
+							id="05ce6422-0b02-4294-a502-8d113fea96a3"
+							name="Row4Configure"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[5]//button[@name='Configure']
+							</item>
+							<basepath>
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[5]
+							</basepath>
+						</folder>
+						<item
+						addcaps="combobox,uiautomation"
+						capname="combobox"
+						id="ab6bf082-c28d-4842-9ebb-37778f473a9a"
+						name="FirstFunction"
+						refimgid="548827ed-f3d2-45b5-bfeb-538bbf2a3dad"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[2]/cell[@columnindex='1']/combobox[@classname='ComboBox']
+						</item>
+						<item
+						capname="cell"
+						id="825af3c4-e5a3-4f9e-9bcb-1a040e6b70b0"
+						name="Row2H"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[3]/cell[4]
+						</item>
+						<item
+						capname="cell"
+						id="77685d38-e10c-4195-9009-127b369d240f"
+						name="NewBeta"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/?/?/cell[@classname='DataGridCell' and @text~'^Item:\ \{NewItemPlaceholder' and @columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="f901a43a-67c0-4e7e-8b80-4d58ff67c2ee"
+						name="NewFunction"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/?/?/cell[@classname='DataGridCell' and @text~'^Item:\ \{NewItemPlaceholder' and @columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="99d90cfa-e56b-4a72-aa14-e0552fbc31ab"
+						name="Row2AutoH"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']/table[@classname='DataGrid']/row[3]/cell[7]
+						</item>
+						<basepath>
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Simple']
+						</basepath>
+					</folder>
+					<folder
+					capname="tabpage"
+					id="6b8e5a19-ed9a-4c69-a287-efe213234263"
+					isrooted="True"
+					name="Detailed"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="b5894e37-7bf8-4fb4-bb09-2c6be3cecb78"
+						name="DetailedStart"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[2]
+						</item>
+						<item
+						capname="cell"
+						id="b15af3fb-dd93-4235-8ac4-63379ebee2a1"
+						name="DetailedBeta"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[3]
+						</item>
+						<item
+						capname="cell"
+						id="b11d0e90-0033-43d4-a6d6-0b7c06a3ce8b"
+						name="DetailedStop"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[4]
+						</item>
+						<item
+						capname="combobox"
+						id="c244dfe5-d124-4bc2-b480-a9c369d5e9ad"
+						name="DetailedFunction"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[5]/combobox
+						</item>
+						<item
+						capname="cell"
+						id="07cd282e-aa9d-4922-8e6c-dd922a8af667"
+						name="Detailedh"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[7]
+						</item>
+						<item
+						capname="cell"
+						id="7ddd0041-5d67-4336-8e65-d752c13c498a"
+						name="DetailedFinal"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[9]
+						</item>
+						<item
+						capname="cell"
+						id="74ba91a5-77bc-4991-b316-59d7fc699887"
+						name="DetailedPeakV"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[11]
+						</item>
+						<item
+						capname="cell"
+						id="baa3e4fb-e9cd-478e-a9e1-69af69bbbfbc"
+						name="DetailedPeakA"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[$Row]/cell[12]
+						</item>
+						<item
+						capname="row"
+						id="33c3624c-2a60-4a5f-85ee-e279b2525901"
+						name="Row3"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[4]
+						</item>
+						<item
+						capname="row"
+						id="3ec42830-7ff3-482a-8f07-b6e537027cb6"
+						name="Row5"
+						searchtimeout="30000ms">
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[6]
+						</item>
+						<folder
+						capname="table"
+						id="9f4111a2-dfe8-46de-a9d6-91b7f9b8bb77"
+						isrooted="True"
+						name="Functions"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							capname="combobox"
+							id="491fbf96-9a67-4f86-bb7a-cbd0b10edaac"
+							name="Function1"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[2]/cell[5]/combobox
+							</item>
+							<item
+							capname="combobox"
+							id="44f5e653-458c-46c4-b5f4-701a0d3cbb44"
+							name="Function2"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[3]/cell[5]/combobox
+							</item>
+							<item
+							capname="combobox"
+							id="10aab42e-8c6d-4037-817d-21e08be48d80"
+							name="Function3"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[4]/cell[5]/combobox
+							</item>
+							<item
+							capname="combobox"
+							id="a4de91ac-5b5d-4ba5-86d6-ddd63a1d1b09"
+							name="Function4"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[5]/cell[5]/combobox
+							</item>
+							<item
+							capname="combobox"
+							id="e7a04830-0da6-4741-a221-2420d1d0661a"
+							name="Function5"
+							searchtimeout="30000ms">
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']/?/row[6]/cell[5]/combobox
+							</item>
+							<basepath>
+								/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']/table[@classname='DataGrid']
+							</basepath>
+						</folder>
+						<basepath>
+							/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//tabpage[@name='Detailed']
+						</basepath>
+					</folder>
+					<item
+					capname="text"
+					id="3c8ab110-a371-475e-8bff-225b7b94b00e"
+					name="MaxPressureAngle"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..//container[@name='Details']/text[10]
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Cam Details']/../..
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="5bdd8496-95d8-4a41-be33-c0e8b2dbbe76"
+				isrooted="True"
+				name="Preview"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="unknown"
+					id="40c5e5fd-2c01-4d7b-a727-8cc5fb50bf3a"
+					name="CamDisplay"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Preview']/../../element[@classname='CamDisplay']
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Preview']/../..
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="631e41d4-bb95-49fe-8854-726f96c456db"
+				isrooted="True"
+				name="SVAJ"
+				refimgid="92fa92d7-7f82-4eda-bb97-6d594a6e4fc0"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="83a05fa8-509a-41ea-8d79-96f82d8e1e09"
+					name="AccelerationDiagram"
+					refimgid="fd9cc744-fef2-4d6d-9d3d-56503df1c1eb"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='SVAJ']/../../?/?/element[@classname='AccelerationDiagram']
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="67171442-493d-49eb-a3a1-f80c542072f4"
+					name="PositionDiagram"
+					refimgid="6e910818-2ae3-4d12-88ee-7ba74b8ef759"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='SVAJ']/../../?/?/element[@classname='PositionDiagram']
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="0e5694db-4c8a-4181-8873-3318dabc14a7"
+					name="VelocityDiagram"
+					refimgid="ee6d75a6-ced1-4e3b-8c39-a04599a14d45"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='SVAJ']/../../?/?/element[@classname='VelocityDiagram']
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="14212232-9c89-4902-94d1-790e562bb26b"
+					name="JerkDiagram"
+					refimgid="ff56211e-4409-4bad-bdfc-bf547255f49e"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='SVAJ']/../../?/?/element[@classname='JerkDiagram']
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="59ac9bb2-e434-404c-892b-c83a47d66577"
+					name="PressureAngle"
+					refimgid="bb4b059a-8493-4fde-8aa9-2b3430c952f7"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='SVAJ']/../../?/?/element[@classname='PressureAngle']
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="c85c8935-716e-4ac6-bdf1-45bb61ff36c8"
+					name="RadiusOfCurvature"
+					refimgid="bf500a36-ffde-4346-9e46-b8f8e4fdf172"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='SVAJ']/../../?/?/element[@classname='RadiusOfCurvature']
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='SVAJ']/../..
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="a849d267-af19-4e78-b9c9-32dce2712156"
+				isrooted="True"
+				name="CompareTiming"
+				refimgid="31b7e016-18eb-403a-a912-5a0cdfca9328"
+				searchtimeout="5000ms"
+				usecache="False">
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="a1e160a3-f0f9-43ca-8025-624d49adb5d6"
+					name="TimingDiagramWithHeader"
+					refimgid="57e3f312-f348-41cf-bc4c-e5191554f6cc"
+					searchtimeout="5000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Timing Compare']/../../?/?/container/element[1]
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="ee310c03-9a76-4a67-a7c4-225903d3c16d"
+					name="TimingDiagramWithHeader1"
+					refimgid="246633e2-7209-4f2d-84d4-ccabd4b7931a"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Timing Compare']/../../?/?/container/element[2]
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="c31d71c5-c6be-45b6-ae4c-5bec3f0c839c"
+					name="TimingDiagramWithHeader2"
+					refimgid="13505166-30bb-4284-bd89-44545222567b"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Timing Compare']/../../?/?/container/element[3]
+					</item>
+					<item
+					addcaps="unknown,uiautomation"
+					capname="unknown"
+					id="a851c991-0f78-450c-9e9a-57b18c6a90b6"
+					name="TimingDiagramWithHeader3"
+					refimgid="b0ed3bf0-9289-446f-aa94-5293c07757a7"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Timing Compare']/../../?/?/container/element[4]
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Timing Compare']/../..
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="6dac820e-9e70-4998-b864-6a251a26c14a"
+				isrooted="True"
+				name="Notes"
+				refimgid="6b22d13a-7929-4ae9-af80-336da3b2e06a"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="text"
+					id="2d0a0c15-aacf-4f8f-aed9-882e84b51a93"
+					name="Note"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Notes']/../..//text[@classname='TextBox']
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist/tabpage/?/?/text[@name='Notes']/../..
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="95d7225e-af25-4fb4-b6b7-198dec95e064"
+			isrooted="True"
+			name="Configuration"
+			searchtimeout="1000ms"
+			usecache="False">
+				<folder
+				capname="tabpage"
+				id="adae55ab-1a64-4b06-8b64-fdcd9b4ee44a"
+				isrooted="True"
+				name="Limits"
+				refimgid="bb7f224d-70ac-4d95-86be-2e7daaa4ddc5"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="text"
+					id="c4bf5ae9-e7b4-4d5b-ba8a-b76173116f72"
+					name="Textbox"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']/?/?/tabpage[@name='Limits']//text[@classname='TextBox'][$Index]
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']/?/?/tabpage[@name='Limits']
+					</basepath>
+				</folder>
+				<folder
+				capname="tabpage"
+				id="ae821cf4-dd45-4582-bc90-ad1fc29ccef1"
+				isrooted="True"
+				name="PropertyLists"
+				searchtimeout="1000ms"
+				usecache="False">
+					<item
+					addcaps="listitem,uiautomation"
+					capname="listitem"
+					id="71649f89-3215-464f-afc5-eafe0872e9dd"
+					name="CamDesignerViewModelPropertyListViewMo"
+					refimgid="a36c60e6-4cfd-4592-be01-888eb1748cc0"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/list[@classname='ListBox']/listitem[1]
+					</item>
+					<item
+					capname="text"
+					id="e3b93994-d705-4deb-b8aa-af3c3bcd581d"
+					name="ListName"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/text[@classname='TextBox']
+					</item>
+					<item
+					capname="text"
+					id="83748deb-c86e-43d8-94b4-95c1928d9ced"
+					name="Key"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/container[@name='Values']/text[3]
+					</item>
+					<item
+					capname="text"
+					id="ca6ed098-edf9-487b-86a6-ebeab16b497a"
+					name="Value"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/container[@name='Values']/text[5]
+					</item>
+					<item
+					capname="button"
+					id="f09b8bdc-e034-47f9-85d6-c8c03b3d87cb"
+					name="AddKeyValue"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/container[@name='Values']/button[@name='Add']
+					</item>
+					<item
+					capname="button"
+					id="09c92f45-f24e-450e-865c-ce8b25f5385b"
+					name="DeleteKeyValue"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/container[@name='Values']/button[@name='Delete']
+					</item>
+					<item
+					capname="listitem"
+					id="f44bb95b-f1a3-4d22-90d6-104ba383e371"
+					name="ListItem1"
+					searchtimeout="1000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/container[@name='Values']/list[@classname='ListBox']/listitem[@name='Key1 = Value1']
+					</item>
+					<item
+					capname="listitem"
+					id="fe761b1d-29ad-457e-8717-d2528b643ede"
+					name="ListItem2"
+					searchtimeout="1000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/container[@name='Values']/list[@classname='ListBox']/listitem[@name='Key2 = Value2']
+					</item>
+					<item
+					capname="button"
+					id="d07257e0-55ee-4475-a120-e782fb6bb2dc"
+					name="DeleteList"
+					searchtimeout="30000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/button
+					</item>
+					<item
+					capname="text"
+					id="e4d6d421-0cc5-4dfe-a860-83ee66ba6069"
+					name="NewItem"
+					searchtimeout="1000ms">
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']/list/listitem/text[@name='temp']
+					</item>
+					<basepath>
+						/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']//tabpage[@name='Property Lists']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='Configuration']
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="6d638b85-1974-44da-b492-d29f66c6b9ee"
+			isrooted="True"
+			name="ProjectConfiguration"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="combobox,uiautomation"
+				capname="combobox"
+				id="de450b05-8474-4696-be24-c3e544b7fa49"
+				name="DrawingTemplate"
+				refimgid="3f1802fc-014b-4c88-bcae-a99e32a87ea9"
+				refpath="/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='ProjectConfiguration']/combobox[1]"
+				searchtimeout="30000ms">
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='ProjectConfiguration']/combobox[1]
+				</item>
+				<item
+				addcaps="combobox,uiautomation"
+				capname="combobox"
+				id="33ff4efd-b520-4bc9-adcf-2e24eea671ba"
+				name="DriveDesigner"
+				refimgid="5ecbc686-a8c9-4be2-9e6e-b37f936b9fe8"
+				refpath="/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='ProjectConfiguration']/combobox[2]"
+				searchtimeout="30000ms">
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='ProjectConfiguration']/combobox[2]
+				</item>
+				<item
+				addcaps="combobox,uiautomation"
+				capname="combobox"
+				id="f3dd2f82-1ab0-4e9e-bfcd-1947d110982b"
+				name="PropertyList"
+				refimgid="2a8298a2-67e3-474f-b1d8-0c29388aded3"
+				refpath="/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='ProjectConfiguration']/combobox[3]"
+				searchtimeout="30000ms">
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='ProjectConfiguration']/combobox[3]
+				</item>
+				<basepath>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/element[@classname='ProjectConfiguration']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPY6ApCA0NZQZSLNiwvb09iGYEYqyA
+MSoqyqWxsfF0YWHh6qCgoNUBAQEoOCQkZJW3t3cmVD0qCA4Oturr63t37dq1/ykpKf+lpKT+S0pK
+/ldUVPxvYGDwX1NT87+MjMz/xMTE61AtCBAdHa3e3t7+9NatW/+am5v/c3Bw/AcK/+fm5v5fUlLy
+f+/evf/Xrl37X0RE5H9CQsJ9iC4oSEpKkmpqarp55cqVP8uWLfsvJCQE1szCwvI/Pj7+H9CAC+vW
+rXt348aN/2JiYqgGaGlpsdXV1R09efLkj6NHj/5XVlYGa2ZkZPzv7u7+v7W19ZKTk5Pv5s2b72MY
+UF9fz5ScnJwItPXrnTt3/ltbW4M1g7C+vv7/rq6ub8AAqwIZsGXLlmcYBgD97TZlypRPt2/f/g8M
+/f9MTExgzSA6Jibm/6xZs/729va+B+HVq1f/Xbx48X9RUVGIAcC4NgBKvLp///7/2tra/+zs7OAA
+k5CQAIc8LgwPxLa2tutAZ//dvXs3OJoEBQXBkmFhYb+AsdAFjCotYABqgHBgYKDF9u3br718+RIc
+jRkZGfcYSktLW+bOnbsdmGi2A52/PTIycntsbOz2tLS0PmBqEwH7EQo8PDzYKysrG4Be2l5cXLwd
+aGg3AyhJysvLc6BjaFLFAMjqcakZUoCBAQDW3Aqwvo8k8QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow,wpfwin32element,wpfelement"
+		capname="contextmenu"
+		id="edad0f59-900d-41ca-b336-7a51e571268a"
+		isrooted="True"
+		name="CamDesigner1"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,wpfelement"
+			capname="menuitem"
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			name="Remove"
+			refimgid="8122f8ac-0d0a-416d-bf4e-f80c38b84e72"
+			searchtimeout="30000ms">
+				/contextmenu//menuitem[@text='Remove']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="menuitem"
+			id="f6a75a26-f25c-4d75-9fba-10c278d4122e"
+			name="Rename"
+			refimgid="627dc01f-9b0d-4815-8851-c7dd5d7d32ab"
+			searchtimeout="30000ms">
+				/contextmenu//menuitem[@text='Rename']
+			</item>
+			<item
+			addcaps="unknown,wpfelement"
+			capname="menuitem"
+			id="41e06dba-ae13-4f58-ac47-0d7016a53468"
+			name="Copy"
+			refimgid="6c40109b-39eb-4da9-a4fd-f6190ffd5ded"
+			searchtimeout="30000ms">
+				/contextmenu//menuitem[@text='Copy']
+			</item>
+			<item
+			capname="menuitem"
+			id="9c1bc1eb-8788-4452-b149-8d029add22c2"
+			name="Paste"
+			searchtimeout="30000ms">
+				/contextmenu//menuitem[@text='Paste']
+			</item>
+			<item
+			capname="menuitem"
+			id="c1b35145-b8cf-4252-be93-31cb3418b5fb"
+			name="Load"
+			refimgid="9db9bca8-4211-49d1-bd74-b4c6c96b83eb"
+			searchtimeout="30000ms">
+				/contextmenu//menuitem[@text='Load']
+			</item>
+			<item
+			addcaps="listitem,wpfelement"
+			capname="listitem"
+			id="6396bb68-c923-4b61-a7db-0a1692bb4a75"
+			name="ModTrap"
+			refimgid="263bc297-5187-4a07-81c7-6daf9b0a88d1"
+			searchtimeout="30000ms">
+				/contextmenu//listitem[@text='Mod Trap']
+			</item>
+			<item
+			addcaps="listitem,wpfelement"
+			capname="listitem"
+			id="ec7cf06f-fc6f-41be-8e2c-a89614e75934"
+			name="SomeListItem"
+			refimgid="bd535da8-8382-4aac-a9a9-61544693a136"
+			searchtimeout="30000ms">
+				/contextmenu//listitem[@index=$Index]
+			</item>
+			<item
+			addcaps="listitem,wpfelement"
+			capname="listitem"
+			id="ed16e49a-241e-486d-9be6-f00028c93c0b"
+			name="ListItemBlank"
+			refimgid="7819a42a-0bda-416d-9b73-f33b93f55bb1"
+			searchtimeout="30000ms">
+				/contextmenu//listitem[@text='']
+			</item>
+			<item
+			addcaps="listitem,wpfelement"
+			capname="listitem"
+			id="6ecfd14a-9e03-4bcc-bdcd-a75823073dcb"
+			name="ListItemValueTest"
+			refimgid="7b258892-fe46-4624-abd1-6eca2669bebc"
+			searchtimeout="30000ms">
+				/contextmenu//listitem[@text='test']
+			</item>
+			<item
+			addcaps="listitem,wpfelement"
+			capname="listitem"
+			id="5568e77c-410d-44df-9a14-0e612b80314d"
+			name="ListItemBridgman"
+			refimgid="1b9dc3d5-fbf0-45bf-9eb7-7f4363967679"
+			searchtimeout="30000ms">
+				/contextmenu//listitem[@text='Bridgman, Adam']
+			</item>
+			<basepath>
+				/contextmenu
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f19d7d60-3ef2-4f5e-82c3-5b78e1c2b4d4"
+		isrooted="True"
+		name="Confirm"
+		refpath="/form[@title='Confirm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="88017db8-585a-478f-8c9c-ec23bcd619ea"
+			name="ButtonYes"
+			refimgid="aa2b68eb-4d65-4c73-85c3-afbe20a1d56c"
+			refpath="/form[@title='Confirm']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Confirm']/button[@text='&amp;Yes']
+			</item>
+			<item
+			capname="button"
+			id="b9fd8df3-03e6-4e71-8cae-8ccd39944206"
+			name="ButtonNo"
+			searchtimeout="30000ms">
+				/form[@title='Confirm']/button[@text='&amp;No']
+			</item>
+			<basepath>
+				/form[@title='Confirm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPY6ApCA0NZQZSLNiwvb09iGYEYqyA
+MSoqyqWxsfF0YWHh6qCgoNUBAQEoOCQkZJW3t3cmVD0qCA4Oturr63t37dq1/ykpKf+lpKT+S0pK
+/ldUVPxvYGDwX1NT87+MjMz/xMTE61AtCBAdHa3e3t7+9NatW/+am5v/c3Bw/AcK/+fm5v5fUlLy
+f+/evf/Xrl37X0RE5H9CQsJ9iC4oSEpKkmpqarp55cqVP8uWLfsvJCQE1szCwvI/Pj7+H9CAC+vW
+rXt348aN/2JiYqgGaGlpsdXV1R09efLkj6NHj/5XVlYGa2ZkZPzv7u7+v7W19ZKTk5Pv5s2b72MY
+UF9fz5ScnJwItPXrnTt3/ltbW4M1g7C+vv7/rq6ub8AAqwIZsGXLlmcYBgD97TZlypRPt2/f/g8M
+/f9MTExgzSA6Jibm/6xZs/729va+B+HVq1f/Xbx48X9RUVGIAcC4NgBKvLp///7/2tra/+zs7OAA
+k5CQAIc8LgwPxLa2tutAZ//dvXs3OJoEBQXBkmFhYb+AsdAFjCotYABqgHBgYKDF9u3br718+RIc
+jRkZGfcYSktLW+bOnbsdmGi2A52/PTIycntsbOz2tLS0PmBqEwH7EQo8PDzYKysrG4Be2l5cXLwd
+aGg3AyhJysvLc6BjaFLFAMjqcakZUoCBAQDW3Aqwvo8k8QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,uiautomation"
+		capname="contextmenu"
+		id="03e040f9-dd67-4d68-93ad-0ca568437595"
+		isrooted="True"
+		name="ContextMenu"
+		refpath="/contextmenu[@classname='ContextMenu']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			capname="menuitem"
+			id="00dccf95-d13b-40b6-9ee7-5a3d5232fd3d"
+			name="InsertSegmentAbove"
+			refimgid="f26ab046-a9bd-495d-8c0e-c582e477fc68"
+			refpath="/contextmenu[@classname='ContextMenu']/container/menuitem[@name='Insert Segment Above']"
+			searchtimeout="30000ms">
+				/contextmenu[@classname='ContextMenu']/?/?/menuitem[@name='Insert Segment Above']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="menuitem"
+			id="8da3bb2b-ca20-4cf6-9eaa-a137d1d7243b"
+			name="InsertSegmentBelow"
+			refimgid="9482e761-46bf-442a-b698-970884b6a8da"
+			searchtimeout="30000ms">
+				/contextmenu[@classname='ContextMenu']/?/?/menuitem[@name='Insert Segment Below']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="menuitem"
+			id="4c816bc7-4809-46a4-b9b7-ac88eae318fa"
+			name="DeleteSelectedSegment"
+			refimgid="62802d36-21d8-4d0b-aed0-9396f810e378"
+			searchtimeout="30000ms">
+				/contextmenu[@classname='ContextMenu']/?/?/menuitem[@name='Delete Selected Segment']
+			</item>
+			<basepath>
+				/contextmenu[@classname='ContextMenu']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="unknown,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="a33433bc-0061-44a3-ab5e-20d4f99e71cd"
+		isrooted="True"
+		name="CamDesigner2"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="72529404-d2cd-4cbc-8a66-52b726b496eb"
+			name="Accept"
+			refimgid="598dcae3-6c71-4d89-a4aa-4c01099218db"
+			searchtimeout="30000ms">
+				/form[@title='' and @processname='CamDesigner']/container/container[3]/button[@text='Accept']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="6ad4d8a9-cfdf-44ce-a851-1ea0585c4158"
+			name="Cancel"
+			refimgid="ebc2314b-8133-44d7-a82f-5bf8871ad20e"
+			searchtimeout="30000ms">
+				/form[@title='' and @processname='CamDesigner']/container/container[3]/button[@text='Cancel']
+			</item>
+			<folder
+			capname="container"
+			id="3a4e508f-dd43-4c67-aa83-119555bb46cc"
+			isrooted="True"
+			name="SomeContainer"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="dd2ba602-d558-43ba-8bfa-149745fef6e8"
+				name="h"
+				refimgid="219b7cb8-002d-4493-bf77-264bcaf41f93"
+				searchtimeout="30000ms">
+					/form[@title='' and @processname='CamDesigner']/container/container[1]/container[2]/?/text[@fulltype='System.Windows.Controls.TextBox']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="da2ea21a-3003-4a7e-9bbf-44dac6bb8941"
+				name="Beta"
+				refimgid="11dd5ab4-4f20-4ce9-837a-a3f2dc92e73f"
+				searchtimeout="30000ms">
+					/form[@title='' and @processname='CamDesigner']/container/container[1]/container[3]/?/text[@fulltype='System.Windows.Controls.TextBox']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="6e17d5c2-a36b-4b9c-9a1b-cc044d7cc23b"
+				name="CVDeg"
+				refimgid="a8704f9e-6a42-4a71-92f9-86c15a1af9fc"
+				searchtimeout="30000ms">
+					/form[@title='' and @processname='CamDesigner']/container/container[1]/container[4]/?/text[@fulltype='System.Windows.Controls.TextBox']
+				</item>
+				<item
+				capname="text"
+				id="dfac60b6-fb3d-4f30-872d-efc7492c279f"
+				name="hRise"
+				searchtimeout="30000ms">
+					/form[@title='' and @processname='CamDesigner']/container/container[1]/container[1]/?/text[@fulltype='System.Windows.Controls.TextBox']
+				</item>
+				<basepath>
+					/form[@title='' and @processname='CamDesigner']/container/container[1]
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='' and @processname='CamDesigner']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABKUlEQVQ4T2MYAeB+bvr/W4nR/2+E+v+/4uny/6Kdxf8F0fH/gVJC
+QMwGVoQP3IqP/I8OJvsFgwwwA2KQIfjBtUBvqDYEaHdwAxngCcQSYEX4wCUXe6g2BKg2tiHegPMW
+RlBtCFCgYYjdgPxNEf8z1wX+T17p9T9uqfP/iIU2/yd4B/xvd3T/X2du979U1+x/rqr+/3RZDewG
+pK/xg9qBAG7VdlAWAqSkLMRuQPwyV6gSBLDPNYeyECAmejp2A8IXWEOVIIBFogGUhQBBQb3YDfCf
+jRlgRiFaUBYCeHk2YzfAo87hv1Ox1X+bDJP/ZrF6/w2DNf/reKn8j4uZ9T8sdOJ/f7/O/x7ujf+d
+HKqwGwAEoJQFSmEgSUIYa0oEpW2QIMhkQhiojoENABINLWynO/eOAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="544d5b8a-f764-408d-9bc7-1e7a0e51a2c1"
+		isrooted="True"
+		name="CamDesigner3"
+		refpath="/form[@wpfnative='True' and @title='' and @processname='CamDesigner']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="923b6a5f-0591-495e-a652-c56847890e83"
+			name="Cancel"
+			refimgid="18611333-3683-4866-85c0-0ee45234fdf3"
+			refpath="/form[@wpfnative='True' and @title='' and @processname='CamDesigner']/container/container[3]/button[@text='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='' and @processname='CamDesigner']/container/?/?/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='' and @processname='CamDesigner']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPY6ApCA0NZQZSLNiwvb09iGYEYqyA
+MSoqyqWxsfF0YWHh6qCgoNUBAQEoOCQkZJW3t3cmVD0qCA4Oturr63t37dq1/ykpKf+lpKT+S0pK
+/ldUVPxvYGDwX1NT87+MjMz/xMTE61AtCBAdHa3e3t7+9NatW/+am5v/c3Bw/AcK/+fm5v5fUlLy
+f+/evf/Xrl37X0RE5H9CQsJ9iC4oSEpKkmpqarp55cqVP8uWLfsvJCQE1szCwvI/Pj7+H9CAC+vW
+rXt348aN/2JiYqgGaGlpsdXV1R09efLkj6NHj/5XVlYGa2ZkZPzv7u7+v7W19ZKTk5Pv5s2b72MY
+UF9fz5ScnJwItPXrnTt3/ltbW4M1g7C+vv7/rq6ub8AAqwIZsGXLlmcYBgD97TZlypRPt2/f/g8M
+/f9MTExgzSA6Jibm/6xZs/729va+B+HVq1f/Xbx48X9RUVGIAcC4NgBKvLp///7/2tra/+zs7OAA
+k5CQAIc8LgwPxLa2tutAZ//dvXs3OJoEBQXBkmFhYb+AsdAFjCotYABqgHBgYKDF9u3br718+RIc
+jRkZGfcYSktLW+bOnbsdmGi2A52/PTIycntsbOz2tLS0PmBqEwH7EQo8PDzYKysrG4Be2l5cXLwd
+aGg3AyhJysvLc6BjaFLFAMjqcakZUoCBAQDW3Aqwvo8k8QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="3d5d0efe-d2a7-4978-90ad-06afef9b44fc"
+		name="ProjectName">
+			zTest
+		</var>
+		<var
+		id="1e131ea4-67ff-4ea8-b739-6ef3f33b93cb"
+		name="StationName">
+			Test
+		</var>
+		<var
+		id="052fef39-12d5-4df7-9860-c620bd9612b4"
+		name="Index">
+			4
+		</var>
+		<var
+		id="2c6e44fc-edb0-4641-9e2b-12266c512850"
+		name="ContainerName">
+			Hub Position
+		</var>
+		<var
+		id="ff243cf6-fc28-453d-965b-d606c780e5eb"
+		name="Row">
+			3
+		</var>
+		<var
+		id="09f01749-0579-47e7-b558-5b3417cabbc1"
+		name="Value">
+			0
+		</var>
+	</variables>
+</repository>

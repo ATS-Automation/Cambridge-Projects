@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3d6a2888-859c-425f-9daf-1e399a458e39"
+mode="Global"
+rxversion="9.0">
+	<name>
+		WaitForRefresh
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="WaitForRefresh"
+	namespace="SolidWorksTaskPaneTools">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="3f5aa8e8-5aff-4fcf-9449-772069274e22"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2aeda52a-dc44-4479-a1aa-13ea86fe9581"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='frmBalloon']/container[@controlname='panel2']/?/?/progressbar[@controlname='progressBar1' and @visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="16697bcc-667c-4edb-a247-c4021d506e43"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2aeda52a-dc44-4479-a1aa-13ea86fe9581"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='frmBalloon']/container[@controlname='panel2']/?/?/progressbar[@controlname='progressBar1' and @visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="ad681eab-1b6d-45a7-b59d-17ff21dadb9f"
+	name="SolidWorksTaskPaneToolsRepository"
+	relativepath="SolidWorksTaskPaneToolsRepository.rxrep"
+	rxversion="6.1">
+		<codegen
+		classname="SolidWorksTaskPaneToolsRepository"
+		namespace="SolidWorksTaskPaneTools">
+		</codegen>
+		<rootfolder
+		id="0b6b6021-b1f2-43ff-a507-812bf5ac100f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		WaitForRefresh.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

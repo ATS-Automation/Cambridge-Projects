@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{D5AFCBA5-0B4D-401B-8CC6-BF3BF9A55E26}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OauthDanceSharepoint</RootNamespace>
+    <AssemblyName>OauthDanceSharepoint</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>690bd3e3-1638-42fa-b79c-d305cc1e7acb</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>False</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+    <Prefer32Bit>False</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ATSCodeLibrary, Version=1.0.1.0, Culture=neutral, PublicKeyToken=dff0e8d3c8bebbea">
+      <HintPath>..\packages\ATSCodeLibrary.1.0.0.17\lib\net472\ATSCodeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.17\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.ReportToPDF">
+      <HintPath>..\packages\Ranorex.ReportToPDF.1.0.17\lib\net40\Ranorex.ReportToPDF.exe</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=110.2.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.110.2.0\lib\net471\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp.Serializers.NewtonsoftJson, Version=110.2.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.Serializers.NewtonsoftJson.110.2.0\lib\net471\RestSharp.Serializers.NewtonsoftJson.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>..\packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\packages\System.Text.Json.8.0.3\lib\net462\System.Text.Json.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>0f6da0d7-7803-4894-8428-0f0248c86032</id>
+    </Compile>
+    <Compile Include="ATSEmail.cs">
+      <id>852163a6-e53f-4937-83e8-2989b6be9e01</id>
+    </Compile>
+    <Compile Include="Modules\CheckAppDeploymentStatus.cs">
+      <BoundTo>c8434750-88e1-4fa1-9ac9-bc5ac9e52694</BoundTo>
+      <DependentUpon>CheckAppDeploymentStatus.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d5afc85-96bc-4b1b-93e9-49adffc77a2e</id>
+    </Compile>
+    <Compile Include="Modules\CheckAppDeploymentStatus.UserCode.cs">
+      <BoundTo>c8434750-88e1-4fa1-9ac9-bc5ac9e52694</BoundTo>
+      <DependentUpon>CheckAppDeploymentStatus.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cea5e4e9-1e92-4b1c-b221-2409b6ff849c</id>
+    </Compile>
+    <Compile Include="Modules\CollectRetryErrorMessagesModule.cs">
+      <id>30a11acb-49d3-47a3-93fe-6f976e3f9820</id>
+    </Compile>
+    <Compile Include="Modules\EmailModule.cs">
+      <id>435f1e19-1303-467f-aa33-a9da670227df</id>
+    </Compile>
+    <Compile Include="Modules\JIRAOauthDance.cs">
+      <BoundTo>e775d6a2-f146-4abc-b79c-636abbc45491</BoundTo>
+      <DependentUpon>JIRAOauthDance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1dc2fd7d-57e7-42c1-a36f-12ebd2d03f49</id>
+    </Compile>
+    <Compile Include="Modules\JIRAOauthDance.UserCode.cs">
+      <BoundTo>e775d6a2-f146-4abc-b79c-636abbc45491</BoundTo>
+      <DependentUpon>JIRAOauthDance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>df1c4c88-906e-4a08-8cf7-0bb7b640a519</id>
+    </Compile>
+    <Compile Include="Modules\ReportToPDFModule.cs">
+      <id>4a084003-7bbf-4b96-933f-2809b4b63475</id>
+    </Compile>
+    <Compile Include="Modules\RestartComputer.cs">
+      <BoundTo>664746af-e1ae-4fb9-a7d5-c3b7f4008d09</BoundTo>
+      <DependentUpon>RestartComputer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3b9f2988-b896-4d92-a5c3-7b95c69c1da8</id>
+    </Compile>
+    <Compile Include="Modules\RestartComputer.UserCode.cs">
+      <BoundTo>664746af-e1ae-4fb9-a7d5-c3b7f4008d09</BoundTo>
+      <DependentUpon>RestartComputer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>38b19bd9-5a74-46e2-9e3d-86dc1f10cef9</id>
+    </Compile>
+    <Compile Include="Modules\RestartMuleAPIs.cs">
+      <BoundTo>b6005d82-b1cb-4151-b38f-ec4a71d5c439</BoundTo>
+      <DependentUpon>RestartMuleAPIs.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>431e52ef-b8f2-41d8-8034-e0ea0284defc</id>
+    </Compile>
+    <Compile Include="Modules\RestartMuleAPIs.UserCode.cs">
+      <BoundTo>b6005d82-b1cb-4151-b38f-ec4a71d5c439</BoundTo>
+      <DependentUpon>RestartMuleAPIs.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f791698-d221-492a-82ef-7ee89761ba83</id>
+    </Compile>
+    <Compile Include="Modules\StartupEmail.cs">
+      <BoundTo>1253f4ed-8346-4335-9818-07d6a7b354e0</BoundTo>
+      <DependentUpon>StartupEmail.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2b1c76be-89a2-4c44-b929-b0f7c7f806ac</id>
+    </Compile>
+    <Compile Include="Modules\StartupEmail.UserCode.cs">
+      <BoundTo>1253f4ed-8346-4335-9818-07d6a7b354e0</BoundTo>
+      <DependentUpon>StartupEmail.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>995a89b1-f504-4b90-a53c-be3c2fadf5fd</id>
+    </Compile>
+    <Compile Include="Modules\UpdateRuntimes.cs">
+      <BoundTo>5dabe3a0-8ac8-4bf3-83e9-87a4fc50c96e</BoundTo>
+      <DependentUpon>UpdateRuntimes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b4260ae5-46e3-4050-ac76-c57a7216655a</id>
+    </Compile>
+    <Compile Include="Modules\UpdateRuntimes.UserCode.cs">
+      <BoundTo>5dabe3a0-8ac8-4bf3-83e9-87a4fc50c96e</BoundTo>
+      <DependentUpon>UpdateRuntimes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>48217bce-1b6f-483d-9ca9-74911fe798ea</id>
+    </Compile>
+    <Compile Include="OauthDanceSharepointRepository.cs">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <DependentUpon>OauthDanceSharepointRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>6f32ad10-70a4-4248-87a2-cffe468e0875</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>90434fe4-476e-4f92-af22-11aea9e66a91</id>
+    </Compile>
+    <Compile Include="OauthDanceSharepoint.cs">
+      <BoundTo>5cf5da14-e352-4019-841f-3f5f015b4fa1</BoundTo>
+      <DependentUpon>OauthDanceSharepoint.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>15706f48-13ec-4491-8dbb-cd4c37da0233</id>
+    </Compile>
+    <Compile Include="OauthDanceSharepoint.UserCode.cs">
+      <BoundTo>5cf5da14-e352-4019-841f-3f5f015b4fa1</BoundTo>
+      <DependentUpon>OauthDanceSharepoint.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c72e13a6-2238-4eb7-b837-d103139fdf2b</id>
+    </Compile>
+    <Compile Include="UserCodeCollectionSPProject.cs">
+      <id>a551840f-46ed-424c-911b-b3ebee46f0f6</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\DragNDropLibrary.cs">
+      <id>b6ea4522-7f32-43d6-93e9-b6f37b6d9a44</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\EmailLibrary.cs">
+      <id>2f8b373a-800f-4e36-81f2-1a9694d61943</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\ExceptionExtensions.cs">
+      <id>813c5fe6-581a-467b-ae06-f40edfb3be5a</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\FileLibrary.cs">
+      <id>c4b21909-3aff-4dc0-a92f-f4efdae6b119</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\PopupWatcherLibrary.cs">
+      <id>e725f6fa-f63b-4031-9a1a-f2ea7b78c844</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\StringLibrary.cs">
+      <id>9dbfddfb-c7e4-45cc-afc3-5a37ad38242a</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\SystemLibrary.cs">
+      <id>e7fd7525-2d50-46d5-b456-c2cd989fb66e</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\Utils.cs">
+      <id>02910e38-c38d-4e60-926b-6237c7003a0b</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\ValidationLibrary.cs">
+      <id>c31d239c-fdfe-4a50-81c3-c5e87a70cad1</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\WebLibrary.cs">
+      <id>f6decf34-86cc-444f-bd20-3988b1e8e541</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>7655965e-32eb-4555-83c6-c452d20573ca</id>
+    </None>
+    <None Include="Modules\CheckAppDeploymentStatus.rxrec">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <id>c8434750-88e1-4fa1-9ac9-bc5ac9e52694</id>
+      <recordtableid>3f5a937c-1169-400f-b73b-9463a2c07046</recordtableid>
+    </None>
+    <None Include="Modules\JIRAOauthDance.rxrec">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <id>e775d6a2-f146-4abc-b79c-636abbc45491</id>
+      <recordtableid>6bed8c33-2a6a-4202-b8f6-744be67e505d</recordtableid>
+    </None>
+    <None Include="Modules\RestartComputer.rxrec">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <id>664746af-e1ae-4fb9-a7d5-c3b7f4008d09</id>
+      <recordtableid>b9236eea-7e08-47a8-b627-c2a9b87e45d5</recordtableid>
+    </None>
+    <None Include="Modules\RestartMuleAPIs.rxrec">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <id>b6005d82-b1cb-4151-b38f-ec4a71d5c439</id>
+      <recordtableid>d302c163-0ac0-4376-afe9-e146e8c962e5</recordtableid>
+    </None>
+    <None Include="Modules\StartupEmail.rxrec">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <id>1253f4ed-8346-4335-9818-07d6a7b354e0</id>
+      <recordtableid>b4431eaa-4e35-4642-923a-624e716045d2</recordtableid>
+    </None>
+    <None Include="Modules\UpdateRuntimes.rxrec">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <id>5dabe3a0-8ac8-4bf3-83e9-87a4fc50c96e</id>
+      <recordtableid>d615c379-4fe4-4253-a3ec-19178f3612b8</recordtableid>
+    </None>
+    <None Include="OauthDanceSharepointRepository.rximg">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <DependentUpon>OauthDanceSharepointRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>42f63bda-e3a2-4858-8783-33cc73fa53df</id>
+    </None>
+    <None Include="OauthDanceSharepointRepository.rxrep">
+      <id>690bd3e3-1638-42fa-b79c-d305cc1e7acb</id>
+      <repoid>b714349c-3cad-45fe-b692-78bdf96c05c8</repoid>
+      <reporootid>18973737-c08f-4fee-a3f5-172ab84dcc29</reporootid>
+    </None>
+    <None Include="OauthDanceSharepoint.rxrec">
+      <BoundTo>690bd3e3-1638-42fa-b79c-d305cc1e7acb</BoundTo>
+      <id>5cf5da14-e352-4019-841f-3f5f015b4fa1</id>
+      <recordtableid>f5eeafc4-aa62-46d3-a788-2f174fec8b89</recordtableid>
+    </None>
+    <None Include="packages.config">
+      <id>819a6778-a1e4-413c-81b4-48e6e57de10e</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OauthDanceSharepoint.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>28baf291-1b4f-4085-b1e3-eaf0dfefadf2</id>
+    </Content>
+    <Content Include="OauthDanceSharepoint.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9a4977aa-710f-4ff1-835f-6c688875b9aa</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,2060 @@
+﻿<repository
+id="d315a84e-f4af-45b7-95a1-afd898d4c3af"
+name="DDM_Lite_Full_TestRepository"
+rxversion="7.2">
+	<codegen
+	classname="DDM_Lite_Full_TestRepository"
+	namespace="DDM_Lite_Full_Test">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c5654659-32e8-4ac8-a8cd-472c06821f08"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="06b418bd-3526-4265-8346-834d0693de0e"
+		isrooted="True"
+		name="FormCa01a9001PgmisDeploymentDEVDDM"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,wpfelement"
+			capname="combobox"
+			id="82bb35ee-672e-466e-a662-ee969b02b2be"
+			name="InstallationCombo"
+			refimgid="bc1539de-d52e-4ff3-8ac2-b5dbf2f846fb"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element[@class='Frame Tab']/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//combobox[@automationid='installationCombo']
+			</item>
+			<item
+			addcaps="combobox,wpfelement"
+			capname="listitem"
+			id="7b9505d7-434a-47c9-89ab-97adb8b2253a"
+			name="OregonListItem"
+			refimgid="d729402f-ef4c-4bad-8d62-c992c38bf692"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element[@class='Frame Tab']/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//combobox[@automationid='installationCombo']/listitem[@text='Oregon']
+			</item>
+			<item
+			addcaps="form,nativewindow,wpfwin32element,wpfelement"
+			capname="form"
+			id="fdb86264-35ed-4ef3-8a7a-cc64338c0c6a"
+			name="SomeForm"
+			refimgid="a7c39199-0184-4c33-a1a4-5040409adebf"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element[5]/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="38286bb8-9750-4ae5-8228-9ef23d2d34c0"
+			name="LoginButton"
+			refimgid="ab7ac04b-6bbf-4f4c-b77b-5ae48a039f6b"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']//button[@automationid='loginButton']
+			</item>
+			<folder
+			capname="tabpagelist"
+			id="96d7d087-2130-4679-9a05-2feda2e9f727"
+			isrooted="True"
+			name="PresentationHost"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="grip,wpfelement"
+				capname="grip"
+				id="7477f793-dffc-4e26-99bb-a27fb77de30a"
+				name="SomeGrip"
+				refimgid="38954d8c-7f9b-4932-9317-a7bc0cb0e4be"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/?/grip
+				</item>
+				<folder
+				capname="tabpage"
+				id="308a5590-3996-4114-9131-e24b9bfaec79"
+				isrooted="True"
+				name="ProjectSearchTabItem"
+				refimgid="3b5d2038-083e-4e65-9fb5-a695b914516b"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					addcaps="unknown,wpfelement"
+					capname="text"
+					id="4042868b-f607-47f7-90d4-b35749e29f9f"
+					name="tb_FilterTextBox"
+					refimgid="9917832c-b2e2-4c72-8f6e-d024d14fb4d3"
+					searchtimeout="30000ms">
+						/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']//text[@automationid='filterTextBox']
+					</item>
+					<folder
+					capname="table"
+					id="9f5411e2-1815-43e8-a0d6-f802b2971d96"
+					isrooted="True"
+					name="ProjectDataGrid"
+					refimgid="e5b8181f-99e6-426d-abde-6258c0e09242"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						addcaps="row,wpfelement"
+						capname="row"
+						id="bccee4fc-f959-4c40-a865-904f71c1de22"
+						name="Row1"
+						refimgid="bf429014-2207-4112-92bd-276a21d4555f"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']//table[@automationid='projectDataGrid']//row[@index='0']
+						</item>
+						<item
+						addcaps="button,wpfelement"
+						capname="button"
+						id="c02fecc1-e614-47ac-a686-fc2454c7a448"
+						name="SomeButton"
+						refimgid="7d98a3b7-b296-4a4c-9aa7-d6dabb3ca17c"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']//table[@automationid='projectDataGrid']/scrollbar[@automationid='PART_VerticalScrollBar']/slider[@automationid='PART_Track']/button[2]
+						</item>
+						<item
+						addcaps="cell,wpfelement"
+						capname="cell"
+						id="74b71673-76cd-4460-9ab8-fd8bbcc50e36"
+						name="Cell13600"
+						refimgid="da6a6833-08e6-48b8-863d-a00958afb6e4"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']//table[@automationid='projectDataGrid']//cell[@text='13600']
+						</item>
+						<basepath>
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']//table[@automationid='projectDataGrid']
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']
+					</basepath>
+				</folder>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="050a3cc9-588b-486d-8c12-2706d8e4ff3a"
+				name="ProjectNumTextBox"
+				refimgid="7df5572a-eb58-4e06-9772-bb05780acdc8"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']//text[@automationid='projectNumTextBox']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="1bd28f45-230f-44d0-b753-22c000f45556"
+				name="FilterTextBox"
+				refimgid="c6bf3432-a0de-4e58-9f70-4550f01790d2"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']/text[@automationid='filterTextBox']
+				</item>
+				<item
+				addcaps="form,nativewindow,wpfwin32element,wpfelement"
+				capname="tabpagelist"
+				id="ae5fe811-90bf-4618-ab96-a2f07a002cfc"
+				name="SomeForm"
+				refimgid="70d678f3-b897-4fed-abed-8770a00b980a"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']
+				</item>
+				<item
+				addcaps="combobox,wpfelement"
+				capname="combobox"
+				id="8e46a683-3864-497b-9ac8-c6f43f4bd915"
+				name="ReportsComboBox"
+				refimgid="299ae838-459a-45e0-8ffa-2017f3a54145"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']//combobox[@automationid='reportsComboBox']
+				</item>
+				<item
+				capname="listitem"
+				id="13405143-61e1-480a-b501-c1054c28ba52"
+				name="DDMMechnicalBOMExtract"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']//combobox[@automationid='reportsComboBox']/listitem[@text='DDM Mechanical BOM Extract']
+				</item>
+				<item
+				capname="listitem"
+				id="4ef8c103-0ef3-4744-9a9f-80b162fa46aa"
+				name="DDMMechnicalBOMExtractNonExtendedQty"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']//combobox[@automationid='reportsComboBox']/listitem[@text='DDM Mechanical BOM Extract Non Extended Qty']
+				</item>
+				<item
+				addcaps="picture,wpfelement"
+				capname="button"
+				id="43ce4a80-49cd-4e5e-9c01-3f6ea306e91a"
+				name="BacktoMain"
+				refimgid="25d1247e-b92f-49ad-9f5c-c54813abd32f"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']//button[@automationid='GoBackToMainRibbonButton_Copy']
+				</item>
+				<folder
+				capname="tabpage"
+				id="6fc75eba-ce99-4021-a6a6-a03b76b9fd78"
+				isrooted="True"
+				name="projectDataTabItem"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					addcaps="unknown,wpfelement"
+					capname="checkbox"
+					id="a769e1aa-b0ad-41a4-b8eb-7dd806619286"
+					name="SomeElement2"
+					refimgid="33b26653-1546-4e83-bdb6-4e18cf3d1f57"
+					searchtimeout="30000ms">
+						/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tree[@automationid='treeView1']//text[@caption~'1221']/..//checkbox
+					</item>
+					<folder
+					capname="treeitem"
+					id="eab6f429-2b8c-4e8a-b57c-71a47f5ceee7"
+					isrooted="True"
+					name="TreeView1"
+					refimgid="a8a22991-f5d9-411e-8816-ca5fff6d421e"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						addcaps="text,wpfelement"
+						capname="text"
+						id="ad620422-da45-47e6-a116-d478ab6d01ca"
+						name="Text1504MOLDMACHINEDECKZ1C15"
+						refimgid="9387e8a4-c685-4f65-9856-4e026600d841"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/?/?/tree[@automationid='treeView1']/treeitem/?/?/container[@automationid='ItemsHost']/treeitem/text[@caption~'^1504\ \|\ MOLD\ MACHINE\ DECK\ ']
+						</item>
+						<item
+						addcaps="text,wpfelement"
+						capname="checkbox"
+						id="8827b2b9-d818-44d1-910d-be350a39b79f"
+						name="checkbox1808"
+						refimgid="82d7ea4b-f62f-475a-a0b3-25485c870a4b"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/?/?/tree[@automationid='treeView1']/treeitem//container[@automationid='ItemsHost']/?/?/text[@caption='1808 | SHUTTER']/../checkbox
+						</item>
+						<basepath>
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/?/?/tree[@automationid='treeView1']/treeitem
+						</basepath>
+					</folder>
+					<folder
+					capname="tabpagelist"
+					id="d759fa8d-0af9-439f-a80c-1388d0de9c3d"
+					isrooted="True"
+					name="detailsTabControl"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						addcaps="cell,wpfelement"
+						capname="cell"
+						id="de6f7c17-8347-44ab-ac97-43052edd5ba9"
+						name="Cell1221"
+						refimgid="f85e9cd9-2336-46fc-88d1-0f7e1b160d68"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Properties']/table[@automationid='componentDetailsDataGrid']//row/list/cell[@text='1221']
+						</item>
+						<item
+						addcaps="tabpage,wpfelement"
+						capname="tabpage"
+						id="a68a8e26-ee8e-4c9f-a891-44f60f955aca"
+						name="CheckOutLogTabItem"
+						refimgid="ae34d0d2-1c8a-49eb-81ad-235addce16f3"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@automationid='CheckOutLogTabItem']
+						</item>
+						<item
+						addcaps="tabpage,wpfelement"
+						capname="tabpage"
+						id="fc4bc5e8-78cd-4e98-b3b1-e04ea475d8fc"
+						name="RequisitionHistoryTabItem"
+						refimgid="c1da3ee5-60cc-45d7-a2b0-29fb3efc653d"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@automationid='RequisitionHistoryTabItem']
+						</item>
+						<folder
+						capname="tabpage"
+						id="bbda73ea-8f20-4bac-8782-ea5feafeb0db"
+						isrooted="True"
+						name="AssociatedFiles"
+						refimgid="42275b15-6838-4a5e-a1d5-224456a663ac"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							addcaps="cell,wpfelement"
+							capname="cell"
+							id="63bdf200-5494-4d96-b973-3b94ad87479d"
+							name="Cell32234158SLDASM"
+							refimgid="3b500098-fd60-4776-89be-c321fcdf4047"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/?/?/table[@automationid='associatedFilesDataGrid']/?/?/row[@index='0']/list/cell[@text='32234158.SLDASM']
+							</item>
+							<item
+							addcaps="button,wpfelement"
+							capname="button"
+							id="91cd4d7c-b223-41e5-a085-14c9876e3a8c"
+							name="Open2"
+							refimgid="34a08e2b-8024-4071-b041-158128931fce"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/?/?/table[@automationid='associatedFilesDataGrid']/?/?/row[@index='0']/list/?/?/button[@text='Open']
+							</item>
+							<item
+							addcaps="cell,wpfelement"
+							capname="cell"
+							id="c5ca7576-cff0-43b3-ad12-d8fa839f2a92"
+							name="Cell33719545SLDDRW"
+							refimgid="c98dfed6-1379-46cb-b81c-2ce4f71c1b2e"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/?/?/table[@automationid='associatedFilesDataGrid']/?/?/row[@index='1']/list/cell[@text='33719545.SLDDRW']
+							</item>
+							<item
+							addcaps="button,wpfelement"
+							capname="button"
+							id="4cab56c7-1970-4b91-bbad-36a45b008968"
+							name="LaunchEdrawings"
+							refimgid="3ab8dbc1-b5de-47de-a66b-7879b426e6b0"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/?/?/button[@automationid='LaunchEdrawings']
+							</item>
+							<basepath>
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']
+							</basepath>
+						</folder>
+						<folder
+						capname="tabpage"
+						id="c8d3c0b1-f707-44e4-b321-5ddf6d83f8fb"
+						isrooted="True"
+						name="DocumentManagement"
+						refimgid="1e109e76-daab-4c8e-9731-70f41545bfeb"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							addcaps="cell,wpfelement"
+							capname="cell"
+							id="24303792-b7e6-4176-8acc-43de235508eb"
+							name="MANUFACTUREDPARTSLISTPDF"
+							refimgid="d5cc25bd-15db-4f55-b0c7-888b8d0951ba"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']/?/?/table[@automationid='documentMgmtDataGrid']/?/?/row[@index='0']/list/cell[@text~'^MANUFACTURED_PARTS_LIST\.P']
+							</item>
+							<item
+							addcaps="cell,wpfelement"
+							capname="cell"
+							id="da30356f-bc56-4d96-9ca7-1a6efa1281b6"
+							name="Cell1360012210000IMAGESNAPSHOTBMP"
+							refimgid="4ac5f31e-ecb1-4f01-9c29-e90186438202"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']/?/?/table[@automationid='documentMgmtDataGrid']/?/?/row[@index='2']/list/cell[@text~'^13600-1221-0000_IMAGESNAP']
+							</item>
+							<item
+							addcaps="button,wpfelement"
+							capname="button"
+							id="1120d6d1-1344-43cd-a92a-c25e915fb7b2"
+							name="Open1"
+							refimgid="4434ffa5-276a-42da-ad61-2872638a5a0f"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']/?/?/table[@automationid='documentMgmtDataGrid']/?/?/row[@index='2']/?/?/button[@text='Open']
+							</item>
+							<item
+							addcaps="button,wpfelement"
+							capname="button"
+							id="6538fbf2-4c08-47f4-bfd6-8d0b9f9f2a41"
+							name="Open"
+							refimgid="3f1092ba-9b84-494a-9873-572445ab3288"
+							searchtimeout="30000ms">
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']/?/?/table[@automationid='documentMgmtDataGrid']/?/?/row[@index='0']/list/?/?/button[@text='Open']
+							</item>
+							<basepath>
+								/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']
+							</basepath>
+						</folder>
+						<item
+						addcaps="tabpage,wpfelement"
+						capname="tabpage"
+						id="c2094ee8-a2dc-4903-ac2c-1619f40d6f55"
+						name="RevisionHistory"
+						refimgid="e87f067e-81de-4f52-bde4-196492770059"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Revision History']
+						</item>
+						<item
+						addcaps="table,wpfelement"
+						capname="table"
+						id="43a2e98e-7b12-499d-8f0f-a2071c095ee9"
+						name="DocumentMgmtDataGrid"
+						refimgid="09a2dc34-4c7b-4b46-8dae-00d84df2d9ec"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/?/?/table[@automationid='documentMgmtDataGrid']
+						</item>
+						<item
+						addcaps="table,wpfelement"
+						capname="table"
+						id="ffa995a6-114a-443f-a7cc-1d669bc01a93"
+						name="RevisionsDataGrid"
+						refimgid="f2fb0b4c-0b19-40be-931a-87a251877367"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Revision History']/table[@automationid='revisionsDataGrid']
+						</item>
+						<item
+						addcaps="table,wpfelement"
+						capname="table"
+						id="a66e3ba3-327c-403a-a9f9-ac2aa13bff60"
+						name="AssociatedFilesDataGrid"
+						refimgid="81465fe6-3c4d-4b3d-a3b7-584015824874"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/?/table[@automationid='associatedFilesDataGrid']
+						</item>
+						<item
+						addcaps="table,wpfelement"
+						capname="table"
+						id="177face5-61f9-4e16-8832-68ac9321ee23"
+						name="CheckOutLogDataGrid"
+						refimgid="42a000ac-341f-4a8e-a8a6-7b0cd5ade196"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@automationid='CheckOutLogTabItem']/table[@automationid='checkOutLogDataGrid']
+						</item>
+						<item
+						addcaps="table,wpfelement"
+						capname="table"
+						id="98fc001a-4f05-4d54-8f2d-9db85986892c"
+						name="RequisitionHeaderDataGrid"
+						refimgid="6d5aa0b4-3698-4385-980e-bb2f9266e952"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@automationid='RequisitionHistoryTabItem']/?/?/table[@automationid='RequisitionHeaderDataGrid']
+						</item>
+						<item
+						addcaps="cell,wpfelement"
+						capname="cell"
+						id="166fee08-b3f3-4b9c-b6ec-a3e3348a2c71"
+						name="FileLink"
+						refimgid="9212d6f5-b1ef-4196-92cf-3874cbdd7664"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']/table[@automationid='documentMgmtDataGrid']/container[@automationid='PART_ColumnHeadersPresenter']/cell[@text='File Link']
+						</item>
+						<item
+						addcaps="cell,wpfelement"
+						capname="cell"
+						id="100247a6-4a82-4f23-b8cf-d839ec9d8389"
+						name="FileLinkAssociatedFiles"
+						refimgid="c24f23f9-e0c2-402e-98e5-336f03352fcc"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/table[@automationid='associatedFilesDataGrid']/container[@automationid='PART_ColumnHeadersPresenter']/cell[@text='File Link']
+						</item>
+						<basepath>
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']//tabpagelist[@automationid='detailsTabControl']
+						</basepath>
+					</folder>
+					<folder
+					capname="button"
+					id="7a657882-8851-4dd0-9070-16072994b8bb"
+					isrooted="True"
+					name="btnExportSelectedFiles"
+					refimgid="b2fd9b1e-7bf0-4d40-a0a0-5d8edd0b7a9f"
+					searchtimeout="30000ms"
+					usecache="False">
+						<item
+						addcaps="picture,wpfelement"
+						capname="picture"
+						id="24460644-38d5-4fb8-9e5d-7b4594f1db84"
+						name="PARTImage"
+						refimgid="b3c75cb8-0361-4121-8a6e-d7f2c0f193fc"
+						searchtimeout="30000ms">
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/?/?/button[@automationid='ExportFilesRibbonButton']/picture[@automationid='PART_Image']
+						</item>
+						<basepath>
+							/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/?/?/button[@automationid='ExportFilesRibbonButton']
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'DDMLight.xbap']//tabpagelist[@automationid='mainTabControl']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="0997a013-a024-4d29-9bfb-d5e1b4d28d92"
+			name="buttonClose"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="picture,wpfelement"
+			capname="picture"
+			id="8c476827-a8be-4ae1-9a78-08566150505d"
+			name="ReportsBtn"
+			refimgid="0f7389bf-5df2-449c-ae8f-cfe1570ee7e5"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element[5]/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//button[@automationid='ReportRibbonButton']/picture[@automationid='PART_Image']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="16154bce-8722-41d4-9d51-e5d922b6bd33"
+			name="FileSearchRibbonButton"
+			refimgid="f260356c-ab10-4945-874a-c5f166230136"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']/container/container/container/button[@automationid='FileSearchRibbonButton']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="3b44bd2a-8e4b-44c5-8158-4b9b3d32ef22"
+			name="FileNameTextBox"
+			refimgid="ac5c14a9-98fd-4d3f-be04-e99fa16a53c1"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']/container/container/container/text[@automationid='fileNameTextBox']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="48010c13-a488-407e-a626-b5926c846777"
+			name="RunSearchRibbonButton"
+			refimgid="4c74f2a3-9c07-44ef-97a1-815773533dd8"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']/container/container/container/button[@automationid='RunSearchRibbonButton']
+			</item>
+			<item
+			addcaps="table,wpfelement"
+			capname="table"
+			id="1076999a-b22f-4031-a198-95fd26e045d6"
+			name="SearchDataGridView"
+			refimgid="37ae4b0a-b618-44f3-a017-b8f251fa7429"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//table[@automationid='searchDataGridView']
+			</item>
+			<item
+			addcaps="cell,wpfelement"
+			capname="cell"
+			id="a3a17172-a45c-4f54-895d-0a03386cf91c"
+			name="Cell2479312"
+			refimgid="4bcfc652-bac2-4d78-ae6a-6484a7e7ba6a"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/?/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//table[@automationid='searchDataGridView']/container[@automationid='PART_RowsPresenter']/row[@index='0']/cell[@text='2479312']
+			</item>
+			<item
+			addcaps="picture,wpfelement"
+			capname="picture"
+			id="fd0616f4-4728-473b-a07b-9a42809ec06f"
+			name="PreviewImageViewer"
+			refimgid="b30c26e7-ab67-4046-b694-dff2ef86a7c7"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/?/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//container[@caption~'^SolidWorks\ Preview\ -\ Doub']/picture[@automationid='previewImageViewer']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="6ccde0a5-6134-4138-849c-feb3e300e5db"
+			name="OpenInSolidWorksRibbonButton"
+			refimgid="b3a3d272-1a83-4b93-b76e-4ba7bcf74cd4"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']/container/container/container/button[@automationid='OpenInSolidWorksRibbonButton']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="0509f851-3994-4d2a-aac9-86a8f3ad60c4"
+			name="PartSearchRibbonButton"
+			refimgid="67913d33-bfdb-4d7a-bd34-b5feb2b39eb4"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']/container/container/container/button[@automationid='PartSearchRibbonButton']
+			</item>
+			<item
+			addcaps="unknown,wpfelement"
+			capname="text"
+			id="6866dc97-609a-4410-8e3a-9814bfd28773"
+			name="DescriptionTextBox"
+			refimgid="263f3426-e0b6-4476-b910-bc58a992b158"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/?/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']/container/container/container[2]/text[@automationid='descriptionTextBox']
+			</item>
+			<item
+			addcaps="cell,wpfelement"
+			capname="cell"
+			id="11e48243-037e-466e-98b3-18f16785ecfa"
+			name="Cell1200045500988"
+			refimgid="be440533-121a-42d3-a6b7-c386266a670c"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/?/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//table[@automationid='searchDataGridView']/container[@automationid='PART_RowsPresenter']/row/cell[@text='12000-4550-0988' and @columnindex='0']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="609d725c-9e73-41c9-af50-4aaa1ed32c99"
+			name="OpenInSolidWorksRibbonButton1"
+			refimgid="b84082ae-2e4d-487b-9eca-413e375a2776"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element[@class='Frame Tab']/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//button[@automationid='OpenInSolidWorksRibbonButton']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="08d6dc4b-c135-4e0e-898c-920dfb6cde65"
+			name="AssySearchRibbonButtonCopy"
+			refimgid="19299f76-f7f4-4bd8-9d4d-2d006a2e6b1b"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/element[@class='Frame Tab']/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']/container/container/container/button[@automationid='AssySearchRibbonButton_Copy']
+			</item>
+			<item
+			addcaps="cell,wpfelement"
+			capname="cell"
+			id="743f813f-f6b5-494f-81c6-769a5256a901"
+			name="Cell0726906020000"
+			refimgid="55056c2e-6ca2-461f-856c-4de8f096247d"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']/?/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//table[@automationid='searchDataGridView']/container[@automationid='PART_RowsPresenter']/row/cell[@text='07269-0602-0000']
+			</item>
+			<item
+			addcaps="listitem,uiautomation"
+			capname="listitem"
+			id="e8209e8c-7ac2-4dd2-92dd-64ee84373308"
+			name="Cambridge"
+			refimgid="133695cd-5bc1-4b0a-96a0-83aebaa9d4a1"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']//list[@automationid='installationCombo']/listitem[@text='Cambridge']
+			</item>
+			<folder
+			capname="form"
+			id="cfe3b17c-d5c4-493c-bd90-6a9034a0318e"
+			isrooted="True"
+			name="Copy_of_PresentationHost"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="row,wpfelement"
+				capname="row"
+				id="5dec8bca-0cd2-42a5-aad9-a7f3c95725a9"
+				name="Row1"
+				refimgid="e583c1e5-e5a4-4405-b543-a1f15ebfff82"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']/table[@automationid='projectDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='1']
+				</item>
+				<item
+				addcaps="unknown,wpfelement"
+				capname="unknown"
+				id="e57e1aec-c775-422d-ae83-307a8b497365"
+				name="SomeElement"
+				refimgid="48328b15-c8ac-45f5-a586-2973f5da680a"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']/text[@automationid='filterTextBox']/element[2]
+				</item>
+				<item
+				addcaps="grip,wpfelement"
+				capname="grip"
+				id="b73d0e3b-5434-49a2-898d-becbeb425cd7"
+				name="SomeGrip"
+				refimgid="5cd1e78d-cfd7-460d-a664-853dbc5e581f"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/grip
+				</item>
+				<item
+				addcaps="tabpage,wpfelement"
+				capname="tabpage"
+				id="7593effc-0ca0-47ca-88e9-15c8755519b6"
+				name="ProjectSearchTabItem"
+				refimgid="d1bf334f-c839-4add-b564-047558e23baa"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']
+				</item>
+				<item
+				addcaps="unknown,wpfelement"
+				capname="unknown"
+				id="4dcd3782-5f93-4b17-a15f-095da0b7ae7c"
+				name="SomeElement1"
+				refimgid="78249044-e37d-4942-9042-d1cc25f2cc61"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//text[@automationid='projectNumTextBox']/element[2]
+				</item>
+				<item
+				addcaps="unknown,wpfelement"
+				capname="checkbox"
+				id="cd232441-38ce-4eb5-8f00-0cb3322d498b"
+				name="SomeElement2"
+				refimgid="f69257bd-b173-495e-b56f-e1df1345fa10"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tree[@automationid='treeView1']/treeitem/container[2]/treeitem/?/?/text[@caption~'1221']/../../container[1]/checkbox
+				</item>
+				<item
+				addcaps="table,wpfelement"
+				capname="table"
+				id="42c9e5fc-300b-4aa1-a3f8-0e2f43b11717"
+				name="DocumentMgmtDataGrid"
+				refimgid="855406ce-35ce-4ce3-bbb4-cb226be88706"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']/table[@automationid='documentMgmtDataGrid']
+				</item>
+				<item
+				addcaps="table,wpfelement"
+				capname="table"
+				id="51779314-a7bc-4cd4-99ec-ca8dcaa4b125"
+				name="RevisionsDataGrid"
+				refimgid="e10bd590-bdaf-4510-90ee-493cfbdd888f"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Revision History']/table[@automationid='revisionsDataGrid']
+				</item>
+				<item
+				addcaps="table,wpfelement"
+				capname="table"
+				id="89c8c223-e1ce-42d7-8f99-96da12a83b67"
+				name="AssociatedFilesDataGrid"
+				refimgid="e723ac71-f6e9-4447-acbe-0af19f0cf0e3"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/table[@automationid='associatedFilesDataGrid']
+				</item>
+				<item
+				addcaps="table,wpfelement"
+				capname="table"
+				id="3bc165a9-76bd-429d-95f5-0845ae770c60"
+				name="CheckOutLogDataGrid"
+				refimgid="3d4e01b5-7abb-41fd-b686-0621c0f39e08"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']/tabpage[@automationid='CheckOutLogTabItem']/table[@automationid='checkOutLogDataGrid']
+				</item>
+				<item
+				addcaps="table,wpfelement"
+				capname="table"
+				id="e4dc23d7-74fe-4096-be30-d7d3794d006e"
+				name="RequisitionHeaderDataGrid"
+				refimgid="c8642b42-c16e-4972-9dbb-0d26d5aee48c"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']/tabpage[@automationid='RequisitionHistoryTabItem']/table[@automationid='RequisitionHeaderDataGrid']
+				</item>
+				<item
+				addcaps="picture,wpfelement"
+				capname="picture"
+				id="1ffe4f0d-0260-4ca7-b39e-ae4786ecf45c"
+				name="PARTImage"
+				refimgid="831411e7-81b1-4c1b-9445-4fe7a26d0bfa"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/button[@automationid='ExportFilesRibbonButton']/picture[@automationid='PART_Image']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="c18cc09c-fa2c-40a8-bb03-0075b21dbcdb"
+				name="ExportStatusLabel"
+				refimgid="c9fbf55a-f95c-488f-85dc-1d1f4d07fff5"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//text[@text~'Completed']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="33bc2869-a1f2-44dd-af33-c522780fa6e6"
+				name="ProjectNumTextBox"
+				refimgid="73814df7-c514-435b-8fa0-2415199b23c8"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//text[@automationid='projectNumTextBox']
+				</item>
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="9417cb6c-92cd-4daa-945e-6abc1d5e3ba7"
+				name="LoadProjectButton"
+				refimgid="c699c594-8788-4393-a42b-0542ae14484c"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//button[@automationid='loadProjectButton']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="67c73575-cc98-4ab7-9e9a-91cea25c8f6b"
+				name="Text1504MOLDMACHINEDECKZ1C15"
+				refimgid="2763cee6-604b-49f7-8d1f-f1a292db1422"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tree[@automationid='treeView1']/treeitem/container[2]/treeitem/?/?/text[@caption~'^1504\ \|\ MOLD\ MACHINE\ DECK\ ']
+				</item>
+				<item
+				addcaps="tree,wpfelement"
+				capname="treeitem"
+				id="7deee095-4223-43cc-a0a8-942c6eabc887"
+				name="TreeView1"
+				refimgid="7d3ae796-4a8f-4578-ab0f-edbe7b455f84"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tree[@automationid='treeView1']/treeitem
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="02d33a4e-4a6c-4aed-8ec9-02bc6215dc79"
+				name="FilterTextBox"
+				refimgid="54532c9c-ebc2-4ab0-8740-6050f362026e"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']/text[@automationid='filterTextBox']
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="aa9752e7-e842-439c-8012-6bc1f9c72ae1"
+				name="FileLink"
+				refimgid="cb1610b9-0937-4a81-950a-4bb441d0a781"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Document Management']/table[@automationid='documentMgmtDataGrid']/container[@automationid='PART_ColumnHeadersPresenter']/cell[@text='File Link']
+				</item>
+				<item
+				addcaps="cell,wpfelement"
+				capname="cell"
+				id="32740e84-24e9-4b47-83b1-27dcc8ddbdc9"
+				name="FileLinkAssociatedFiles"
+				refimgid="6a5e239c-e50c-4707-bb6a-bb8eb4a5b7d7"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']/tabpage[@title='Associated Files']/table[@automationid='associatedFilesDataGrid']/container[@automationid='PART_ColumnHeadersPresenter']/cell[@text='File Link']
+				</item>
+				<item
+				addcaps="form,nativewindow,wpfwin32element,wpfelement"
+				capname="form"
+				id="b80025ff-56db-47d1-9af3-e0ca4a0b42d8"
+				name="SomeForm"
+				refimgid="c22d356f-f147-4aaa-8f9a-b1711a275caa"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']
+				</item>
+				<item
+				addcaps="combobox,wpfelement"
+				capname="combobox"
+				id="c66dc3bd-e7a5-47b7-92a6-ca8096a58ac1"
+				name="ReportsComboBox"
+				refimgid="50f211c4-5a9b-429d-9984-f2d522039507"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//combobox[@automationid='reportsComboBox']
+				</item>
+				<item
+				capname="listitem"
+				id="015fa268-8184-464b-a08c-74f1e582c6c6"
+				name="DDMMechnicalBOMExtract"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//combobox[@automationid='reportsComboBox']/listitem[@text='DDM Mechanical BOM Extract']
+				</item>
+				<item
+				capname="listitem"
+				id="c65cada3-0fe5-4b7f-964f-68645ff7950b"
+				name="DDMMechnicalBOMExtractNonExtendedQty"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//combobox[@automationid='reportsComboBox']/listitem[@text='DDM Mechanical BOM Extract Non Extended Qty']
+				</item>
+				<item
+				addcaps="picture,wpfelement"
+				capname="button"
+				id="a3a4dc2a-faf0-48fa-b1ca-b01c1cfa5eac"
+				name="BacktoMain"
+				refimgid="8502fadc-68a3-429b-954d-9525323472df"
+				searchtimeout="30000ms">
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//button[@automationid='GoBackToMainRibbonButton_Copy']
+				</item>
+				<basepath>
+					/form[@title~'DDMLight.xbap']/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,wpfelement"
+			capname="text"
+			id="91ff9bcd-205f-47de-b8f4-446734fa8463"
+			name="tb_ProjectNumberTextBox"
+			refimgid="3fdec468-e14c-4293-a0e7-efbcde83c52d"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']//text[@automationid='projectNumTextBox']
+			</item>
+			<item
+			addcaps="button,wpfelement"
+			capname="button"
+			id="2170425a-bdac-4657-80eb-455347dae31c"
+			name="LoadProjectButton"
+			refimgid="25a0f193-fdbb-4221-b000-f6894a4b2868"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']//button[@automationid='loadProjectButton']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="01a7be7b-bfec-4ad4-8c41-ba79c82281d9"
+			name="ExportStatusLabel"
+			refimgid="d161c714-befb-480e-93a9-00027bb7fb82"
+			searchtimeout="30000ms">
+				/form[@title~'DDMLight.xbap']//text[@automationid='exportStatusLabel' and @text~'Completed']
+			</item>
+			<basepath>
+				/form[@title~'DDMLight.xbap']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<folder
+		addcaps="tabpagelist,wpfelement"
+		capname="tabpagelist"
+		id="2dabdb8a-e3d8-4de7-99de-aa98c45babc9"
+		isrooted="True"
+		name="DetailsTabControl"
+		refpath="/form[@title='\\ca01a9001\pgmis\Deployment_DEV\DDM_Light\DDMLight.xbap - Internet Explorer']/element[@class='Frame Tab' and @instance='0']/container[@caption='\\ca01a9001\pgmis\Deployment_DEV\DDM_Light\DDMLight.xbap - Internet Explorer']/container[@class='Shell DocObject View']/element[@class='DocObject_Top_Class']/form[@wpfnative='True' and @title='' and @win32ownerwindowlevel='0']/container/container/container/tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/form[@title~'^\\\\ca01a9001\\pgmis\\Deploym']/?/?/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectDataTabItem']/tabpagelist[@automationid='detailsTabControl']
+			</basepath>
+		</folder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b32153fb-25c2-4b3c-bbc3-020d1a4720b7"
+		isrooted="True"
+		name="BrowseForFolder"
+		refimgid="6db2bb7d-4df9-4f6c-ab69-7362fa12b479"
+		refpath="/form[@title='Browse For Folder']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="a08fa7a8-9f33-435c-b636-16311af6f5d8"
+			name="ButtonOK"
+			refimgid="bc709a11-8bfe-4339-9143-a696033c25f5"
+			refpath="/form[@title='Browse For Folder']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Browse For Folder']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Browse For Folder']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFlSURBVDhPxZMxSAJRGMdva3dqaQtqD4KWxraM
+WhKiubJBGiKyaEhrOAjTKGkIyghKgtAGkUKCIrIuKIQyLis7Ma1MO/KIFP7xPfTwuiDQoR98vMf7
+/u/H3QePqxmHy41aigkiNw9/1uC4U7eqglPhvKpSBdWiE8REES7HHOIvn5j0v8J7ncfCUQZD63Ec
+ijLrUaaMRlC+rCh5TOxkwB9kYPU/wbR8h9apS8z4nlmvUqIRUKNYLOAkmkb/agLmjUcYnSLa7Vdo
+soTROBKBEJNZhrKEKpAkCcFAgB3avLeo6wnB0BdCgzmMtukoutxJGJeSmN/Lsgxl6Y7mC3ieZ/ac
+rKB5+Axc9z7qLRF0LKYxGizC5MnjPqWwDGUJjYD+y26zIfuWw+7FBwwDAlpmE+hckdG7loNPeGc9
+yvw6A6I8SGIzLGNsKwnrdgqeY5mdVQ6Q0AmIQuGrtNPzs6cKaqnSk/o3OO4bKhKf4+WHdfUAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="2ac333c1-8a75-4630-af1a-5b0266344d23"
+		isrooted="True"
+		name="Form1360012210000"
+		refimgid="9357ebdf-43fb-4ac6-8b18-7e3842c61ec7"
+		refpath="/form[@title='13600-1221-0000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='13600-1221-0000']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJgSURBVDhPbdLdT1JxHMdxt/6Mrvov6jqtWdM1
+59gSRcpKXaXMIrWNpdVKarTWRa25ddN0ZS7EGWoRD4LIc6gIAnIEAUF3QnkeCH06/kDopN/te3XO
+630eaw4nE5LIk+GXhVRIgoRfjDg1grhPjD3vM8TcT0C7hrC7JkJ0dYCKLPcLCToaYOJUOiLBQUaG
+4sEOUrvv8XvzOTasg8inFSjmFyqbS8kRtAqpMq0OCWRnyAIFsn5zN9b0j5CJfUUhp2KO/UA+NYuQ
+tQ9lVp1/A6UI4DPcwLJ6AOGVYQJzCRmye5PYsghOCGz/HyjAo2uHXXkfwV8iAtP0GJI7HxAw9RwP
+JMMvKjiXnsKfYgoudQtsih4ELA8ITITfYX/rNTaNt48HEsGRCs7GJ1DIR+H4yYF1vgt+o4DAGCUG
+7XnMPEIvNhY735Zpafb9Tys4RX9EJq7HyvcmmOXXQOm7Cdx1PWQ+4z1s2+8ygZvsu4hRwxW8HxkF
+HXgD+2wjjNNcbCx0VGDIegs0TcOr7WAHaK+IhaNeMWwzl2CQNsOjaiUwaOIjsMQlAc/CdXZgZ32Q
+hUOOIVimL0I/2Qi3gkOgf5GDTW0TCbg1fHYg4hCysN/WD9NUHXSf67HOvItDSGkaybbN+7Cu5rED
+oWUBC/uMvTBJa6H7VAfXXAkebf3YKlyqNnYgYLvDwh5dJwlox88fC/g0V+BUtHjLtDTUUqfCrW2H
+U90Gp4rHLJ8ENOOX4ZjjMD8Vj1zVqWxl8FWvU8ntK9PquBXNp+3yhg6z7ILMKK1Nfhs9Z/jy6myX
+XdZwpnzKCVNT8xdABXLpcMcU7QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="228f116c-4bca-4bfb-a7fe-e073e458a5f3"
+		isrooted="True"
+		name="Form13600"
+		refimgid="90cf0fdb-b3de-4424-8806-0c8772c07594"
+		refpath="/form[@title='13600']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='13600']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJgSURBVDhPbdLdT1JxHMdxt/6Mrvov6jqtWdM1
+59gSRcpKXaXMIrWNpdVKarTWRa25ddN0ZS7EGWoRD4LIc6gIAnIEAUF3QnkeCH06/kDopN/te3XO
+630eaw4nE5LIk+GXhVRIgoRfjDg1grhPjD3vM8TcT0C7hrC7JkJ0dYCKLPcLCToaYOJUOiLBQUaG
+4sEOUrvv8XvzOTasg8inFSjmFyqbS8kRtAqpMq0OCWRnyAIFsn5zN9b0j5CJfUUhp2KO/UA+NYuQ
+tQ9lVp1/A6UI4DPcwLJ6AOGVYQJzCRmye5PYsghOCGz/HyjAo2uHXXkfwV8iAtP0GJI7HxAw9RwP
+JMMvKjiXnsKfYgoudQtsih4ELA8ITITfYX/rNTaNt48HEsGRCs7GJ1DIR+H4yYF1vgt+o4DAGCUG
+7XnMPEIvNhY735Zpafb9Tys4RX9EJq7HyvcmmOXXQOm7Cdx1PWQ+4z1s2+8ygZvsu4hRwxW8HxkF
+HXgD+2wjjNNcbCx0VGDIegs0TcOr7WAHaK+IhaNeMWwzl2CQNsOjaiUwaOIjsMQlAc/CdXZgZ32Q
+hUOOIVimL0I/2Qi3gkOgf5GDTW0TCbg1fHYg4hCysN/WD9NUHXSf67HOvItDSGkaybbN+7Cu5rED
+oWUBC/uMvTBJa6H7VAfXXAkebf3YKlyqNnYgYLvDwh5dJwlox88fC/g0V+BUtHjLtDTUUqfCrW2H
+U90Gp4rHLJ8ENOOX4ZjjMD8Vj1zVqWxl8FWvU8ntK9PquBXNp+3yhg6z7ILMKK1Nfhs9Z/jy6myX
+XdZwpnzKCVNT8xdABXLpcMcU7QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="81cc8fba-f41c-4b5e-bed3-a8e7db53c8be"
+		isrooted="True"
+		name="PresentationHost"
+		refimgid="86d9e1c8-9bd0-4d08-9718-332b625a73e4"
+		refpath="/form[@title='' and @processname='PresentationHost']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e060b6b2-a8f9-4106-9521-40d19b38112b"
+			name="ButtonOK"
+			refimgid="797db3a7-3b9d-4026-9aef-b2019ff652a7"
+			refpath="/form[@title='' and @processname='PresentationHost']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@processname='PresentationHost']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@processname='PresentationHost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFlSURBVDhPxZMxSAJRGMdva3dqaQtqD4KWxraM
+WhKiubJBGiKyaEhrOAjTKGkIyghKgtAGkUKCIrIuKIQyLis7Ma1MO/KIFP7xPfTwuiDQoR98vMf7
+/u/H3QePqxmHy41aigkiNw9/1uC4U7eqglPhvKpSBdWiE8REES7HHOIvn5j0v8J7ncfCUQZD63Ec
+ijLrUaaMRlC+rCh5TOxkwB9kYPU/wbR8h9apS8z4nlmvUqIRUKNYLOAkmkb/agLmjUcYnSLa7Vdo
+soTROBKBEJNZhrKEKpAkCcFAgB3avLeo6wnB0BdCgzmMtukoutxJGJeSmN/Lsgxl6Y7mC3ieZ/ac
+rKB5+Axc9z7qLRF0LKYxGizC5MnjPqWwDGUJjYD+y26zIfuWw+7FBwwDAlpmE+hckdG7loNPeGc9
+yvw6A6I8SGIzLGNsKwnrdgqeY5mdVQ6Q0AmIQuGrtNPzs6cKaqnSk/o3OO4bKhKf4+WHdfUAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d2da972e-aee5-4049-9baa-7d15acaf49b3"
+		isrooted="True"
+		name="FormCa01a9001PgmisDeploymentDEVDDM1"
+		refpath="/form[@title='\\ca01a9001\pgmis\Deployment_DEV\DDM_Light\DDMLight.xbap - Internet Explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="cell,wpfelement"
+			capname="cell"
+			id="2102396f-8291-40ee-b14b-30ccf1b34c5f"
+			name="Cell13189"
+			refimgid="a67239ea-5479-48d4-b848-61ef038f54f0"
+			searchtimeout="10000ms">
+				/form[@title~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//tabpagelist[@automationid='mainTabControl']/tabpage[@automationid='projectSearchTabItem']/table[@automationid='projectDataGrid']/container[@automationid='PART_RowsPresenter']/row/cell[@text='13189']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="62f13250-3ee3-4d6c-b458-19ccd7b3aba3"
+			name="ApplicationTitle"
+			refimgid="16780194-31e4-44fa-9c02-d2540e3b69d3"
+			refpath="/form[@title='\\ca01a9001\pgmis\Deployment_DEV\DDM_Light\DDMLight.xbap - Internet Explorer']/element[@class='Frame Tab' and @instance='0']/container[@caption='\\ca01a9001\pgmis\Deployment_DEV\DDM_Light\DDMLight.xbap - Internet Explorer']/container[@class='Shell DocObject View']/element[@class='DocObject_Top_Class']/form[@wpfnative='True' and @title='' and @win32ownerwindowlevel='0']/container/container/text[@automationid='ApplicationTitle']"
+			searchtimeout="30000ms">
+				/form[@title~'^\\\\ca01a9001\\pgmis\\Deploym']/element[5]/container[@caption~'^\\\\ca01a9001\\pgmis\\Deploym']//form[@title='' and @win32ownerwindowlevel='0']//text[@automationid='ApplicationTitle']
+			</item>
+			<basepath>
+				/form[@title~'^\\\\ca01a9001\\pgmis\\Deploym']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d272f04e-c474-4193-ac8c-77494cbc426a"
+		isrooted="True"
+		name="CAA1258899PDFAdobeReader"
+		refimgid="97298d97-b76a-46a6-ae2c-4782be867933"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'CAA-1258899']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIsSURBVDhPjZDda1JhHMdPwRiDZIgQBbaiaKuo
+oIs2uqiLVVCQ203Rf5BEMWKtiDWbL7k5mwURVLabFiM33TLaapRMHAW+nQzyIphompoU4bvi67dz
+nqWcIzH8wufm4ff9/J7nobiZ2t+Nl6f6/4vhdD+mT/YhaP3oZ0Zb1xsNeT+sQDQaRTgcrhOJRMhZ
+LBaDx+MBG9/KaoAZX5c4Orvh3XdsQ+iuHiKyWq1EwGatJlncfQTNEAwGYbFY/tWBQi6PmUsDq9SL
+nQfRDIFAAHa7HSqVClKpFDqdDvrL10Bptu/Fra27NkS5bQ+5QSgUgsvlgs1mA03TMN6UgRIKhTsE
+AkEni/7KIJxOJw/HUz0cm1vgHxxCPB5HIpFAMplEKpXC0p1xUGKxuE0kEglYDDdkZAsX35wJ7k0t
++K4e55UzmQwWRxkBN+aRu2QLF7b0iWrF769eUkyn06SczWbxZlTDFyzI1GQDlx9Ly3hHteGbZrJe
+zOVyyOfzeC2f4AvmZWNkQw22sHzoKLwT92Hu6IL13HnQtxVwjygQ+rACs0LLF5iYT2E31PisfYBn
+1BaYDvfgreQCbFev43nHATykBJg9cRavlA0CI/Mm9mqJnzEYjp/Bo3Yxwg43CoUCoVgsolQq4Y/P
+j3K5jAXlPb5gjnkTOzgjuQg51Q731HS9xMKWKpUKqtUqYV41yRfMyrVk8NeaHyH6Cyk0lrgxKhsE
+Q719eCxX44lirCkGeiX4CyPzeguHqkVBAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="938c66a7-1c79-4e4e-814d-efadc852d378"
+		isrooted="True"
+		name="CAA1235136BMPWindowsPhotoViewer"
+		refimgid="32866f2d-8dd8-46cf-bcec-8d459c4aae33"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'CAA-1235136']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJ6SURBVDhPpZPbS5RBGMa9i/6ALrvpNhK6CIoy
+M0ULi5SgoAIpyaigKKwI8gCp5OqePKy7umWrm4rtwU2jwDxTmVBSmnVTqZWFZS5prruu82vm22yN
+ohtfeGCYb97fPA/zfjErrjhdN0vapuue2ax/tPrXp3+WPONf3qMBTtYNzSSWdlHZ1CZ8Pp+mlpYW
+TV6vV3g8HuF2u4XL5RLlTq9QZ0/cfDH7G6A2Bsf8BEIwv/CnglILixAWEan1yMR3kko7Iw6UbXWz
+at5YDHtskFgGKRbYbYVMF1hGoGsKql5B9uMIxHC9ScQVd01puZTNkNysGYL7H6BhGKwDoO+BEtng
+HoUBCWifANPzCKC2tlZozapUvrAQ3H47TftkkNdB6P0CrWNS4/DgM/R9hWf+CGhRRrHb7VFAc3Oz
+CIZCpOfnUuitp2PqG/0BGJSx3gEvw3ItoYNzUj9A9mOz2aKAxsZGEQjOE3skmV0XD5BZkY/xno++
+T+O0jU5KJwHa3wd5IyHSmAawWCxRgNPpFHPzAdbEx7I+PYFNx/ay/dxhUvKySC06Q3rxFQ6adZyu
+q6Lm4V0ZYZHy8vIowOFwSAch1u7LZlNGPluzikg8byT1ciX7r1Zz6JqdrIo6LtW7KPC0shAOYzKZ
+IgD5FHOF1ltiTj74qjQ9647b2HDWwZYLTSTluEjOc5NWdIdT1k4Kmp5Q0NAvAYvk6q1CTaU2SDtK
+1CBNoyCBUJj5ZQoqLYQJybdTjSGp4Y9+duo6iC/pDWuAjOqBmYSSTvLMN4TKVlZWJsxms1A2jUaj
+JoPBIPR6vcgptQrVfNT+dDZe1xMBLElNpZbrP/XXz7Syion5CSl1WUJNWH8OAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1c62b2c3-fd94-4e60-8685-df38365c9a99"
+		isrooted="True"
+		name="SolidWorksMultipleVersions"
+		refimgid="4d41858f-522d-4372-b6cf-3a8d4e566e75"
+		refpath="/form[@title='SolidWorks - Multiple Versions']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="561d3172-1e5b-4be7-93e8-e48d8801e733"
+			name="SolidWorks2014"
+			refimgid="909acad5-f0ab-4228-a2be-c63a53c2d7c7"
+			searchtimeout="30000ms">
+				/form[@title~'^SolidWorks\ -\ Multiple\ Ver']/?/?/element/button[@text='SolidWorks 2014']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="dcb80c24-d0da-426e-a991-ca85d95f3d27"
+			name="Cancel"
+			refimgid="6ac92f96-f4dc-42bd-a7ab-6a1f39bc8cb1"
+			refpath="/form[@title='SolidWorks - Multiple Versions']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='2']/button[@text='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title~'^SolidWorks\ -\ Multiple\ Ver']/?/?/element[@instance='2']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title~'^SolidWorks\ -\ Multiple\ Ver']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="985a238e-319c-46f4-8636-48ba56d69d2f"
+		isrooted="True"
+		name="SolidWorksPremium2016X64Edition3"
+		refimgid="9dd9f562-bf2b-41d9-a3e9-0d87b92673ce"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="statusbar"
+			id="b2e1be88-9499-43ca-a47c-98574748b1f7"
+			name="SolidWorksPremium2016X64Edition"
+			refimgid="1f27bd68-3844-4109-9b4f-627c5a8825b7"
+			searchtimeout="30000ms">
+				/form[@title~'^SOLIDWORKS\ Premium\ 2016\ x']/statusbar[@windowtext~'Premium 2016 x64 Edition']
+			</item>
+			<basepath>
+				/form[@title~'^SOLIDWORKS\ Premium\ 2016\ x']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="2b257ff7-6067-42b6-96ea-4865ee68b30f"
+		isrooted="True"
+		name="SaveModifiedDocuments"
+		refimgid="a1f13acf-ed89-45d4-8e53-28cbfaf26bc0"
+		refpath="/form[@title='Save Modified Documents']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="46a1903b-ca93-485c-b9d2-d580db085609"
+			name="DontSave"
+			refimgid="9158c85e-4634-4db4-b4ad-3eb867d907d2"
+			refpath="/form[@title='Save Modified Documents']/button[@text='Do&amp;n''t Save']"
+			searchtimeout="30000ms">
+				/form[@title='Save Modified Documents']/button[@text='Do&amp;n''t Save']
+			</item>
+			<basepath>
+				/form[@title='Save Modified Documents']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		capname="form"
+		id="281c6002-1f73-42a2-96d4-1c4f2eb747f1"
+		isrooted="True"
+		name="EDrawings"
+		refpath="/form[@automationid='eDrawings' and @wpfnative='True' and @name='eDrawings' and @title='eDrawings']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,wpfelement"
+			capname="menuitem"
+			id="3c708611-c79d-4bcd-8712-5d2d147e6705"
+			name="MFile"
+			refimgid="ab5861c2-523a-4fcc-953e-2434db6cf1dc"
+			refpath="/form[@automationid='eDrawings' and @wpfnative='True' and @name='eDrawings']/container[@automationid='LayoutRoot']/container[@automationid='TitleBar_Grid']/menubar[@automationid='FileMenu']/menuitem[@automationid='mFile']"
+			searchtimeout="30000ms">
+				/form[@wpfnative='True' and @name='eDrawings' and @title='eDrawings']/?/?/container[@automationid='TitleBar_Grid']/?/?/menuitem[@automationid='mFile']
+			</item>
+			<basepath>
+				/form[@wpfnative='True' and @name='eDrawings' and @title='eDrawings']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJXSURBVDhPjZBfaNJRFMfd2M9m0xk6tiwdtFlu
+CItkK4zNdKIN2yJjgQbqKKgH6S0MLOspCCRYb5UVRG17zBUIIgwt0RlEFgyNIAySHnyIyD8ti2+/
+e+2KRoy+cPh9z7nnfM79XcG/FEqKoTX1gvjF+67atHNv3eJS12c8mvrZS5YqbdpKDGB2jiL/IYXy
+z49IbiziTfEmwpnzmDgu/vantV3y/SK6lQGevwrVvv/4jBvLloruaJffeKq/FH07h7vRKRyYlfyi
+Q6YzArAIv/SAQBjg62Zu80U2CLVBUhw6NFTs08pLk44ePEyOYvwkV2kC1t9fRGzjAsKvz+FZ6jSF
+EECpkq4nc9fwKO7ESsqNpaQTS6kTWM7M4oiba7wFaWbxIGpru8GnL6v1p+vzzfO/gwJaxYoMsLJ2
+uLaaaUBpw/+KAYwuCR6vaXA70g+Di9t6e6sYgPh9ZgluPRnHvdhBhGIG3Ikeawfs6ejAsFAI1W4l
+JhS7yMG8ecoAFSeErluEGaMR2pERqAYGION7FTIZujs7Iea9338ZAlJkKhQK0Gg0yOfzNM/lcnSo
+VqvRnPhEIkF9uVzGDj4XTI+NQcZx0Ov19MBqtdKv3W6nXzIUDAabvlqtkluii/ckF1y/EkCfVErJ
+ZJPNZkOxWKRNbMjn8zU9UzabRS8BqAcHEYlEKNnr9cJkMlFA6w0cDkfTEzF4DwFcDQRowuR2uxGP
+N/4zn39Hh4z8QxIRz94gnU5DSgCTOh2284bjQ8THTrkcCoUC23hP6h7PAoaVSnqmUqlonQTZ7vEs
+4DcWUcUrW0rNOQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="aee765fb-ceb6-4c86-8e76-dbab00fb2922"
+		isrooted="True"
+		name="ProductRegistration"
+		refimgid="86ebedfe-d91c-4172-8c1b-7fabcca7fd68"
+		refpath="/form[@title='Product Registration']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e12adb00-5b4d-45e3-8147-e1d9e797a905"
+			name="RegisterLater"
+			refimgid="e6e8ab7e-d9fd-4046-8cf2-80a16e2cdeaa"
+			refpath="/form[@title='Product Registration']/button[@text='Register Later']"
+			searchtimeout="30000ms">
+				/form[@title='Product Registration']/button[@text='Register Later']
+			</item>
+			<basepath>
+				/form[@title='Product Registration']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJXSURBVDhPjZBfaNJRFMfd2M9m0xk6tiwdtFlu
+CItkK4zNdKIN2yJjgQbqKKgH6S0MLOspCCRYb5UVRG17zBUIIgwt0RlEFgyNIAySHnyIyD8ti2+/
+e+2KRoy+cPh9z7nnfM79XcG/FEqKoTX1gvjF+67atHNv3eJS12c8mvrZS5YqbdpKDGB2jiL/IYXy
+z49IbiziTfEmwpnzmDgu/vantV3y/SK6lQGevwrVvv/4jBvLloruaJffeKq/FH07h7vRKRyYlfyi
+Q6YzArAIv/SAQBjg62Zu80U2CLVBUhw6NFTs08pLk44ePEyOYvwkV2kC1t9fRGzjAsKvz+FZ6jSF
+EECpkq4nc9fwKO7ESsqNpaQTS6kTWM7M4oiba7wFaWbxIGpru8GnL6v1p+vzzfO/gwJaxYoMsLJ2
+uLaaaUBpw/+KAYwuCR6vaXA70g+Di9t6e6sYgPh9ZgluPRnHvdhBhGIG3Ikeawfs6ejAsFAI1W4l
+JhS7yMG8ecoAFSeErluEGaMR2pERqAYGION7FTIZujs7Iea9338ZAlJkKhQK0Gg0yOfzNM/lcnSo
+VqvRnPhEIkF9uVzGDj4XTI+NQcZx0Ov19MBqtdKv3W6nXzIUDAabvlqtkluii/ckF1y/EkCfVErJ
+ZJPNZkOxWKRNbMjn8zU9UzabRS8BqAcHEYlEKNnr9cJkMlFA6w0cDkfTEzF4DwFcDQRowuR2uxGP
+N/4zn39Hh4z8QxIRz94gnU5DSgCTOh2284bjQ8THTrkcCoUC23hP6h7PAoaVSnqmUqlonQTZ7vEs
+4DcWUcUrW0rNOQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow,wpfwin32element,wpfelement"
+		capname="contextmenu"
+		id="8169683c-d871-4519-a9bf-9b8d8d4bd597"
+		isrooted="True"
+		name="EDrawings2"
+		refpath="/contextmenu[@wpfnative='True' and @processname='eDrawings' and @win32ownerwindowlevel='2']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,wpfelement"
+			capname="unknown"
+			id="6c11854a-4ac3-40c5-820f-acf5cb11e9c6"
+			name="ElementBg"
+			refimgid="4f11618b-2163-47d2-a52b-0e920a3ae412"
+			refpath="/contextmenu[@wpfnative='True' and @processname='eDrawings' and @win32ownerwindowlevel='2']/element[@automationid='SubMenuBorder']/container[1]/container/container[2]/menuitem[@text='E_xit']/container/element[@automationid='Bg']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='eDrawings' and @win32ownerwindowlevel='2']/element[@automationid='SubMenuBorder']/container[1]/container/?/?/menuitem[@text='E_xit']/?/?/element[@automationid='Bg']
+			</item>
+			<basepath>
+				/contextmenu[@processname='eDrawings' and @win32ownerwindowlevel='2']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="b62da82a-f158-420e-aada-78c466179ceb"
+		isrooted="True"
+		name="MicrosoftExcelBook1"
+		refimgid="17437e2a-6598-459c-bf22-46fc359103ee"
+		refpath="/form[@processname='EXCEL']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="47035264-0000-4e4a-8b37-7ee04b1f6797"
+			name="FileTabButton"
+			refimgid="abff20bd-66d1-4398-80ca-1574cda370a9"
+			refpath="/form[@processname='EXCEL']/element[@class='FullpageUIHost']/container/container[@name='Ribbon']/button[@automationid='FileTabButton']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@name='Ribbon']/button[@automationid='FileTabButton']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="7c2dd8eb-46fd-4ff4-ae0e-46f826002179"
+			name="ComboBox1"
+			refimgid="2d51a4f5-6a58-4e23-b7e6-aec005edc2aa"
+			refpath="/form[@title='Save As']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/element[@class='FloatNotifySink' and @instance='0']/combobox[@class='ComboBox']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/?/?/container[@class='DirectUIHWND']/element[1]/combobox[@class='ComboBox']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			capname="menuitem"
+			id="83154b15-c3b3-49de-93c0-baacb78fec89"
+			name="Exit"
+			refimgid="96418915-e196-405b-8e7c-c7cebad464be"
+			refpath="/form[@processname='EXCEL']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/menuitem[@name='Exit']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/menuitem[@name='Exit']
+			</item>
+			<item
+			addcaps="tabpage,uiautomation"
+			capname="tabpage"
+			id="d4fa8ef9-cd95-4389-8098-879d1c5e7bf4"
+			name="SaveAs1"
+			refimgid="59482a03-9799-407c-8d1f-0aa204332e3a"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/tabpage[@name='Save As']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/tabpage[@name='Save As']
+			</item>
+			<item
+			addcaps="tabpage,uiautomation"
+			capname="tabpage"
+			id="7a237ae3-07fa-4457-b140-bb3de207db39"
+			name="SaveAsEnabled"
+			refimgid="a074f4c2-4077-4c7b-86b2-8c47ace1147f"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/tabpage[@name='Save As' and @enabled='True']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="cb2b88e3-c122-4615-9a15-83317c913f5c"
+			name="Browse"
+			refimgid="0c417ac7-c283-4c16-8d91-813a55817e02"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@automationid='BackstageView']/container[@name='Save As']/container[@name='Saving Features']/container[@classname='NetUIScrollViewer']/contextmenu[@name='Saving Features']/container[@classname='NetUIElement']/button[@name='Browse']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='BackstageView']/container[@name='Save As']/container[@name='Saving Features']/?/?/contextmenu[@name='Saving Features']/?/?/button[@name='Browse']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			capname="menuitem"
+			id="590d65c1-3e83-47ee-9c44-3f4def438830"
+			name="Close"
+			refimgid="f4a6ab88-fa86-4f67-a881-bc2af1a5ebbc"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/menuitem[@name='Close']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/menuitem[@name='Close']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALtSURBVDhPnZNrSJNhFMdHIkURFRIJWWQiXUid
+0/kupZmmi5l5yw+aRommoAmGkbaMJC0pdGk6iQWaIaWQSll2F0OJNOfwNinQJVq6sRRFmfP27zzP
+ss/RgcPL+fD/nXP+z3lFaxFVKSijNUJ5tEY2EFMhm4+ukCGyXIaTZQLC7gpQlAgIvuMHeZEU/oVS
++OVL4Z3nC7tYI8RcbUwzd460YcY6jdXVVfxLeKgIwDoz8fT8L1iXrDDPmTE8NYwh8xAMlINmA+Ug
++k0DlP3oM1PSl8WBHB+I2NisMxMzkUIbgIjqAMQ/PgrLnAULizbkVN2ET8oJnirtbVhtC7AtLcL9
+koQBZANsbNaZAZoNjUioO4KUBjm0XdfRPzL0VxylOs/FLNmarlkEYIaxYm1sNm7Zp1xcbAlC7tsg
+RBQq4Z0cxgHfJ8a5+OvUN77CrkxvAmhkvLCLDXw/3WQ3itpjUdgegvzWEPikKqCu13Lx3MI83v9o
+5RrndAJE0XOxYIYNmAahN/Wie1IH9ccCqDtDca87FJcbwrG8skh72/Bi7BVejr3mmu1pYogiygVe
+2Lv3UfcefJ7ognNqKBKqAqHtPU4QBfQTzVheXUS3RYem0edcszWFJggvtQPWun+h7qdqMiBKksAh
+0RdlnZEooUkquhIwu2DB0ooN9aNPuWZzEk2gVNsB7J31Jj3qep/ARbUfTjkHsU0lxzdLJ3lxDHkf
+glGjz+eAWdsM12w85wWRotgOYAeiI0B0pRfkxW7wuOGOnVcOQXk/HU2GUmTRq6Q1BaLD+IZ7sbyy
+jPVnCMDumwPIfU17NlJqdiPugSsCS9ywN28fDpfE0nlPoagtA2frg5H5LJEfl5XSMYEA8lt/ADRB
+z6SeG9j+swPvxlvRQm4zw+pHG1BrrMNDYy2qjY/4l8W6eE+I/AukvPifEMURQMj3heSaLzxVPvzn
+cM+WYA+dqMsFb+xIF8MpVYwtyWJsIsM20M6OiV5wOE1CJo7zxG9TY+N7mwr1DAAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="76aa0570-38f9-4d78-b922-e47434554405"
+		isrooted="True"
+		name="ExcelPopup"
+		refimgid="0d073f86-0eed-4281-83c7-7a48e44eb086"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e66a78eb-1481-4841-bdb8-eaf68b62da4b"
+			name="ButtonOK"
+			refimgid="848c87ca-0276-410e-9b68-9ae02bab4992"
+			searchtimeout="30000ms">
+				/form[@title='Microsoft Excel' and @class='#32770']/button[@text='OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="c29587e9-7204-4aff-9062-5903dec8ee4c"
+			name="ButtonYes"
+			refimgid="cbc8bcd1-0245-45c3-8edd-ac0995821e68"
+			searchtimeout="30000ms">
+				/form[@title='Microsoft Excel' and @class='#32770']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Microsoft Excel' and @class='#32770']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALtSURBVDhPnZNrSJNhFMdHIkURFRIJWWQiXUid
+0/kupZmmi5l5yw+aRommoAmGkbaMJC0pdGk6iQWaIaWQSll2F0OJNOfwNinQJVq6sRRFmfP27zzP
+ss/RgcPL+fD/nXP+z3lFaxFVKSijNUJ5tEY2EFMhm4+ukCGyXIaTZQLC7gpQlAgIvuMHeZEU/oVS
++OVL4Z3nC7tYI8RcbUwzd460YcY6jdXVVfxLeKgIwDoz8fT8L1iXrDDPmTE8NYwh8xAMlINmA+Ug
++k0DlP3oM1PSl8WBHB+I2NisMxMzkUIbgIjqAMQ/PgrLnAULizbkVN2ET8oJnirtbVhtC7AtLcL9
+koQBZANsbNaZAZoNjUioO4KUBjm0XdfRPzL0VxylOs/FLNmarlkEYIaxYm1sNm7Zp1xcbAlC7tsg
+RBQq4Z0cxgHfJ8a5+OvUN77CrkxvAmhkvLCLDXw/3WQ3itpjUdgegvzWEPikKqCu13Lx3MI83v9o
+5RrndAJE0XOxYIYNmAahN/Wie1IH9ccCqDtDca87FJcbwrG8skh72/Bi7BVejr3mmu1pYogiygVe
+2Lv3UfcefJ7ognNqKBKqAqHtPU4QBfQTzVheXUS3RYem0edcszWFJggvtQPWun+h7qdqMiBKksAh
+0RdlnZEooUkquhIwu2DB0ooN9aNPuWZzEk2gVNsB7J31Jj3qep/ARbUfTjkHsU0lxzdLJ3lxDHkf
+glGjz+eAWdsM12w85wWRotgOYAeiI0B0pRfkxW7wuOGOnVcOQXk/HU2GUmTRq6Q1BaLD+IZ7sbyy
+jPVnCMDumwPIfU17NlJqdiPugSsCS9ywN28fDpfE0nlPoagtA2frg5H5LJEfl5XSMYEA8lt/ADRB
+z6SeG9j+swPvxlvRQm4zw+pHG1BrrMNDYy2qjY/4l8W6eE+I/AukvPifEMURQMj3heSaLzxVPvzn
+cM+WYA+dqMsFb+xIF8MpVYwtyWJsIsM20M6OiV5wOE1CJo7zxG9TY+N7mwr1DAAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="316967ff-35a6-4bc6-91e0-77548b1063d2"
+		isrooted="True"
+		name="ConfirmSaveAs"
+		refimgid="5aaf0295-5a99-40b1-afdb-a90d5a709afe"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="2c0f895c-95ce-4b5e-97e9-d376dbb2b11f"
+			name="ButtonYes"
+			refimgid="394c175c-5d7e-4318-b684-7ac16decd387"
+			refpath="/form[@title='Confirm Save As']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='0']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @title='Confirm Save As']/?/?/element[@instance='0']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL' and @title='Confirm Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALtSURBVDhPnZNrSJNhFMdHIkURFRIJWWQiXUid
+0/kupZmmi5l5yw+aRommoAmGkbaMJC0pdGk6iQWaIaWQSll2F0OJNOfwNinQJVq6sRRFmfP27zzP
+ss/RgcPL+fD/nXP+z3lFaxFVKSijNUJ5tEY2EFMhm4+ukCGyXIaTZQLC7gpQlAgIvuMHeZEU/oVS
++OVL4Z3nC7tYI8RcbUwzd460YcY6jdXVVfxLeKgIwDoz8fT8L1iXrDDPmTE8NYwh8xAMlINmA+Ug
++k0DlP3oM1PSl8WBHB+I2NisMxMzkUIbgIjqAMQ/PgrLnAULizbkVN2ET8oJnirtbVhtC7AtLcL9
+koQBZANsbNaZAZoNjUioO4KUBjm0XdfRPzL0VxylOs/FLNmarlkEYIaxYm1sNm7Zp1xcbAlC7tsg
+RBQq4Z0cxgHfJ8a5+OvUN77CrkxvAmhkvLCLDXw/3WQ3itpjUdgegvzWEPikKqCu13Lx3MI83v9o
+5RrndAJE0XOxYIYNmAahN/Wie1IH9ccCqDtDca87FJcbwrG8skh72/Bi7BVejr3mmu1pYogiygVe
+2Lv3UfcefJ7ognNqKBKqAqHtPU4QBfQTzVheXUS3RYem0edcszWFJggvtQPWun+h7qdqMiBKksAh
+0RdlnZEooUkquhIwu2DB0ooN9aNPuWZzEk2gVNsB7J31Jj3qep/ARbUfTjkHsU0lxzdLJ3lxDHkf
+glGjz+eAWdsM12w85wWRotgOYAeiI0B0pRfkxW7wuOGOnVcOQXk/HU2GUmTRq6Q1BaLD+IZ7sbyy
+jPVnCMDumwPIfU17NlJqdiPugSsCS9ywN28fDpfE0nlPoagtA2frg5H5LJEfl5XSMYEA8lt/ADRB
+z6SeG9j+swPvxlvRQm4zw+pHG1BrrMNDYy2qjY/4l8W6eE+I/AukvPifEMURQMj3heSaLzxVPvzn
+cM+WYA+dqMsFb+xIF8MpVYwtyWJsIsM20M6OiV5wOE1CJo7zxG9TY+N7mwr1DAAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="5e0fe58c-3945-483c-b1b6-64f8183e9991"
+		isrooted="True"
+		name="SaveChanges"
+		refimgid="398dc479-ae45-4d88-8886-197ce6d3a5d4"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="f423f316-ef27-49fa-8171-2e9cb0059392"
+			name="DontSave"
+			refimgid="5b63d003-26a0-4a88-b7b8-7080ddc886c5"
+			refpath="/form[@title='Microsoft Excel']/container[@class='NetUIHWND']/element[@name='Microsoft Excel']/button[@name='Don''t Save']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @class='NUIDialog']/?/?/element[@name='Microsoft Excel']/button[@name='Don''t Save']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL' and @class='NUIDialog']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALtSURBVDhPnZNrSJNhFMdHIkURFRIJWWQiXUid
+0/kupZmmi5l5yw+aRommoAmGkbaMJC0pdGk6iQWaIaWQSll2F0OJNOfwNinQJVq6sRRFmfP27zzP
+ss/RgcPL+fD/nXP+z3lFaxFVKSijNUJ5tEY2EFMhm4+ukCGyXIaTZQLC7gpQlAgIvuMHeZEU/oVS
++OVL4Z3nC7tYI8RcbUwzd460YcY6jdXVVfxLeKgIwDoz8fT8L1iXrDDPmTE8NYwh8xAMlINmA+Ug
++k0DlP3oM1PSl8WBHB+I2NisMxMzkUIbgIjqAMQ/PgrLnAULizbkVN2ET8oJnirtbVhtC7AtLcL9
+koQBZANsbNaZAZoNjUioO4KUBjm0XdfRPzL0VxylOs/FLNmarlkEYIaxYm1sNm7Zp1xcbAlC7tsg
+RBQq4Z0cxgHfJ8a5+OvUN77CrkxvAmhkvLCLDXw/3WQ3itpjUdgegvzWEPikKqCu13Lx3MI83v9o
+5RrndAJE0XOxYIYNmAahN/Wie1IH9ccCqDtDca87FJcbwrG8skh72/Bi7BVejr3mmu1pYogiygVe
+2Lv3UfcefJ7ognNqKBKqAqHtPU4QBfQTzVheXUS3RYem0edcszWFJggvtQPWun+h7qdqMiBKksAh
+0RdlnZEooUkquhIwu2DB0ooN9aNPuWZzEk2gVNsB7J31Jj3qep/ARbUfTjkHsU0lxzdLJ3lxDHkf
+glGjz+eAWdsM12w85wWRotgOYAeiI0B0pRfkxW7wuOGOnVcOQXk/HU2GUmTRq6Q1BaLD+IZ7sbyy
+jPVnCMDumwPIfU17NlJqdiPugSsCS9ywN28fDpfE0nlPoagtA2frg5H5LJEfl5XSMYEA8lt/ADRB
+z6SeG9j+swPvxlvRQm4zw+pHG1BrrMNDYy2qjY/4l8W6eE+I/AukvPifEMURQMj3heSaLzxVPvzn
+cM+WYA+dqMsFb+xIF8MpVYwtyWJsIsM20M6OiV5wOE1CJo7zxG9TY+N7mwr1DAAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="94396074-53c4-4d09-b2bc-d694ae77119e"
+		isrooted="True"
+		name="FormSaveAs"
+		refimgid="decf7959-62dd-41c3-b25f-d3f49aa5a610"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5d9fd93b-8895-4923-a003-ba90d0d21322"
+			name="ButtonSave"
+			refimgid="2f1c3e49-910a-4ccf-8263-ff24a4bf64ee"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @title='Save As']/button[@text='&amp;Save']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="e068721d-28e0-4397-a2f0-bcb6f316ee64"
+			name="ComboBox1"
+			refimgid="6e53c081-d123-4ef3-8b89-b549d28d56b7"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @title='Save As']/?/?/container[@class='DirectUIHWND']/element[1]/combobox[@class='ComboBox']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="b738585a-88eb-4c6b-b261-77bf2e049d22"
+			name="Text1001"
+			refimgid="1bbc8586-b6af-4eef-8ba0-baf12d2c45d8"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @title='Save As']/?/?/container[@class='DirectUIHWND']/element[1]/combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="2f32fc7b-b567-4d89-8508-862e503fb5d1"
+			name="ComboBox"
+			refimgid="048f86e0-d279-46f1-aedb-f51f8f0b8726"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @title='Save As']/?/?/container[@class='DirectUIHWND']/element/combobox[@windowtext~'Excel Workbook']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL' and @title='Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALtSURBVDhPnZNrSJNhFMdHIkURFRIJWWQiXUid
+0/kupZmmi5l5yw+aRommoAmGkbaMJC0pdGk6iQWaIaWQSll2F0OJNOfwNinQJVq6sRRFmfP27zzP
+ss/RgcPL+fD/nXP+z3lFaxFVKSijNUJ5tEY2EFMhm4+ukCGyXIaTZQLC7gpQlAgIvuMHeZEU/oVS
++OVL4Z3nC7tYI8RcbUwzd460YcY6jdXVVfxLeKgIwDoz8fT8L1iXrDDPmTE8NYwh8xAMlINmA+Ug
++k0DlP3oM1PSl8WBHB+I2NisMxMzkUIbgIjqAMQ/PgrLnAULizbkVN2ET8oJnirtbVhtC7AtLcL9
+koQBZANsbNaZAZoNjUioO4KUBjm0XdfRPzL0VxylOs/FLNmarlkEYIaxYm1sNm7Zp1xcbAlC7tsg
+RBQq4Z0cxgHfJ8a5+OvUN77CrkxvAmhkvLCLDXw/3WQ3itpjUdgegvzWEPikKqCu13Lx3MI83v9o
+5RrndAJE0XOxYIYNmAahN/Wie1IH9ccCqDtDca87FJcbwrG8skh72/Bi7BVejr3mmu1pYogiygVe
+2Lv3UfcefJ7ognNqKBKqAqHtPU4QBfQTzVheXUS3RYem0edcszWFJggvtQPWun+h7qdqMiBKksAh
+0RdlnZEooUkquhIwu2DB0ooN9aNPuWZzEk2gVNsB7J31Jj3qep/ARbUfTjkHsU0lxzdLJ3lxDHkf
+glGjz+eAWdsM12w85wWRotgOYAeiI0B0pRfkxW7wuOGOnVcOQXk/HU2GUmTRq6Q1BaLD+IZ7sbyy
+jPVnCMDumwPIfU17NlJqdiPugSsCS9ywN28fDpfE0nlPoagtA2frg5H5LJEfl5XSMYEA8lt/ADRB
+z6SeG9j+swPvxlvRQm4zw+pHG1BrrMNDYy2qjY/4l8W6eE+I/AukvPifEMURQMj3heSaLzxVPvzn
+cM+WYA+dqMsFb+xIF8MpVYwtyWJsIsM20M6OiV5wOE1CJo7zxG9TY+N7mwr1DAAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="aea8fb0c-5082-44cb-ac0f-95910f165525"
+		isrooted="True"
+		name="SWBrokenReferences"
+		refimgid="d0b54664-77f2-40be-873d-53ff1a4eeeb2"
+		refpath="/form[@title='SolidWorks']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="9532ec7f-c9c9-496b-9f84-8d2564efd57b"
+			name="SuppressAllMissingComponents"
+			refimgid="df012e15-f5bf-4fc0-9030-313b0939d345"
+			refpath="/form[@title='SolidWorks']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='2']/button[@text='Suppress all missing components']"
+			searchtimeout="30000ms">
+				/form[@title='SolidWorks']/?/?/element[@instance='2']/button[@text~'^Suppress\ all\ missing\ comp']
+			</item>
+			<basepath>
+				/form[@title='SolidWorks']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b61e26f0-4d11-46d6-9d8e-acdcb2069e58"
+		isrooted="True"
+		name="FindReferences"
+		refimgid="96992ec3-71ad-4c9f-b727-38c71ba4b008"
+		refpath="/form[@title='Find References']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="9bb38736-07ec-4bce-aa51-7acfef26488c"
+			name="Element15480"
+			refimgid="0a2bed73-87ae-420f-8108-f719abfb5025"
+			refpath="/form[@title='Find References']/element[@controlid='15480']"
+			searchtimeout="30000ms">
+				/form[@title='Find References']/element[@controlid='15480']
+			</item>
+			<basepath>
+				/form[@title='Find References']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b74fad0c-5057-4c83-85d2-fe11b2f54be3"
+		isrooted="True"
+		name="SWdwg32234158"
+		refimgid="c587a84c-ed41-4f65-8714-5401d895e3d8"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="statusbar"
+			id="cd066f8f-7543-434c-ad2f-a90a00c2c48c"
+			name="SolidWorksPremium2016X64Edition"
+			refimgid="493e8825-f7ad-4efe-bff4-4de4c03f7378"
+			searchtimeout="30000ms">
+				/form[@title='SOLIDWORKS Premium 2016 x64 Edition - [32234158.SLDASM * [Read-only]]']/statusbar[@windowtext~'Premium 2016 x64 Edition']
+			</item>
+			<basepath>
+				/form[@title='SOLIDWORKS Premium 2016 x64 Edition - [32234158.SLDASM * [Read-only]]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="15a3fcc9-d498-4475-8a84-b828b5f02225"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="8f205221-c11f-43c8-a970-458050e7b96f"
+			name="TextMSDOSAsteriskTxt"
+			refimgid="03c35cbe-49f9-4c5c-a23b-f469286fe62e"
+			refpath="/list[@controlid='1000']/listitem[@text='Text (MS-DOS) (*.txt)']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Text (MS-DOS) (*.txt)']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKlJREFUOE9j+P//P0WYYc/Rq/+3Hbj4f+Pu80A+QgKXOAgjizNs3nsBxPhv6pkM
+xiBBEMYnDmIcOHAALM6watspkCQYICvEL84A5oANWLz+KJgBwzCFuMRBGFkMLkguZmicuOp/UfO8
+/+lVU8EYJkGsOIpp5GCsgqRgMEFqOkDGGPEKk8CVDtAxRrzCJHClA3QMJrDZgi8dIGOsgqRgktMB
+OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f33ea9b8-f0be-4f37-96ab-5cea19e326f8"
+		isrooted="True"
+		name="SWdwg29672210"
+		refimgid="1856d42f-29e6-453f-835c-7a0417347f6e"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="statusbar"
+			id="4bcf84e6-1a01-458c-80b5-23970872df72"
+			name="SolidWorksPremium2016X64Edition"
+			refimgid="42a28807-633e-4d52-9806-ee9bc81e9494"
+			searchtimeout="30000ms">
+				/form[@title='SOLIDWORKS Premium 2016 x64 Edition - [29672210.SLDASM * [Read-only]]']/statusbar[@windowtext~'Premium 2016 x64 Edition']
+			</item>
+			<basepath>
+				/form[@title='SOLIDWORKS Premium 2016 x64 Edition - [29672210.SLDASM * [Read-only]]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="73d8a396-6687-4310-9c86-5f70fc87b119"
+		isrooted="True"
+		name="SwShellFileLauncher"
+		refimgid="142e2f88-5db4-4cf7-8d66-d81d24c3bc96"
+		refpath="/form[@title='swShellFileLauncher']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="d7ad7815-b85e-4ba5-a606-af2ee5d7fbe6"
+			name="ButtonOK"
+			refimgid="6232fb1e-6a24-41ca-91f4-3ed25a4792a9"
+			refpath="/form[@title='swShellFileLauncher']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='swShellFileLauncher']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='swShellFileLauncher']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANZSURBVDhPhZN/TJVlFMcPF2FeJEKIkGXIxQlo
+ARtDciuzSIHJVUBrsjUnMSY/dCDoIvuxCpqrNWFaJi3pWgJyoaRgtMnEoNBAHc4ioUgHmqNxQVhh
+QPfe99NB2Wr909nz3Xt2zvf7fc7zvs8r/w1qa6OMxsZsd12dzX2octhdVDji3pxqNyLDiwzzggRE
+POap98I4dMLPaGvb4j52rMJtt/e6m75wGZ8cxygvw3hhB8ZTa2FZCJi9YIFgiPysqFbkGKGhq2S0
+uKRvpq0Nur6F1lY4eBDycmFrOsTHQqAfuus/eCAQEh5jwGrlo9hYp1zS4g8hIfyamsp0STHuI+/j
+zM2BFRYwzYvMCyEmmpvpGTSkpVOaaiXlwSA2a08GRUavazLk40P/8uWMBQbiTEtjMjMTV0wsRnw8
+5zdt4kByMonBwawxmXhS+ZebmymwhCNDIo6JxESYmeE28FVhITeU4PS9j9m4eF6MiSHa05NYrVVs
+28b1nh6Kw5bRN9DPS0+sRUbUgPp6To2PY9+wgTE1+VhNXCq4rSjS0S90dJATFcWZlhbtQtmWDNrP
+tlO+bh2iJIeRlES320WWxcJodjZNtTUM6Kiz/gHkhYXdFR1/9RVqqqru5rbKStq/6aQy8WlkysPk
+GNWd2LWbX7T5Tn4+fXNHMPsws2Y1O8Mt+oG6uKojNzU0cPLoUa4OD3Pl2jUqH30E+cPDw/F7dTXN
+ajC5fj0ONfm0tJRxNflrawp7QpZQsX8/U1rvPH2a59PTGZmaYvDGTd5a5IuMzb2DsnK+U8KHKnLt
+LaFzjhypl2f7Rnb5+ZMXF8eE1nq7ungmIoILt27R3dvLm8oXwz/AOenlxfTlK/x4ZxrHxUt0TPzJ
+2ccjcRU+xx7/xTzr4UnP7CwXz52jwNubEzYbNQUFdM8Z9AcH/2Q8FKQXJQxXayODg/2c2ruboeSV
+3Hm3hAKdYKcSD+v4Xx5+j3rN2xVnFC0mmZBikYCXA/wSWkMXdwyuCmTaGg35SfB2LqNVb/Daw6G8
+ruSTvoto1ufXXiaOiNRYRbYHiSyZ/6XuxUZv75UfrFia+X2WtXu67gCct/OZJYwWFdpEfssWyYoU
+0fU/sUNkYX7E0tWfZyTt22c2Z2SIpISL3D/f/leI/A3y5SBmJPwZqgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="84252089-26f5-4e37-ba11-782d5550a896"
+		isrooted="True"
+		name="Photos"
+		refpath="/winapp[@packagename='Microsoft.Windows.Photos']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="picture,uiautomation,uiautomationtoggle"
+			capname="picture"
+			id="236d4a3a-e63d-40f1-a566-9cd79a9d2b6a"
+			name="MainImageCanvasControl"
+			refimgid="1f428778-253e-4e74-82f8-78b8505bdec9"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.Windows.Photos']/?/?/list[@automationid='viewerFlipView']/?/?/picture[@name='CAA-1235136.BMP']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.Windows.Photos']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB6SURBVDhPY2CouP6fIgwiyAUoBsBNJBLD9aBw
+SMBwPSgcJOww6yGGGDKG60HhIEmCALIYOobLo3CAeP/dr2A+DMDE0TFcDpkDcjY6ABkIUwMCYE1I
+elAMwAXQDcZqACGAbAjMmyQZgA2QbADWAKarC9AB9QwgH1//DwAsiy2U9TriPwAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

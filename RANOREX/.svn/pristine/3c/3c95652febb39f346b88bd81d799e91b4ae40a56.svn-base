@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="29.19s"
+		durationms="29192"
+		type="root"
+		rid="d918b3969e74500"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="anpatel"
+		rxversion="8.1.1.0"
+		host="CA01A3839"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3360x1050"
+		timestamp="1/21/2019 1:42:42 PM"
+		timestampiso="2019-01-21T18:42:42"
+		endtime="1/21/2019 1:43:11 PM"
+		timeoutfactor="1"
+		module="GenerateReport">
+		<detail>
+			GenerateReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.952"
+			timeRelativeToTestModuleStartTime="00:00.959"
+			timeWallClock="13:42:43"
+			time="00:00.952"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varPathtoSaveto, varProcessingCompletedFile
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.979"
+			timeRelativeToTestModuleStartTime="00:00.986"
+			timeWallClock="13:42:43"
+			time="00:00.979"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Microsoft Office\Office16\EXCEL.EXE' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.092"
+			timeRelativeToTestModuleStartTime="00:01.099"
+			timeWallClock="13:42:43"
+			time="00:01.092"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Maximize() on item 'FormEXCELClose'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="BPCReportRepository.FormEXCELClose.Self"
+				id="3f584f07c0f344a08c7d9f63daec9ffa"
+				timeout="30000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.272"
+			timeRelativeToTestModuleStartTime="00:02.279"
+			timeWallClock="13:42:44"
+			time="00:02.272"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book1Excel.TabPageEPM' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='XLMAIN']/element[2]//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='EPM']"
+				itempath="element[2]//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='EPM']"
+				fullname="BPCReportRepository.Book1Excel.TabPageEPM"
+				id="eb060fb9e8984d4cb985f5daf3c686b4"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="119"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.191"
+			timeRelativeToTestModuleStartTime="00:29.199"
+			timeWallClock="13:43:11"
+			time="00:29.191"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

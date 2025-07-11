@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="88972b64-92c0-49ef-94c2-2369551fd376"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		OpenDocumentProcessor
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenDocumentProcessor"
+	namespace="Document_Processor_FilterTest"/>
+	<variables/>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<closeapprecorditem
+		enabled="True"
+		optional="True"
+		duration="100ms"
+		searchpropertyid="0c904f27-4f9c-437b-998c-786ce73c9b99"
+		method="KillProcess"
+		graceperiod="100ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="aafb225c-1a56-40ef-ac0e-fbfc1f0ce4d1">
+				<path>
+					/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe
+			</filename>
+			<workingdir>
+				\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files
+			</workingdir>
+			<args>
+				2
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	name="Document_Processor_FilterTestRepository"
+	id="3f69c4cd-b04f-44be-8fab-84abefed5938"
+	rxversion="6.1"
+	relativepath="Document Processor FilterTestRepository.rxrep">
+		<codegen
+		classname="Document_Processor_FilterTestRepository"
+		namespace="Document_Processor_FilterTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="4c17f6b9-32f0-414a-a804-95d21ea4356d"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenDocumentProcessor.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

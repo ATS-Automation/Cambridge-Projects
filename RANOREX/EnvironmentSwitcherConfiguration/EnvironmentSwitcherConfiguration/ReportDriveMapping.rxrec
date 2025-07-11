@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="87a8af9e-d2e5-4210-a2ef-002a739a458f"
+mode="Global"
+rxversion="7.2">
+	<name>
+		ReportDriveMapping
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ReportDriveMapping"
+	namespace="EnvironmentSwitcherConfiguration">
+	</codegen>
+	<variables>
+		<var
+		id="07057230-ea31-46bf-a99d-ee306de15dfb"
+		name="Expected">
+			G
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="ReportDriveMapping"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateGMapped"
+		namespace="EnvironmentSwitcherConfiguration"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="c1cbf603-f45c-40ec-a04a-10806860d909">
+				<argument
+				argname="Expected"
+				id="f353f5c6-3de9-4464-9ce5-e39f25549239"
+				variable="Expected">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="a4a4cf80-4bcd-405f-b3de-21d884c7bb1b"
+	name="EnvironmentSwitcherConfigurationRepository"
+	relativepath="EnvironmentSwitcherConfigurationRepository.rxrep"
+	rxversion="6.2">
+		<codegen
+		classname="EnvironmentSwitcherConfigurationRepository"
+		namespace="EnvironmentSwitcherConfiguration">
+		</codegen>
+		<rootfolder
+		id="98945b87-b02f-4a2e-8f85-3b2fbcd37d06"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ReportDriveMapping.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

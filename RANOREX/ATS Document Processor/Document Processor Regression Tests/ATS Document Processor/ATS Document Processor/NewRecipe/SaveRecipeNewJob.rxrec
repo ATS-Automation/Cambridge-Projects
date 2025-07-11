@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fd34a2de-74e0-4e50-989a-1a9c55a14b16"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SaveRecipeNewJob"
+	namespace="ATS_Document_Processor.NewRecipe">
+	</codegen>
+	<variables>
+		<var
+		id="e84871d2-271a-4a42-a068-7f5509880d8f"
+		name="StatusMessage">
+		</var>
+		<var
+		id="29d0a8c3-a0b5-4881-9575-604562ecd7c2"
+		name="ExpectedStatusMessage">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a2ea7ca1-8503-43f5-a92d-da47ac1726e9"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="00bb3d0e-ddc5-466c-9079-2c2d97862994"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/tabpagelist/list[@automationid='TabHeaderItemsControl']/radiobutton[@text='Recipe Tools']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="22;28"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="11f69999-3754-4380-bab4-a7826a56eb97"
+		sx="342"
+		sy="249"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fd274c9f-a0a6-4829-b60c-f860880031b9"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/tabpagelist/tabpage[@title='Recipe Tools']/container[@caption='Main']/button[@automationid='RecipeSave']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="74;17"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="465dbad3-29fe-4ee5-adb5-e614ba4fab01"
+		sx="980"
+		sy="584"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3e83d1ec-a78b-454a-bc21-c0188d95bb4b"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="906,567,88,26"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						OK
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						2
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						599414
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						21376
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						ATSDocumentProcessor.vshost
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						OK
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='' and @processname='ATSDocumentProcessor.vshost']/button[@text='OK']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2b4ea305-91b3-4a3d-ada9-2736d6b93831">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<getvaluerecorditem
+		attrname="Text"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f8434d8d-7eaa-4b9d-a9d1-64c840b51cc8"
+		varname="StatusMessage">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e01183aa-14c4-49a5-bd7b-a6208b0c5f65"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="wpfelement"
+				dontcache="False"
+				enabled="True"
+				flavor="wpf"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="223,309,1234,85"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Recipe was not saved
+No source is set, expand the source and accept an option
+No customers are set
+No filename rules are set
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Recipe was not saved
+No source is set, expand the source and accept an option
+No customers are set
+No filename rules are set
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						messageText
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						messageText
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."
+					name="ActualHeight"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."
+					name="ActualWidth"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					name="AllowDrop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					name="Background"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.BackgroundColor property of type String."
+					name="BackgroundColor"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					name="BaselineOffset"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					name="BindingGroup"
+					readonly="False"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					name="BitmapEffect"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					name="BitmapEffectInput"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					name="CacheMode"
+					readonly="False"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					name="Clip"
+					readonly="False"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					name="ClipToBounds"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					name="ContextMenu"
+					readonly="False"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					name="DataContext"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					name="Effect"
+					readonly="False"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					name="FlowDirection"
+					readonly="False"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					name="Focusable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					name="FontSize"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					name="ForceCursor"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					name="Foreground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					name="HorizontalAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					name="IsHitTestVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					name="IsHyphenationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					name="IsManipulationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					name="LayoutTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					name="LineHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					name="LineStackingStrategy"
+					readonly="False"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					name="MaxHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					name="MaxWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					name="MinHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					name="MinWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					name="OpacityMask"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					name="OverridesDefaultStyle"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					name="RenderTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					name="RenderTransformOrigin"
+					readonly="False"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					name="SnapsToDevicePixels"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					name="Tag"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					name="TextAlignment"
+					readonly="False"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					name="TextDecorations"
+					readonly="False"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					name="TextEffects"
+					readonly="False"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					name="TextTrimming"
+					readonly="False"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					name="TextWrapping"
+					readonly="False"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					name="ToolTip"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					name="Uid"
+					readonly="False"
+					type="System.String"
+					weight="150">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					name="UseLayoutRounding"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					name="VerticalAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					name="Visibility"
+					readonly="False"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method."
+					displayName="GetPositionFromPoint">
+						<argument
+						description="A method argument of type Point."
+						displayName="point"
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<argument
+						description="A method argument of type Boolean."
+						displayName="snapToText"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method."
+					displayName="ShouldSerializeBaselineOffset">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method."
+					displayName="ShouldSerializeInlines">
+						<argument
+						description="A method argument of type XamlDesignerSerializationManager."
+						displayName="manager"
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method."
+					displayName="ShouldSerializeText">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/container[1]/text[@automationid='messageText']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<userrecorditem
+		classname="SaveRecipeNewJob"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckStatusMessage"
+		namespace="ATS_Document_Processor.NewRecipe"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="4b9b2210-37c7-40c4-901f-0d712e5f7a95">
+				<argument
+				argname="StatusMessage"
+				id="971267df-1ce2-4948-9329-0ec04dc78c63"
+				variable="StatusMessage">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="ExpectedStatusMessage"
+				id="5d4f01db-c82a-4b36-bc93-4d0adaad964f"
+				variable="ExpectedStatusMessage">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="..\DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SaveRecipeNewJob.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

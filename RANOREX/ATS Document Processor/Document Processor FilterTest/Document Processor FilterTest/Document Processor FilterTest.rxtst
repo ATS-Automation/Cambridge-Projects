@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuitedoc
+rxversion="6.1">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testsuite
+			name="Document Processor FilterTest"
+			id="0ebc27e8-de7b-4685-bc47-9e78143c9724"
+			reportfilename="%S_%Y%M%D_%T.rxlog"
+			reporttemplatefolder=".\NewCustomTemplate2\"
+			placescreenshotsinfolder="True"
+			reportwriteinterval="30000ms"
+			reportcompress="False"
+			enabletracingscreenshots="True"
+			ReportTime="RelativeToTestSuiteStartTime"
+			TracingScreenshotMode="Foreground"
+			TracingScreenshotQuality="40"
+			progressdialog="False"/>
+			<setup
+			name="setup"
+			id="17b6c0df-f7df-4fa0-b7fe-e72aa410d276"/>
+			<testmodule
+			name="OpenDocumentProcessor"
+			id="1eb20492-f31c-4a07-ae53-efb910b1985f"
+			ref="88972b64-92c0-49ef-94c2-2369551fd376"
+			type="Recording"/>
+			<testcase
+			name="TestCase"
+			id="836f2ead-88f7-4ae9-a35e-6a16c9de3a94"
+			warnunboundvariables="False"
+			errorbehavior="ContinueNextIteration"
+			minrange="12"
+			maxrange="13"
+			datasource="NewConnector"/>
+			<testmodule
+			name="Deploy_Test_Filter_Test"
+			id="c93d4f72-7d08-4359-b699-736e7ba4b6e7"
+			ref="acec346c-2999-4d13-baba-218c6ff0dc4a"
+			type="Recording">
+				<databinding>
+					<var
+					variablename="ReferenceName"
+					variableid="58403999-9520-4c7d-8c90-c460f48b8059"
+					dataname="ReferenceName"
+					datasourceid="88eaf56e-61a2-4b83-ab96-b6fa143dfc55"/>
+					<var
+					variablename="RecipeIndex"
+					variableid="3763b10c-92e0-4ca7-ab41-1eb0cfdfb6a5"
+					dataname="RecipeIndex"
+					datasourceid="88eaf56e-61a2-4b83-ab96-b6fa143dfc55"/>
+					<var
+					variablename="ReferenceFilesFolder"
+					variableid="ed25273a-fb92-4a20-9e59-92a1ea19e3fe"
+					dataname="ReferenceFilesFolder"
+					datasourceid="cf5de84b-2f1d-455c-b417-579be4eed480"/>
+				</databinding>
+			</testmodule>
+			<testcase
+			name="Document Processor FilterTest"
+			id="cf5de84b-2f1d-455c-b417-579be4eed480"
+			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="ReferenceFilesFolder"
+					value="\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\Ranorex\Download Filter Tests"/>
+				</parameters>
+			</testcase>
+		</flatlistofchildren>
+		<childhierarchy>
+			<testsuite
+			name="Document Processor FilterTest"
+			id="0ebc27e8-de7b-4685-bc47-9e78143c9724">
+				<testcase
+				name="Document Processor FilterTest"
+				id="cf5de84b-2f1d-455c-b417-579be4eed480">
+					<testcase
+					name="TestCase"
+					id="836f2ead-88f7-4ae9-a35e-6a16c9de3a94">
+						<setup
+						name="setup"
+						id="17b6c0df-f7df-4fa0-b7fe-e72aa410d276">
+							<testmodule
+							name="OpenDocumentProcessor"
+							id="1eb20492-f31c-4a07-ae53-efb910b1985f"/>
+						</setup>
+						<testmodule
+						name="Deploy_Test_Filter_Test"
+						id="c93d4f72-7d08-4359-b699-736e7ba4b6e7"/>
+					</testcase>
+				</testcase>
+			</testsuite>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+	<datasources>
+		<DataSource
+		name="NewConnector"
+		type="Ranorex.Core.Data.SimpleDataConnector"
+		id="88eaf56e-61a2-4b83-ab96-b6fa143dfc55"
+		lastknownrowcount="14">
+			<lastknowncolumns>
+				<column>
+					RecipeIndex
+				</column>
+				<column>
+					ReferenceName
+				</column>
+				<column>
+					ReportTitle
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<table>
+				<tr>
+					<th>
+						RecipeIndex
+					</th>
+					<th>
+						ReferenceName
+					</th>
+					<th>
+						ReportTitle
+					</th>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						references RecipeID = 1182.txt
+					</td>
+					<td>
+						RecipeID = 1182, eBOM, Include Subs, Show all, Add suffix, Fail Validation&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						references RecipeID = 1204.txt
+					</td>
+					<td>
+						RecipeID = 1204, eBOM, Include Subs, All Versions, Add suffix, Fail Validation&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						references RecipeID = 1205.txt
+					</td>
+					<td>
+						RecipeID = 1205, eBOM, All Versions, Add suffix, Fail Validation&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						references RecipeID = 1206.txt
+					</td>
+					<td>
+						RecipeID = 1206, eBOM, One per file, include latest, Fail Validation&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						references RecipeID = 1207.txt
+					</td>
+					<td>
+						RecipeID = 1207, eBOM, Include Subs, One per file, include latest, Fail Validation&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						references RecipeID = 1209.txt
+					</td>
+					<td>
+						RecipeID = 1209, eBOM, Include Subs, Show all, include latest, Fail Validation&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						references RecipeID = 1241.txt
+					</td>
+					<td>
+						RecipeID = 1241, eBOM, Show all, Add suffix, Add suffix&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						references RecipeID = 1262.txt
+					</td>
+					<td>
+						RecipeID = 1262, Flat, Show all, Include latest, Add suffix&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						references RecipeID = 1263.txt
+					</td>
+					<td>
+						RecipeID = 1263, Flat, All Versions, Include latest, Add suffix&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						references RecipeID = 1266.txt
+					</td>
+					<td>
+						RecipeID = 1266, eBOM, Include Subs, Show all, Add suffix, Add suffix&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						references RecipeID = 1267.txt
+					</td>
+					<td>
+						RecipeID = 1267, eBOM, Include Subs, Show all, Fail Validation, Fail Validation&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						12
+					</td>
+					<td>
+						references RecipeID = 1268.txt
+					</td>
+					<td>
+						RecipeID = 1268, Flat, Show all, Add suffix, Add suffix&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						13
+					</td>
+					<td>
+						references RecipeID = 1269.txt
+					</td>
+					<td>
+						RecipeID = 1269, Flat, All Versions, Add suffix, Add suffix&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						14
+					</td>
+					<td>
+						references RecipeID = 1270.txt
+					</td>
+					<td>
+						RecipeID = 1270, Flat, One per file, include latest, Add suffix&#10;
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+	</datasources>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="836f2ead-88f7-4ae9-a35e-6a16c9de3a94"/>
+			<testcase
+			id="cf5de84b-2f1d-455c-b417-579be4eed480"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuitedoc>

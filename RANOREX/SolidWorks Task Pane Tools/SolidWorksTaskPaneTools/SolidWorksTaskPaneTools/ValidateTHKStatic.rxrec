@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fc952dc6-b8e5-47bc-9a71-ccac75d3ed9e"
+mode="Global"
+rxversion="9.0">
+	<name>
+		ValidateTHKStatic
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateTHKStatic"
+	namespace="SolidWorksTaskPaneTools">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9e9b2ed8-08f9-4f5a-9675-3cf3ba19feea">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9048797b-971a-499b-a4df-a6f494ebc746"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='frmBalloon']/?/?/table[@controlname='dgvMain']/?/cell[@text=$ItemName]/../cell[2]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Static
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="ad681eab-1b6d-45a7-b59d-17ff21dadb9f"
+	name="SolidWorksTaskPaneToolsRepository"
+	relativepath="SolidWorksTaskPaneToolsRepository.rxrep"
+	rxversion="6.1">
+		<codegen
+		classname="SolidWorksTaskPaneToolsRepository"
+		namespace="SolidWorksTaskPaneTools">
+		</codegen>
+		<rootfolder
+		id="0b6b6021-b1f2-43ff-a507-812bf5ac100f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateTHKStatic.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

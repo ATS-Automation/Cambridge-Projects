@@ -1,0 +1,427 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A923C033-5A95-450A-BD37-94FBE03A4AF2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RanorexTraining</RootNamespace>
+    <AssemblyName>RanorexTraining</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>d38d5b04-1c04-4a46-9ded-7400b700d7bf</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddPass.cs">
+      <BoundTo>2d4ed94c-23c2-4f51-b00e-776ffbebfcec</BoundTo>
+      <DependentUpon>AddPass.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>11f38a85-40ba-4293-98a2-527fd6f2ce68</id>
+    </Compile>
+    <Compile Include="AddPass.UserCode.cs">
+      <BoundTo>2d4ed94c-23c2-4f51-b00e-776ffbebfcec</BoundTo>
+      <DependentUpon>AddPass.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72a664ac-485c-456a-9399-798f1ccc8cea</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>38a6d1a7-3864-4ddc-ab8f-5000dbcded50</id>
+    </Compile>
+    <Compile Include="Close.cs">
+      <id>5710ad39-f6f4-4d02-a17b-aed7c4531c37</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>Close.rxrec</DependentUpon>
+      <BoundTo>79d5198f-ef3d-4c44-9774-4b827819c339</BoundTo>
+    </Compile>
+    <Compile Include="Close.UserCode.cs">
+      <id>e388fdcf-ad99-45c0-9166-99d084c509b7</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>Close.rxrec</DependentUpon>
+      <BoundTo>79d5198f-ef3d-4c44-9774-4b827819c339</BoundTo>
+    </Compile>
+    <Compile Include="CloseApplication.cs">
+      <BoundTo>7cc6975f-2fb1-4be5-bca6-9eb0c89c1d37</BoundTo>
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6dc47820-c63d-4332-9212-e27956b7bcde</id>
+    </Compile>
+    <Compile Include="CloseApplication.UserCode.cs">
+      <BoundTo>7cc6975f-2fb1-4be5-bca6-9eb0c89c1d37</BoundTo>
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c8a4c55-aadc-4514-a105-09424976c7b4</id>
+    </Compile>
+    <Compile Include="CloseModules\CloseWithAltF4.cs">
+      <BoundTo>ebd34fad-172d-40ff-b364-e8cf47b9d9cf</BoundTo>
+      <DependentUpon>CloseWithAltF4.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>39f6a62b-1cd6-4147-82cf-3f868b009d39</id>
+    </Compile>
+    <Compile Include="CloseModules\CloseWithAltF4.UserCode.cs">
+      <BoundTo>ebd34fad-172d-40ff-b364-e8cf47b9d9cf</BoundTo>
+      <DependentUpon>CloseWithAltF4.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e70a01c5-3f7a-4259-a726-f8f9aa538c2f</id>
+    </Compile>
+    <Compile Include="CloseModules\CloseWithFileMenu.cs">
+      <BoundTo>a543cb57-f129-4f03-a03f-8f966a391e78</BoundTo>
+      <DependentUpon>CloseWithFileMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06919b35-26d9-4891-8305-515a9bcd554c</id>
+    </Compile>
+    <Compile Include="CloseModules\CloseWithFileMenu.UserCode.cs">
+      <BoundTo>a543cb57-f129-4f03-a03f-8f966a391e78</BoundTo>
+      <DependentUpon>CloseWithFileMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ee52ee9c-31d8-4b60-a526-bd1bfa74dca9</id>
+    </Compile>
+    <Compile Include="CreatePassword\ClickAddPassword.cs">
+      <BoundTo>ff249726-9c08-4f36-a175-f3dbcfefefad</BoundTo>
+      <DependentUpon>ClickAddPassword.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2a98fecd-6f49-4fcb-8a1e-d8181e1748c7</id>
+    </Compile>
+    <Compile Include="CreatePassword\ClickAddPassword.UserCode.cs">
+      <BoundTo>ff249726-9c08-4f36-a175-f3dbcfefefad</BoundTo>
+      <DependentUpon>ClickAddPassword.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d4bb603f-949c-404e-92c3-e9bc0b959137</id>
+    </Compile>
+    <Compile Include="CreatePassword\CreateWithFileMenu.cs">
+      <BoundTo>2419b8ec-7ad6-4530-96b4-8542dc946afb</BoundTo>
+      <DependentUpon>CreateWithFileMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5c2e61d5-6a35-405a-a99c-65d0bb9b4b6e</id>
+    </Compile>
+    <Compile Include="CreatePassword\CreateWithFileMenu.UserCode.cs">
+      <BoundTo>2419b8ec-7ad6-4530-96b4-8542dc946afb</BoundTo>
+      <DependentUpon>CreateWithFileMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9f36e85a-2a5e-4a25-8354-392f77b06323</id>
+    </Compile>
+    <Compile Include="CreatePassword\CreateWithToolbarIcon.cs">
+      <BoundTo>7d842782-a65c-4e28-8a0c-fc2dfa563169</BoundTo>
+      <DependentUpon>CreateWithToolbarIcon.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2f93c93b-3a9b-4c34-8792-2bdfdaf768c3</id>
+    </Compile>
+    <Compile Include="CreatePassword\CreateWithToolbarIcon.UserCode.cs">
+      <BoundTo>7d842782-a65c-4e28-8a0c-fc2dfa563169</BoundTo>
+      <DependentUpon>CreateWithToolbarIcon.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>31afb770-8104-412a-9f33-582d13b6d718</id>
+    </Compile>
+    <Compile Include="CreatePassword\EnterPasswordValues.cs">
+      <BoundTo>97a90ab1-6295-4401-8e2c-24f8f69a1ae2</BoundTo>
+      <DependentUpon>EnterPasswordValues.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>284a3143-c532-4f9b-86b2-8aebd5db2d41</id>
+    </Compile>
+    <Compile Include="CreatePassword\EnterPasswordValues.UserCode.cs">
+      <BoundTo>97a90ab1-6295-4401-8e2c-24f8f69a1ae2</BoundTo>
+      <DependentUpon>EnterPasswordValues.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>76b49347-659d-4dcf-84d8-c61415e392f6</id>
+    </Compile>
+    <Compile Include="CreatePassword\PressEnter.cs">
+      <BoundTo>9ced0161-5481-4e8e-8cb6-362c2f89156f</BoundTo>
+      <DependentUpon>PressEnter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f255b09b-08f2-4a8c-9dbb-aea15d1f0f90</id>
+    </Compile>
+    <Compile Include="CreatePassword\PressEnter.UserCode.cs">
+      <BoundTo>9ced0161-5481-4e8e-8cb6-362c2f89156f</BoundTo>
+      <DependentUpon>PressEnter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8e141ce8-650f-467e-b850-531a3c555bd7</id>
+    </Compile>
+    <Compile Include="Delete\DeleteWithDelKey.cs">
+      <BoundTo>1f6e7cae-67b7-4cb0-9e48-5578c12d4473</BoundTo>
+      <DependentUpon>DeleteWithDelKey.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4570fe34-afd8-4316-b197-2ea102aafc96</id>
+    </Compile>
+    <Compile Include="Delete\DeleteWithDelKey.UserCode.cs">
+      <BoundTo>1f6e7cae-67b7-4cb0-9e48-5578c12d4473</BoundTo>
+      <DependentUpon>DeleteWithDelKey.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3ba49b21-31e0-4b45-bf73-bc1465992c30</id>
+    </Compile>
+    <Compile Include="Delete\DeleteWithRMBMenu.cs">
+      <BoundTo>c1551686-5371-4d4c-906f-a62c54137a04</BoundTo>
+      <DependentUpon>DeleteWithRMBMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8843cd1a-f638-409c-8d50-0577153c8aca</id>
+    </Compile>
+    <Compile Include="Delete\DeleteWithRMBMenu.UserCode.cs">
+      <BoundTo>c1551686-5371-4d4c-906f-a62c54137a04</BoundTo>
+      <DependentUpon>DeleteWithRMBMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ae20d758-3e0c-4166-b473-83e407a5c593</id>
+    </Compile>
+    <Compile Include="DiscardChanges.cs">
+      <BoundTo>ef51412a-545c-4c51-ab22-d21ba6f4222a</BoundTo>
+      <DependentUpon>DiscardChanges.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b7b156bd-8514-4e27-b1d4-d7fcac493afb</id>
+    </Compile>
+    <Compile Include="DiscardChanges.UserCode.cs">
+      <BoundTo>ef51412a-545c-4c51-ab22-d21ba6f4222a</BoundTo>
+      <DependentUpon>DiscardChanges.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>556fbc04-109f-4b9a-aa35-a34f8a0976e5</id>
+    </Compile>
+    <Compile Include="OpenClose.cs">
+      <id>81085fdd-3523-43bb-b26a-b2d97b5a355e</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>OpenClose.rxrec</DependentUpon>
+      <BoundTo>ebb0efb3-317c-41a5-83d6-e95f533d94a2</BoundTo>
+    </Compile>
+    <Compile Include="OpenClose.UserCode.cs">
+      <id>7bc076da-861a-4418-ad07-109101db6665</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>OpenClose.rxrec</DependentUpon>
+      <BoundTo>ebb0efb3-317c-41a5-83d6-e95f533d94a2</BoundTo>
+    </Compile>
+    <Compile Include="OpenEnter.cs">
+      <BoundTo>07d96635-d5c9-4eb6-9c1d-8b5fcb1de7c8</BoundTo>
+      <DependentUpon>OpenEnter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>953042ed-0805-429c-9d46-4c3ffca94a83</id>
+    </Compile>
+    <Compile Include="OpenEnter.UserCode.cs">
+      <BoundTo>07d96635-d5c9-4eb6-9c1d-8b5fcb1de7c8</BoundTo>
+      <DependentUpon>OpenEnter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b5fdbd67-dae7-4cf7-96c0-11a54bbd43dc</id>
+    </Compile>
+    <Compile Include="OpenLogin.cs">
+      <id>9c14e5c5-6fef-4b55-ae37-357b1d14043c</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>OpenLogin.rxrec</DependentUpon>
+      <BoundTo>f5bd404d-612e-4387-a67e-a24db63b7f7c</BoundTo>
+    </Compile>
+    <Compile Include="OpenLogin.UserCode.cs">
+      <id>cffc592e-2e1a-4e6b-ad99-607d7a5eca36</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>OpenLogin.rxrec</DependentUpon>
+      <BoundTo>f5bd404d-612e-4387-a67e-a24db63b7f7c</BoundTo>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>8c9576a9-7499-4e92-865d-1dea5d4d0544</id>
+    </Compile>
+    <Compile Include="RanorexTrainingRepository.cs">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <DependentUpon>RanorexTrainingRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>15bee0eb-5fbe-4720-b081-cfaa91ec8609</id>
+    </Compile>
+    <Compile Include="CreateNewPass.cs">
+      <BoundTo>d00153b3-cf13-44d4-8b1b-817e0229d75e</BoundTo>
+      <DependentUpon>CreateNewPass.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f138ecb6-c110-4a6b-99e5-f847a6403cb4</id>
+    </Compile>
+    <Compile Include="CreateNewPass.UserCode.cs">
+      <BoundTo>d00153b3-cf13-44d4-8b1b-817e0229d75e</BoundTo>
+      <DependentUpon>CreateNewPass.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8edb70dd-5dd4-40cd-ae56-c1730923d228</id>
+    </Compile>
+    <Compile Include="ValidateKeePassVersion.cs">
+      <BoundTo>1a1ff7b5-67c9-4897-b21a-a344cd945e78</BoundTo>
+      <DependentUpon>ValidateKeePassVersion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2eaaf967-d2cd-47c0-9df8-3ccd2889e5dd</id>
+    </Compile>
+    <Compile Include="ValidateKeePassVersion.UserCode.cs">
+      <BoundTo>1a1ff7b5-67c9-4897-b21a-a344cd945e78</BoundTo>
+      <DependentUpon>ValidateKeePassVersion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a8f7faa4-019d-4f8e-9e81-5062987db803</id>
+    </Compile>
+    <Compile Include="ValidatePass.cs">
+      <BoundTo>a8a83c68-761e-4151-ac59-533f8a0894f3</BoundTo>
+      <DependentUpon>ValidatePass.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>42d74682-a055-4c27-957c-747d40988bf8</id>
+    </Compile>
+    <Compile Include="ValidatePass.UserCode.cs">
+      <BoundTo>a8a83c68-761e-4151-ac59-533f8a0894f3</BoundTo>
+      <DependentUpon>ValidatePass.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>08fa87af-400d-479b-9b3f-26066dec1a1f</id>
+    </Compile>
+    <None Include="AddPass.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>2d4ed94c-23c2-4f51-b00e-776ffbebfcec</id>
+      <recordtableid>a39502cd-39c1-4247-8061-576be2d2235d</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>e0a70d10-ec87-4eda-9e68-3b9e8ad2d39c</id>
+    </None>
+    <None Include="Close.rxrec">
+      <recordtableid>89c0f64c-76b4-4229-9501-623d34093028</recordtableid>
+      <id>79d5198f-ef3d-4c44-9774-4b827819c339</id>
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+    </None>
+    <None Include="CloseApplication.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>7cc6975f-2fb1-4be5-bca6-9eb0c89c1d37</id>
+      <recordtableid>1150b2a2-368e-4386-a10c-a0209a8397aa</recordtableid>
+    </None>
+    <None Include="CloseModules\CloseWithAltF4.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>ebd34fad-172d-40ff-b364-e8cf47b9d9cf</id>
+      <recordtableid>b898ea06-0619-476a-a73e-b7d74a4152fe</recordtableid>
+    </None>
+    <None Include="CloseModules\CloseWithFileMenu.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>a543cb57-f129-4f03-a03f-8f966a391e78</id>
+      <recordtableid>94123291-06b2-43ec-bf6b-1eb9a6516c86</recordtableid>
+    </None>
+    <None Include="CreatePassword\ClickAddPassword.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>ff249726-9c08-4f36-a175-f3dbcfefefad</id>
+      <recordtableid>83560c88-4b1e-4fc4-b21e-8b980b8755ae</recordtableid>
+    </None>
+    <None Include="CreatePassword\CreateWithFileMenu.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>2419b8ec-7ad6-4530-96b4-8542dc946afb</id>
+      <recordtableid>1bd4515c-faf7-48f4-8e56-67fb0958aa52</recordtableid>
+    </None>
+    <None Include="CreatePassword\CreateWithToolbarIcon.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>7d842782-a65c-4e28-8a0c-fc2dfa563169</id>
+      <recordtableid>c2970e49-695a-4e27-b066-6d765b9b1009</recordtableid>
+    </None>
+    <None Include="CreatePassword\EnterPasswordValues.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>97a90ab1-6295-4401-8e2c-24f8f69a1ae2</id>
+      <recordtableid>0ba3e27f-01c4-4cde-b0d3-9a9cc65bb298</recordtableid>
+    </None>
+    <None Include="CreatePassword\PressEnter.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>9ced0161-5481-4e8e-8cb6-362c2f89156f</id>
+      <recordtableid>e02de3aa-42c3-4ee4-b0c3-eb422650717d</recordtableid>
+    </None>
+    <None Include="Delete\DeleteWithDelKey.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>1f6e7cae-67b7-4cb0-9e48-5578c12d4473</id>
+      <recordtableid>4e1df8be-6b41-4b0c-85fc-fce5c96321e0</recordtableid>
+    </None>
+    <None Include="Delete\DeleteWithRMBMenu.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>c1551686-5371-4d4c-906f-a62c54137a04</id>
+      <recordtableid>0daa83ff-47c0-4b72-9146-1340232fc1fa</recordtableid>
+    </None>
+    <None Include="DiscardChanges.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>ef51412a-545c-4c51-ab22-d21ba6f4222a</id>
+      <recordtableid>0bc97117-3598-41a7-9643-7b9232c22d9e</recordtableid>
+    </None>
+    <None Include="OpenClose.rxrec">
+      <recordtableid>dafa8f3e-67f7-4da5-8857-9a7f09085c66</recordtableid>
+      <id>ebb0efb3-317c-41a5-83d6-e95f533d94a2</id>
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+    </None>
+    <None Include="OpenEnter.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>07d96635-d5c9-4eb6-9c1d-8b5fcb1de7c8</id>
+      <recordtableid>27ae1d70-8696-4fd6-9fa2-43e3b5c5852d</recordtableid>
+    </None>
+    <None Include="OpenLogin.rxrec">
+      <recordtableid>b0ab904c-34d1-475e-9537-b2274ed170e4</recordtableid>
+      <id>f5bd404d-612e-4387-a67e-a24db63b7f7c</id>
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+    </None>
+    <None Include="RanorexTrainingRepository.rximg">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <DependentUpon>RanorexTrainingRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b849ca1c-2d75-4fc2-8c55-df935713d882</id>
+    </None>
+    <None Include="RanorexTrainingRepository.rxrep">
+      <id>d38d5b04-1c04-4a46-9ded-7400b700d7bf</id>
+      <repoid>a3b784c7-b185-45ce-9fdf-a4961843ea8e</repoid>
+      <reporootid>216adab3-0f07-4d89-b7ce-77f6bd50d515</reporootid>
+    </None>
+    <None Include="CreateNewPass.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>d00153b3-cf13-44d4-8b1b-817e0229d75e</id>
+      <recordtableid>f38b099d-d138-4ea2-b351-90537926dfaf</recordtableid>
+    </None>
+    <None Include="ValidateKeePassVersion.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>1a1ff7b5-67c9-4897-b21a-a344cd945e78</id>
+      <recordtableid>8f53ca3e-00de-44ca-ab98-8bbda2a70812</recordtableid>
+    </None>
+    <None Include="ValidatePass.rxrec">
+      <BoundTo>d38d5b04-1c04-4a46-9ded-7400b700d7bf</BoundTo>
+      <id>a8a83c68-761e-4151-ac59-533f8a0894f3</id>
+      <recordtableid>a44d4134-c72e-4eb9-b5b5-52a58e29b69a</recordtableid>
+    </None>
+    <Content Include="RanorexTraining.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9d547a83-c1fe-40f7-ab58-8473af03737f</id>
+    </Content>
+    <Content Include="RanorexTraining.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>77e9e40b-4d65-4036-948e-369185f4952e</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+  <ItemGroup>
+    <Folder Include="CreatePassword">
+      <id>4b5d9a5d-004c-4776-8d2e-f1b741fb5ae4</id>
+    </Folder>
+    <Folder Include="Delete">
+      <id>fc0cb7ee-99ff-415b-afca-8a0da1266fd2</id>
+    </Folder>
+    <Folder Include="CloseModules">
+      <id>33e0cf9e-3bfa-41a9-b21c-ac639292027b</id>
+    </Folder>
+  </ItemGroup>
+</Project>

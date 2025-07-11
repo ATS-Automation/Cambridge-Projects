@@ -1,0 +1,515 @@
+﻿<repository
+name="RanorexTrainingRepository"
+id="a3b784c7-b185-45ce-9fdf-a4961843ea8e"
+rxversion="5.4.5.19886">
+	<codegen
+	classname="RanorexTrainingRepository"
+	namespace="RanorexTraining"/>
+	<rootfolder
+	name="Root"
+	id="216adab3-0f07-4d89-b7ce-77f6bd50d515"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="KeePassLoginForm"
+		id="21d8d4fe-5cfb-407c-b93c-549c1f1a77e2"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='KeyPromptForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Text"
+			id="59a96d37-e655-4034-9565-b4fefb47c80e"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='KeyPromptForm']/text[@controlname='m_tbPassword']/text[@accessiblerole='Text']"
+			addcaps="text,accessible"
+			refimgid="1edab451-ca08-4d69-96e9-c168ad6944f7">
+				/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			name="MBtnOK"
+			id="ef372ffc-9608-4ee9-bde9-1df0ec37445f"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
+			addcaps="button,control,nativewindow"
+			refimgid="46c2e20a-35fd-473e-b2fe-17b4c198ac18">
+				/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']
+			</item>
+			<basepath>
+				/form[@controlname='KeyPromptForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPhZJdSJNRGMe3ldteYWsEQfZ1YaAh
+ZVRGRo0oaFESVq6lA5MCI7ooCHFudlFW5tYHESSZ+RFGEBVBhjeWoHQ1LesmooZG4ZauzeHm1M23
+f+c5b8cpNPrD/+J9z/k9z3k+VGlkZG5mHmNOMHuZS5n/K4k5aTab4fMNY3pGRnxKRnRSRoPnFtgZ
+2UMX/6VNGo0Gs7MyIlEZ3/wJfBqexrvPU3j7MY7XAzEEfiVR47pEQX4oSEp6tVoNWf6N0VCSw1kr
+VomM3BdvvMCT7gn0sEAtD5/RvwHmOSUps4DzN26FwWjimbu9MTjqOniQ1s4wGp+Po3cwjg35m+nf
+coKNVHNkIvVsutzTP87hl31RntloWgbL4XO4+TiMK20hDI0k6F6MAjR/9Q0tqJkCzIfbXkWwdl0h
+tuw8xuHae0F2PsnvUYAgdVvAVRfuoLzShbITTljLnSi216DI5oClxIE9xdUcPn97DJ6OMAp37OYB
+ZmhUotvOy62oPOtGxRk37KcacPTkNRw6Xo8iez322q5y+LR7FI67QVj2H+EBvDRn0bCcvALodBK0
+zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
+yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
+/SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
+3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="KeePass"
+		id="3d65caa8-4c6c-4357-884e-af3599f32e08"
+		searchtimeout="1000ms"
+		capname="form"
+		refpath="/form[@controlname='MainForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="File"
+			id="342c311c-7bc6-48aa-8804-8095af3d4c0f"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@controlname='MainForm']/menubar[@controlname='m_menuMain']/menuitem[@accessiblename='File']"
+			addcaps="menuitem,accessible"
+			refimgid="2ba210e9-cf3a-42e3-b8f8-aa5e1e0fe58c">
+				/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='File']
+			</item>
+			<item
+			name="AddEntry"
+			id="8080b79a-1993-44e5-9590-5c1b27c94ee5"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='MainForm']/toolbar/button[@accessiblename='Add Entry']"
+			addcaps="button,accessible"
+			refimgid="ccc93713-14b9-41cc-9e56-3dd7e202f356">
+				/form[@controlname='MainForm']/?/?/button[@accessiblename='Add Entry']
+			</item>
+			<item
+			name="Close"
+			id="67e1f8f4-662e-41af-bb93-ddc69c053020"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='MainForm']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="be0c25bb-f1a6-47f2-b8d0-78d6ca8024b9">
+				/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			name="Edit"
+			id="79f093d2-73c3-444e-bafd-ebfc40e4b9e6"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@controlname='MainForm']/menubar[@controlname='m_menuMain']/menuitem[@accessiblename='Edit']"
+			addcaps="menuitem,accessible"
+			refimgid="b946c12c-9bd4-4134-b8bd-84a0adb2c95c">
+				/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Edit']
+			</item>
+			<item
+			name="Help"
+			id="6fc63d55-faef-481e-aa32-7f476559e913"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@controlname='MainForm']/menubar[@controlname='m_menuMain']/menuitem[@accessiblename='Help']"
+			addcaps="menuitem,accessible"
+			refimgid="6ccdceed-0e3d-4678-ad14-9e2ff9675b97">
+				/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Help']
+			</item>
+			<folder
+			name="NewRootedFolder"
+			id="eac236cd-fd52-4473-9172-beb8e5016705"
+			searchtimeout="30000ms"
+			capname="table"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Test1"
+				id="6febe8a7-db4d-4fbd-84f2-c8edd92a45aa"
+				searchtimeout="30000ms"
+				capname="cell"
+				addcaps="cell"
+				refimgid="68a72996-2b5c-40c2-9613-3eafa272d617">
+					/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@text=$Username and @columnindex='1']
+				</item>
+				<item
+				name="Test2"
+				id="db443f2d-f87f-4173-88dc-c911dd990d2f"
+				searchtimeout="30000ms"
+				capname="cell"
+				addcaps="cell"
+				refimgid="7f98142f-6dcd-4add-a1cd-9c7c57d2d5f6">
+					/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@text=$Note and @columnindex='4']
+				</item>
+				<item
+				name="Test"
+				id="95a6ea12-2868-4c7a-b326-3543eec172c3"
+				searchtimeout="30000ms"
+				capname="cell"
+				addcaps="cell"
+				refimgid="535621a9-0363-423d-b4cd-e076e23dd3bf">
+					/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@text=$Title and @columnindex='0']
+				</item>
+				<basepath>
+					/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@controlname='MainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPhZJdSJNRGMe3ldteYWsEQfZ1YaAh
+ZVRGRo0oaFESVq6lA5MCI7ooCHFudlFW5tYHESSZ+RFGEBVBhjeWoHQ1LesmooZG4ZauzeHm1M23
+f+c5b8cpNPrD/+J9z/k9z3k+VGlkZG5mHmNOMHuZS5n/K4k5aTab4fMNY3pGRnxKRnRSRoPnFtgZ
+2UMX/6VNGo0Gs7MyIlEZ3/wJfBqexrvPU3j7MY7XAzEEfiVR47pEQX4oSEp6tVoNWf6N0VCSw1kr
+VomM3BdvvMCT7gn0sEAtD5/RvwHmOSUps4DzN26FwWjimbu9MTjqOniQ1s4wGp+Po3cwjg35m+nf
+coKNVHNkIvVsutzTP87hl31RntloWgbL4XO4+TiMK20hDI0k6F6MAjR/9Q0tqJkCzIfbXkWwdl0h
+tuw8xuHae0F2PsnvUYAgdVvAVRfuoLzShbITTljLnSi216DI5oClxIE9xdUcPn97DJ6OMAp37OYB
+ZmhUotvOy62oPOtGxRk37KcacPTkNRw6Xo8iez322q5y+LR7FI67QVj2H+EBvDRn0bCcvALodBK0
+zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
+yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
+/SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
+3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="KeePassMenus"
+		id="9247dad2-3850-40e5-830b-17f86fe3a980"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='KeePass']"
+		addcaps="contextmenu,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Exit"
+			id="1e617b6a-a6c7-439d-be72-e42001690d96"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Exit']"
+			addcaps="menuitem,accessible"
+			refimgid="6ae668e2-adee-409e-806d-ad7877699ef9">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Exit']
+			</item>
+			<item
+			name="AddEntry"
+			id="d9160012-cbfe-42a3-9a8d-bcd21f13eb9e"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Add Entry...']"
+			addcaps="menuitem,accessible"
+			refimgid="9ff1512f-5dfa-41fc-b2fa-e99d8e708a50">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Add Entry...']
+			</item>
+			<item
+			name="AboutKeePass"
+			id="a70d247c-8c55-4510-bc43-a263bf1b510c"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='About KeePass...']"
+			addcaps="menuitem,accessible"
+			refimgid="479d39f8-a528-490b-ba48-2c5d913a5e9a">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='About KeePass...']
+			</item>
+			<item
+			name="DeleteEntry"
+			id="c4823439-3ea0-4075-8704-b8bc4adc4293"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@controlname='m_ctxPwList']/menuitem[@accessiblename='Delete Entry']"
+			addcaps="menuitem,accessible"
+			refimgid="f72b6457-22ea-47df-8024-3d8cffe4bf19">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Delete Entry']
+			</item>
+			<basepath>
+				/contextmenu[@processname='KeePass']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="PwEntryForm"
+		id="611bef0c-1367-46e5-8d77-f5cc4b706ba9"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='PwEntryForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="MTabEntry"
+			id="dd8cfa60-88fe-4ae7-8e8f-4f9e0ef62873"
+			searchtimeout="30000ms"
+			capname="tabpage"
+			refpath="/form[@controlname='PwEntryForm']/tabpagelist[@controlname='m_tabMain']/tabpage[@controlname='m_tabEntry']"
+			addcaps="tabpage,control,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Notes"
+				id="cfa9e876-7b7a-4a62-aa65-7e87b2354b00"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_rtNotes']/text[@accessiblename='Notes:']"
+				addcaps="text,accessible"
+				refimgid="2712d33a-e0ab-4b08-bfc3-c93c6038b3c8">
+					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Notes:']
+				</item>
+				<item
+				name="UserName"
+				id="fe67d6cf-bdba-4886-a080-c48a893cbad1"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbUserName']/text[@accessiblename='User name:']"
+				addcaps="text,accessible"
+				refimgid="c104b6bf-70a7-4045-a84e-0e1bd771034c">
+					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='User name:']
+				</item>
+				<item
+				name="Text"
+				id="aed788bd-f3d3-406d-bf9c-9c676186ad65"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
+				addcaps="text,accessible"
+				refimgid="54409209-4899-44d0-96e9-c706ce955d08">
+					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbTitle']/text[@accessiblerole='Text']
+				</item>
+				<item
+				name="MCbHidePassword"
+				id="451b75de-4752-40e8-b58c-1921907dbbe8"
+				searchtimeout="30000ms"
+				capname="checkbox"
+				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/checkbox[@controlname='m_cbHidePassword']"
+				addcaps="checkbox,control,nativewindow"
+				refimgid="f0af0ae9-c4f1-4be2-ba87-ad48e2bc6ec1">
+					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/checkbox[@controlname='m_cbHidePassword']
+				</item>
+				<item
+				name="Password"
+				id="e7d0dfaf-1264-43ca-81cb-da82561b9ff6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@controlname='PwEntryForm']/tabpagelist[@controlname='m_tabMain']/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbPassword']/text[@accessiblename='Password:']"
+				addcaps="text,accessible"
+				refimgid="c952a2b4-b278-4922-a7e5-5dfd639d9126">
+					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Password:']
+				</item>
+				<item
+				name="MCbExpires"
+				id="020442c8-4e43-4ed9-9748-25e93cf4c4a2"
+				searchtimeout="30000ms"
+				capname="checkbox"
+				refpath="/form[@controlname='PwEntryForm']/tabpagelist[@controlname='m_tabMain']/tabpage[@controlname='m_tabEntry']/checkbox[@controlname='m_cbExpires']"
+				addcaps="checkbox,control,nativewindow"
+				refimgid="e24fab3e-ccfc-44e2-be39-5bb094917440">
+					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/checkbox[@controlname='m_cbExpires']
+				</item>
+				<basepath>
+					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']
+				</basepath>
+			</folder>
+			<item
+			name="MBtnOK"
+			id="3cf50c19-c6fc-4e4c-8780-6f715229bc10"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='PwEntryForm']/button[@controlname='m_btnOK']"
+			addcaps="button,control,nativewindow"
+			refimgid="ac532351-922f-415b-9e1e-8d9695bc0c84">
+				/form[@controlname='PwEntryForm']/button[@controlname='m_btnOK']
+			</item>
+			<item
+			name="Close"
+			id="b8d88b64-617a-48a9-9228-1f0211552fdf"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='PwEntryForm']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="85af79be-e451-4350-8183-f11687fe0a1a">
+				/form[@controlname='PwEntryForm']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@controlname='PwEntryForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPhZJdSJNRGMe3ldteYWsEQfZ1YaAh
+ZVRGRo0oaFESVq6lA5MCI7ooCHFudlFW5tYHESSZ+RFGEBVBhjeWoHQ1LesmooZG4ZauzeHm1M23
+f+c5b8cpNPrD/+J9z/k9z3k+VGlkZG5mHmNOMHuZS5n/K4k5aTab4fMNY3pGRnxKRnRSRoPnFtgZ
+2UMX/6VNGo0Gs7MyIlEZ3/wJfBqexrvPU3j7MY7XAzEEfiVR47pEQX4oSEp6tVoNWf6N0VCSw1kr
+VomM3BdvvMCT7gn0sEAtD5/RvwHmOSUps4DzN26FwWjimbu9MTjqOniQ1s4wGp+Po3cwjg35m+nf
+coKNVHNkIvVsutzTP87hl31RntloWgbL4XO4+TiMK20hDI0k6F6MAjR/9Q0tqJkCzIfbXkWwdl0h
+tuw8xuHae0F2PsnvUYAgdVvAVRfuoLzShbITTljLnSi216DI5oClxIE9xdUcPn97DJ6OMAp37OYB
+ZmhUotvOy62oPOtGxRk37KcacPTkNRw6Xo8iez322q5y+LR7FI67QVj2H+EBvDRn0bCcvALodBK0
+zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
+yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
+/SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
+3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="KeePassDialogs"
+		id="de9e9dd7-ba5d-4381-9cd2-6983eefd2939"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='KeePass']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonDiscardChanges"
+			id="3fce4d19-a85f-49c0-b8ed-94cd2f8249b4"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='KeePass']/container/element[@class='CtrlNotifySink' and @instance='1']/button[@text='&amp;Discard changes']"
+			addcaps="button,nativewindow"
+			refimgid="3f6633c4-6db9-48ae-84e2-094b4ae2150c">
+				/form[@title='KeePass']/?/?/element[@instance='1']/button[@text='&amp;Discard changes']
+			</item>
+			<item
+			name="ButtonYes"
+			id="5fb1d310-e91a-4340-ad96-614a5990bc1a"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='KeePass']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='&amp;Yes']"
+			addcaps="button,nativewindow"
+			refimgid="95841072-9520-4088-a77a-b6f04004fd36">
+				/form[@title='KeePass']/?/?/element[@instance='0']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='KeePass']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALQSURBVDhPdZJrSNNhFMYnzW22rJVRQd4RmfO2
+2cx0GypDKJJA8kt5SaEwNKMLWpCpWEkKm5uOjAyzlEjILt4QzCl+CNIijNkXqT5YrtKl021ZOp7e
+81+a3Q4cGP+9v3PO85zD+0dEszT6+PiMBweHOCnpN/tmYBlFD/4XQpbXNBqNu7OrG1/mXLDZl2Gd
+WcLklBPt9zuRsCfJzd6YWAoIWBtCPp8/qNPp4Fx0Y2p6Cf3D4yirrEdpWR1aH45hYNSJ8beLqKyq
+BXtrZsxvRRr1ej0WXG68//wddaZWiMW+kMrkCJfKsV68AWfKW9DWZ4f5uZMVrgFjGjwo00xjU2eC
+R8amsEmyBcVnqzH0wonepw7kFFTBd6MfDG3vUN8+i+GXLih3q0hOJBUwkmYae2LyGxqbu9hjCcyj
+CxzcMTiP2z02NoUEhRce4OodG2rbbLhx6xFNoeeJRKLXZBjBryYWcammBdt3BK7CNHbT4zls3hqA
+w4VNqGiaQalpGgMjsxAIhBZeSEioc2ZumYOfWVzQpB5AtEKNyFg1IqLVCI9SIUymQqhUBaliPwcX
+6z6hwzwP/4BgB4/t2WFl4xNMmjMOFSMtPQ+p+/KQU2TAkZM3EZ+cgzhNNpSpxzn4aPVH3Oufx07/
+oAVOAu15xbD0zCKk7M2FJi0Xx0ruorC8D3HqbMQkZUOeXMDBWRVWdA7ZPBJYGOhIaM+kOTElE5EK
+LSJitcg60Yz8c90IlWkRJNUiTH6Qg/MvW2G83kEm6qhAlDI+wW1585UzzG9bILy9heCvyXV8T4ol
+Acg4/wG3e+2QxyXSGmVUgMJEF0ZHQnumVa24vaKZOhNM/50quULdjR7UEwJ2ngMXK2u5I6E9/wnT
+2C09dpwurYaXl9cTxnh70F9Bt92wS5nopiOhPZMn5DYZRppjFAk0NnX+C14bdJ56oVBkYWtyUP50
+mwxb1ewJHu8HT5XoEEGuhlIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="KeePassAboutForm"
+		id="9bbe1a42-9164-49fc-acbf-6f00b74b931b"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='AboutForm']"
+		addcaps="form,control,nativewindow"
+		refimgid="91bf4166-9028-4c95-b296-2a541b9426d2"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="MBtnOK"
+			id="de7a2204-52b5-4c6f-bf25-65f3c8196790"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='AboutForm']/button[@controlname='m_btnOK']"
+			addcaps="button,control,nativewindow"
+			refimgid="d31fd1f8-0751-4acd-ae1d-ab885a963705">
+				/form[@controlname='AboutForm']/button[@controlname='m_btnOK']
+			</item>
+			<basepath>
+				/form[@controlname='AboutForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPhZJdSJNRGMe3ldteYWsEQfZ1YaAh
+ZVRGRo0oaFESVq6lA5MCI7ooCHFudlFW5tYHESSZ+RFGEBVBhjeWoHQ1LesmooZG4ZauzeHm1M23
+f+c5b8cpNPrD/+J9z/k9z3k+VGlkZG5mHmNOMHuZS5n/K4k5aTab4fMNY3pGRnxKRnRSRoPnFtgZ
+2UMX/6VNGo0Gs7MyIlEZ3/wJfBqexrvPU3j7MY7XAzEEfiVR47pEQX4oSEp6tVoNWf6N0VCSw1kr
+VomM3BdvvMCT7gn0sEAtD5/RvwHmOSUps4DzN26FwWjimbu9MTjqOniQ1s4wGp+Po3cwjg35m+nf
+coKNVHNkIvVsutzTP87hl31RntloWgbL4XO4+TiMK20hDI0k6F6MAjR/9Q0tqJkCzIfbXkWwdl0h
+tuw8xuHae0F2PsnvUYAgdVvAVRfuoLzShbITTljLnSi216DI5oClxIE9xdUcPn97DJ6OMAp37OYB
+ZmhUotvOy62oPOtGxRk37KcacPTkNRw6Xo8iez322q5y+LR7FI67QVj2H+EBvDRn0bCcvALodBK0
+zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
+yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
+/SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
+3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="Title"
+		id="51a4dec3-7322-4b62-a04f-b6977b989525">
+			test
+		</var>
+		<var
+		name="Username"
+		id="31c80d95-a627-468f-819c-92954532d769">
+			test
+		</var>
+		<var
+		name="Note"
+		id="161d0a1f-357a-4dd2-a662-9c8638cc7896">
+			test
+		</var>
+	</variables>
+</repository>

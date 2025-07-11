@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="924a0a34-2885-410d-af4b-d8bba31c5bc1"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="KillProcessIE"
+	namespace="JDE_Heartbeat">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="SystemLibrary"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="KillProcess"
+		namespace="Ranorex.AutomationHelpers.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="53b55aa7-3657-4b4c-bffd-5fd50bb531fc">
+				<argument
+				argname="processname"
+				id="f0f428ec-3ff1-41bd-9c4d-1d9cbeeb878e">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						iexplore
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="2cdb5b17-e7e8-4997-98b6-1ab22844e761"
+	name="Ranorex_Automation_HelpersRepository"
+	relativepath="Ranorex Automation HelpersRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Ranorex_Automation_HelpersRepository"
+		namespace="JDE_Heartbeat">
+		</codegen>
+		<rootfolder
+		id="4632b2f6-dffb-4a70-9f7b-d862a1d816fb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		KillProcessIE.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,4383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.8m"
+		durationms="169321"
+		type="root"
+		rid="7b42f9bcf578545"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="11"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="11"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="anpatel"
+		rxversion="10.5.1.0"
+		host="CA01A6717"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="04/23/24 3:28:55 PM"
+		timestampiso="2024-04-23T19:28:55"
+		endtime="04/23/24 3:31:44 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.7m"
+			durationms="161633"
+			type="test-suite"
+			rid="9861a1d0d9994ac"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="11"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="11"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="OauthDanceSharepoint"
+			headertext="OauthDanceSharepoint"
+			runconfigname="dance"
+			runlabel=""
+			reportdescription="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="2.7m"
+				durationms="159589"
+				type="iteration-container"
+				rid="22194ce54bf69940"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="11"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="11"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="11"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="PerformOauthDanceSP"
+				headertext="PerformOauthDanceSP"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+				datasource="SharePointURLList"
+				dataiterationcount="11">
+				<activity
+					result="Success"
+					duration="15.76s"
+					durationms="15763"
+					type="test-case"
+					rid="ba79c8fadc07882"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_itpmo?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="15.71s"
+						durationms="15712"
+						type="test-module"
+						rid="b6ce095235d6e8c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_itpmo?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.128"
+							timeRelativeToTestModuleStartTime="00:00.032"
+							timeWallClock="15:29:04"
+							time="00:02.128"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_itpmo?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.223"
+							timeRelativeToTestModuleStartTime="00:00.127"
+							timeWallClock="15:29:05"
+							time="00:02.223"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.408"
+							timeRelativeToTestModuleStartTime="00:01.312"
+							timeWallClock="15:29:06"
+							time="00:03.408"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.719"
+							timeRelativeToTestModuleStartTime="00:03.623"
+							timeWallClock="15:29:08"
+							time="00:05.719"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.426"
+							timeRelativeToTestModuleStartTime="00:04.329"
+							timeWallClock="15:29:09"
+							time="00:06.426"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.416"
+							timeRelativeToTestModuleStartTime="00:05.319"
+							timeWallClock="15:29:10"
+							time="00:07.416"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.126"
+							timeRelativeToTestModuleStartTime="00:06.030"
+							timeWallClock="15:29:10"
+							time="00:08.126"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.477"
+							timeRelativeToTestModuleStartTime="00:07.380"
+							timeWallClock="15:29:12"
+							time="00:09.477"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.143"
+							timeRelativeToTestModuleStartTime="00:08.047"
+							timeWallClock="15:29:12"
+							time="00:10.143"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.860"
+							timeRelativeToTestModuleStartTime="00:08.763"
+							timeWallClock="15:29:13"
+							time="00:10.860"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.126"
+							timeRelativeToTestModuleStartTime="00:10.030"
+							timeWallClock="15:29:14"
+							time="00:12.126"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.867"
+							timeRelativeToTestModuleStartTime="00:13.770"
+							timeWallClock="15:29:18"
+							time="00:15.867"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.410"
+							timeRelativeToTestModuleStartTime="00:14.313"
+							timeWallClock="15:29:19"
+							time="00:16.410"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.697"
+							timeRelativeToTestModuleStartTime="00:15.600"
+							timeWallClock="15:29:20"
+							time="00:17.697"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5998773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5998773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.699"
+							timeRelativeToTestModuleStartTime="00:15.602"
+							timeWallClock="15:29:20"
+							time="00:17.699"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.04s"
+					durationms="14043"
+					type="test-case"
+					rid="1c8c384b416a9f0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_iaqual?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.04s"
+						durationms="14037"
+						type="test-module"
+						rid="2350c0e894cee62f"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_iaqual?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.817"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="15:29:20"
+							time="00:17.817"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_iaqual?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.855"
+							timeRelativeToTestModuleStartTime="00:00.038"
+							timeWallClock="15:29:20"
+							time="00:17.855"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.944"
+							timeRelativeToTestModuleStartTime="00:00.127"
+							timeWallClock="15:29:20"
+							time="00:17.944"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.842"
+							timeRelativeToTestModuleStartTime="00:02.025"
+							timeWallClock="15:29:22"
+							time="00:19.842"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.561"
+							timeRelativeToTestModuleStartTime="00:02.744"
+							timeWallClock="15:29:23"
+							time="00:20.561"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.553"
+							timeRelativeToTestModuleStartTime="00:03.736"
+							timeWallClock="15:29:24"
+							time="00:21.553"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.228"
+							timeRelativeToTestModuleStartTime="00:04.411"
+							timeWallClock="15:29:25"
+							time="00:22.228"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.643"
+							timeRelativeToTestModuleStartTime="00:05.826"
+							timeWallClock="15:29:26"
+							time="00:23.643"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.325"
+							timeRelativeToTestModuleStartTime="00:06.508"
+							timeWallClock="15:29:27"
+							time="00:24.325"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.045"
+							timeRelativeToTestModuleStartTime="00:07.228"
+							timeWallClock="15:29:27"
+							time="00:25.045"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.394"
+							timeRelativeToTestModuleStartTime="00:08.577"
+							timeWallClock="15:29:29"
+							time="00:26.394"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.056"
+							timeRelativeToTestModuleStartTime="00:12.239"
+							timeWallClock="15:29:32"
+							time="00:30.056"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.612"
+							timeRelativeToTestModuleStartTime="00:12.795"
+							timeWallClock="15:29:33"
+							time="00:30.612"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.750"
+							timeRelativeToTestModuleStartTime="00:13.933"
+							timeWallClock="15:29:34"
+							time="00:31.750"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5999773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5999773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.752"
+							timeRelativeToTestModuleStartTime="00:13.935"
+							timeWallClock="15:29:34"
+							time="00:31.752"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.18s"
+					durationms="14184"
+					type="test-case"
+					rid="2ba855fca4dd798"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_corpit?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.18s"
+						durationms="14181"
+						type="test-module"
+						rid="5637daef7ffc77f"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_corpit?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.862"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="15:29:34"
+							time="00:31.862"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_corpit?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.905"
+							timeRelativeToTestModuleStartTime="00:00.044"
+							timeWallClock="15:29:34"
+							time="00:31.905"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:32.036"
+							timeRelativeToTestModuleStartTime="00:00.175"
+							timeWallClock="15:29:34"
+							time="00:32.036"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.685"
+							timeRelativeToTestModuleStartTime="00:01.824"
+							timeWallClock="15:29:36"
+							time="00:33.685"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:34.396"
+							timeRelativeToTestModuleStartTime="00:02.535"
+							timeWallClock="15:29:37"
+							time="00:34.396"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:35.385"
+							timeRelativeToTestModuleStartTime="00:03.524"
+							timeWallClock="15:29:38"
+							time="00:35.385"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:36.079"
+							timeRelativeToTestModuleStartTime="00:04.218"
+							timeWallClock="15:29:38"
+							time="00:36.079"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:37.442"
+							timeRelativeToTestModuleStartTime="00:05.581"
+							timeWallClock="15:29:40"
+							time="00:37.442"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:38.108"
+							timeRelativeToTestModuleStartTime="00:06.247"
+							timeWallClock="15:29:40"
+							time="00:38.108"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:38.813"
+							timeRelativeToTestModuleStartTime="00:06.952"
+							timeWallClock="15:29:41"
+							time="00:38.813"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.410"
+							timeRelativeToTestModuleStartTime="00:08.549"
+							timeWallClock="15:29:43"
+							time="00:40.410"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.094"
+							timeRelativeToTestModuleStartTime="00:12.233"
+							timeWallClock="15:29:46"
+							time="00:44.094"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.646"
+							timeRelativeToTestModuleStartTime="00:12.785"
+							timeWallClock="15:29:47"
+							time="00:44.646"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.929"
+							timeRelativeToTestModuleStartTime="00:14.068"
+							timeWallClock="15:29:48"
+							time="00:45.929"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_599a773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_599a773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.931"
+							timeRelativeToTestModuleStartTime="00:14.070"
+							timeWallClock="15:29:48"
+							time="00:45.931"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.52s"
+					durationms="14519"
+					type="test-case"
+					rid="162c0e2808c96a50"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_lms?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.52s"
+						durationms="14517"
+						type="test-module"
+						rid="1213721dda8bb08e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_lms?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:46.049"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="15:29:48"
+							time="00:46.049"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_lms?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:46.093"
+							timeRelativeToTestModuleStartTime="00:00.046"
+							timeWallClock="15:29:48"
+							time="00:46.093"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:46.199"
+							timeRelativeToTestModuleStartTime="00:00.151"
+							timeWallClock="15:29:49"
+							time="00:46.199"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:48.057"
+							timeRelativeToTestModuleStartTime="00:02.009"
+							timeWallClock="15:29:50"
+							time="00:48.057"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:48.762"
+							timeRelativeToTestModuleStartTime="00:02.714"
+							timeWallClock="15:29:51"
+							time="00:48.762"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:49.737"
+							timeRelativeToTestModuleStartTime="00:03.689"
+							timeWallClock="15:29:52"
+							time="00:49.737"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:50.410"
+							timeRelativeToTestModuleStartTime="00:04.362"
+							timeWallClock="15:29:53"
+							time="00:50.410"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:51.912"
+							timeRelativeToTestModuleStartTime="00:05.865"
+							timeWallClock="15:29:54"
+							time="00:51.912"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:52.583"
+							timeRelativeToTestModuleStartTime="00:06.535"
+							timeWallClock="15:29:55"
+							time="00:52.583"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:53.261"
+							timeRelativeToTestModuleStartTime="00:07.213"
+							timeWallClock="15:29:56"
+							time="00:53.261"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:54.763"
+							timeRelativeToTestModuleStartTime="00:08.716"
+							timeWallClock="15:29:57"
+							time="00:54.763"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:58.801"
+							timeRelativeToTestModuleStartTime="00:12.753"
+							timeWallClock="15:30:01"
+							time="00:58.801"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:59.361"
+							timeRelativeToTestModuleStartTime="00:13.313"
+							timeWallClock="15:30:02"
+							time="00:59.361"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:00.448"
+							timeRelativeToTestModuleStartTime="00:14.400"
+							timeWallClock="15:30:03"
+							time="01:00.448"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_599b773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_599b773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:00.450"
+							timeRelativeToTestModuleStartTime="00:14.402"
+							timeWallClock="15:30:03"
+							time="01:00.450"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.61s"
+					durationms="14612"
+					type="test-case"
+					rid="83fce920dee81c8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_treasury?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.61s"
+						durationms="14610"
+						type="test-module"
+						rid="2d3a29148fa2c56f"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_treasury?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:00.572"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="15:30:03"
+							time="01:00.572"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_treasury?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:00.619"
+							timeRelativeToTestModuleStartTime="00:00.047"
+							timeWallClock="15:30:03"
+							time="01:00.619"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:00.714"
+							timeRelativeToTestModuleStartTime="00:00.143"
+							timeWallClock="15:30:03"
+							time="01:00.714"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:03.299"
+							timeRelativeToTestModuleStartTime="00:02.728"
+							timeWallClock="15:30:06"
+							time="01:03.299"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:03.996"
+							timeRelativeToTestModuleStartTime="00:03.424"
+							timeWallClock="15:30:06"
+							time="01:03.996"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:04.989"
+							timeRelativeToTestModuleStartTime="00:04.417"
+							timeWallClock="15:30:07"
+							time="01:04.989"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:05.679"
+							timeRelativeToTestModuleStartTime="00:05.107"
+							timeWallClock="15:30:08"
+							time="01:05.679"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:07.212"
+							timeRelativeToTestModuleStartTime="00:06.640"
+							timeWallClock="15:30:10"
+							time="01:07.212"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:07.891"
+							timeRelativeToTestModuleStartTime="00:07.320"
+							timeWallClock="15:30:10"
+							time="01:07.891"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:08.611"
+							timeRelativeToTestModuleStartTime="00:08.040"
+							timeWallClock="15:30:11"
+							time="01:08.611"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:09.894"
+							timeRelativeToTestModuleStartTime="00:09.322"
+							timeWallClock="15:30:12"
+							time="01:09.894"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:13.319"
+							timeRelativeToTestModuleStartTime="00:12.747"
+							timeWallClock="15:30:16"
+							time="01:13.319"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:13.880"
+							timeRelativeToTestModuleStartTime="00:13.308"
+							timeWallClock="15:30:16"
+							time="01:13.880"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.066"
+							timeRelativeToTestModuleStartTime="00:14.495"
+							timeWallClock="15:30:17"
+							time="01:15.066"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5994773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5994773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.068"
+							timeRelativeToTestModuleStartTime="00:14.497"
+							timeWallClock="15:30:17"
+							time="01:15.068"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="13.94s"
+					durationms="13944"
+					type="test-case"
+					rid="1dc56e9e40bcb68"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="6"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_devops?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="13.94s"
+						durationms="13942"
+						type="test-module"
+						rid="90b0a9401fc5932"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_devops?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.189"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="15:30:18"
+							time="01:15.189"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_devops?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.233"
+							timeRelativeToTestModuleStartTime="00:00.045"
+							timeWallClock="15:30:18"
+							time="01:15.233"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.332"
+							timeRelativeToTestModuleStartTime="00:00.144"
+							timeWallClock="15:30:18"
+							time="01:15.332"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.093"
+							timeRelativeToTestModuleStartTime="00:01.904"
+							timeWallClock="15:30:19"
+							time="01:17.093"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.811"
+							timeRelativeToTestModuleStartTime="00:02.623"
+							timeWallClock="15:30:20"
+							time="01:17.811"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:18.820"
+							timeRelativeToTestModuleStartTime="00:03.632"
+							timeWallClock="15:30:21"
+							time="01:18.820"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:19.512"
+							timeRelativeToTestModuleStartTime="00:04.324"
+							timeWallClock="15:30:22"
+							time="01:19.512"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:20.862"
+							timeRelativeToTestModuleStartTime="00:05.674"
+							timeWallClock="15:30:23"
+							time="01:20.862"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:21.528"
+							timeRelativeToTestModuleStartTime="00:06.340"
+							timeWallClock="15:30:24"
+							time="01:21.528"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:22.230"
+							timeRelativeToTestModuleStartTime="00:07.042"
+							timeWallClock="15:30:25"
+							time="01:22.230"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:23.829"
+							timeRelativeToTestModuleStartTime="00:08.640"
+							timeWallClock="15:30:26"
+							time="01:23.829"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:27.308"
+							timeRelativeToTestModuleStartTime="00:12.120"
+							timeWallClock="15:30:30"
+							time="01:27.308"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:27.846"
+							timeRelativeToTestModuleStartTime="00:12.658"
+							timeWallClock="15:30:30"
+							time="01:27.846"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:29.014"
+							timeRelativeToTestModuleStartTime="00:13.825"
+							timeWallClock="15:30:31"
+							time="01:29.014"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5995773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5995773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:29.016"
+							timeRelativeToTestModuleStartTime="00:13.827"
+							timeWallClock="15:30:31"
+							time="01:29.016"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.41s"
+					durationms="14412"
+					type="test-case"
+					rid="33b314a0f53368f0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="7"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_papmp?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.41s"
+						durationms="14405"
+						type="test-module"
+						rid="14499a26a600c068"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_papmp?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:29.139"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="15:30:31"
+							time="01:29.139"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_papmp?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:29.188"
+							timeRelativeToTestModuleStartTime="00:00.050"
+							timeWallClock="15:30:32"
+							time="01:29.188"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:29.280"
+							timeRelativeToTestModuleStartTime="00:00.142"
+							timeWallClock="15:30:32"
+							time="01:29.280"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:31.454"
+							timeRelativeToTestModuleStartTime="00:02.316"
+							timeWallClock="15:30:34"
+							time="01:31.454"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:32.181"
+							timeRelativeToTestModuleStartTime="00:03.043"
+							timeWallClock="15:30:35"
+							time="01:32.181"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:33.175"
+							timeRelativeToTestModuleStartTime="00:04.037"
+							timeWallClock="15:30:36"
+							time="01:33.175"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:33.878"
+							timeRelativeToTestModuleStartTime="00:04.740"
+							timeWallClock="15:30:36"
+							time="01:33.878"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:35.295"
+							timeRelativeToTestModuleStartTime="00:06.157"
+							timeWallClock="15:30:38"
+							time="01:35.295"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:35.966"
+							timeRelativeToTestModuleStartTime="00:06.828"
+							timeWallClock="15:30:38"
+							time="01:35.966"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:36.664"
+							timeRelativeToTestModuleStartTime="00:07.526"
+							timeWallClock="15:30:39"
+							time="01:36.664"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:37.947"
+							timeRelativeToTestModuleStartTime="00:08.808"
+							timeWallClock="15:30:40"
+							time="01:37.947"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:41.786"
+							timeRelativeToTestModuleStartTime="00:12.647"
+							timeWallClock="15:30:44"
+							time="01:41.786"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:42.345"
+							timeRelativeToTestModuleStartTime="00:13.207"
+							timeWallClock="15:30:45"
+							time="01:42.345"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:43.432"
+							timeRelativeToTestModuleStartTime="00:14.294"
+							timeWallClock="15:30:46"
+							time="01:43.432"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5996773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5996773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:43.434"
+							timeRelativeToTestModuleStartTime="00:14.296"
+							timeWallClock="15:30:46"
+							time="01:43.434"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.63s"
+					durationms="14626"
+					type="test-case"
+					rid="5a9f3a6a32e653c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="8"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_gsdms?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.62s"
+						durationms="14624"
+						type="test-module"
+						rid="bb915dc8c796300"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_gsdms?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:43.551"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="15:30:46"
+							time="01:43.551"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_gsdms?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:43.607"
+							timeRelativeToTestModuleStartTime="00:00.057"
+							timeWallClock="15:30:46"
+							time="01:43.607"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:43.741"
+							timeRelativeToTestModuleStartTime="00:00.190"
+							timeWallClock="15:30:46"
+							time="01:43.741"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:45.896"
+							timeRelativeToTestModuleStartTime="00:02.345"
+							timeWallClock="15:30:48"
+							time="01:45.896"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.614"
+							timeRelativeToTestModuleStartTime="00:03.063"
+							timeWallClock="15:30:49"
+							time="01:46.614"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:47.602"
+							timeRelativeToTestModuleStartTime="00:04.052"
+							timeWallClock="15:30:50"
+							time="01:47.602"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:48.279"
+							timeRelativeToTestModuleStartTime="00:04.728"
+							timeWallClock="15:30:51"
+							time="01:48.279"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:49.661"
+							timeRelativeToTestModuleStartTime="00:06.110"
+							timeWallClock="15:30:52"
+							time="01:49.661"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:50.326"
+							timeRelativeToTestModuleStartTime="00:06.775"
+							timeWallClock="15:30:53"
+							time="01:50.326"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:51.046"
+							timeRelativeToTestModuleStartTime="00:07.495"
+							timeWallClock="15:30:53"
+							time="01:51.046"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:52.428"
+							timeRelativeToTestModuleStartTime="00:08.878"
+							timeWallClock="15:30:55"
+							time="01:52.428"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:56.341"
+							timeRelativeToTestModuleStartTime="00:12.790"
+							timeWallClock="15:30:59"
+							time="01:56.341"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:56.878"
+							timeRelativeToTestModuleStartTime="00:13.327"
+							timeWallClock="15:30:59"
+							time="01:56.878"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:58.065"
+							timeRelativeToTestModuleStartTime="00:14.514"
+							timeWallClock="15:31:00"
+							time="01:58.065"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5997773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5997773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:58.067"
+							timeRelativeToTestModuleStartTime="00:14.516"
+							timeWallClock="15:31:00"
+							time="01:58.067"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.64s"
+					durationms="14637"
+					type="test-case"
+					rid="1509b08fa8555b2c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="9"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_hseiacambridge?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.63s"
+						durationms="14634"
+						type="test-module"
+						rid="32d29e56f3c1f77"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_hseiacambridge?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:58.180"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="15:31:01"
+							time="01:58.180"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_hseiacambridge?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:58.226"
+							timeRelativeToTestModuleStartTime="00:00.046"
+							timeWallClock="15:31:01"
+							time="01:58.226"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:58.354"
+							timeRelativeToTestModuleStartTime="00:00.174"
+							timeWallClock="15:31:01"
+							time="01:58.354"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:00.701"
+							timeRelativeToTestModuleStartTime="00:02.521"
+							timeWallClock="15:31:03"
+							time="02:00.701"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:01.412"
+							timeRelativeToTestModuleStartTime="00:03.232"
+							timeWallClock="15:31:04"
+							time="02:01.412"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:02.423"
+							timeRelativeToTestModuleStartTime="00:04.243"
+							timeWallClock="15:31:05"
+							time="02:02.423"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:03.094"
+							timeRelativeToTestModuleStartTime="00:04.914"
+							timeWallClock="15:31:05"
+							time="02:03.094"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:04.514"
+							timeRelativeToTestModuleStartTime="00:06.334"
+							timeWallClock="15:31:07"
+							time="02:04.514"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:05.201"
+							timeRelativeToTestModuleStartTime="00:07.021"
+							timeWallClock="15:31:08"
+							time="02:05.201"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:05.895"
+							timeRelativeToTestModuleStartTime="00:07.715"
+							timeWallClock="15:31:08"
+							time="02:05.895"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:07.296"
+							timeRelativeToTestModuleStartTime="00:09.116"
+							timeWallClock="15:31:10"
+							time="02:07.296"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:11.084"
+							timeRelativeToTestModuleStartTime="00:12.905"
+							timeWallClock="15:31:13"
+							time="02:11.084"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:11.647"
+							timeRelativeToTestModuleStartTime="00:13.468"
+							timeWallClock="15:31:14"
+							time="02:11.647"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:12.697"
+							timeRelativeToTestModuleStartTime="00:14.518"
+							timeWallClock="15:31:15"
+							time="02:12.697"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5990773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5990773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:12.700"
+							timeRelativeToTestModuleStartTime="00:14.521"
+							timeWallClock="15:31:15"
+							time="02:12.700"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.66s"
+					durationms="14659"
+					type="test-case"
+					rid="adfc6d3f87cebc"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="10"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_atsittesting?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.66s"
+						durationms="14657"
+						type="test-module"
+						rid="16e84297c22dc280"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_atsittesting?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="02:12.819"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="15:31:15"
+							time="02:12.819"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_atsittesting?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:12.870"
+							timeRelativeToTestModuleStartTime="00:00.051"
+							timeWallClock="15:31:15"
+							time="02:12.870"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:12.963"
+							timeRelativeToTestModuleStartTime="00:00.144"
+							timeWallClock="15:31:15"
+							time="02:12.963"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:15.358"
+							timeRelativeToTestModuleStartTime="00:02.539"
+							timeWallClock="15:31:18"
+							time="02:15.358"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:16.046"
+							timeRelativeToTestModuleStartTime="00:03.227"
+							timeWallClock="15:31:18"
+							time="02:16.046"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:17.036"
+							timeRelativeToTestModuleStartTime="00:04.218"
+							timeWallClock="15:31:19"
+							time="02:17.036"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:17.711"
+							timeRelativeToTestModuleStartTime="00:04.892"
+							timeWallClock="15:31:20"
+							time="02:17.711"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:19.198"
+							timeRelativeToTestModuleStartTime="00:06.379"
+							timeWallClock="15:31:22"
+							time="02:19.198"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:19.859"
+							timeRelativeToTestModuleStartTime="00:07.040"
+							timeWallClock="15:31:22"
+							time="02:19.859"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:20.546"
+							timeRelativeToTestModuleStartTime="00:07.727"
+							timeWallClock="15:31:23"
+							time="02:20.546"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:21.912"
+							timeRelativeToTestModuleStartTime="00:09.093"
+							timeWallClock="15:31:24"
+							time="02:21.912"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:25.754"
+							timeRelativeToTestModuleStartTime="00:12.935"
+							timeWallClock="15:31:28"
+							time="02:25.754"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:26.311"
+							timeRelativeToTestModuleStartTime="00:13.492"
+							timeWallClock="15:31:29"
+							time="02:26.311"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:27.365"
+							timeRelativeToTestModuleStartTime="00:14.546"
+							timeWallClock="15:31:30"
+							time="02:27.365"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_5991773b_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_5991773b_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:27.367"
+							timeRelativeToTestModuleStartTime="00:14.548"
+							timeWallClock="15:31:30"
+							time="02:27.367"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="14.13s"
+					durationms="14133"
+					type="test-case"
+					rid="15efcfec9d0074b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="PerformOauthDanceSP"
+					testcontainerid="95b259de-1d54-4649-ae9b-963e7b6266f0"
+					headertext="PerformOauthDanceSP"
+					displayName="PerformOauthDanceSP"
+					iteration="11"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="SharePoint URL">
+							https://sharepoint-online.ca-c1.cloudhub.io/authorize_atsworkingcapital?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="14.13s"
+						durationms="14131"
+						type="test-module"
+						rid="1e6645de15dde878"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PerformSPdance"
+						displayName="PerformSPdance"
+						moduleid="f5eeafc4-aa62-46d3-a788-2f174fec8b89"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varURL"
+								value="https://sharepoint-online.ca-c1.cloudhub.io/authorize_atsworkingcapital?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="02:27.482"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="15:31:30"
+							time="02:27.482"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varURL = 'https://sharepoint-online.ca-c1.cloudhub.io/authorize_atsworkingcapital?resourceOwnerId=00000003-0000-0ff1-ce00-000000000000/atsautomation4.sharepoint.com@f5b2e964-6123-4a27-9a8c-8c1dfbf93791'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:27.526"
+							timeRelativeToTestModuleStartTime="00:00.044"
+							timeWallClock="15:31:30"
+							time="02:27.526"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varURL with browser 'Chrome' in incognito and maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:27.657"
+							timeRelativeToTestModuleStartTime="00:00.175"
+							timeWallClock="15:31:30"
+							time="02:27.657"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SignInToYourAccount.Loginfmt'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:29.556"
+							timeRelativeToTestModuleStartTime="00:02.074"
+							timeWallClock="15:31:32"
+							time="02:29.556"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Loginfmt' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="102"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:30.294"
+							timeRelativeToTestModuleStartTime="00:02.812"
+							timeWallClock="15:31:33"
+							time="02:30.294"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'HTTP_Mulesoft@atsautomation.com' with focus on 'SignInToYourAccount.Loginfmt'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								itempath=".//div[#'lightbox']//input[@name='loginfmt' and @visible='True']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Loginfmt"
+								id="ed90d658244146749d687fc7186b0472"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="106"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:31.265"
+							timeRelativeToTestModuleStartTime="00:03.783"
+							timeWallClock="15:31:34"
+							time="02:31.265"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:31.960"
+							timeRelativeToTestModuleStartTime="00:04.479"
+							timeWallClock="15:31:34"
+							time="02:31.960"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Passwd' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:33.511"
+							timeRelativeToTestModuleStartTime="00:06.029"
+							timeWallClock="15:31:36"
+							time="02:33.511"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Digging4Gold2Day?' with focus on 'SignInToYourAccount.Passwd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								itempath=".//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Passwd"
+								id="1fce1575d3cc4d8f803e965594727aa8"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:34.170"
+							timeRelativeToTestModuleStartTime="00:06.688"
+							timeWallClock="15:31:37"
+							time="02:34.170"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.btnNextSignin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+								itempath=".//input[#'idSIButton9']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.btnNextSignin"
+								id="da39b571c25f47048ed5ba8d43298a54"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:34.845"
+							timeRelativeToTestModuleStartTime="00:07.363"
+							timeWallClock="15:31:37"
+							time="02:34.845"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.Next' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+								itempath=".//input[#'idSubmit_ProofUp_Redirect']"
+								fullname="OauthDanceSharepointRepository.SignInToYourAccount.Next"
+								id="87b90516edc845a193b0023028454ee3"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:35.963"
+							timeRelativeToTestModuleStartTime="00:08.481"
+							timeWallClock="15:31:38"
+							time="02:35.963"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'MySignInsRegisterMicrosoftCom.SkipSetup'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:39.821"
+							timeRelativeToTestModuleStartTime="00:12.340"
+							timeWallClock="15:31:42"
+							time="02:39.821"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MySignInsRegisterMicrosoftCom.SkipSetup' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='mysignins.microsoft.com']//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								itempath=".//div[#'root']/div/div[2]/?/?/div/section[2]/div/div[2]/a[@innertext='Skip setup']"
+								fullname="OauthDanceSharepointRepository.MySignInsRegisterMicrosoftCom.SkipSetup"
+								id="fed8927901174e8f95b40c283ce7366f"
+								timeout="60000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="133"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:40.360"
+							timeRelativeToTestModuleStartTime="00:12.879"
+							timeWallClock="15:31:43"
+							time="02:40.360"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 30s to exist. Associated repository item: 'SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']"
+								itempath="?/?/pre[@innertext~'Successfully retrieved access']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.SuccessfullyRetrievedAccessToken"
+								id="79a926024e444d6abe30dd544ddb90f9"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="137"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:41.496"
+							timeRelativeToTestModuleStartTime="00:14.014"
+							timeWallClock="15:31:44"
+							time="02:41.496"
+							level="Info"
+							category="User"
+							errimg="images_OauthDan_3618ccf0\OauthDan_fbf167f2_rxlog.jpg"
+							errthumb="images_OauthDan_3618ccf0\OauthDan_fbf167f2_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="12"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:41.497"
+							timeRelativeToTestModuleStartTime="00:14.015"
+							timeWallClock="15:31:44"
+							time="02:41.497"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'SharepointOnlineCaC1CloudhubIoCall'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								itempath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+								fullname="OauthDanceSharepointRepository.SharepointOnlineCaC1CloudhubIoCall.Self"
+								id="d545fc1d3a32443d942520828bb6fad8"
+								timeout="30000"
+								codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\OauthDanceSharepoint.cs"
+								codeline="142"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

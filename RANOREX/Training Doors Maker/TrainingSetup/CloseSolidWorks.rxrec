@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="684c7f97-086b-4c5e-a96d-62bf0e4548b2"
+mode="Global"
+rxversion="7.0">
+	<name>
+		CloseSolidWorks
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseSolidWorks"
+	namespace="TrainingSetup">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="True"
+		searchpropertyid="202459c2-fefb-4f8e-9b08-0b6d148f655f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5a8186c7-52e1-4bd1-9854-be886b2eabcd"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^SolidWorks' or @title~'^SOLIDWORKS']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="9cb51467-7e87-47e1-b971-317ec55f1f12"
+	name="TrainingSetupRepository"
+	relativepath="TrainingSetupRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="TrainingSetupRepository"
+		namespace="TrainingSetup">
+		</codegen>
+		<rootfolder
+		id="ed1de7fd-9fe1-4da9-99f9-7824f5fac7e6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseSolidWorks.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

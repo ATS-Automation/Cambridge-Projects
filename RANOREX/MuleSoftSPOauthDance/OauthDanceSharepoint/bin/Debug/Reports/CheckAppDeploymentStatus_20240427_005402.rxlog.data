@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.26s"
+		durationms="9261"
+		type="root"
+		rid="5eff3bba62f2db"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="anpatel"
+		rxversion="10.5.1.0"
+		host="CA01A6717"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1107"
+		timestamp="04/27/24 12:54:06 AM"
+		timestampiso="2024-04-27T04:54:06"
+		endtime="04/27/24 12:54:15 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CheckAppDeploymentStatus">
+		<detail>
+			CheckAppDeploymentStatus
+		</detail>
+		<errormessage>
+			Exception has been thrown by the target of an invocation.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.165"
+			timeRelativeToTestModuleStartTime="00:09.165"
+			timeWallClock="00:54:15"
+			time="00:09.165"
+			level="Error"
+			category="Module"
+			errimg="images_CheckApp_5749a108\CheckApp_5749a108_e28ef166_trace.jpg"
+			errthumb="images_CheckApp_5749a108\CheckApp_5749a108_e28ef166_trace_thumb.jpg">
+			<message>
+				Exception has been thrown by the target of an invocation.<br/>Could not load file or assembly 'System.Text.Json, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+			</message>
+			<metainfo
+				stacktrace="   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean&amp; canBeCached, RuntimeMethodHandleInternal&amp; ctor, Boolean&amp; bNeedSecurityCheck)&#13;&#10;   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark&amp; stackMark)&#13;&#10;   at System.Activator.CreateInstance[T]()&#13;&#10;   at RestSharp.Serializers.SerializerConfig.&lt;>c__5`1.&lt;UseSerializer>b__5_0()&#13;&#10;   at RestSharp.Serializers.SerializerConfig.UseSerializer(Func`1 serializerFactory)&#13;&#10;   at RestSharp.Serializers.SerializerConfig.UseSerializer[T]()&#13;&#10;   at RestSharp.Serializers.SerializerConfig.UseDefaultSerializers()&#13;&#10;   at RestSharp.RestClient.ConfigureSerializers(ConfigureSerialization configureSerialization)&#13;&#10;   at RestSharp.RestClient..ctor(RestClientOptions options, ConfigureHeaders configureDefaultHeaders, ConfigureSerialization configureSerialization, Boolean useClientFactory)&#13;&#10;   at RestSharp.RestClient..ctor(Uri baseUrl, ConfigureRestClient configureRestClient, ConfigureHeaders configureDefaultHeaders, ConfigureSerialization configureSerialization, Boolean useClientFactory)&#13;&#10;   at RestSharp.RestClient..ctor(String baseUrl, ConfigureRestClient configureRestClient, ConfigureHeaders configureDefaultHeaders, ConfigureSerialization configureSerialization)&#13;&#10;   at OauthDanceSharepoint.UserCodeCollectionSPProject.GetOktaToken() in C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\UserCodeCollectionSPProject.cs:line 39&#13;&#10;   at OauthDanceSharepoint.UserCodeCollectionSPProject.GetMuleAppStatus(String envID, String appName, Int32 timeoutMinutes) in C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\UserCodeCollectionSPProject.cs:line 126&#13;&#10;   at OauthDanceSharepoint.Modules.CheckAppDeploymentStatus.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\Modules\CheckAppDeploymentStatus.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\OauthDanceSharepoint\OauthDanceSharepoint\UserCodeCollectionSPProject.cs"
+				codeline="39"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

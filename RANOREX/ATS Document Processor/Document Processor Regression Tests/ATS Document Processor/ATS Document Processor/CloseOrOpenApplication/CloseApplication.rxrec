@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="08f636bb-b0c8-4aab-81ae-d4c8054d41c0"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseApplication"
+	namespace="ATS_Document_Processor.CloseOrOpenApplication">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="True"
+		searchpropertyid="62ef27aa-0e98-4843-aa73-5f70f7b2212d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5b498403-8a3f-4d36-baa5-2168681f8dd1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="..\DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseApplication.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ba11250f-e93b-4d1a-8428-00f2a4ff37e5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenURL"
+	namespace="GlobalServicesPlatformTesting">
+	</codegen>
+	<variables>
+		<var
+		id="a940d605-8c35-470f-b620-654dd87d2216"
+		name="varURL">
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="True"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Url"
+				variable="varURL">
+				</binding>
+			</bindings>
+			<url>
+				https://ccstore-stage-ze9a.oracleoutsourcing.com/en/login&#10;
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="12269275-6b4a-4279-a0e9-90be381986cd"
+	name="GlobalServicesPlatformTestingRepository"
+	relativepath="GlobalServicesPlatformTestingRepository.rxrep">
+		<codegen
+		classname="GlobalServicesPlatformTestingRepository"
+		namespace="GlobalServicesPlatformTesting">
+		</codegen>
+		<rootfolder
+		id="83c57c16-a03c-494e-96f0-8376d0daef20"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenURL.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

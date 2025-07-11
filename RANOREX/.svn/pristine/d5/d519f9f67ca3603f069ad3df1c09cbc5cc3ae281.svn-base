@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9efcdf3b-75bc-44b2-8908-47ee1fccdc0e"
+mode="Global"
+rxversion="8.1">
+	<name>
+		ValidateDefaultRadioValues
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateDefaultRadioValues"
+	namespace="CamDesigner">
+	</codegen>
+	<variables>
+		<var
+		id="31f00928-5e26-46fe-9af8-9c39c0937e97"
+		name="IsChecked">
+			false
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ac077468-92a4-452f-8c1a-11fbcdd027aa">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="IsChecked">
+				</binding>
+			</bindings>
+			<info
+			id="d8c96dd7-dbd0-4dff-9ab0-a0cd09b28270"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/tabpagelist[@automationid='tabControl']/?/tabpage[@name='Cam Geometry']/?/?/container[@classname='ScrollViewer']//listitem[@enabled='True'][$Index]
+				</path>
+			</info>
+			<matchname>
+				Checked
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="f397231c-781f-483d-997f-7fdb5e0a817e"
+	name="CamDesignerRepository"
+	relativepath="CamDesignerRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="CamDesignerRepository"
+		namespace="CamDesigner">
+		</codegen>
+		<rootfolder
+		id="95645d5a-794d-472d-b538-8587e65881f6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateDefaultRadioValues.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

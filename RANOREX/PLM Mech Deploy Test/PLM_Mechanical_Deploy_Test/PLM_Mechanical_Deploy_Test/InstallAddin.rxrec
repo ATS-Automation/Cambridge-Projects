@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4f6d687f-21c1-4165-8b55-cb26b62db9f2"
+mode="Global"
+rxversion="7.2">
+	<name>
+		InstallAddin
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InstallAddin"
+	namespace="PLM_Mechanical_Deploy_Test">
+	</codegen>
+	<variables>
+		<var
+		id="2990270e-879a-4f94-bfbe-fb2078f36c5d"
+		name="AddinPath">
+			SW_AddIn_2723.exe
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="FileName"
+				variable="AddinPath">
+				</binding>
+			</bindings>
+			<filename>
+				yourapp
+			</filename>
+			<workingdir>
+				V:
+			</workingdir>
+			<args>
+				/verysilent
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="e2693ed0-5d8e-456b-ab96-40a6f5d9940d"
+	name="PLM_Mechanical_Deploy_TestRepository"
+	relativepath="PLM_Mechanical_Deploy_TestRepository.rxrep"
+	rxversion="6.2">
+		<codegen
+		classname="PLM_Mechanical_Deploy_TestRepository"
+		namespace="PLM_Mechanical_Deploy_Test">
+		</codegen>
+		<rootfolder
+		id="bf98ede6-bc7d-4290-847e-c7ad47c510cc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InstallAddin.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

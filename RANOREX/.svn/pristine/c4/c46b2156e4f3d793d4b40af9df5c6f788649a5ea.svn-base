@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e5241708-f4b2-4ff4-abdf-1b6ce00a255b"
+mode="Global"
+rxversion="7.2">
+	<name>
+		CloseSolidWorks
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseSolidWorks"
+	namespace="PLM_Mechanical_Deploy_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="True"
+		searchpropertyid="202459c2-fefb-4f8e-9b08-0b6d148f655f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cdc9144a-6b8e-4dbf-b8db-f1d0c72b4570"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^SolidWorks' or @title~'^SOLIDWORKS']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="e2693ed0-5d8e-456b-ab96-40a6f5d9940d"
+	name="PLM_Mechanical_Deploy_TestRepository"
+	relativepath="PLM_Mechanical_Deploy_TestRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="PLM_Mechanical_Deploy_TestRepository"
+		namespace="PLM_Mechanical_Deploy_Test">
+		</codegen>
+		<rootfolder
+		id="bf98ede6-bc7d-4290-847e-c7ad47c510cc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseSolidWorks.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="75be87ee-b6cf-448c-867a-4a42bc752fa4"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SetSubFolder"
+	namespace="ATS_Document_Processor">
+	</codegen>
+	<variables>
+		<var
+		id="275bd98d-e20f-480c-97c5-c941299e4cdd"
+		name="OutputSubFolder">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="SetSubFolder"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SetSubFolderValue"
+		namespace="ATS_Document_Processor"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="8e86b218-d716-461c-8722-d471b1cb8bce">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SetSubFolder.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

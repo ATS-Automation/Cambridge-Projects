@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cdfeac4c-53f1-4f7d-8fd7-60b5e07da551"
+mode="Global"
+rxversion="9.0">
+	<name>
+		SolidWorksScreenshot
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SolidWorksScreenshot"
+	namespace="SolidWorksTaskPaneTools">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Activate"
+		enabled="True"
+		optional="False"
+		searchpropertyid="725fa82d-dcfa-4c0d-bd57-9ede46cd55b6"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="11f24851-2dbb-4784-b9ee-0c35f0f83179"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^SolidWorks\ Premium\ 2014\ x']
+				</path>
+			</info>
+			<arguments
+			id="65007170-ab8a-4852-ac91-73394b7e4c98">
+			</arguments>
+		</invokeactionrecorditem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="be4767b3-6d30-405a-ac72-302d4b3a8f0c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="11f24851-2dbb-4784-b9ee-0c35f0f83179"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^SolidWorks\ Premium\ 2014\ x']
+				</path>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="ad681eab-1b6d-45a7-b59d-17ff21dadb9f"
+	name="SolidWorksTaskPaneToolsRepository"
+	relativepath="SolidWorksTaskPaneToolsRepository.rxrep"
+	rxversion="6.1">
+		<codegen
+		classname="SolidWorksTaskPaneToolsRepository"
+		namespace="SolidWorksTaskPaneTools">
+		</codegen>
+		<rootfolder
+		id="0b6b6021-b1f2-43ff-a507-812bf5ac100f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SolidWorksScreenshot.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

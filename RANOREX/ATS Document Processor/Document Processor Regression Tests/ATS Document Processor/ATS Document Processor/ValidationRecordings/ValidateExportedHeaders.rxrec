@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cb9af4d6-da6d-40d1-beed-83a4b667014c"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateExportedHeaders"
+	namespace="ATS_Document_Processor.ValidationRecordings">
+	</codegen>
+	<variables>
+		<var
+		id="a73a43b0-c544-46d4-9b77-20ce6d8d33b8"
+		name="ColumnLetters">
+			A
+		</var>
+		<var
+		id="1f4ed096-4dd6-47b2-a533-dcc483851a02"
+		name="ExpectedValue">
+			FileName
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f21ed4e0-ec12-417e-9ae7-8710b2e47e2a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ExpectedValue">
+				</binding>
+			</bindings>
+			<info
+			id="5aab07a0-0936-48ad-9c74-029fe01f886f"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@class='XLMAIN']//table[@name='exported']/row[@index='1']/cell[@address=$ColumnLetters+'1']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="..\DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateExportedHeaders.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

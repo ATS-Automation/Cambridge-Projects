@@ -1,0 +1,351 @@
+﻿<repository
+id="b714349c-3cad-45fe-b692-78bdf96c05c8"
+name="OauthDanceSharepointRepository">
+	<codegen
+	classname="OauthDanceSharepointRepository"
+	namespace="OauthDanceSharepoint">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="18973737-c08f-4fee-a3f5-172ab84dcc29"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="81f7840e-c9a1-46f3-ad64-0c5a647517c4"
+		isrooted="True"
+		name="SignInToYourAccount"
+		refpath="/dom[@domain='login.microsoftonline.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ed90d658-2441-4674-9d68-7fc7186b0472"
+			name="Loginfmt"
+			refimgid="c2674675-5e55-4d3a-89e5-d2398164ccc3"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='loginfmt' and @visible='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="da39b571-c25f-4704-8ed5-ba8d43298a54"
+			name="btnNextSignin"
+			refimgid="b0534fdb-07ed-47b9-a092-330ef99d3500"
+			refpath="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+			robustPath="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+			searchtimeout="30000ms">
+				/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="1fce1575-d3cc-4d8f-803e-965594727aa8"
+			name="Passwd"
+			refimgid="bab579dc-e8aa-45d7-b19d-fd6274a439b6"
+			refpath="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]/div/div[2]/input[@name='passwd']"
+			robustPath="/dom[@domain='login.microsoftonline.com']//div[#'lightbox']//input[@name='passwd']"
+			searchtimeout="30000ms">
+				/dom[@domain='login.microsoftonline.com']//div[#'lightbox']/div[3]/div/div[2]/div/div[3]//input[@name='passwd']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="87b90516-edc8-45a1-93b0-023028454ee3"
+			name="Next"
+			refimgid="f5f29447-0086-4a07-adc5-f46edfe32ae1"
+			refpath="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+			robustPath="/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']"
+			searchtimeout="30000ms">
+				/dom[@domain='login.microsoftonline.com']//input[#'idSubmit_ProofUp_Redirect']
+			</item>
+			<basepath>
+				/dom[@domain='login.microsoftonline.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="fd3a5437-5af5-4240-a165-d2678d395c75"
+		isrooted="True"
+		name="MySignInsRegisterMicrosoftCom"
+		refpath="/dom[@domain='mysignins.microsoft.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="button"
+			id="fed89279-0117-4e8f-95b4-0c283ce7366f"
+			name="SkipSetup"
+			refimgid="cd5bb4d4-89c6-4ad1-a81e-95a709c8d3eb"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='mysignins.microsoft.com']//button[@innertext='Skip setup']
+			</item>
+			<basepath>
+				/dom[@domain='mysignins.microsoft.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="d545fc1d-3a32-443d-9425-20828bb6fad8"
+		isrooted="True"
+		name="SharepointOnlineCaC1CloudhubIoCall"
+		refpath="/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,pretag"
+			capname="pretag"
+			id="79a92602-4e44-4d6a-be30-dd544ddb90f9"
+			name="SuccessfullyRetrievedAccessToken"
+			refimgid="d68eb051-d0af-44b8-bddc-ca9475830e83"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']/?/?/pre[@innertext~'Successfully retrieved access']
+			</item>
+			<basepath>
+				/dom[@domain='sharepoint-online.ca-c1.cloudhub.io']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="77d0dce2-cfe5-4775-9586-b9074fb1ae70"
+		isrooted="True"
+		name="LogInToContinueLogInWithAtlassi1"
+		refpath="/dom[@domain='id.atlassian.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="b363895f-4e69-4d14-8f04-27e3ab194ec4"
+			name="MicrosoftAuthButton"
+			refimgid="a29701f7-a437-40f7-8be6-3763034ef313"
+			refpath="/dom[@domain='id.atlassian.com']//button[#'microsoft-auth-button']"
+			robustPath="/dom[@domain='id.atlassian.com']//button[#'microsoft-auth-button']"
+			searchtimeout="30000ms">
+				/dom[@domain='id.atlassian.com']//button[#'microsoft-auth-button']
+			</item>
+			<basepath>
+				/dom[@domain='id.atlassian.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="1b55d014-f74f-42db-9255-798caa068af8"
+		isrooted="True"
+		name="AuthorizeApp"
+		refpath="/dom[@domain='api.atlassian.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="15c5f305-365b-4560-b68d-87b6482b3b6f"
+			isrooted="True"
+			name="AppRoot"
+			refpath="/dom[@domain='api.atlassian.com']//div[#'app-root']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="divtag"
+				id="1f37085b-a720-4c14-9fde-a4fc3b1e81f0"
+				name="chooseDropDown"
+				refimgid="fed5bb77-d5e0-4eab-9e56-61c66d328951"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='api.atlassian.com']//div[#'app-root']//div[@safeclass='css-1cdp2iz-indicatorContainer']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="ba0d85b9-268d-4e21-8b90-c76ec3a46fae"
+				name="AtscorporationSandbox903AtlassianNet"
+				refimgid="55e4267f-3567-4d34-bfab-ab5b2740feab"
+				robustPath="/dom[@domain='api.atlassian.com']//div[#'app-root']//div[@innertext>'atscorporation-sandbox-90']"
+				searchtimeout="30000ms">
+					/dom[@domain='api.atlassian.com']//div[#'app-root']//div[@innertext&gt;'atscorporation-sandbox-903']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="45a7b4fd-10fc-4433-947e-432255d1757c"
+				name="DropDownSelection"
+				refimgid="55e4267f-3567-4d34-bfab-ab5b2740feab"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='api.atlassian.com']//div[#'app-root']//div[@innertext&gt;$varJIRAEnvSelection]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="5f5659c2-44e0-4443-85f2-430d44d9f63e"
+				name="AtscorporationAtlassianNet"
+				refimgid="9635c458-e52b-447d-b4ee-12cdf5ecc1a4"
+				robustPath="/dom[@domain='api.atlassian.com']//div[#'app-root']//div[@innertext>'atscorporation.atlassian.']"
+				searchtimeout="30000ms">
+					/dom[@domain='api.atlassian.com']//div[#'app-root']//div[@innertext&gt;'atscorporation.atlassian.net']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="27709573-8d2c-432b-b496-5249251b2c84"
+				name="Accept"
+				refimgid="b4cd4cb1-faf1-448a-b73e-c19f55681cb2"
+				robustPath="/dom[@domain='api.atlassian.com']//div[#'app-root']//span[@innertext='Accept']"
+				searchtimeout="30000ms">
+					/dom[@domain='api.atlassian.com']//div[#'app-root']//form[@name='consent']/button//span[@innertext='Accept']
+				</item>
+				<item
+				addcaps="unknown,webelement,h3tag"
+				capname="h3tag"
+				id="3a7dcac7-e219-42a7-9b73-2e7ed5213f0b"
+				name="AtsServicedeskDevIsRequestingAccess"
+				refimgid="c9fb40d0-5adf-400c-a618-612ce2399abf"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='api.atlassian.com']//div[#'app-root']//div/h3[@innertext&gt;'ats-servicedesk-attachment-dev' or @innertext&gt;'ats-servicedesk-dev is requesting']
+				</item>
+				<basepath>
+					/dom[@domain='api.atlassian.com']//div[#'app-root']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='api.atlassian.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5d212628-f98a-439d-a2b0-20b8b2776dd2"
+		isrooted="True"
+		name="AtsServiceDeskSecDevCaC1Cloudhub"
+		refpath="/dom[@domain='ats-service-desk-sec-dev.ca-c1.cloudhub.io']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,pretag"
+			capname="pretag"
+			id="ff5b7e3a-88a7-4d5c-826b-cddd48d8a19b"
+			name="SuccessfullyRetrievedAccessToken"
+			refimgid="255b6524-d5b7-42fa-ba08-ec0ea63b7ff8"
+			refpath="/dom[@domain='ats-service-desk-sec-dev.ca-c1.cloudhub.io']/body/pre[@innertext='Successfully retrieved access token']"
+			robustPath="/dom[@domain='ats-service-desk-sec-dev.ca-c1.cloudhub.io']/?/?/pre[@innertext>'Successfully retrieved access']"
+			searchtimeout="30000ms">
+				/dom[@domain='ats-service-desk-sec-dev.ca-c1.cloudhub.io']/?/?/pre[@innertext&gt;'Successfully retrieved access']
+			</item>
+			<basepath>
+				/dom[@domain='ats-service-desk-sec-dev.ca-c1.cloudhub.io']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="78957551-2df0-49f9-a2c9-faddb8c92b5b"
+		name="varJIRAEnvSelection">
+			atscorporation-sandbox-903
+		</var>
+	</variables>
+</repository>

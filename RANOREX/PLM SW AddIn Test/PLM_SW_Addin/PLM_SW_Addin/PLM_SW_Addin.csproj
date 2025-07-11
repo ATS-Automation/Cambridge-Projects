@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{98D5EF83-9440-4BC3-8860-AB8A7E3DCBF0}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PLM_SW_Addin</RootNamespace>
+    <AssemblyName>PLM_SW_Addin</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>ba701e14-9db3-43a7-b73e-b5558f9d96c7</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>c4e8bddc-09de-4a48-8e80-15c5f71bc61f</id>
+    </Compile>
+    <Compile Include="AutoCAD_Validation.cs">
+      <BoundTo>92c06166-7b4d-4cac-a805-4a4d0e80f5fd</BoundTo>
+      <DependentUpon>AutoCAD_Validation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>818d4710-9e5e-4e9b-bc38-f2647a6b99ca</id>
+    </Compile>
+    <Compile Include="AutoCAD_Validation.UserCode.cs">
+      <BoundTo>92c06166-7b4d-4cac-a805-4a4d0e80f5fd</BoundTo>
+      <DependentUpon>AutoCAD_Validation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5d578e61-5abb-4ad6-bb2d-d6cd5283caa8</id>
+    </Compile>
+    <Compile Include="FavoritesCheck.cs">
+      <BoundTo>c57e177f-62d0-491e-b3b8-e0d6ed338024</BoundTo>
+      <DependentUpon>FavoritesCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>110e38e7-ba41-4950-8911-b072949f7d4a</id>
+    </Compile>
+    <Compile Include="FavoritesCheck.UserCode.cs">
+      <BoundTo>c57e177f-62d0-491e-b3b8-e0d6ed338024</BoundTo>
+      <DependentUpon>FavoritesCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b29e2976-ed64-4d56-afd4-37fbe996245b</id>
+    </Compile>
+    <Compile Include="Find_CheckOut.cs">
+      <BoundTo>3ae25d3d-36c9-45a5-892b-d183ab48774a</BoundTo>
+      <DependentUpon>Find_CheckOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef2df9cd-7a92-4437-af49-f9d95ef71ebf</id>
+    </Compile>
+    <Compile Include="Find_CheckOut.UserCode.cs">
+      <BoundTo>3ae25d3d-36c9-45a5-892b-d183ab48774a</BoundTo>
+      <DependentUpon>Find_CheckOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe8eca3f-a393-4c93-905f-8f261c39ed78</id>
+    </Compile>
+    <Compile Include="PLM_SW_AddinRepository.cs">
+      <BoundTo>ba701e14-9db3-43a7-b73e-b5558f9d96c7</BoundTo>
+      <DependentUpon>PLM_SW_AddinRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>71b551b1-b82f-41bd-a19d-f35d0a265fb4</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>775f28cd-36d9-43b1-80b5-cdc6964766ea</id>
+    </Compile>
+    <Compile Include="PWO_Validation.cs">
+      <BoundTo>1cf5306a-85e9-4d63-b009-fb1d46bae26a</BoundTo>
+      <DependentUpon>PWO_Validation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2585301f-6e42-4626-ac21-7487b472fb33</id>
+    </Compile>
+    <Compile Include="PWO_Validation.UserCode.cs">
+      <BoundTo>1cf5306a-85e9-4d63-b009-fb1d46bae26a</BoundTo>
+      <DependentUpon>PWO_Validation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1471f35a-99e8-49e7-9986-d18ceeae890c</id>
+    </Compile>
+    <Compile Include="StaleCBOMCheck.cs">
+      <BoundTo>98ebac1c-93db-4dba-897a-b32776de3e9c</BoundTo>
+      <DependentUpon>StaleCBOMCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aeed5bc3-e5fe-4da0-8ac2-550086789030</id>
+    </Compile>
+    <Compile Include="StaleCBOMCheck.UserCode.cs">
+      <BoundTo>98ebac1c-93db-4dba-897a-b32776de3e9c</BoundTo>
+      <DependentUpon>StaleCBOMCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c5f7e7bf-ec6b-4070-a4c4-68dbe5b1b848</id>
+    </Compile>
+    <Compile Include="UserCodeCollection.cs">
+      <id>a824dd4b-af2d-422f-81d8-1a78b74d004b</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>5f31daf9-1a8c-40e2-a36e-e253bdeff329</id>
+    </None>
+    <None Include="AutoCAD_Validation.rxrec">
+      <BoundTo>ba701e14-9db3-43a7-b73e-b5558f9d96c7</BoundTo>
+      <id>92c06166-7b4d-4cac-a805-4a4d0e80f5fd</id>
+      <recordtableid>1e584f6a-4ab9-4a11-ae35-2fc858d02dad</recordtableid>
+    </None>
+    <None Include="FavoritesCheck.rxrec">
+      <BoundTo>ba701e14-9db3-43a7-b73e-b5558f9d96c7</BoundTo>
+      <id>c57e177f-62d0-491e-b3b8-e0d6ed338024</id>
+      <recordtableid>a0629f4c-f49b-4958-a70b-0343642a818e</recordtableid>
+    </None>
+    <None Include="Find_CheckOut.rxrec">
+      <BoundTo>ba701e14-9db3-43a7-b73e-b5558f9d96c7</BoundTo>
+      <id>3ae25d3d-36c9-45a5-892b-d183ab48774a</id>
+      <recordtableid>167169d1-a19f-4696-ab31-cc2fc15cc0ae</recordtableid>
+    </None>
+    <None Include="PLM_SW_AddinRepository.rximg">
+      <BoundTo>ba701e14-9db3-43a7-b73e-b5558f9d96c7</BoundTo>
+      <DependentUpon>PLM_SW_AddinRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>8d9b4054-45ae-4c6e-a9c1-499ab3f52e75</id>
+    </None>
+    <None Include="PLM_SW_AddinRepository.rxrep">
+      <id>ba701e14-9db3-43a7-b73e-b5558f9d96c7</id>
+      <repoid>d3b265e9-4307-419b-82d2-60b38a3142ae</repoid>
+      <reporootid>b0b88ea4-2581-4779-a673-0fbab2eecdf9</reporootid>
+    </None>
+    <None Include="PWO_Validation.rxrec">
+      <BoundTo>ba701e14-9db3-43a7-b73e-b5558f9d96c7</BoundTo>
+      <id>1cf5306a-85e9-4d63-b009-fb1d46bae26a</id>
+      <recordtableid>6fab237e-122a-43d9-9828-90ea0d38e2e1</recordtableid>
+    </None>
+    <None Include="StaleCBOMCheck.rxrec">
+      <BoundTo>ba701e14-9db3-43a7-b73e-b5558f9d96c7</BoundTo>
+      <id>98ebac1c-93db-4dba-897a-b32776de3e9c</id>
+      <recordtableid>9dd0d199-d9e9-40a7-b054-1b9e9db9fd11</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PLM_SW_Addin.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>62bbbe70-e17f-46c5-a85e-d60633fdcb33</id>
+    </Content>
+    <Content Include="PLM_SW_Addin.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f6307401-93b9-4a99-877d-d124749578ae</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

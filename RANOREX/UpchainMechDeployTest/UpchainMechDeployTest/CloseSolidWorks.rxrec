@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cedb639f-2b66-4810-bc07-83019ce7d52c"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseSolidWorks"
+	namespace="UpchainMechDeployTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="7a0e61dc-5424-41bc-95a0-0986c44be5de">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="81e1b1df-7f37-4597-85c9-93ae3b8491e4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^(?i:SOLIDWORKS\ Premium)']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="73488120-4f58-4f4d-a663-397962abde1c"
+		waitaction="NotExists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7323df04-b6c2-468a-a0d0-30d37228a6af"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Save Modified Documents']/button[@text='Don''t Save' or @text='Do&amp;n''t Save']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="9d894477-4c0b-47ec-af4c-9a60679fe97c"
+	name="UpchainMechDeployTestRepository"
+	relativepath="UpchainMechDeployTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="UpchainMechDeployTestRepository"
+		namespace="UpchainMechDeployTest">
+		</codegen>
+		<rootfolder
+		id="397711e0-9cf9-4fd1-b60f-219dc8d44fa0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseSolidWorks.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

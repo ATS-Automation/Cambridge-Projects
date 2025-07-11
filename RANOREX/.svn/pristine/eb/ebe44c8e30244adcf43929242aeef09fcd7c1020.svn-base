@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a5d47db1-5dab-4d0e-8a6a-1209e95559bb"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddinUpdater"
+	namespace="UpchainMechDeployTest">
+	</codegen>
+	<variables>
+		<var
+		id="f5abccd7-cc51-4da5-9379-1f9ac5385b0c"
+		name="Environment">
+			none
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="UserCodeMethods"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="CheckandInstallCorrectAddInVersion"
+		namespace="UpchainMechDeployTest"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="7c1893df-024b-4227-a5b9-428e34f0168c">
+				<argument
+				argname="Env"
+				id="7b53d735-abdf-4066-a992-3f08956fd6ea"
+				variable="Environment">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="9d894477-4c0b-47ec-af4c-9a60679fe97c"
+	name="UpchainMechDeployTestRepository"
+	relativepath="UpchainMechDeployTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="UpchainMechDeployTestRepository"
+		namespace="UpchainMechDeployTest">
+		</codegen>
+		<rootfolder
+		id="397711e0-9cf9-4fd1-b60f-219dc8d44fa0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddinUpdater.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

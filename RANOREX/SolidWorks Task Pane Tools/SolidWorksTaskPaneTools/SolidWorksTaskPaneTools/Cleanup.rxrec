@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7165a416-d76e-4e8d-80bc-76918054c237"
+mode="Global"
+rxversion="9.0">
+	<name>
+		Cleanup
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Cleanup"
+	namespace="SolidWorksTaskPaneTools">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="True"
+		searchpropertyid="16edfb0b-e6e1-472c-8d3d-9324d2eaf81b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2de7ec92-ca58-4de6-a60c-ffae912ec7b1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='EXCEL']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="000a8170-546d-4374-b6f4-da237864c189"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2de7ec92-ca58-4de6-a60c-ffae912ec7b1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='EXCEL']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="28;15"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="44d7bf53-ce08-4788-a3c6-d7386303d21b"
+		sx="1910"
+		sy="1095"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ee99f092-ab2b-4d62-87c0-d24ac5929f68"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="3"
+				prefcap="button"
+				rect="1882,1080,75,23"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Don't Save
+					</attribute>
+					<attribute
+					name="accesskey"
+					type="System.String">
+						ALT+n
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						NetUIButton
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Don't Save
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						16456
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='EXCEL']/?/?/element[@name='Microsoft Excel']/button[@name='Don''t Save']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2022eac6-8953-4097-95c1-41570bed50f0">
+				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
+/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="Cleanup"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Close_Application_SolidWorksPremium2014X64Edition"
+		namespace="SolidWorksTaskPaneTools"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="0f1a662a-4c90-4cac-8662-dece1ebb6763">
+			</arguments>
+		</userrecorditem>
+		<invokeactionrecorditem
+		action="Focus"
+		enabled="True"
+		optional="True"
+		searchpropertyid="9988d6c8-3232-4550-9ec4-e02144d2082d"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="14b6e279-8f42-48a3-842e-8592933ecaca"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Connected\ to\ ESR']
+				</path>
+			</info>
+			<arguments
+			id="a2ee6557-69ed-4352-a4ed-cf9176fcbd75">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="0a8e0486-4d32-45c3-a7d5-1fd1d9b33c8f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1b4412df-3d0c-4011-9f99-89545e26ef81"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Connected\ to\ ESR_PROD\ as\ ']/container[@name='mainHonSplitPane']//container[@name='viewport']//container[@name='visComp']/?/?/container[@name='pnlCADCategory']//container[@name='viewport']/table[@name='designTreeTable']/row/cell[@text&lt;'SLDDRW']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		classname="Cleanup"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CancelCheckoutIfCheckedOut"
+		namespace="SolidWorksTaskPaneTools"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="304e7d8d-6b42-4601-8a8d-fe75c2289cb4">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="ad681eab-1b6d-45a7-b59d-17ff21dadb9f"
+	name="SolidWorksTaskPaneToolsRepository"
+	relativepath="SolidWorksTaskPaneToolsRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="SolidWorksTaskPaneToolsRepository"
+		namespace="SolidWorksTaskPaneTools">
+		</codegen>
+		<rootfolder
+		id="0b6b6021-b1f2-43ff-a507-812bf5ac100f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Cleanup.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

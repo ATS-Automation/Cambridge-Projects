@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7fcf30ba-b12f-421c-a898-3d1155319a68"
+mode="Global"
+rxversion="7.2">
+	<name>
+		ValidateEnvironments
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateEnvironments"
+	namespace="EnvironmentSwitcherConfiguration">
+	</codegen>
+	<variables>
+		<var
+		id="3af7123a-ce53-4349-928f-a1c557038800"
+		name="environmentNames">
+			UpchainXLM;Infor
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="ValidateEnvironments"
+		duration="2975.8484000000003ms"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidateAndSetEnvironments"
+		namespace="EnvironmentSwitcherConfiguration"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f1cff1d1-4acf-413a-af45-c33fe2f55732">
+				<argument
+				argname="environmentNames"
+				id="a1d46145-6bba-4795-9382-686f7762c166"
+				variable="environmentNames">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="a4a4cf80-4bcd-405f-b3de-21d884c7bb1b"
+	name="EnvironmentSwitcherConfigurationRepository"
+	relativepath="EnvironmentSwitcherConfigurationRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="EnvironmentSwitcherConfigurationRepository"
+		namespace="EnvironmentSwitcherConfiguration">
+		</codegen>
+		<rootfolder
+		id="98945b87-b02f-4a2e-8f85-3b2fbcd37d06"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateEnvironments.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

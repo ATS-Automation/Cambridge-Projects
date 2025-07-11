@@ -1,0 +1,726 @@
+﻿<repository
+id="df44e576-2ba3-494e-b171-25b57139f20b"
+name="BPCReportRepository"
+rxversion="9.0">
+	<codegen
+	classname="BPCReportRepository"
+	namespace="BPCReport">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="830badc9-886c-4ddb-8663-859fc369c527"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<folder
+		capname="form"
+		id="b6ed7cfd-6f73-4c64-8e84-cc55f59d2c1c"
+		isrooted="True"
+		name="CloseBook1"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="587f9959-c1f7-4689-932f-b2cd5ecec2f0"
+			name="Close1"
+			refimgid="7a2979ae-227b-4f9d-81cd-c89b0af7466a"
+			searchtimeout="30000ms">
+				/form[@title='Book1 - Excel']/element/container[@caption='Ribbon']/element[@class='MsoWorkPane']/element[@class='NUIPane']/container[@classname='NetUIHWNDElement']/container[@name='Ribbon']/button[@name='Close']
+			</item>
+			<basepath>
+				/form[@title='Book1 - Excel']
+			</basepath>
+		</folder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3f584f07-c0f3-44a0-8c7d-9f63daec9ffa"
+		isrooted="True"
+		name="FormEXCELClose"
+		refimgid="df23254e-e825-4237-ab57-7b1b197229d8"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="cell,excelrange"
+			capname="cell"
+			id="f02b20e0-c5e7-44a6-9dfb-7c6cbe1a226d"
+			name="CellA17ProcessingCompleted"
+			refimgid="2a8e0eb3-9312-4753-9863-cbfdcd8c7ee0"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//table[@name='ControlSheet']/row[@index='17']/cell[@address='A17' and @text='Processing Completed']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="12a8151e-b4eb-4ba1-b801-f6c3867f47e6"
+			name="DontSave"
+			refimgid="09b0589c-f18d-469f-97fa-e816463d4a53"
+			refpath="/form[@title='Microsoft Excel']/container[@class='NetUIHWND']/element[@name='Microsoft Excel']/button[@name='Don''t Save']"
+			searchtimeout="5000ms">
+				/form[@processname='EXCEL']/?/?/element[@name='Microsoft Excel']/button[@name='Don''t Save']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFNSURBVDhPY4ABmcIQTuViN2OFYrc0+SLXyfIF
+zgfk85zeyuc5/5fPdfoPVYYJFCs81ymUedxWLHP/r1jq/h9owH+FItf/CoUu/+XzgZqhBoDFkLB8
+octP+ULXCQxKFZ7/Fcs9/hMyAB38+vMbbAjRBoDEQADmAhgbbkDlmgn/T9+/8l+1zOu/RrnP/1sv
+HvzffukwTheAAIoBsbMrwYJ5S9r/V6+Z+P/P37//3TpSiHcByAuXn9z6f+Lupf8PXj/9v/bMLrxh
+AAIYBqQvbARLgALIvjWOtDCAGQByOgi7diST5gIVIH331eP/my7s///0/UtIAJLigvLVfWBBr97M
+/22bZoHZfr3ZxLtg9sE1/9ee3Q1OB7pVAf9ffXr7/9CNM6SFAc1TIjKG5wViMxM07+EGoOysWOZm
+BjQgTaHQdRowOx+Wy3P6gN8ABgYA0S8tdd7bJP8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="c10007eb-dafc-4f9b-8a5c-2aecfe90c265"
+		isrooted="True"
+		name="Book1Excel"
+		refpath="/form[@processname='EXCEL' and @class='XLMAIN']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,uiautomation"
+			capname="tabpage"
+			id="eb060fb9-e898-4d4c-b985-f5daf3c686b4"
+			name="TabPageEPM"
+			refimgid="f95261f4-b0fa-40f6-bfaa-de7de2b22cdc"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='EXCEL2' and @instance='0']/container[@caption='Ribbon']/element[@class='MsoWorkPane']/element[@class='NUIPane']/container[@class='NetUIHWND']/container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='EPM']"
+			searchtimeout="30000ms">
+				/form[@class='XLMAIN']/element[2]//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='EPM']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="8d427e78-5203-4bc1-b3db-14325f75abd9"
+			name="LogOn"
+			refimgid="e05d2087-2689-4cd6-a20a-8519f4959a4d"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='EXCEL2' and @instance='0']/container[@caption='Ribbon']/element[@class='MsoWorkPane']/element[@class='NUIPane']/container[@class='NetUIHWND']/container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Connection']/button[@name='Log On']"
+			searchtimeout="30000ms">
+				/form[@class='XLMAIN']//container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Connection']/button[@name='Log On']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation"
+			capname="menuitem"
+			id="ae130b6e-3026-4340-8d7b-af017cb1f3bc"
+			name="Open"
+			refimgid="894f7ab6-4d1f-4787-b7c2-c085a2cb9082"
+			searchtimeout="30000ms">
+				/form[@class='XLMAIN']////container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Reports']/menuitem[@name='Open' and @text='Open' and @enabled='True']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="55bdbca4-a22e-445a-b629-03150d8806ef"
+			name="FileTabButton"
+			refimgid="907c8fcf-3868-44b0-aff2-c50b1e452372"
+			searchtimeout="30000ms">
+				/form[@class='XLMAIN']/element/container[@caption='Ribbon']//container[@name='Ribbon']/button[@automationid='FileTabButton']
+			</item>
+			<item
+			addcaps="tabpage,uiautomation"
+			capname="tabpage"
+			id="e9d05cff-af19-4191-966f-6e4de75f9e67"
+			name="SaveAs"
+			refimgid="9c99cae6-e179-4f37-ba23-4c70db8c3406"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/tabpage[@name='Save As']"
+			searchtimeout="30000ms">
+				/form[@class='XLMAIN']//container[@automationid='BackstageView']/contextmenu[@automationid='NavBarMenu']/tabpage[@name='Save As']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="cf3fe68e-11b1-44ce-bda4-8e16c0530609"
+			name="Browse"
+			refimgid="ebf994e1-9432-4f67-a074-fb86de169fc8"
+			searchtimeout="30000ms">
+				/form[@class='XLMAIN']//container[@automationid='BackstageView']/container[@name='Save As']/container[@name='Saving Features']//button[@name='Browse']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="1a009afe-8843-4eb3-8467-f93efb9e112c"
+			name="Close"
+			refimgid="5c254663-2f2f-46be-b554-1682c1415273"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/button[3]"
+			searchtimeout="30000ms">
+				/form[@class='XLMAIN']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/button[3]
+			</item>
+			<basepath>
+				/form[@class='XLMAIN']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFNSURBVDhPY4ABmcIQTuViN2OFYrc0+SLXyfIF
+zgfk85zeyuc5/5fPdfoPVYYJFCs81ymUedxWLHP/r1jq/h9owH+FItf/CoUu/+XzgZqhBoDFkLB8
+octP+ULXCQxKFZ7/Fcs9/hMyAB38+vMbbAjRBoDEQADmAhgbbkDlmgn/T9+/8l+1zOu/RrnP/1sv
+HvzffukwTheAAIoBsbMrwYJ5S9r/V6+Z+P/P37//3TpSiHcByAuXn9z6f+Lupf8PXj/9v/bMLrxh
+AAIYBqQvbARLgALIvjWOtDCAGQByOgi7diST5gIVIH331eP/my7s///0/UtIAJLigvLVfWBBr97M
+/22bZoHZfr3ZxLtg9sE1/9ee3Q1OB7pVAf9ffXr7/9CNM6SFAc1TIjKG5wViMxM07+EGoOysWOZm
+BjQgTaHQdRowOx+Wy3P6gN8ABgYA0S8tdd7bJP8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="488a8f4b-fdd7-4817-8926-af193dc7585b"
+		isrooted="True"
+		name="ConnectionCredentialsDialog"
+		refpath="/form[@controlname='ConnectionCredentialsDialog']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="816d3056-5b1c-4805-810f-e7a16af05349"
+			name="ButtonOk"
+			refimgid="cb06340e-f0cd-4c93-8dba-3a056c466a10"
+			refpath="/form[@controlname='ConnectionCredentialsDialog']/container[@controlname='panelBottom']/container[@controlname='panelButton']/container[@controlname='flpButton']/button[@controlname='buttonOk']"
+			searchtimeout="30000ms">
+				/form[@controlname='ConnectionCredentialsDialog']/container[@controlname='panelBottom']//button[@controlname='buttonOk']
+			</item>
+			<basepath>
+				/form[@controlname='ConnectionCredentialsDialog']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7e1b559e-040e-441e-bd51-98dd289d7009"
+		isrooted="True"
+		name="EXCEL"
+		refpath="/form[@title='' and @processname='EXCEL' and @class='Net UI Tool Window' and @instance='0']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			capname="menuitem"
+			id="bfed37fb-347e-4a32-a2db-2a066f4943c9"
+			name="OpenServerReportFolder"
+			refimgid="cc398a9f-4823-4202-b663-ed6be9fcebcd"
+			refpath="/form[@title='' and @processname='EXCEL' and @class='Net UI Tool Window' and @instance='0']/container[@class='NetUIHWND']/container[@name='Menu Group']/container[2]/menuitem[@name='Open Server Report Folder...']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @class='Net UI Tool Window' and @instance='0']/?/?/container[@name='Menu Group']/?/?/menuitem[@name~'^Open\ Server\ Report\ Folder']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL' and @class='Net UI Tool Window' and @instance='0']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFNSURBVDhPY4ABmcIQTuViN2OFYrc0+SLXyfIF
+zgfk85zeyuc5/5fPdfoPVYYJFCs81ymUedxWLHP/r1jq/h9owH+FItf/CoUu/+XzgZqhBoDFkLB8
+octP+ULXCQxKFZ7/Fcs9/hMyAB38+vMbbAjRBoDEQADmAhgbbkDlmgn/T9+/8l+1zOu/RrnP/1sv
+HvzffukwTheAAIoBsbMrwYJ5S9r/V6+Z+P/P37//3TpSiHcByAuXn9z6f+Lupf8PXj/9v/bMLrxh
+AAIYBqQvbARLgALIvjWOtDCAGQByOgi7diST5gIVIH331eP/my7s///0/UtIAJLigvLVfWBBr97M
+/22bZoHZfr3ZxLtg9sE1/9ee3Q1OB7pVAf9ffXr7/9CNM6SFAc1TIjKG5wViMxM07+EGoOysWOZm
+BjQgTaHQdRowOx+Wy3P6gN8ABgYA0S8tdd7bJP8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="43c6db12-4d00-4757-8f69-0d531626c09d"
+		isrooted="True"
+		name="FileBrowserDialog2"
+		refpath="/form[@controlname='FileBrowserDialog2']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="radiobutton,wpfelement,wpfgroupelement"
+			capname="radiobutton"
+			id="5eb5fadf-86fd-4c07-a57c-2b42265f39ba"
+			name="CategoryItemButton"
+			refimgid="581752e2-05f6-4902-a157-df3249415b8b"
+			searchtimeout="30000ms">
+				/form[@controlname='FileBrowserDialog2']//text[@caption='REPORTING']/../radiobutton[@automationid='CategoryItemButton']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="2d07deac-e50a-4213-9bb3-49ce58c89d55"
+			name="INDEVELOPMENT"
+			refimgid="dd249767-df10-47df-866b-a2be0dd83c15"
+			refpath="/form[@controlname='FileBrowserDialog2']/container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']/container[@controlname='browser1']/container[@controlname='splitContainer1']/container[@controlname='panel2']/container[@controlname='splitContainer2']/container[@controlname='panel1']/tree[@controlname='treeViewHierarchy']/tree[@accessiblename='']/treeitem[@accessiblename='TEAMREPORTLIBRARY']/treeitem[@accessiblename='IN DEVELOPMENT']"
+			searchtimeout="30000ms">
+				/form[@controlname='FileBrowserDialog2']/container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//container[@controlname='panel2']//tree[@controlname='treeViewHierarchy']/?/?/treeitem[@accessiblename='TEAMREPORTLIBRARY']/treeitem[@accessiblename='IN DEVELOPMENT']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="bdc48745-0f30-4ac5-8ca8-e523b35d0efd"
+			name="IntercompanyReconciliationReportSched"
+			refimgid="7e933019-8564-45cd-8867-51702e2d907d"
+			searchtimeout="30000ms">
+				/form[@controlname='FileBrowserDialog2']/container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//table[@controlname='listViewElement']/row/cell[@text='Intercompany Reconciliation Report_Scheduled.xlsm']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="b63d40b7-36a6-451b-ab17-1f516bc38b64"
+			name="BtnOpen"
+			refimgid="c0e7ab19-32e9-43f3-987f-d3793569fc45"
+			searchtimeout="30000ms">
+				/form[@controlname='FileBrowserDialog2']/?/?/button[@controlname='btnOpen' and @enabled='True']
+			</item>
+			<basepath>
+				/form[@controlname='FileBrowserDialog2']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="0c6d603e-0507-4882-be65-498f08bc2e32"
+		isrooted="True"
+		name="SaveAs"
+		refpath="/form[@title='Save As']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="f6f45e38-d93d-4946-baa7-b0c3e47903eb"
+			name="Text1001"
+			refimgid="32a2f526-ba16-4873-89be-46adb96a03c8"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/?/?/container[@class='DirectUIHWND']/element/combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="45fdb471-e651-4b0e-ac8f-a723de22797f"
+			name="ButtonSave"
+			refimgid="5c734033-2818-4c5e-8fc2-1c3cbfcc8b64"
+			refpath="/form[@title='Save As']/button[@text='&amp;Save']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/button[@text='&amp;Save']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="0abf1b3b-a16c-4899-b3bb-30e52da8d389"
+			name="ComboBox"
+			refimgid="af5556a4-56d5-4ed2-998e-7ef24476a008"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/?/?/container[@class='DirectUIHWND']/element[5]/combobox[@class='ComboBox']
+			</item>
+			<item
+			addcaps="toolbar,nativewindow"
+			capname="toolbar"
+			id="7ffca2fe-4b13-4ada-9e7c-63e4f38c5c49"
+			name="ToolBar1001"
+			refimgid="3a3eaa25-7f71-4f6a-ae7e-c2e354e8e881"
+			refpath="/form[@title='Save As']/element[@class='WorkerW']/container[@controlid='40965']/element[@controlid='41477']/progressbar[@class='msctls_progress32']/element[@class='Breadcrumb Parent']/toolbar[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/element[@class='WorkerW']/?/?/element[@controlid='41477']//toolbar[@controlid='1001']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="478fb7a6-bedb-4144-9a67-c17d6598bd37"
+			name="GoToAddress"
+			refimgid="b42c03f7-ee16-47f3-9ecd-58ecaf89ccc9"
+			refpath="/form[@title='Save As']/element[@class='WorkerW']/container[@controlid='40965']/element[@controlid='41477']/progressbar[@class='msctls_progress32']/toolbar[@class='ToolbarWindow32']/button[@text='Go to &quot;Address: \\ca01a9001\pass\AP&quot;']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/element[@class='WorkerW']//progressbar/toolbar[@class='ToolbarWindow32']/button[@text~'^Go\ to\ &quot;Address:\ \\\\ca01a90']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="9c86da2c-2de6-4030-9763-4a1fce0112ec"
+			name="Desktop"
+			refimgid="17528d4e-002a-4fd6-89e1-d7217ba92ef4"
+			refpath="/form[@title='Save As']/element[@class='WorkerW']/container[@controlid='40965']/element[@controlid='41477']/progressbar[@class='msctls_progress32']/element[@class='Breadcrumb Parent']/toolbar[@controlid='1001']/button[@text='Desktop']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/element[@class='WorkerW']/?/?/element[@controlid='41477']//toolbar[@controlid='1001']/button[@text='Desktop']
+			</item>
+			<basepath>
+				/form[@title='Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFNSURBVDhPY4ABmcIQTuViN2OFYrc0+SLXyfIF
+zgfk85zeyuc5/5fPdfoPVYYJFCs81ymUedxWLHP/r1jq/h9owH+FItf/CoUu/+XzgZqhBoDFkLB8
+octP+ULXCQxKFZ7/Fcs9/hMyAB38+vMbbAjRBoDEQADmAhgbbkDlmgn/T9+/8l+1zOu/RrnP/1sv
+HvzffukwTheAAIoBsbMrwYJ5S9r/V6+Z+P/P37//3TpSiHcByAuXn9z6f+Lupf8PXj/9v/bMLrxh
+AAIYBqQvbARLgALIvjWOtDCAGQByOgi7diST5gIVIH331eP/my7s///0/UtIAJLigvLVfWBBr97M
+/22bZoHZfr3ZxLtg9sE1/9ee3Q1OB7pVAf9ffXr7/9CNM6SFAc1TIjKG5wViMxM07+EGoOysWOZm
+BjQgTaHQdRowOx+Wy3P6gN8ABgYA0S8tdd7bJP8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="778c3c9d-12fc-4244-a7bb-030a379ef2b6"
+		isrooted="True"
+		name="FormEXCEL"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="excelshape"
+			id="703faf12-6291-40c0-b3e0-232c00ec5395"
+			name="btnRefreshReportTakeOffline"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL' and @windowtext~'Intercompany Reconciliation Report_Scheduled']//table[@name='ControlSheet']/shape[@alternativetext='Refresh Report and Take Offline']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL' and @windowtext~'Intercompany Reconciliation Report_Scheduled']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFNSURBVDhPY4ABmcIQTuViN2OFYrc0+SLXyfIF
+zgfk85zeyuc5/5fPdfoPVYYJFCs81ymUedxWLHP/r1jq/h9owH+FItf/CoUu/+XzgZqhBoDFkLB8
+octP+ULXCQxKFZ7/Fcs9/hMyAB38+vMbbAjRBoDEQADmAhgbbkDlmgn/T9+/8l+1zOu/RrnP/1sv
+HvzffukwTheAAIoBsbMrwYJ5S9r/V6+Z+P/P37//3TpSiHcByAuXn9z6f+Lupf8PXj/9v/bMLrxh
+AAIYBqQvbARLgALIvjWOtDCAGQByOgi7diST5gIVIH331eP/my7s///0/UtIAJLigvLVfWBBr97M
+/22bZoHZfr3ZxLtg9sE1/9ee3Q1OB7pVAf9ffXr7/9CNM6SFAc1TIjKG5wViMxM07+EGoOysWOZm
+BjQgTaHQdRowOx+Wy3P6gN8ABgYA0S8tdd7bJP8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="edb529aa-a24c-41e7-b33c-a031af2def79"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="79bd6d7d-03d9-4f2a-9606-f55e78044a60"
+			name="ExcelMacroEnabledWorkbook"
+			refimgid="8c5640c0-8578-49ca-a101-62210ec2e10e"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text~'Excel Macro-Enabled Workbook']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="d7c970d5-8adc-41ef-81d4-9c61f27a7fd0"
+			name="ExcelMacroEnabledWorkbookAsteriskX"
+			refimgid="8879e878-eac4-4e13-884c-66064857279f"
+			refpath="/list[@controlid='1000']/listitem[@text='Excel Macro-Enabled Workbook (*.xlsm)']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text~'^Excel\ Macro-Enabled\ Workb']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="90dee154-4228-4b83-82c4-a66b39622157"
+		isrooted="True"
+		name="FormConfirmSaveAs"
+		refimgid="b8ac881e-0187-46df-8599-041b031dcde2"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="84685dfa-4dc1-439b-97fb-bb5640bf6a62"
+			name="ButtonYes"
+			refimgid="3c326bae-6435-4f04-886b-87f90861e211"
+			searchtimeout="30000ms">
+				/form[@title='Confirm Save As']/?/?/element[@instance='0']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Confirm Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFNSURBVDhPY4ABmcIQTuViN2OFYrc0+SLXyfIF
+zgfk85zeyuc5/5fPdfoPVYYJFCs81ymUedxWLHP/r1jq/h9owH+FItf/CoUu/+XzgZqhBoDFkLB8
+octP+ULXCQxKFZ7/Fcs9/hMyAB38+vMbbAjRBoDEQADmAhgbbkDlmgn/T9+/8l+1zOu/RrnP/1sv
+HvzffukwTheAAIoBsbMrwYJ5S9r/V6+Z+P/P37//3TpSiHcByAuXn9z6f+Lupf8PXj/9v/bMLrxh
+AAIYBqQvbARLgALIvjWOtDCAGQByOgi7diST5gIVIH331eP/my7s///0/UtIAJLigvLVfWBBr97M
+/22bZoHZfr3ZxLtg9sE1/9ee3Q1OB7pVAf9ffXr7/9CNM6SFAc1TIjKG5wViMxM07+EGoOysWOZm
+BjQgTaHQdRowOx+Wy3P6gN8ABgYA0S8tdd7bJP8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="eac52a1d-fc12-444d-b6ec-e0a240b6f373"
+		isrooted="True"
+		name="UntitledNotepad"
+		refimgid="8b68bb94-2901-49a6-b670-0c64bdd8d621"
+		refpath="/form[@title='Untitled - Notepad']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="2881e364-87ee-49e8-8a8c-dfd87d89eb76"
+			name="Close"
+			refimgid="b6631050-eddc-40ca-b6d1-96bfeea9b92c"
+			refpath="/form[@title='Untitled - Notepad']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Untitled - Notepad']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Untitled - Notepad']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKPSURBVDhPjZHLTxNRFMbZm7j2/zG6cEPUxD07
+486QaCIhYHhoqZSXpRFsAVseQaUBQkHBSqGl005n2k470+l0Xi2lD2irjWv5vDMotdEFJzk5NzO5
+3/f7zu34X/VNzeAq85+a5dT07XsPQJ3UcKvzPvx61ZzruRNzevi8OV9RPEaDCbgtnf2/r3Z0ULXa
+dVssW5YbP5CpNZGofkOkVEfg+Aw7WgVeIrIo5OHkVAwGWFgP45gY7GqRuHn9piOeE6V6E/xpE2y5
+gaNiDf58FVtKCR+lY7gFHTMJBf1faDhjmXYBR1weWhT0A0o9xqFSgF/S4RNUeFM5LMdFzDECpqmU
+6fx4bRcrDN8uYItJe+ty0cudfgdTaSBM8PcLVWxrZYJfxFKG4Kc0TDA5dG8eIFGptwuMREVtV624
+AnIBe9kL9zXivhLPYp7JEPc0xkIcBvYZPFzaglattQSsicQ1a1TMbyonc9FyHaHimZndpxJ36cLd
+lVJhjysYDqfx1BfEz/PzlsAonb3zmpXZVbEw/0nUsMEr+MBJWCLZXTEjO3EPJjF0wOKZL4Seja9o
+NJstgRFaHHFyyrYnrS0Eiqf4rFewKZfwnmzeQzb/ltMwxeZgoUX0+RnYwykYdSkwHBEO3eSyM6m8
+86ZlrCYluNkMZmM87GTzo4Y7efuevRi6vX4sUMl2gkFK0FycOm1nZY9PLWGN5F7OFDCX1uFIyBhj
+JLyIiOgNGvlDoAnlJUFfJH3jZVSUyJIcM5y6+Ce7sfk3UR6TRxyshGCYEPT6aTxa9iFbqrYInh8J
+dwkBLFHRdJogWcfJW4+Ts83oWBaT5JvRNjqLJzth092oywh/V07VTfWr9H8Fxge6NowfV2m3pbP/
+F0Wgr4voafeUAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="button,nativewindow"
+		capname="button"
+		id="34a166b5-c4e9-4e45-8543-bdb318fea12f"
+		isrooted="True"
+		name="Start"
+		refimgid="3a17b004-04e4-420f-bc67-8191aa21561b"
+		refpath="/button[@text='Start']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/button[@text='Start']
+			</basepath>
+			<icon>
+				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
+jeBfAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="d03bbc4a-fda9-4dab-b463-1a474bfb4be3"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="262a3484-066f-4dcf-bce6-a6ee35143064"
+			name="ShowDesktop"
+			refimgid="744b7289-39b1-423e-94d3-3edf3e2bd1ca"
+			refpath="/menubar[@processname='explorer']/container[@controlid='303']/element[@controlid='307']/button[@accessiblename='Show desktop']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/?/?/element[@controlid='307']/button[@accessiblename='Show desktop']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="e14c7e29-1065-4de2-9721-4904fefec65c"
+		name="varProcessingCompletedFile">
+			\\ca01a9001\pass\AP\file.txt
+		</var>
+	</variables>
+</repository>

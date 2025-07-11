@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuitedoc
+rxversion="7.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<smartfoldernode
+			datasource="Names_for_Training_Doors"
+			id="01b00451-ced8-4cff-b157-438f7f51d3c7"
+			name="AddUsers">
+			</smartfoldernode>
+			<smartfoldernode
+			id="048a850a-8bb1-4a34-91d6-427ab93f56ae"
+			name="Create_Item_&amp;_Find_CAD">
+				<parameters>
+					<param
+					name="TopLevelItemNumber"
+					value="">
+					</param>
+				</parameters>
+			</smartfoldernode>
+			<testmodule
+			id="06100004-500e-4b0d-81d0-f4ca82e862ee"
+			name="KillProcessCode"
+			ref="58f2a186-5d5e-4301-8ce1-c4ac3d79d7f7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="08182cd3-6bc9-42d4-b0cd-228e9ffcb4cd"
+			name="TaskPaneTesting"
+			ref="fe27d147-e7ca-4641-ab18-42489d93755f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="0abe7dd7-693a-45b7-8232-3196836171e7"
+			name="SelectUsers"
+			ref="1bff6878-b034-447e-852e-2b61db396e19"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="First Name"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="39d5a11f-b9b4-4eef-ae03-6965c91bf335"
+					variablename="FirstName">
+					</var>
+					<var
+					dataname="Last Name"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="1d05a35e-68a6-4e7f-a366-959f3d47f1f3"
+					variablename="LastName">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="0ae3e3bd-cf1b-4e08-a1b9-6308bce3430d"
+			name="AddNewUser"
+			ref="86abdd26-530f-4a2d-90f0-18e8ffc1f0a3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Username"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="f76b3066-4c82-4e33-b623-f3c2363adf9e"
+					variablename="UserName">
+					</var>
+					<var
+					dataname="Email"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="5d831581-84a5-460f-b720-8714b3be1831"
+					variablename="Email">
+					</var>
+					<var
+					dataname="First Name"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="3662eb34-ca9f-4452-b499-47d37eeae0d2"
+					variablename="FirstName">
+					</var>
+					<var
+					dataname="Last Name"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="51824ecd-3d72-4983-aa50-640e9cb07d6a"
+					variablename="LastName">
+					</var>
+					<var
+					dataname="Primary Division"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="a15f9352-6882-46dd-90c7-04a97082393d"
+					variablename="Division">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="13261b8c-efe4-4117-bf18-44deb5a9abef"
+			name="AddCategorizationInfo"
+			ref="de439d1d-35df-4be4-bd70-2e4d5ceff85d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="15b978a2-f127-46e8-9dc1-a5ce8a9ba43e"
+			name="SetAttributesManufacturedItem"
+			ref="de730e4e-5f06-4319-9d0b-7928aa928092"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ItemName"
+					datasourceid="014acc2c-e917-430b-a104-a23a1cfa8cf6"
+					variableid="0186da79-4dab-4dd9-bcd6-dcd83ba7c73d"
+					variablename="ItemName">
+					</var>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="03d2854c-e29e-43c8-854b-85ba24f10bcd"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			datasource="Names_for_Training_Doors"
+			errorbehavior="ContinueNextIteration"
+			id="1c295199-d29a-4eb7-b9f8-219216373140"
+			name="CreateDoors">
+				<parameters>
+					<param
+					name="SolidWorksPath"
+					value="C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\SLDWORKS.exe">
+					</param>
+					<param
+					name="MacroPath"
+					value="\\ca01a9001\pgmis\Development\ATSPLM PLM Test Files\Cust property change Revisions2.xls">
+					</param>
+					<param
+					name="EndItemNumber"
+					value="125355641">
+					</param>
+				</parameters>
+			</testcase>
+			<testsuite
+			ReportTime="RelativeToTestSuiteStartTime"
+			TracingScreenshotMode="Foreground"
+			TracingScreenshotQuality="40"
+			enabletracingscreenshots="True"
+			id="1d24604a-9af0-4ea6-a60e-22365e94c4c4"
+			name="TrainingSetup"
+			placescreenshotsinfolder="True"
+			reportcompress="False"
+			reportfilename="%S_%Y%M%D_%T.rxlog"
+			reporttemplatefolder=""
+			reportwriteinterval="30000ms">
+			</testsuite>
+			<testcase
+			id="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+			name="TrainingSetup"
+			reportlevel="Info;20">
+				<description>
+					<![CDATA[<P class=MsoNormal>There are a few assumptions for this to run 
+properly:<O:P></O:P></P>
+<P class=MsoNormal><O:P></O:P></P>
+<P class=MsoListParagraph 
+style="TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1"><SPAN 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><SPAN 
+style="mso-list: Ignore">1)<SPAN 
+style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. 
+</SPAN></SPAN></SPAN>Your add-in is installed for the right environment and 
+logged in and the configuration is set to auto-login = true <O:P></O:P></P>
+<P class=MsoListParagraph 
+style="TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1"><SPAN 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><SPAN 
+style="mso-list: Ignore">2)<SPAN 
+style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. 
+</SPAN></SPAN></SPAN>Your add-in is pinned open but solidworks is 
+closed<O:P></O:P></P>
+<P class=MsoListParagraph 
+style="TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1"><SPAN 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><SPAN 
+style="mso-list: Ignore">3)<SPAN 
+style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. 
+</SPAN></SPAN></SPAN>Your thick client is launched and logged in for the right 
+environment<O:P></O:P></P>
+<P class=MsoListParagraph 
+style="TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1"><SPAN 
+style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin"><SPAN 
+style="mso-list: Ignore">4)<SPAN 
+style='FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. 
+</SPAN></SPAN></SPAN>You have updated the list of names in this spreadsheet 
+"\\ca01a9001\pgmis\Deployment\Ranorex\Names for Training 
+Doors.xlsx"<O:P></O:P></P>]]>
+				</description>
+				<parameters>
+					<param
+					name="ProjectNumber"
+					value="13678">
+					</param>
+				</parameters>
+			</testcase>
+			<smartfoldernode
+			datasource="PurchasedItemNames"
+			id="3012a3bf-9a62-49ff-9ce1-7abe0d21d8b6"
+			name="PurchasedParts">
+			</smartfoldernode>
+			<setup
+			id="43095f0f-8cf0-4214-b92b-5a5e57369303"
+			name="setup">
+			</setup>
+			<testmodule
+			id="49a67ae6-db60-43dd-902f-04f8b216fc06"
+			name="Excel_Macro"
+			ref="51c54a63-94f7-4573-b124-835aceab767f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="MacroPath"
+					datasourceid="1c295199-d29a-4eb7-b9f8-219216373140"
+					variableid="514d7e75-aa2b-4d06-9d88-ace0ea8129a2"
+					variablename="MacroPath">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="51c50ddc-75ec-4b39-b0a8-a8c48068f1fa"
+			name="ExpandEndItem"
+			ref="cd6e7045-5033-4e9e-8309-db2175611a36"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="EndItemNumber"
+					datasourceid="1c295199-d29a-4eb7-b9f8-219216373140"
+					variableid="92320768-9c88-492f-aff0-6b9957a04e45"
+					variablename="EndItemNumber">
+					</var>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="5efbe0c2-4255-459b-b251-380219abdaa1"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="52e44f24-97de-49a3-9e6a-02968a0887f0"
+			name="DeepCopyInstructorItems"
+			ref="9f026198-316d-432e-82c0-5bc3d058a8f5"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="03d2854c-e29e-43c8-854b-85ba24f10bcd"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="5754933f-8c3b-462c-b04b-ab2c71acff28"
+			name="CreateMechItem"
+			ref="a8e288d3-4913-4376-be98-2640d7450a1c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="EndItemNumber"
+					datasourceid="1c295199-d29a-4eb7-b9f8-219216373140"
+					variableid="aa408b4f-9971-4503-a958-382590165740"
+					variablename="EndItemNumber">
+					</var>
+					<var
+					dataname="First Name"
+					datasourceid="caee0dca-7d3a-41d5-801c-3f7051726571"
+					variableid="c2c22b32-3c91-4c34-b5c2-471c00b448db"
+					variablename="Name">
+					</var>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="03d2854c-e29e-43c8-854b-85ba24f10bcd"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="67f544d5-948b-4d63-8542-1391fa4a3244"
+			name="CreateAssemblyItem"
+			ref="84d3f59f-a4df-4c47-9abf-ca1f8082f049"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="TopLevelItemNumber"
+					datasourceid="048a850a-8bb1-4a34-91d6-427ab93f56ae"
+					variableid="13a05cea-ca3e-47c5-ac8a-2c70f2df8291"
+					variablename="TopLevelItemNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="69e32a35-c098-49c2-9007-95b2514b83ab"
+			name="SetAttributesAssembly"
+			ref="8186d8c2-1247-40fa-8fc3-4871f7c899be"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ItemName"
+					datasourceid="47b4b24e-8ec1-4df9-a76a-bae05021f3c5"
+					variableid="ff8160cd-e9bf-4c31-9044-46609f6fd5f2"
+					variablename="ItemName2">
+					</var>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="03d2854c-e29e-43c8-854b-85ba24f10bcd"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="6a4a0b8e-b52b-46eb-bb28-42bc087f58a8"
+			name="InsertDoorsAssembly"
+			ref="3a6868dc-5d0c-4d1d-999c-d82a32830384"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="6db78353-0cc1-4342-af7f-f13c32100487"
+			name="DeepCopyDummyParts">
+			</testcase>
+			<smartfoldernode
+			id="6ed51f09-13c9-4063-8fed-e264466e1eb5"
+			name="AddNewUsers">
+			</smartfoldernode>
+			<teardown
+			id="6f46a6f6-5b33-4bd8-bd59-5bbac0f8708f"
+			name="teardown">
+			</teardown>
+			<smartfoldernode
+			id="78c33f5c-11f9-43cb-a29f-897f93189f10"
+			name="Set_Attributes_For_RWO">
+			</smartfoldernode>
+			<smartfoldernode
+			id="7ef847ac-0eca-4b9d-bc37-e4bd628987cf"
+			name="Add_CAD_Addin_Test">
+			</smartfoldernode>
+			<testcase
+			id="89a0dad6-87f3-4d39-b423-eb2cf4053bd6"
+			name="SetUpUsers">
+			</testcase>
+			<smartfoldernode
+			datasource="AssemblyItemNames"
+			id="92f90200-a55d-4cf6-952a-6bdc74625862"
+			name="Assemblies">
+			</smartfoldernode>
+			<smartfoldernode
+			datasource="Names_for_Training_Doors"
+			id="941f30c3-9bb5-4d66-ad72-edcb361c6c66"
+			name="CreateUser">
+			</smartfoldernode>
+			<testmodule
+			id="95b5d80c-66f3-4f22-ac48-7e83f5cca66b"
+			name="LoadProjectTeam"
+			ref="421ebab6-668c-4fbc-9fe0-f0ced751c1a2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="68504289-d31d-44f9-98b3-ffad8d65cb6e"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			id="a34d356a-bf36-4043-8193-05a0124d1ffb"
+			name="AddCategorization">
+			</smartfoldernode>
+			<smartfoldernode
+			id="aa889ec3-599e-4f78-b36c-50e931f0f7d6"
+			name="AddUsersToProject">
+			</smartfoldernode>
+			<testmodule
+			id="aaf49861-4298-4ced-8dd1-2383f45cef4d"
+			name="CloseSolidWorks"
+			ref="684c7f97-086b-4c5e-a96d-62bf0e4548b2"
+			type="Recording">
+			</testmodule>
+			<smartfoldernode
+			datasource="ManufacturedItemNames"
+			id="b544d9d5-cf59-4cf1-812f-5b7c2a759d58"
+			name="ManufacturedItems">
+			</smartfoldernode>
+			<testmodule
+			id="b7d48661-58f0-4c46-a37c-f4d472f1f77d"
+			name="ExpandEndItem"
+			ref="cd6e7045-5033-4e9e-8309-db2175611a36"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="EndItemNumber"
+					datasourceid="1c295199-d29a-4eb7-b9f8-219216373140"
+					variableid="92320768-9c88-492f-aff0-6b9957a04e45"
+					variablename="EndItemNumber">
+					</var>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="5efbe0c2-4255-459b-b251-380219abdaa1"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="b8075256-67bb-4725-824f-b1efe5c55a06"
+			name="ExpandEndItem"
+			ref="cd6e7045-5033-4e9e-8309-db2175611a36"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="EndItemNumber"
+					datasourceid="1c295199-d29a-4eb7-b9f8-219216373140"
+					variableid="92320768-9c88-492f-aff0-6b9957a04e45"
+					variablename="EndItemNumber">
+					</var>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="5efbe0c2-4255-459b-b251-380219abdaa1"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<setup
+			id="bb858ba4-1a7e-4f57-b953-1ea2a4776eb6"
+			name="setup">
+			</setup>
+			<testmodule
+			id="be3821dd-26c6-4370-9030-01ef122c90f9"
+			name="SetAttributesPurchasedPart"
+			ref="af8674ce-ee53-41c9-805a-cfb9436fcfe7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ItemName"
+					datasourceid="4c1645e7-22c7-4e9e-89f3-4f3f8649a05c"
+					variableid="36dbb9d0-b76b-4593-8419-b45160d60f6a"
+					variablename="ItemName">
+					</var>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="03d2854c-e29e-43c8-854b-85ba24f10bcd"
+					variablename="ProjectNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="bef905e0-ae01-40fe-93d2-9514f31e175d"
+			name="SaveProjectTeam"
+			ref="bbc7091e-0994-47c9-a679-9f85df914834"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cade332f-89b8-47a1-a35b-ea9824f538b1"
+			name="SetRefOnlyFalse"
+			ref="52d0c71e-9f00-4abc-b7a3-41bdf88f3ef2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ProjectNumber"
+					datasourceid="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+					variableid="03d2854c-e29e-43c8-854b-85ba24f10bcd"
+					variablename="ProjectNumber">
+					</var>
+					<var
+					dataname="EndItemNumber"
+					datasourceid="1c295199-d29a-4eb7-b9f8-219216373140"
+					variableid="78587661-1da7-4eba-b6bb-f412747e8538"
+					variablename="EndItemNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="cd51dbdc-c51c-4745-9699-d8f0dcfa13ff"
+			name="FindItemInSolidWorks"
+			ref="a5c1d820-d8f4-4e35-b559-997b78fbba60"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="TopLevelItemNumber"
+					datasourceid="048a850a-8bb1-4a34-91d6-427ab93f56ae"
+					variableid="e9b6e966-dda9-4f68-9fa1-220354dd7552"
+					variablename="TopLevelItemNumber">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="e85ffa46-dbf2-4e78-b3e6-f77f9669643e"
+			name="OpenUsersPane"
+			ref="f3927e1c-d6e8-4ba3-b8eb-e7490fea7a85"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ee6cfd8c-3083-4567-b680-7985009ab5c5"
+			name="LaunchSolidWorks"
+			ref="c3c21ff3-5c48-44fe-a43e-f4c910c4f2a6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SolidWorksPath"
+					datasourceid="1c295199-d29a-4eb7-b9f8-219216373140"
+					variableid="4c0694ac-df4c-4652-8f25-e3748746394e"
+					variablename="SolidWorksPath">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			id="fd0a6b18-2e67-4772-acfc-2dc3c0321fe4"
+			name="Set_eBOM_Attributes">
+			</smartfoldernode>
+			<smartfoldernode
+			id="feba82a1-69a0-488b-a5b2-03c072cb4c74"
+			name="Open_and_Create_Item">
+			</smartfoldernode>
+		</flatlistofchildren>
+		<childhierarchy>
+			<testsuite
+			id="1d24604a-9af0-4ea6-a60e-22365e94c4c4"
+			name="TrainingSetup">
+				<testcase
+				id="293e8ef6-585e-4792-a8b6-58d5d89d0c6d"
+				name="TrainingSetup">
+					<testcase
+					id="89a0dad6-87f3-4d39-b423-eb2cf4053bd6"
+					name="SetUpUsers">
+						<smartfoldernode
+						id="6ed51f09-13c9-4063-8fed-e264466e1eb5"
+						name="AddNewUsers">
+							<testmodule
+							id="e85ffa46-dbf2-4e78-b3e6-f77f9669643e"
+							name="OpenUsersPane">
+							</testmodule>
+							<smartfoldernode
+							id="941f30c3-9bb5-4d66-ad72-edcb361c6c66"
+							name="CreateUser">
+								<testmodule
+								id="0ae3e3bd-cf1b-4e08-a1b9-6308bce3430d"
+								name="AddNewUser">
+								</testmodule>
+							</smartfoldernode>
+						</smartfoldernode>
+						<smartfoldernode
+						id="aa889ec3-599e-4f78-b36c-50e931f0f7d6"
+						name="AddUsersToProject">
+							<testmodule
+							id="95b5d80c-66f3-4f22-ac48-7e83f5cca66b"
+							name="LoadProjectTeam">
+							</testmodule>
+							<smartfoldernode
+							id="01b00451-ced8-4cff-b157-438f7f51d3c7"
+							name="AddUsers">
+								<testmodule
+								id="0abe7dd7-693a-45b7-8232-3196836171e7"
+								name="SelectUsers">
+								</testmodule>
+							</smartfoldernode>
+							<testmodule
+							id="bef905e0-ae01-40fe-93d2-9514f31e175d"
+							name="SaveProjectTeam">
+							</testmodule>
+						</smartfoldernode>
+					</testcase>
+					<testcase
+					id="1c295199-d29a-4eb7-b9f8-219216373140"
+					name="CreateDoors">
+						<testmodule
+						id="06100004-500e-4b0d-81d0-f4ca82e862ee"
+						name="KillProcessCode">
+						</testmodule>
+						<smartfoldernode
+						id="feba82a1-69a0-488b-a5b2-03c072cb4c74"
+						name="Open_and_Create_Item">
+							<testmodule
+							id="5754933f-8c3b-462c-b04b-ab2c71acff28"
+							name="CreateMechItem">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="048a850a-8bb1-4a34-91d6-427ab93f56ae"
+						name="Create_Item_&amp;_Find_CAD">
+							<testmodule
+							id="67f544d5-948b-4d63-8542-1391fa4a3244"
+							name="CreateAssemblyItem">
+							</testmodule>
+							<testmodule
+							id="ee6cfd8c-3083-4567-b680-7985009ab5c5"
+							name="LaunchSolidWorks">
+							</testmodule>
+							<testmodule
+							id="cd51dbdc-c51c-4745-9699-d8f0dcfa13ff"
+							name="FindItemInSolidWorks">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="7ef847ac-0eca-4b9d-bc37-e4bd628987cf"
+						name="Add_CAD_Addin_Test">
+							<setup
+							id="43095f0f-8cf0-4214-b92b-5a5e57369303"
+							name="setup">
+								<testmodule
+								id="49a67ae6-db60-43dd-902f-04f8b216fc06"
+								name="Excel_Macro">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="6a4a0b8e-b52b-46eb-bb28-42bc087f58a8"
+							name="InsertDoorsAssembly">
+							</testmodule>
+							<testmodule
+							id="08182cd3-6bc9-42d4-b0cd-228e9ffcb4cd"
+							name="TaskPaneTesting">
+							</testmodule>
+							<teardown
+							id="6f46a6f6-5b33-4bd8-bd59-5bbac0f8708f"
+							name="teardown">
+								<testmodule
+								id="aaf49861-4298-4ced-8dd1-2383f45cef4d"
+								name="CloseSolidWorks">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="78c33f5c-11f9-43cb-a29f-897f93189f10"
+						name="Set_Attributes_For_RWO">
+							<setup
+							id="bb858ba4-1a7e-4f57-b953-1ea2a4776eb6"
+							name="setup">
+								<testmodule
+								id="b7d48661-58f0-4c46-a37c-f4d472f1f77d"
+								name="ExpandEndItem">
+								</testmodule>
+							</setup>
+							<smartfoldernode
+							id="b544d9d5-cf59-4cf1-812f-5b7c2a759d58"
+							name="ManufacturedItems">
+								<testmodule
+								id="15b978a2-f127-46e8-9dc1-a5ce8a9ba43e"
+								name="SetAttributesManufacturedItem">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="3012a3bf-9a62-49ff-9ce1-7abe0d21d8b6"
+							name="PurchasedParts">
+								<testmodule
+								id="be3821dd-26c6-4370-9030-01ef122c90f9"
+								name="SetAttributesPurchasedPart">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="92f90200-a55d-4cf6-952a-6bdc74625862"
+							name="Assemblies">
+								<testmodule
+								id="69e32a35-c098-49c2-9007-95b2514b83ab"
+								name="SetAttributesAssembly">
+								</testmodule>
+							</smartfoldernode>
+						</smartfoldernode>
+						<smartfoldernode
+						id="a34d356a-bf36-4043-8193-05a0124d1ffb"
+						name="AddCategorization">
+							<testmodule
+							id="b8075256-67bb-4725-824f-b1efe5c55a06"
+							name="ExpandEndItem">
+							</testmodule>
+							<testmodule
+							id="13261b8c-efe4-4117-bf18-44deb5a9abef"
+							name="AddCategorizationInfo">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="fd0a6b18-2e67-4772-acfc-2dc3c0321fe4"
+						name="Set_eBOM_Attributes">
+							<testmodule
+							id="51c50ddc-75ec-4b39-b0a8-a8c48068f1fa"
+							name="ExpandEndItem">
+							</testmodule>
+							<testmodule
+							id="cade332f-89b8-47a1-a35b-ea9824f538b1"
+							name="SetRefOnlyFalse">
+							</testmodule>
+						</smartfoldernode>
+					</testcase>
+					<testcase
+					id="6db78353-0cc1-4342-af7f-f13c32100487"
+					name="DeepCopyDummyParts">
+						<testmodule
+						id="52e44f24-97de-49a3-9e6a-02968a0887f0"
+						name="DeepCopyInstructorItems">
+						</testmodule>
+					</testcase>
+				</testcase>
+			</testsuite>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+	<datasources>
+		<DataSource
+		id="47b4b24e-8ec1-4df9-a76a-bae05021f3c5"
+		lastknownrowcount="4"
+		name="AssemblyItemNames"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					ItemName
+				</column>
+				<column>
+					ReportHeader
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						ItemName
+					</th>
+					<th>
+						ReportHeader
+					</th>
+				</tr>
+				<tr>
+					<td>
+						TOP LEVEL
+					</td>
+					<td>
+						TOP LEVEL
+					</td>
+				</tr>
+				<tr>
+					<td>
+						GENERAL ASSEMBLY
+					</td>
+					<td>
+						GENERAL ASSEMBLY
+					</td>
+				</tr>
+				<tr>
+					<td>
+						SUB - RAIL _
+					</td>
+					<td>
+						SUB - RAIL _
+					</td>
+				</tr>
+				<tr>
+					<td>
+						SUB - RAIL AND CYLINDER
+					</td>
+					<td>
+						SUB - RAIL AND CYLINDER
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		id="014acc2c-e917-430b-a104-a23a1cfa8cf6"
+		lastknownrowcount="11"
+		name="ManufacturedItemNames"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					ItemName
+				</column>
+				<column>
+					ReportHeader
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						ItemName
+					</th>
+					<th>
+						ReportHeader
+					</th>
+				</tr>
+				<tr>
+					<td>
+						SHUTTER PLATE&#10;
+					</td>
+					<td>
+						SHUTTER PLATE&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						RAIL MOUNTING BAR&#10;
+					</td>
+					<td>
+						RAIL MOUNTING BAR&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						RAIL AND CYLINDER MOUNTING BAR&#10;
+					</td>
+					<td>
+						RAIL AND CYLINDER MOUNTING BAR&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						BEARING MOUNT _&#10;
+					</td>
+					<td>
+						BEARING MOUNT _&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						-BEARING MOUNT DATUM SIDE _
+					</td>
+					<td>
+						-BEARING MOUNT DATUM SIDE _
+					</td>
+				</tr>
+				<tr>
+					<td>
+						-UPPER BEARING MOUNT DATUM SIDE&#10;
+					</td>
+					<td>
+						-UPPER BEARING MOUNT DATUM SIDE&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						ROD MOUNT&#10;
+					</td>
+					<td>
+						ROD MOUNT&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						TIE BAR&#10;
+					</td>
+					<td>
+						TIE BAR&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						SAFETY SWITCH MOUNT&#10;
+					</td>
+					<td>
+						SAFETY SWITCH MOUNT&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						SHOCK MOUNTING BLOCK&#10;
+					</td>
+					<td>
+						SHOCK MOUNTING BLOCK&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						STOP BLOCK&#10;
+					</td>
+					<td>
+						STOP BLOCK&#10;
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		filename="K:\Deployment\Ranorex\Names for Training Doors.xlsx"
+		id="caee0dca-7d3a-41d5-801c-3f7051726571"
+		includefile="Unchecked"
+		lastknownrowcount="3"
+		name="Names_for_Training_Doors"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Sheet1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					First Name
+				</column>
+				<column>
+					Last Name
+				</column>
+				<column>
+					Username
+				</column>
+				<column>
+					Email
+				</column>
+				<column>
+					Primary Division
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		id="4c1645e7-22c7-4e9e-89f3-4f3f8649a05c"
+		lastknownrowcount="10"
+		name="PurchasedItemNames"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					ItemName
+				</column>
+				<column>
+					ReportHeader
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						ItemName
+					</th>
+					<th>
+						ReportHeader
+					</th>
+				</tr>
+				<tr>
+					<td>
+						FESTO, 193145 ABC
+					</td>
+					<td>
+						FESTO, 193145 ABC
+					</td>
+				</tr>
+				<tr>
+					<td>
+						FESTO, 163302-600-PPV-A ABC
+					</td>
+					<td>
+						FESTO, 163302-600-PPV-A ABC
+					</td>
+				</tr>
+				<tr>
+					<td>
+						FESTO, 174369 ABC
+					</td>
+					<td>
+						FESTO, 174369 ABC
+					</td>
+				</tr>
+				<tr>
+					<td>
+						FESTO, 6140 ABC
+					</td>
+					<td>
+						FESTO, 6140 ABC
+					</td>
+				</tr>
+				<tr>
+					<td>
+						FESTO, 191196 ABC
+					</td>
+					<td>
+						FESTO, 191196 ABC
+					</td>
+				</tr>
+				<tr>
+					<td>
+						HARDWARE, JN M10X1
+					</td>
+					<td>
+						HARDWARE, JN M10X1
+					</td>
+				</tr>
+				<tr>
+					<td>
+						MISUMI, STRN10-50 ABC
+					</td>
+					<td>
+						MISUMI, STRN10-50 ABC
+					</td>
+				</tr>
+				<tr>
+					<td>
+						SCHMERSAL, BNS33 ABC&#10;
+					</td>
+					<td>
+						SCHMERSAL, BNS33 ABC&#10;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						SCHMERSAL, BPS33 ABC
+					</td>
+					<td>
+						SCHMERSAL, BPS33 ABC
+					</td>
+				</tr>
+				<tr>
+					<td>
+						THK, SHS15C2SS
+					</td>
+					<td>
+						THK, SHS15C2SS
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+	</datasources>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcontainer
+			id="1c295199-d29a-4eb7-b9f8-219216373140">
+			</testcontainer>
+			<testcontainer
+			id="293e8ef6-585e-4792-a8b6-58d5d89d0c6d">
+			</testcontainer>
+			<testcontainer
+			id="3012a3bf-9a62-49ff-9ce1-7abe0d21d8b6">
+			</testcontainer>
+			<testcontainer
+			id="78c33f5c-11f9-43cb-a29f-897f93189f10">
+			</testcontainer>
+			<testcontainer
+			id="92f90200-a55d-4cf6-952a-6bdc74625862">
+			</testcontainer>
+			<testcontainer
+			id="a34d356a-bf36-4043-8193-05a0124d1ffb">
+			</testcontainer>
+			<testcontainer
+			id="b544d9d5-cf59-4cf1-812f-5b7c2a759d58">
+			</testcontainer>
+			<testcontainer
+			id="fd0a6b18-2e67-4772-acfc-2dc3c0321fe4">
+			</testcontainer>
+		</testconfiguration>
+	</testconfigurations>
+	<references>
+	</references>
+</testsuitedoc>

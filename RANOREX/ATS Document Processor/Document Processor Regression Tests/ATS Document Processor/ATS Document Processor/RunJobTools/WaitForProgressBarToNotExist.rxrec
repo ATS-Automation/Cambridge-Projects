@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cf4ae8be-3060-4522-88aa-99594fa97587"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="WaitForProgressBarToNotExist"
+	namespace="ATS_Document_Processor.RunJobTools">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="fa23cbd0-6d19-4e05-8478-5af513af2746"
+		waitaction="NotExists"
+		waittimeout="1200000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7bd1ae9a-e94a-4db6-9e06-65bd5f1d4270"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fd7cdbdc-a03f-4814-9679-ef78dbc18e30">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5b498403-8a3f-4d36-baa5-2168681f8dd1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']
+				</path>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="..\DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		WaitForProgressBarToNotExist.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

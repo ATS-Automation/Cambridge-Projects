@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{98A66FAE-A06D-4494-B969-A71ABEBB5F2C}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CamDesigner</RootNamespace>
+    <AssemblyName>CamDesigner</AssemblyName>
+    <RanorexVersion>8.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>dc41d617-5ad8-48a4-947f-af5f8e54b18e</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivateCam.UserCode.cs">
+      <BoundTo>d451359d-a709-4636-8e40-2005eee851d6</BoundTo>
+      <DependentUpon>ActivateCam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0e8c8305-3e98-4798-a332-9962b6171f77</id>
+    </Compile>
+    <Compile Include="ActivateDetailed.cs">
+      <BoundTo>e824e37e-98d2-4911-adcd-243314a5cd80</BoundTo>
+      <DependentUpon>ActivateDetailed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>04d2cdea-8f36-4a5e-9e3b-86ce90ccfb17</id>
+    </Compile>
+    <Compile Include="ActivateDetailed.UserCode.cs">
+      <BoundTo>e824e37e-98d2-4911-adcd-243314a5cd80</BoundTo>
+      <DependentUpon>ActivateDetailed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a6f08e7-a07b-4ebb-bcee-38a34d5f1d70</id>
+    </Compile>
+    <Compile Include="Add8thComposite.cs">
+      <BoundTo>0bb8990e-30ba-455b-9225-abbe140d8831</BoundTo>
+      <DependentUpon>Add8thComposite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d487b8eb-8f9d-4a60-8a48-965340503e68</id>
+    </Compile>
+    <Compile Include="Add8thComposite.UserCode.cs">
+      <BoundTo>0bb8990e-30ba-455b-9225-abbe140d8831</BoundTo>
+      <DependentUpon>Add8thComposite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>48c0f425-36c3-4e54-9340-0aa8e0e546c4</id>
+    </Compile>
+    <Compile Include="AddCamLastStation.cs">
+      <BoundTo>e0e994c5-9f10-465f-8511-ae5d27a9f34d</BoundTo>
+      <DependentUpon>AddCamLastStation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>063756ff-f8f6-4885-8fee-541763175556</id>
+    </Compile>
+    <Compile Include="AddCamLastStation.UserCode.cs">
+      <BoundTo>e0e994c5-9f10-465f-8511-ae5d27a9f34d</BoundTo>
+      <DependentUpon>AddCamLastStation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3edfa7ee-2ab2-40c6-b2d2-a2120dc1d979</id>
+    </Compile>
+    <Compile Include="AddCVComposite.cs">
+      <BoundTo>98280f82-2b9f-46d3-82ef-11a8fe62d99f</BoundTo>
+      <DependentUpon>AddCVComposite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9213623a-ad61-49a2-860a-8e4fddcda905</id>
+    </Compile>
+    <Compile Include="AddCVComposite.UserCode.cs">
+      <BoundTo>98280f82-2b9f-46d3-82ef-11a8fe62d99f</BoundTo>
+      <DependentUpon>AddCVComposite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9f78c2d-ce47-490a-81bc-4b42e248de2d</id>
+    </Compile>
+    <Compile Include="AddCVCompositeAndCancel.cs">
+      <BoundTo>070c27e6-400b-4c1f-91f8-ed3a9447cb6e</BoundTo>
+      <DependentUpon>AddCVCompositeAndCancel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c507425-aee3-4445-b1d4-dbef1f510d11</id>
+    </Compile>
+    <Compile Include="AddCVCompositeAndCancel.UserCode.cs">
+      <BoundTo>070c27e6-400b-4c1f-91f8-ed3a9447cb6e</BoundTo>
+      <DependentUpon>AddCVCompositeAndCancel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>77027ec2-bbc8-48d7-bd62-bed3bf58f587</id>
+    </Compile>
+    <Compile Include="AddCVCompositeWithBeta.cs">
+      <BoundTo>bd2811e6-f01c-4095-aa53-479572565e21</BoundTo>
+      <DependentUpon>AddCVCompositeWithBeta.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3e1fdd1d-0b07-45c1-b164-304f1dad66ae</id>
+    </Compile>
+    <Compile Include="AddCVCompositeWithBeta.UserCode.cs">
+      <BoundTo>bd2811e6-f01c-4095-aa53-479572565e21</BoundTo>
+      <DependentUpon>AddCVCompositeWithBeta.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>acf144c9-7531-436f-a65a-fd9501984cb8</id>
+    </Compile>
+    <Compile Include="AddDwell.cs">
+      <BoundTo>6aa7e813-f684-4566-a8c3-de6af3697854</BoundTo>
+      <DependentUpon>AddDwell.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5901fdf2-49ac-4ad6-823c-93b24cc5d16d</id>
+    </Compile>
+    <Compile Include="AddDwell.UserCode.cs">
+      <BoundTo>6aa7e813-f684-4566-a8c3-de6af3697854</BoundTo>
+      <DependentUpon>AddDwell.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9b17d1a3-fdf9-4b8e-a4b5-1bfb25703bf0</id>
+    </Compile>
+    <Compile Include="CloseApplication.cs">
+      <BoundTo>9d9afebd-b50d-4c95-b9fd-719466197ec0</BoundTo>
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>546018ec-7cb5-4410-a660-224d76671e9f</id>
+    </Compile>
+    <Compile Include="CloseApplication.UserCode.cs">
+      <BoundTo>9d9afebd-b50d-4c95-b9fd-719466197ec0</BoundTo>
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c06fa336-673d-4e67-abd6-3f0d22af87b7</id>
+    </Compile>
+    <Compile Include="CreateNewPropertyList.cs">
+      <BoundTo>ecb24e6e-e2cc-474c-a24b-a457242d6d10</BoundTo>
+      <DependentUpon>CreateNewPropertyList.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a76050d4-fcd5-48f9-9acb-56a0fc39732e</id>
+    </Compile>
+    <Compile Include="CreateNewPropertyList.UserCode.cs">
+      <BoundTo>ecb24e6e-e2cc-474c-a24b-a457242d6d10</BoundTo>
+      <DependentUpon>CreateNewPropertyList.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1501eb7-283f-4eb2-b298-fe2c5aa36625</id>
+    </Compile>
+    <Compile Include="DeletePropertyList.cs">
+      <BoundTo>0b3f26dc-4233-44e2-b067-dc370d9f2c5b</BoundTo>
+      <DependentUpon>DeletePropertyList.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a47ab622-d03d-475b-b0d4-49143241836a</id>
+    </Compile>
+    <Compile Include="DeletePropertyList.UserCode.cs">
+      <BoundTo>0b3f26dc-4233-44e2-b067-dc370d9f2c5b</BoundTo>
+      <DependentUpon>DeletePropertyList.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>01ddde13-4f35-43ee-aa62-ae2418ed246d</id>
+    </Compile>
+    <Compile Include="EditTaktTime.cs">
+      <BoundTo>41e8bf1f-9628-4320-a9d6-7d90f4ead972</BoundTo>
+      <DependentUpon>EditTaktTime.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e443ec9-6237-4516-93de-37a9c90426bb</id>
+    </Compile>
+    <Compile Include="EditTaktTime.UserCode.cs">
+      <BoundTo>41e8bf1f-9628-4320-a9d6-7d90f4ead972</BoundTo>
+      <DependentUpon>EditTaktTime.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0b4eeea-0844-467e-bd72-b1193bfad53f</id>
+    </Compile>
+    <Compile Include="ExpandGeometry.cs">
+      <BoundTo>9c8f9c9b-2bfc-4f5a-a765-9bd17cce1d54</BoundTo>
+      <DependentUpon>ExpandGeometry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b92d54ea-ec18-47fd-8236-5b759c00b7db</id>
+    </Compile>
+    <Compile Include="ExpandGeometry.UserCode.cs">
+      <BoundTo>9c8f9c9b-2bfc-4f5a-a765-9bd17cce1d54</BoundTo>
+      <DependentUpon>ExpandGeometry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac99ca0a-3907-4a0c-92c2-905bdce4cd2b</id>
+    </Compile>
+    <Compile Include="ExpandTree.cs">
+      <BoundTo>278a1451-1c0d-4b4f-8706-52644fba1b66</BoundTo>
+      <DependentUpon>ExpandTree.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0de39930-dc14-4bca-a124-410ca10ebca5</id>
+    </Compile>
+    <Compile Include="ExpandTree.UserCode.cs">
+      <BoundTo>278a1451-1c0d-4b4f-8706-52644fba1b66</BoundTo>
+      <DependentUpon>ExpandTree.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>128230c2-d239-4dfc-90bf-b49a7a78e008</id>
+    </Compile>
+    <Compile Include="LoadFirstCam.cs">
+      <BoundTo>24bf8c80-3e9d-4ce1-bbc9-6047af629d84</BoundTo>
+      <DependentUpon>LoadFirstCam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>38e606d1-dc41-4400-a3ca-b9041dc7f263</id>
+    </Compile>
+    <Compile Include="LoadFirstCam.UserCode.cs">
+      <BoundTo>24bf8c80-3e9d-4ce1-bbc9-6047af629d84</BoundTo>
+      <DependentUpon>LoadFirstCam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fbef2c5c-abae-49f7-a723-32d166c03307</id>
+    </Compile>
+    <Compile Include="ResetLastProjectConfiguration.cs">
+      <BoundTo>a0f549f6-c39c-47d1-aa91-02c1dcdf14c2</BoundTo>
+      <DependentUpon>ResetLastProjectConfiguration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ee30c1b0-6375-4b8b-9e45-cceb7940dddb</id>
+    </Compile>
+    <Compile Include="ResetLastProjectConfiguration.UserCode.cs">
+      <BoundTo>a0f549f6-c39c-47d1-aa91-02c1dcdf14c2</BoundTo>
+      <DependentUpon>ResetLastProjectConfiguration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d4ebb016-6234-44b7-9ceb-6d1a93036835</id>
+    </Compile>
+    <Compile Include="SetLastProjectConfiguration.cs">
+      <BoundTo>54136b3b-f470-445c-a7b5-230163bcab84</BoundTo>
+      <DependentUpon>SetLastProjectConfiguration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb28785f-e9a2-4f42-ac73-4633969035c1</id>
+    </Compile>
+    <Compile Include="SetLastProjectConfiguration.UserCode.cs">
+      <BoundTo>54136b3b-f470-445c-a7b5-230163bcab84</BoundTo>
+      <DependentUpon>SetLastProjectConfiguration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c2509b4d-8cfc-4b60-a8a4-9fa37a9466b9</id>
+    </Compile>
+    <Compile Include="SetFirstCamSegment.cs">
+      <BoundTo>00daa71b-81cd-4964-b93e-6d856e2e4aaa</BoundTo>
+      <DependentUpon>SetFirstCamSegment.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>27fc518d-02aa-46fc-9ac6-c4c810c4f5cb</id>
+    </Compile>
+    <Compile Include="SetFirstCamSegment.UserCode.cs">
+      <BoundTo>00daa71b-81cd-4964-b93e-6d856e2e4aaa</BoundTo>
+      <DependentUpon>SetFirstCamSegment.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0543a086-247d-4748-9015-df5248a85109</id>
+    </Compile>
+    <Compile Include="AddNote.cs">
+      <BoundTo>11d373e4-6beb-4859-986c-91c6f7ea33cd</BoundTo>
+      <DependentUpon>AddNote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ea1b9559-b706-4df1-b47b-7cb5f21acc1e</id>
+    </Compile>
+    <Compile Include="AddNote.UserCode.cs">
+      <BoundTo>11d373e4-6beb-4859-986c-91c6f7ea33cd</BoundTo>
+      <DependentUpon>AddNote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>59054519-bb67-44b9-932c-e3979401001f</id>
+    </Compile>
+    <Compile Include="AddAndRemoveSegments.cs">
+      <BoundTo>bed189a2-e2c8-46af-a8c6-7b6b173dfbe2</BoundTo>
+      <DependentUpon>AddAndRemoveSegments.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9bb4f953-f5b5-48ea-a009-76164ab1d653</id>
+    </Compile>
+    <Compile Include="AddAndRemoveSegments.UserCode.cs">
+      <BoundTo>bed189a2-e2c8-46af-a8c6-7b6b173dfbe2</BoundTo>
+      <DependentUpon>AddAndRemoveSegments.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d02b29ea-78ee-4ea7-b6cf-e1b05ae1270a</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>aa8b3918-4992-462e-9126-a15add2c9e37</id>
+    </Compile>
+    <Compile Include="CamContextMenu.cs">
+      <BoundTo>619d1740-90a3-4e15-bf7f-81cc88fd457e</BoundTo>
+      <DependentUpon>CamContextMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d1778775-fafd-4c75-b693-b802092ca8f6</id>
+    </Compile>
+    <Compile Include="CamContextMenu.UserCode.cs">
+      <BoundTo>619d1740-90a3-4e15-bf7f-81cc88fd457e</BoundTo>
+      <DependentUpon>CamContextMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8924cf52-0b2b-47f1-ba5e-1a8ae43599fa</id>
+    </Compile>
+    <Compile Include="CamDesignerRepository.cs">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <DependentUpon>CamDesignerRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>01baca44-4399-4b7f-b17f-cf13929556e9</id>
+    </Compile>
+    <Compile Include="ChangeArmLayout.cs">
+      <BoundTo>1e320ee2-aea9-4e9d-87c6-874deb85774b</BoundTo>
+      <DependentUpon>ChangeArmLayout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2092e699-e71d-45b8-a71d-5b62f82a0d7e</id>
+    </Compile>
+    <Compile Include="ChangeArmLayout.UserCode.cs">
+      <BoundTo>1e320ee2-aea9-4e9d-87c6-874deb85774b</BoundTo>
+      <DependentUpon>ChangeArmLayout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>76ab4a54-1acf-4787-b59f-40e4d75e94af</id>
+    </Compile>
+    <Compile Include="ChangeFunction.cs">
+      <BoundTo>3b8c1b57-daef-4686-b4bf-c643754bb124</BoundTo>
+      <DependentUpon>ChangeFunction.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9535e750-ede7-4739-a393-3bf1d4743119</id>
+    </Compile>
+    <Compile Include="ChangeFunction.UserCode.cs">
+      <BoundTo>3b8c1b57-daef-4686-b4bf-c643754bb124</BoundTo>
+      <DependentUpon>ChangeFunction.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>752cf334-73f9-46d3-85c0-ba0f23415bac</id>
+    </Compile>
+    <Compile Include="ChangeGeometry.cs">
+      <BoundTo>7c6b576d-f127-48f3-97c1-14604a8913c3</BoundTo>
+      <DependentUpon>ChangeGeometry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7505ec78-2b36-4a04-a995-f85aaa26b266</id>
+    </Compile>
+    <Compile Include="ChangeGeometry.UserCode.cs">
+      <BoundTo>7c6b576d-f127-48f3-97c1-14604a8913c3</BoundTo>
+      <DependentUpon>ChangeGeometry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6d2b87f1-39d3-4f7d-beec-be13213d4bea</id>
+    </Compile>
+    <Compile Include="ChangeGeometryRadio.cs">
+      <BoundTo>7f2854c1-0db4-4c60-a303-08b8063b8a84</BoundTo>
+      <DependentUpon>ChangeGeometryRadio.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df578038-9f34-4cf3-8019-c2725036cd3e</id>
+    </Compile>
+    <Compile Include="ChangeGeometryRadio.UserCode.cs">
+      <BoundTo>7f2854c1-0db4-4c60-a303-08b8063b8a84</BoundTo>
+      <DependentUpon>ChangeGeometryRadio.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0352746-8b91-4813-bab8-95f095e3dd70</id>
+    </Compile>
+    <Compile Include="ChangeH.cs">
+      <BoundTo>b2e8afc6-8b2b-4f31-8205-ee3df424fa27</BoundTo>
+      <DependentUpon>ChangeH.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed821df9-f2bd-4939-bd95-613328eea096</id>
+    </Compile>
+    <Compile Include="ChangeH.UserCode.cs">
+      <BoundTo>b2e8afc6-8b2b-4f31-8205-ee3df424fa27</BoundTo>
+      <DependentUpon>ChangeH.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>16d9f5bb-0514-40e2-87e5-11276ae9b8b9</id>
+    </Compile>
+    <Compile Include="CompareTiming.cs">
+      <BoundTo>31c2a90e-bc95-4014-b67b-83ae74fbf5a3</BoundTo>
+      <DependentUpon>CompareTiming.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4faea9cf-d3d7-41b6-935c-6ce8112a228d</id>
+    </Compile>
+    <Compile Include="CompareTiming.UserCode.cs">
+      <BoundTo>31c2a90e-bc95-4014-b67b-83ae74fbf5a3</BoundTo>
+      <DependentUpon>CompareTiming.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea6a8d68-eed3-4d0c-b7af-5f69813c809c</id>
+    </Compile>
+    <Compile Include="CompleteFirstCam.cs">
+      <BoundTo>dc3050c4-6794-4062-b028-5b4327394295</BoundTo>
+      <DependentUpon>CompleteFirstCam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7838bff3-b4d8-4982-ab22-e7883e312f55</id>
+    </Compile>
+    <Compile Include="CompleteFirstCam.UserCode.cs">
+      <BoundTo>dc3050c4-6794-4062-b028-5b4327394295</BoundTo>
+      <DependentUpon>CompleteFirstCam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>24fc86bb-ad51-46c4-b4aa-5ed7e056f623</id>
+    </Compile>
+    <Compile Include="CreateCompareAssembly.cs">
+      <BoundTo>8f099f3a-6ca8-4f3d-9692-dc6aa629c709</BoundTo>
+      <DependentUpon>CreateCompareAssembly.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1fd06775-2e24-40e2-9d07-2644db9ede2c</id>
+    </Compile>
+    <Compile Include="CreateCompareAssembly.UserCode.cs">
+      <BoundTo>8f099f3a-6ca8-4f3d-9692-dc6aa629c709</BoundTo>
+      <DependentUpon>CreateCompareAssembly.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>708a3bd4-27e7-42be-a9e5-6352a5cf1ebe</id>
+    </Compile>
+    <Compile Include="CreateProjectStationCam.cs">
+      <BoundTo>42ef41d4-69c7-4d45-91fb-2920d56168b5</BoundTo>
+      <DependentUpon>CreateProjectStationCam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3e7d29f7-3f82-47d3-8ae3-5b1c9e4adf38</id>
+    </Compile>
+    <Compile Include="CreateProjectStationCam.UserCode.cs">
+      <BoundTo>42ef41d4-69c7-4d45-91fb-2920d56168b5</BoundTo>
+      <DependentUpon>CreateProjectStationCam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0ef32c2-2580-426e-8245-af70ab4601d6</id>
+    </Compile>
+    <Compile Include="DeleteSegmentDetailed.cs">
+      <BoundTo>8f6fa034-022a-4664-a6d1-49aa7bbb3718</BoundTo>
+      <DependentUpon>DeleteSegmentDetailed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2eecdaaf-961e-4826-b38d-89ac54cd8964</id>
+    </Compile>
+    <Compile Include="DeleteSegmentDetailed.UserCode.cs">
+      <BoundTo>8f6fa034-022a-4664-a6d1-49aa7bbb3718</BoundTo>
+      <DependentUpon>DeleteSegmentDetailed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2013e198-ca2e-4940-bd1a-b8fe2943e8ab</id>
+    </Compile>
+    <Compile Include="DragAndDropDetailed.cs">
+      <BoundTo>4e7d1ee0-150a-4f00-a818-211a73f4fc5c</BoundTo>
+      <DependentUpon>DragAndDropDetailed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a5b4ef1f-7d7d-41fd-bd43-00bc1508ed8f</id>
+    </Compile>
+    <Compile Include="DragAndDropDetailed.UserCode.cs">
+      <BoundTo>4e7d1ee0-150a-4f00-a818-211a73f4fc5c</BoundTo>
+      <DependentUpon>DragAndDropDetailed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dbfa641b-fde7-4e0e-8f66-729dd6f64178</id>
+    </Compile>
+    <Compile Include="DragDwellFirst.cs">
+      <BoundTo>2b7de27c-4119-4822-a4f8-3a673b2fbad9</BoundTo>
+      <DependentUpon>DragDwellFirst.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>141da4a6-cc37-4ab5-a06e-5ed87e27e2de</id>
+    </Compile>
+    <Compile Include="DragDwellFirst.UserCode.cs">
+      <BoundTo>2b7de27c-4119-4822-a4f8-3a673b2fbad9</BoundTo>
+      <DependentUpon>DragDwellFirst.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fcbc3343-9c93-4aee-aa97-1fa7dba318de</id>
+    </Compile>
+    <Compile Include="EditConfigText.cs">
+      <BoundTo>3aaaa605-31e5-44d0-a59f-df092bb1e34a</BoundTo>
+      <DependentUpon>EditConfigText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a9f7153b-9421-4f79-9561-5cfe99b5fe9f</id>
+    </Compile>
+    <Compile Include="EditConfigText.UserCode.cs">
+      <BoundTo>3aaaa605-31e5-44d0-a59f-df092bb1e34a</BoundTo>
+      <DependentUpon>EditConfigText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d5d3b6c4-90d5-406a-a192-eecf51bf6df5</id>
+    </Compile>
+    <Compile Include="EditFinal.cs">
+      <BoundTo>81e322ec-f779-481d-8de0-7cbbf37270e6</BoundTo>
+      <DependentUpon>EditFinal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9659e127-8a55-4688-a123-75fdeae55ecc</id>
+    </Compile>
+    <Compile Include="EditFinal.UserCode.cs">
+      <BoundTo>81e322ec-f779-481d-8de0-7cbbf37270e6</BoundTo>
+      <DependentUpon>EditFinal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>840861ff-b3dc-4ed0-b983-ef80a4d57f3d</id>
+    </Compile>
+    <Compile Include="EditStart.cs">
+      <BoundTo>c7bc2cb2-d1ed-40d0-811c-c823510bd8e5</BoundTo>
+      <DependentUpon>EditStart.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bf94fa68-e6e8-4cb6-a5e4-00cd6a6ad70a</id>
+    </Compile>
+    <Compile Include="EditStart.UserCode.cs">
+      <BoundTo>c7bc2cb2-d1ed-40d0-811c-c823510bd8e5</BoundTo>
+      <DependentUpon>EditStart.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d80c6829-ffe3-47ec-b20e-f491e6509263</id>
+    </Compile>
+    <Compile Include="InsertSegmentAboveAndBelow.cs">
+      <BoundTo>50dd1d71-1919-4912-ab7a-ccc7ff5442c0</BoundTo>
+      <DependentUpon>InsertSegmentAboveAndBelow.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8b69ee9d-f367-45c3-9103-8332a13861b6</id>
+    </Compile>
+    <Compile Include="InsertSegmentAboveAndBelow.UserCode.cs">
+      <BoundTo>50dd1d71-1919-4912-ab7a-ccc7ff5442c0</BoundTo>
+      <DependentUpon>InsertSegmentAboveAndBelow.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>239dcb0a-f547-47b1-aeeb-205d0506fd17</id>
+    </Compile>
+    <Compile Include="LoadCam.cs">
+      <BoundTo>697bfc9e-3397-4b81-8c64-aa2d7c735160</BoundTo>
+      <DependentUpon>LoadCam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c9871e17-dfff-4051-902c-6ce4f49b0681</id>
+    </Compile>
+    <Compile Include="LoadCam.UserCode.cs">
+      <BoundTo>697bfc9e-3397-4b81-8c64-aa2d7c735160</BoundTo>
+      <DependentUpon>LoadCam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1970e0e8-06ce-4017-94ad-7d725368cd8b</id>
+    </Compile>
+    <Compile Include="LoadFavourite.cs">
+      <BoundTo>c471e989-d7f1-4fda-ade9-46eed685ac0a</BoundTo>
+      <DependentUpon>LoadFavourite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cbc153d5-e52b-4c33-87f4-92c066b64058</id>
+    </Compile>
+    <Compile Include="LoadFavourite.UserCode.cs">
+      <BoundTo>c471e989-d7f1-4fda-ade9-46eed685ac0a</BoundTo>
+      <DependentUpon>LoadFavourite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>291ba168-721b-4a08-aaed-a68b3757e1c1</id>
+    </Compile>
+    <Compile Include="LoadTemplateAdmin.cs">
+      <BoundTo>95ea4f8e-2f91-4fae-9a6d-1ac79ed3786e</BoundTo>
+      <DependentUpon>LoadTemplateAdmin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>db718ab8-9df7-4606-96c4-a51c5243fee1</id>
+    </Compile>
+    <Compile Include="LoadTemplateAdmin.UserCode.cs">
+      <BoundTo>95ea4f8e-2f91-4fae-9a6d-1ac79ed3786e</BoundTo>
+      <DependentUpon>LoadTemplateAdmin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3f1be08a-b93c-4654-a37f-003a2902abd8</id>
+    </Compile>
+    <Compile Include="LoadTemplateUser.cs">
+      <BoundTo>491c8903-60d1-4fa6-9fb3-c6320807bfed</BoundTo>
+      <DependentUpon>LoadTemplateUser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2680763e-55c9-483b-a264-8baf43527db3</id>
+    </Compile>
+    <Compile Include="LoadTemplateUser.UserCode.cs">
+      <BoundTo>491c8903-60d1-4fa6-9fb3-c6320807bfed</BoundTo>
+      <DependentUpon>LoadTemplateUser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>771a3fb0-762f-4b16-b175-08594e2fc361</id>
+    </Compile>
+    <Compile Include="ProjectContextMenu.cs">
+      <BoundTo>58f6c947-0c9b-45f7-a1e7-a6c2bfd6d1db</BoundTo>
+      <DependentUpon>ProjectContextMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0c08e8a7-d01e-4a55-91ae-b70fd7ce8cb1</id>
+    </Compile>
+    <Compile Include="ProjectContextMenu.UserCode.cs">
+      <BoundTo>58f6c947-0c9b-45f7-a1e7-a6c2bfd6d1db</BoundTo>
+      <DependentUpon>ProjectContextMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>17762f65-c744-415e-9aef-eaa016d700ae</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>35e8f922-bf77-4177-a437-75f6406f022a</id>
+    </Compile>
+    <Compile Include="ValidateArmLayout.cs">
+      <BoundTo>fae66844-1e44-4a34-80bd-de5cc01514b0</BoundTo>
+      <DependentUpon>ValidateArmLayout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>02cfba28-85d8-4c93-baa5-cbfcfbe52ba6</id>
+    </Compile>
+    <Compile Include="ValidateArmLayout.UserCode.cs">
+      <BoundTo>fae66844-1e44-4a34-80bd-de5cc01514b0</BoundTo>
+      <DependentUpon>ValidateArmLayout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de3f94a8-8195-4008-83a3-7cee9dd3307f</id>
+    </Compile>
+    <Compile Include="ValidateDefaultRadioValues.cs">
+      <BoundTo>26340f0c-4fe9-4fca-b470-4498e5c77cb9</BoundTo>
+      <DependentUpon>ValidateDefaultRadioValues.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>65c312e9-01c3-4f44-bc9e-7f690f904478</id>
+    </Compile>
+    <Compile Include="ValidateDefaultRadioValues.UserCode.cs">
+      <BoundTo>26340f0c-4fe9-4fca-b470-4498e5c77cb9</BoundTo>
+      <DependentUpon>ValidateDefaultRadioValues.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2188754-76ea-4591-9654-7e50294b36a1</id>
+    </Compile>
+    <Compile Include="RemoveCam.cs">
+      <BoundTo>2f68a3f8-f8f1-4bee-a79f-2c466813b939</BoundTo>
+      <DependentUpon>RemoveCam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>82d204f2-1cc1-478b-aea8-09a9175fa5f0</id>
+    </Compile>
+    <Compile Include="RemoveCam.UserCode.cs">
+      <BoundTo>2f68a3f8-f8f1-4bee-a79f-2c466813b939</BoundTo>
+      <DependentUpon>RemoveCam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f44ca321-2c8d-490b-9dc5-740feafcbd5f</id>
+    </Compile>
+    <Compile Include="RestartApplication.cs">
+      <BoundTo>d39cc592-c888-494e-98b0-b0f26518ae46</BoundTo>
+      <DependentUpon>RestartApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba6690fc-5fde-4bfb-89b7-bdeb6f872abe</id>
+    </Compile>
+    <Compile Include="RestartApplication.UserCode.cs">
+      <BoundTo>d39cc592-c888-494e-98b0-b0f26518ae46</BoundTo>
+      <DependentUpon>RestartApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>658b9e85-2378-4884-bfb0-064b0a636bf7</id>
+    </Compile>
+    <Compile Include="StationContextMenu.cs">
+      <BoundTo>10b379a8-ecee-40f6-a860-bb1aeaeb058f</BoundTo>
+      <DependentUpon>StationContextMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>923f5585-a749-4718-a7a3-e0a4cb2eab12</id>
+    </Compile>
+    <Compile Include="StationContextMenu.UserCode.cs">
+      <BoundTo>10b379a8-ecee-40f6-a860-bb1aeaeb058f</BoundTo>
+      <DependentUpon>StationContextMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e35bfe64-9b00-4202-a8da-204cf4202e4f</id>
+    </Compile>
+    <Compile Include="ToggleConfiguration.cs">
+      <BoundTo>7659a0af-4cf2-4e0a-afca-1b824f2e7f37</BoundTo>
+      <DependentUpon>ToggleConfiguration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e3e36dd3-d424-4ca8-a8a2-f4217dfe70f2</id>
+    </Compile>
+    <Compile Include="ToggleConfiguration.UserCode.cs">
+      <BoundTo>7659a0af-4cf2-4e0a-afca-1b824f2e7f37</BoundTo>
+      <DependentUpon>ToggleConfiguration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54efebf4-7919-4e16-bebc-e722034d0e7e</id>
+    </Compile>
+    <Compile Include="ValidateConfigText.cs">
+      <BoundTo>79564d01-d270-442d-bcb5-175d680e6ae9</BoundTo>
+      <DependentUpon>ValidateConfigText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>966e6a05-d058-4d11-8b64-ae0badf6b9bb</id>
+    </Compile>
+    <Compile Include="ValidateConfigText.UserCode.cs">
+      <BoundTo>79564d01-d270-442d-bcb5-175d680e6ae9</BoundTo>
+      <DependentUpon>ValidateConfigText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b03c9d79-9aae-46e3-bdf0-0af82fb0a08e</id>
+    </Compile>
+    <Compile Include="ValidateDefaultTextboxValues.cs">
+      <BoundTo>3dd52438-18f1-47ab-a1e6-b64ed3e3caee</BoundTo>
+      <DependentUpon>ValidateDefaultTextboxValues.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a0b6a60-9160-4bea-86a7-df8028940191</id>
+    </Compile>
+    <Compile Include="ValidateDefaultTextboxValues.UserCode.cs">
+      <BoundTo>3dd52438-18f1-47ab-a1e6-b64ed3e3caee</BoundTo>
+      <DependentUpon>ValidateDefaultTextboxValues.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0edc0cf-5f00-4ee9-9337-4804775b16c9</id>
+    </Compile>
+    <Compile Include="ValidateDeletePropertyList.cs">
+      <BoundTo>0e30a689-a3e6-4a15-a87d-8d49b2f348fe</BoundTo>
+      <DependentUpon>ValidateDeletePropertyList.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3d9e24d4-fb55-41eb-96fc-18dc7a1fdc1d</id>
+    </Compile>
+    <Compile Include="ValidateDeletePropertyList.UserCode.cs">
+      <BoundTo>0e30a689-a3e6-4a15-a87d-8d49b2f348fe</BoundTo>
+      <DependentUpon>ValidateDeletePropertyList.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3cab7926-658a-4d03-a7f8-41701a178f9e</id>
+    </Compile>
+    <Compile Include="ValidateDeleteSegmentDetailed.cs">
+      <BoundTo>1e102362-e799-4171-a2c2-2f7127658676</BoundTo>
+      <DependentUpon>ValidateDeleteSegmentDetailed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>36714437-24c5-452c-9b12-6b4ccf45594a</id>
+    </Compile>
+    <Compile Include="ValidateDeleteSegmentDetailed.UserCode.cs">
+      <BoundTo>1e102362-e799-4171-a2c2-2f7127658676</BoundTo>
+      <DependentUpon>ValidateDeleteSegmentDetailed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9edd6e48-90d8-4d03-bb2e-0186986e365f</id>
+    </Compile>
+    <Compile Include="ActivateDetails.cs">
+      <BoundTo>90bde672-747c-4f4e-862d-133cec42210f</BoundTo>
+      <DependentUpon>ActivateDetails.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48bdf2e4-8483-4f1c-8ca5-5b07c2093a94</id>
+    </Compile>
+    <Compile Include="ActivateDetails.UserCode.cs">
+      <BoundTo>90bde672-747c-4f4e-862d-133cec42210f</BoundTo>
+      <DependentUpon>ActivateDetails.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>daaf06b1-3d11-49ed-b908-9bd70ae5e6e6</id>
+    </Compile>
+    <Compile Include="ValidateDragAndDrop.cs">
+      <BoundTo>d7c4300c-9e84-4029-99fa-86f6b5b952f9</BoundTo>
+      <DependentUpon>ValidateDragAndDrop.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35f07dd5-38da-4228-9765-b858f81df6b0</id>
+    </Compile>
+    <Compile Include="ValidateDragAndDrop.UserCode.cs">
+      <BoundTo>d7c4300c-9e84-4029-99fa-86f6b5b952f9</BoundTo>
+      <DependentUpon>ValidateDragAndDrop.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a4e5c15-5cca-467b-84d8-79938f629497</id>
+    </Compile>
+    <Compile Include="ValidateFinal.cs">
+      <BoundTo>94c74ee9-1e73-486f-a225-1e4778086612</BoundTo>
+      <DependentUpon>ValidateFinal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>97b302e6-0640-48b6-b131-f94e00989f49</id>
+    </Compile>
+    <Compile Include="ValidateFinal.UserCode.cs">
+      <BoundTo>94c74ee9-1e73-486f-a225-1e4778086612</BoundTo>
+      <DependentUpon>ValidateFinal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>416d08e4-f8a2-428c-849f-4d49b5ad0a3f</id>
+    </Compile>
+    <Compile Include="ValidateFunction.cs">
+      <BoundTo>677e8448-fdbb-4f43-8a6d-771a1e86d058</BoundTo>
+      <DependentUpon>ValidateFunction.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b615397a-154d-42de-b146-7dfbbeb263b9</id>
+    </Compile>
+    <Compile Include="ValidateFunction.UserCode.cs">
+      <BoundTo>677e8448-fdbb-4f43-8a6d-771a1e86d058</BoundTo>
+      <DependentUpon>ValidateFunction.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8269f198-7c73-44f9-8988-d472d78dcd97</id>
+    </Compile>
+    <Compile Include="ValidateH.cs">
+      <BoundTo>71cdd6c2-c3e3-42c5-ac65-83a891c74f22</BoundTo>
+      <DependentUpon>ValidateH.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e8c83890-a9fe-4b64-9774-466c7f250935</id>
+    </Compile>
+    <Compile Include="ValidateH.UserCode.cs">
+      <BoundTo>71cdd6c2-c3e3-42c5-ac65-83a891c74f22</BoundTo>
+      <DependentUpon>ValidateH.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bbb1adb0-f872-4a19-908b-ffe3677d930f</id>
+    </Compile>
+    <Compile Include="ValidateNote.cs">
+      <BoundTo>f135664e-7ef0-42d8-91e5-224f23b632b2</BoundTo>
+      <DependentUpon>ValidateNote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2fd844a9-2eb8-4fea-a348-e430df60da02</id>
+    </Compile>
+    <Compile Include="ValidateNote.UserCode.cs">
+      <BoundTo>f135664e-7ef0-42d8-91e5-224f23b632b2</BoundTo>
+      <DependentUpon>ValidateNote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ddb91de1-72a9-4a1d-8544-e9e90dc97575</id>
+    </Compile>
+    <Compile Include="ValidateStart.cs">
+      <BoundTo>61693752-cf1d-476a-bfdd-cb18cb332a3c</BoundTo>
+      <DependentUpon>ValidateStart.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>80b33a3a-555c-48b9-8720-262674d5c448</id>
+    </Compile>
+    <Compile Include="ValidateStart.UserCode.cs">
+      <BoundTo>61693752-cf1d-476a-bfdd-cb18cb332a3c</BoundTo>
+      <DependentUpon>ValidateStart.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fac79bc3-7413-4be6-ae32-79c954848c88</id>
+    </Compile>
+    <Compile Include="ValidateSVAJ.cs">
+      <BoundTo>ab42d0d9-95ba-4620-8b49-e15fbc391446</BoundTo>
+      <DependentUpon>ValidateSVAJ.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f1f45562-3f07-4456-8b87-411d1d31fac6</id>
+    </Compile>
+    <Compile Include="ValidateSVAJ.UserCode.cs">
+      <BoundTo>ab42d0d9-95ba-4620-8b49-e15fbc391446</BoundTo>
+      <DependentUpon>ValidateSVAJ.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c51d945b-1339-4166-8aee-f5807f37fa19</id>
+    </Compile>
+    <Compile Include="ValidateValue.cs">
+      <BoundTo>59d9e1cb-02c9-4780-94df-697d8c65dbad</BoundTo>
+      <DependentUpon>ValidateValue.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3f24206-c6c2-4325-829e-8cd060d25923</id>
+    </Compile>
+    <Compile Include="ValidateValue.UserCode.cs">
+      <BoundTo>59d9e1cb-02c9-4780-94df-697d8c65dbad</BoundTo>
+      <DependentUpon>ValidateValue.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e1aade1d-aef9-40fa-b6e6-8489a9ad5441</id>
+    </Compile>
+    <Compile Include="ValidateValueRadio.cs">
+      <BoundTo>2b6152e9-1b65-42f9-b87d-e96d50c5fa11</BoundTo>
+      <DependentUpon>ValidateValueRadio.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c1939c7-8985-42ce-b91f-40f5026ad8cf</id>
+    </Compile>
+    <Compile Include="ValidateValueRadio.UserCode.cs">
+      <BoundTo>2b6152e9-1b65-42f9-b87d-e96d50c5fa11</BoundTo>
+      <DependentUpon>ValidateValueRadio.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ead8117a-51ef-4bcb-8771-b4dbd23eb43e</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ActivateDetailed.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>e824e37e-98d2-4911-adcd-243314a5cd80</id>
+      <recordtableid>0e32cf46-9c23-4a49-853b-eeae12495eb9</recordtableid>
+    </None>
+    <None Include="Add8thComposite.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>0bb8990e-30ba-455b-9225-abbe140d8831</id>
+      <recordtableid>98f69610-9415-4616-9e9f-eadb7e79d2b5</recordtableid>
+    </None>
+    <None Include="AddCamLastStation.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>e0e994c5-9f10-465f-8511-ae5d27a9f34d</id>
+      <recordtableid>deeb31f0-9e8f-4961-97d9-78b7428eaa46</recordtableid>
+    </None>
+    <None Include="AddCVComposite.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>98280f82-2b9f-46d3-82ef-11a8fe62d99f</id>
+      <recordtableid>6edcb532-8c5d-48ae-b3b7-094bd9049ba9</recordtableid>
+    </None>
+    <None Include="AddCVCompositeAndCancel.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>070c27e6-400b-4c1f-91f8-ed3a9447cb6e</id>
+      <recordtableid>c28110e8-9997-43fe-9ff5-2a62d412503c</recordtableid>
+    </None>
+    <None Include="AddCVCompositeWithBeta.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>bd2811e6-f01c-4095-aa53-479572565e21</id>
+      <recordtableid>9477b3e1-9e87-4baf-b4ff-386db2c696fe</recordtableid>
+    </None>
+    <None Include="AddDwell.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>6aa7e813-f684-4566-a8c3-de6af3697854</id>
+      <recordtableid>b69c1e64-baf5-43ab-8568-3f7d69564ddb</recordtableid>
+    </None>
+    <None Include="CloseApplication.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>9d9afebd-b50d-4c95-b9fd-719466197ec0</id>
+      <recordtableid>d0fbb754-7718-4b4e-8acd-38c3662f3412</recordtableid>
+    </None>
+    <None Include="CreateNewPropertyList.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>ecb24e6e-e2cc-474c-a24b-a457242d6d10</id>
+      <recordtableid>57669216-d9d7-477f-918c-33eae7df5271</recordtableid>
+    </None>
+    <None Include="DeletePropertyList.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>0b3f26dc-4233-44e2-b067-dc370d9f2c5b</id>
+      <recordtableid>5ddb8395-c895-49ea-b529-35beca8241a4</recordtableid>
+    </None>
+    <None Include="EditTaktTime.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>41e8bf1f-9628-4320-a9d6-7d90f4ead972</id>
+      <recordtableid>d012196f-952f-4ab4-b8e0-184c4e1342f4</recordtableid>
+    </None>
+    <None Include="ExpandGeometry.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>9c8f9c9b-2bfc-4f5a-a765-9bd17cce1d54</id>
+      <recordtableid>6fe55480-ec24-43ba-8d73-317dbb0ddea1</recordtableid>
+    </None>
+    <None Include="ExpandTree.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>278a1451-1c0d-4b4f-8706-52644fba1b66</id>
+      <recordtableid>4cae057c-8f99-436d-826b-21a6d817f058</recordtableid>
+    </None>
+    <None Include="LoadFirstCam.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>24bf8c80-3e9d-4ce1-bbc9-6047af629d84</id>
+      <recordtableid>d3c49873-1c1b-49bf-a4de-f7ffb3064dca</recordtableid>
+    </None>
+    <None Include="ResetLastProjectConfiguration.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>a0f549f6-c39c-47d1-aa91-02c1dcdf14c2</id>
+      <recordtableid>e2908df3-3d30-4421-934d-fe8d5ad20214</recordtableid>
+    </None>
+    <None Include="SetLastProjectConfiguration.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>54136b3b-f470-445c-a7b5-230163bcab84</id>
+      <recordtableid>7f7e3aec-20c5-4479-8eb3-e1d6a6c94580</recordtableid>
+    </None>
+    <None Include="SetFirstCamSegment.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>00daa71b-81cd-4964-b93e-6d856e2e4aaa</id>
+      <recordtableid>2d30ef35-5313-4f61-a327-cf5b2ede60db</recordtableid>
+    </None>
+    <None Include="AddNote.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>11d373e4-6beb-4859-986c-91c6f7ea33cd</id>
+      <recordtableid>8e2ece75-4640-477a-8e6a-7bf2ced7c399</recordtableid>
+    </None>
+    <None Include="AddAndRemoveSegments.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>bed189a2-e2c8-46af-a8c6-7b6b173dfbe2</id>
+      <recordtableid>bb312038-943e-4e60-8548-6c004791d9bd</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>6a96887b-3765-4817-a9bc-f87164a9a9fb</id>
+    </None>
+    <None Include="CamContextMenu.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>619d1740-90a3-4e15-bf7f-81cc88fd457e</id>
+      <recordtableid>fbf35f36-be07-45ec-9fc5-26356298bdef</recordtableid>
+    </None>
+    <None Include="CamDesignerRepository.rximg">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <DependentUpon>CamDesignerRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>d73d7604-3e01-407a-aece-6d1520d92368</id>
+    </None>
+    <None Include="CamDesignerRepository.rxrep">
+      <id>dc41d617-5ad8-48a4-947f-af5f8e54b18e</id>
+      <repoid>f397231c-781f-483d-997f-7fdb5e0a817e</repoid>
+      <reporootid>95645d5a-794d-472d-b538-8587e65881f6</reporootid>
+    </None>
+    <None Include="ChangeArmLayout.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>1e320ee2-aea9-4e9d-87c6-874deb85774b</id>
+      <recordtableid>24ba023f-1049-4714-8ec0-de5ca00d2e04</recordtableid>
+    </None>
+    <None Include="ChangeFunction.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>3b8c1b57-daef-4686-b4bf-c643754bb124</id>
+      <recordtableid>b32824c2-1d64-467b-80c6-88ade039a76c</recordtableid>
+    </None>
+    <None Include="ChangeGeometry.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>7c6b576d-f127-48f3-97c1-14604a8913c3</id>
+      <recordtableid>2c1ffbeb-748d-4869-b946-db0e2e8a3982</recordtableid>
+    </None>
+    <None Include="ChangeGeometryRadio.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>7f2854c1-0db4-4c60-a303-08b8063b8a84</id>
+      <recordtableid>01822b9f-8bdb-49bf-b681-4325d2ae9717</recordtableid>
+    </None>
+    <None Include="ChangeH.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>b2e8afc6-8b2b-4f31-8205-ee3df424fa27</id>
+      <recordtableid>e31d2b09-7e5e-456b-bb9c-e2e6c5511609</recordtableid>
+    </None>
+    <None Include="CompareTiming.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>31c2a90e-bc95-4014-b67b-83ae74fbf5a3</id>
+      <recordtableid>87324ccd-f128-453b-9e5a-9faf965ce213</recordtableid>
+    </None>
+    <None Include="CompleteFirstCam.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>dc3050c4-6794-4062-b028-5b4327394295</id>
+      <recordtableid>faf31d2d-0a06-44c9-80ae-563b7ec66f7a</recordtableid>
+    </None>
+    <None Include="CreateCompareAssembly.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>8f099f3a-6ca8-4f3d-9692-dc6aa629c709</id>
+      <recordtableid>875a8c6d-849d-4688-a3f8-9ad098975437</recordtableid>
+    </None>
+    <None Include="CreateProjectStationCam.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>42ef41d4-69c7-4d45-91fb-2920d56168b5</id>
+      <recordtableid>82da5589-4ed0-4893-9b9d-7904ca34a04c</recordtableid>
+    </None>
+    <None Include="DeleteSegmentDetailed.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>8f6fa034-022a-4664-a6d1-49aa7bbb3718</id>
+      <recordtableid>be9030d9-b61d-4f0f-b120-c23aeba5cb68</recordtableid>
+    </None>
+    <None Include="DragAndDropDetailed.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>4e7d1ee0-150a-4f00-a818-211a73f4fc5c</id>
+      <recordtableid>dea08e23-4328-41a0-aebb-2f073fee5e06</recordtableid>
+    </None>
+    <None Include="DragDwellFirst.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>2b7de27c-4119-4822-a4f8-3a673b2fbad9</id>
+      <recordtableid>1454dedf-6902-496d-82f8-1a8f569b00e2</recordtableid>
+    </None>
+    <None Include="EditConfigText.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>3aaaa605-31e5-44d0-a59f-df092bb1e34a</id>
+      <recordtableid>f929bc8a-269c-4690-a740-3e6414b32d45</recordtableid>
+    </None>
+    <None Include="EditFinal.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>81e322ec-f779-481d-8de0-7cbbf37270e6</id>
+      <recordtableid>8342f478-4be2-44ef-8a93-b2ff4178705d</recordtableid>
+    </None>
+    <None Include="EditStart.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>c7bc2cb2-d1ed-40d0-811c-c823510bd8e5</id>
+      <recordtableid>21d8e8ce-b54d-4071-bc12-5bed82a09c79</recordtableid>
+    </None>
+    <None Include="InsertSegmentAboveAndBelow.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>50dd1d71-1919-4912-ab7a-ccc7ff5442c0</id>
+      <recordtableid>2f8b80f9-f4ad-4345-8ffa-baa2a12aad1b</recordtableid>
+    </None>
+    <None Include="LoadCam.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>697bfc9e-3397-4b81-8c64-aa2d7c735160</id>
+      <recordtableid>3d41ce9d-ea77-4eec-ae82-c7c123719e4d</recordtableid>
+    </None>
+    <None Include="LoadFavourite.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>c471e989-d7f1-4fda-ade9-46eed685ac0a</id>
+      <recordtableid>11440fc2-05c2-457c-9c11-32feb262f2e6</recordtableid>
+    </None>
+    <None Include="LoadTemplateAdmin.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>95ea4f8e-2f91-4fae-9a6d-1ac79ed3786e</id>
+      <recordtableid>f2bdf930-8c1f-4c4e-ac50-d6b345a64de9</recordtableid>
+    </None>
+    <None Include="LoadTemplateUser.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>491c8903-60d1-4fa6-9fb3-c6320807bfed</id>
+      <recordtableid>85ccf214-be7b-46a4-a5ca-1ba82dfaa6f0</recordtableid>
+    </None>
+    <None Include="ProjectContextMenu.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>58f6c947-0c9b-45f7-a1e7-a6c2bfd6d1db</id>
+      <recordtableid>67c5a89c-0265-4d5b-be3c-6399f3524622</recordtableid>
+    </None>
+    <None Include="ValidateArmLayout.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>fae66844-1e44-4a34-80bd-de5cc01514b0</id>
+      <recordtableid>c77282a5-b7ce-4fbb-928d-81e86b1ef414</recordtableid>
+    </None>
+    <None Include="ValidateDefaultRadioValues.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>26340f0c-4fe9-4fca-b470-4498e5c77cb9</id>
+      <recordtableid>9efcdf3b-75bc-44b2-8908-47ee1fccdc0e</recordtableid>
+    </None>
+    <None Include="RemoveCam.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>2f68a3f8-f8f1-4bee-a79f-2c466813b939</id>
+      <recordtableid>1fb63a72-a4cf-455b-a035-ed57fe3351a9</recordtableid>
+    </None>
+    <None Include="RestartApplication.rxrec">
+      <id>d39cc592-c888-494e-98b0-b0f26518ae46</id>
+      <recordtableid>a0565675-e042-44a2-bd0e-f1998da6cd2a</recordtableid>
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+    </None>
+    <None Include="StationContextMenu.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>10b379a8-ecee-40f6-a860-bb1aeaeb058f</id>
+      <recordtableid>f3ba5a74-7f0c-4850-9abd-81e8339a1b98</recordtableid>
+    </None>
+    <None Include="TestCases.xlsx">
+      <id>72acfabc-cb9b-458c-901f-6fc279409bb2</id>
+    </None>
+    <None Include="ToggleConfiguration.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>7659a0af-4cf2-4e0a-afca-1b824f2e7f37</id>
+      <recordtableid>82729268-106a-40fb-abab-b0891602d768</recordtableid>
+    </None>
+    <None Include="ValidateConfigText.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>79564d01-d270-442d-bcb5-175d680e6ae9</id>
+      <recordtableid>001e7d26-e585-4309-a30d-2ba940affbad</recordtableid>
+    </None>
+    <None Include="ValidateDefaultTextboxValues.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>3dd52438-18f1-47ab-a1e6-b64ed3e3caee</id>
+      <recordtableid>8b6e8119-2cc7-42e6-95c1-9bfb0ae7bb02</recordtableid>
+    </None>
+    <None Include="ValidateDeletePropertyList.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>0e30a689-a3e6-4a15-a87d-8d49b2f348fe</id>
+      <recordtableid>44697351-1ff4-4e7c-902b-44e566302aa9</recordtableid>
+    </None>
+    <None Include="ValidateDeleteSegmentDetailed.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>1e102362-e799-4171-a2c2-2f7127658676</id>
+      <recordtableid>548008de-0314-46c2-88ad-7ca224a1cbb6</recordtableid>
+    </None>
+    <None Include="ActivateDetails.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>90bde672-747c-4f4e-862d-133cec42210f</id>
+      <recordtableid>25b373ca-2969-4a17-b85e-51693d83ea72</recordtableid>
+    </None>
+    <None Include="ValidateDragAndDrop.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>d7c4300c-9e84-4029-99fa-86f6b5b952f9</id>
+      <recordtableid>59489238-ec00-4ce9-84d4-b8528a2434c3</recordtableid>
+    </None>
+    <None Include="ValidateFinal.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>94c74ee9-1e73-486f-a225-1e4778086612</id>
+      <recordtableid>7bdfdc19-0598-440e-b284-1797f002da4b</recordtableid>
+    </None>
+    <None Include="ValidateFunction.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>677e8448-fdbb-4f43-8a6d-771a1e86d058</id>
+      <recordtableid>93e55bbe-998e-4393-9781-4745a66d6861</recordtableid>
+    </None>
+    <None Include="ValidateH.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>71cdd6c2-c3e3-42c5-ac65-83a891c74f22</id>
+      <recordtableid>f3926dc7-0d77-4d8b-951a-f84806af8a0b</recordtableid>
+    </None>
+    <None Include="ValidateNote.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>f135664e-7ef0-42d8-91e5-224f23b632b2</id>
+      <recordtableid>52f32a1f-ac26-4acd-b340-b7725d10ad04</recordtableid>
+    </None>
+    <None Include="ValidateStart.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>61693752-cf1d-476a-bfdd-cb18cb332a3c</id>
+      <recordtableid>f5fe636f-d743-44e2-b0b0-8d7a76d93fa1</recordtableid>
+    </None>
+    <None Include="ValidateSVAJ.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>ab42d0d9-95ba-4620-8b49-e15fbc391446</id>
+      <recordtableid>96bad01b-cf61-4c49-a354-c79db47902ba</recordtableid>
+    </None>
+    <None Include="ValidateValue.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>59d9e1cb-02c9-4780-94df-697d8c65dbad</id>
+      <recordtableid>b9cb915f-941a-4e94-bb69-ee8e7e42849e</recordtableid>
+    </None>
+    <None Include="ValidateValueRadio.rxrec">
+      <BoundTo>dc41d617-5ad8-48a4-947f-af5f8e54b18e</BoundTo>
+      <id>2b6152e9-1b65-42f9-b87d-e96d50c5fa11</id>
+      <recordtableid>dcf97ee9-030a-432f-b83d-95353860aeee</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CamDesigner.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>093fcb4e-e19a-44d3-ba22-f4bf214a31d8</id>
+    </Content>
+    <Content Include="CamDesigner.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f9ef1e67-c716-4b57-a1ed-00a802184a8a</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

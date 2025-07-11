@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="79807dfd-6941-494d-9c10-54c40788e6eb"
+mode="Global"
+rxversion="9.0">
+	<name>
+		GatherValues
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GatherValues"
+	namespace="PLMTest">
+	</codegen>
+	<variables>
+		<var
+		id="73cc3478-efa4-4243-b2bf-a89ba4e124dd"
+		name="varImportTime">
+		</var>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="65c788ff-7e9c-4e5a-a0f7-cd4394a71f2f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="varImportTime">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="99e92c59-c9ef-4789-bb6d-a8f38ec1dd27"
+	name="PLMTestRepository"
+	relativepath="PLMTestRepository.rxrep"
+	rxversion="6.2">
+		<codegen
+		classname="PLMTestRepository"
+		namespace="PLMTest">
+		</codegen>
+		<rootfolder
+		id="5318eb2b-419e-487c-93e5-e275d1924c2d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GatherValues.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f814b479-f30f-4f72-bbaf-686d93e31502"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateStaleReport"
+	namespace="UpchainMechDeployTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="101a9daf-c2d4-4d0e-9c77-62003455c4ef"
+		waitaction="Exists"
+		waittimeout="60000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5ac81774-aea6-4c1c-a260-6c4d076a9541"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="2101,477,91,72"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						AP25669847.SLDPRT 
+AP25669843.SLDPRT 
+AP25183707.SLDPRT 
+AP25183705.SLDPRT&#32;
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						AP25669847.SLDPRT 
+AP25669843.SLDPRT 
+AP25183707.SLDPRT 
+AP25183705.SLDPRT&#32;
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^StaleReport']//container[@accessiblerole='Document']//cell/text[@text~'AP25669843.SLDPRT']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3f05629a-de80-439c-a726-c1bba1045858">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5ac81774-aea6-4c1c-a260-6c4d076a9541"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="2101,477,91,72"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						AP25669847.SLDPRT 
+AP25669843.SLDPRT 
+AP25183707.SLDPRT 
+AP25183705.SLDPRT&#32;
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						AP25669847.SLDPRT 
+AP25669843.SLDPRT 
+AP25183707.SLDPRT 
+AP25183705.SLDPRT&#32;
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^StaleReport']//container[@accessiblerole='Document']//cell/text[@text~'AP25669843.SLDPRT']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="efa164a7-abae-4cb2-9bed-b7c4c3086221">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4b9456fc-323f-4fba-b484-1a5180d897f6"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^StaleReport']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="2d8104ac-e310-4054-aec5-50916d34f27b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4b9456fc-323f-4fba-b484-1a5180d897f6"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^StaleReport']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="9d894477-4c0b-47ec-af4c-9a60679fe97c"
+	name="UpchainMechDeployTestRepository"
+	relativepath="UpchainMechDeployTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="UpchainMechDeployTestRepository"
+		namespace="UpchainMechDeployTest">
+		</codegen>
+		<rootfolder
+		id="397711e0-9cf9-4fd1-b60f-219dc8d44fa0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateStaleReport.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

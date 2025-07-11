@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f3927e1c-d6e8-4ba3-b8eb-e7490fea7a85"
+mode="Global"
+rxversion="7.0">
+	<name>
+		OpenUsersPane
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenUsersPane"
+	namespace="TrainingSetup">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="df91338a-823c-4853-a23e-6d8cd247ec64"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="65b2d773-b614-4372-9393-a7ea46ed7cb7"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Connected\ to\ ESR']/element[@type='JRibbon']//container[@name='view']/element[@type='JRibbonTaskToggleButton']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="46f6f820-a922-41a6-be71-f58a1c9f6ca4"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5de4f4a6-cb97-4f6b-9aa4-1698dab09abc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Connected\ to\ ESR']/container//container[@name='null.layeredPane']/container[@name='null.contentPane']//container/container[@type='JPanel']/container[@name='view']//element[@text='Users']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="9cb51467-7e87-47e1-b971-317ec55f1f12"
+	name="TrainingSetupRepository"
+	relativepath="TrainingSetupRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="TrainingSetupRepository"
+		namespace="TrainingSetup">
+		</codegen>
+		<rootfolder
+		id="ed1de7fd-9fe1-4da9-99f9-7824f5fac7e6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenUsersPane.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

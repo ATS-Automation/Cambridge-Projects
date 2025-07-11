@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="27ae1d70-8696-4fd6-9fa2-43e3b5c5852d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		OpenEnter
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenEnter"
+	namespace="RanorexTraining"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\KeePass Password Safe 2
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="c4a7cbf8-2ae8-4d6c-b3f9-4c286d88ae96"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
+		KeySequence="rx{Return}"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="59a96d37-e655-4034-9565-b4fefb47c80e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="True"
+				dontcache="False"
+				index="0"
+				rect="897,501,219,16"
+				snapElem="">
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focused, Focusable, Protected
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="RanorexTrainingRepository"
+	id="a3b784c7-b185-45ce-9fdf-a4961843ea8e"
+	rxversion="5.4.5.19886"
+	relativepath="RanorexTrainingRepository.rxrep">
+		<codegen
+		classname="RanorexTrainingRepository"
+		namespace="RanorexTraining"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="216adab3-0f07-4d89-b7ce-77f6bd50d515"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenEnter.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

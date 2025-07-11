@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{6AE91C2A-6EEA-4EF0-A843-B2C839F6BE42}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Document_Processor_FilterTest</RootNamespace>
+    <AssemblyName>Document Processor FilterTest</AssemblyName>
+    <RanorexVersion>6.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>0a657087-d564-4867-aec1-c7e8e9291819</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>b64b9c32-688f-4d95-ad9b-125819e14979</id>
+    </Compile>
+    <Compile Include="DownloadFilterTestSetup.cs">
+      <BoundTo>9237702f-b3ac-454f-a636-b48300de0f30</BoundTo>
+      <DependentUpon>DownloadFilterTestSetup.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>641da52d-502c-4048-8731-2573b77b77eb</id>
+    </Compile>
+    <Compile Include="DownloadFilterTestSetup.UserCode.cs">
+      <BoundTo>9237702f-b3ac-454f-a636-b48300de0f30</BoundTo>
+      <DependentUpon>DownloadFilterTestSetup.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e2fed480-326b-4390-969a-e58862b6f5da</id>
+    </Compile>
+    <Compile Include="OpenDocumentProcessor.cs">
+      <BoundTo>82397306-161d-4aa3-a0bf-a66445b08d47</BoundTo>
+      <DependentUpon>OpenDocumentProcessor.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ed47d42-a27d-41b7-b8e1-4935f4d0573d</id>
+    </Compile>
+    <Compile Include="OpenDocumentProcessor.UserCode.cs">
+      <BoundTo>82397306-161d-4aa3-a0bf-a66445b08d47</BoundTo>
+      <DependentUpon>OpenDocumentProcessor.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1e3f2334-aa6b-4da0-9dfa-737d6aef44de</id>
+    </Compile>
+    <Compile Include="Deploy Test Filter Test.Repository.cs">
+      <BoundTo>1e376d35-949b-4db1-bda0-55177e215069</BoundTo>
+      <DependentUpon>Deploy Test Filter Test.rxrec</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>028b4728-0972-4be3-bc69-cca51f80111d</id>
+    </Compile>
+    <Compile Include="Deploy_Test_Filter_Test.cs">
+      <BoundTo>1e376d35-949b-4db1-bda0-55177e215069</BoundTo>
+      <DependentUpon>Deploy Test Filter Test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c8420fd3-2de0-47e2-ab55-a08c320872bb</id>
+    </Compile>
+    <Compile Include="Deploy_Test_Filter_Test.UserCode.cs">
+      <BoundTo>1e376d35-949b-4db1-bda0-55177e215069</BoundTo>
+      <DependentUpon>Deploy Test Filter Test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ea2bd3b-36b2-49e1-a967-d9e0a4553bf2</id>
+    </Compile>
+    <Compile Include="Document Processor FilterTestRepository.cs">
+      <BoundTo>0a657087-d564-4867-aec1-c7e8e9291819</BoundTo>
+      <DependentUpon>Document Processor FilterTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>43e37909-8d8b-4279-91e0-b52f392f0dca</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>a9aeefda-99ca-49aa-8287-0f4054a905a6</id>
+    </Compile>
+    <Compile Include="SOLIDWORKSOpenFile.cs">
+      <BoundTo>1977bbb5-45d6-4f44-85b3-65d816d2446a</BoundTo>
+      <DependentUpon>SOLIDWORKSOpenFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f06b4195-dbf1-4c4e-8afe-8cb31da86b38</id>
+    </Compile>
+    <Compile Include="SOLIDWORKSOpenFile.UserCode.cs">
+      <BoundTo>1977bbb5-45d6-4f44-85b3-65d816d2446a</BoundTo>
+      <DependentUpon>SOLIDWORKSOpenFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b57db101-28b6-4e10-80d1-77e6acaa88d4</id>
+    </Compile>
+    <Content Include="NewCustomTemplate2\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>fd656085-12e7-4dc8-8c31-5b5807c4faf8</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4173554d-6f6c-435d-ab1c-5d3daf22d8a9</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>abf99236-f082-48e3-a49d-4448e98f75df</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6ee8bf25-71b6-4d98-a7ee-72054ae411c7</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3849143d-3754-4c53-9c9a-015249c112d7</id>
+    </Content>
+    <None Include="app.config">
+      <id>2d34475f-7962-492e-a581-f5aa43b8399a</id>
+    </None>
+    <None Include="DownloadFilterTestSetup.rxrec">
+      <BoundTo>0a657087-d564-4867-aec1-c7e8e9291819</BoundTo>
+      <id>9237702f-b3ac-454f-a636-b48300de0f30</id>
+      <recordtableid>28405cf7-ab56-453b-901e-59a56ee5fc37</recordtableid>
+    </None>
+    <None Include="OpenDocumentProcessor.rxrec">
+      <BoundTo>0a657087-d564-4867-aec1-c7e8e9291819</BoundTo>
+      <id>82397306-161d-4aa3-a0bf-a66445b08d47</id>
+      <recordtableid>88972b64-92c0-49ef-94c2-2369551fd376</recordtableid>
+    </None>
+    <None Include="Deploy Test Filter Test.Repository.rximg">
+      <BoundTo>1e376d35-949b-4db1-bda0-55177e215069</BoundTo>
+      <DependentUpon>Deploy Test Filter Test.rxrec</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>f32a0563-e566-496d-b210-f2b86072c117</id>
+    </None>
+    <None Include="Deploy Test Filter Test.rxrec">
+      <id>1e376d35-949b-4db1-bda0-55177e215069</id>
+      <recordtableid>acec346c-2999-4d13-baba-218c6ff0dc4a</recordtableid>
+    </None>
+    <None Include="Document Processor FilterTestRepository.rximg">
+      <BoundTo>0a657087-d564-4867-aec1-c7e8e9291819</BoundTo>
+      <DependentUpon>Document Processor FilterTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>aa3bb1df-a64d-417a-a9d4-2db458066f6c</id>
+    </None>
+    <None Include="Document Processor FilterTestRepository.rxrep">
+      <id>0a657087-d564-4867-aec1-c7e8e9291819</id>
+      <repoid>3f69c4cd-b04f-44be-8fab-84abefed5938</repoid>
+      <reporootid>4c17f6b9-32f0-414a-a804-95d21ea4356d</reporootid>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1182.txt">
+      <id>b0f85085-3f4f-4a00-a536-3ffaf50f6c22</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1204.txt">
+      <id>04c80654-9f8d-4f83-ab6e-8c66bdae24a9</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1205.txt">
+      <id>86e37f5c-2f39-44ad-83f3-d5a3ee271e5c</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1206.txt">
+      <id>3c0fd0e2-59f6-4e25-820a-5554b1029ade</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1207.txt">
+      <id>228a9d47-a530-4a0e-8bd0-4fce830b61e4</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1209.txt">
+      <id>b9b4798b-e5dd-4bcb-9767-4b03e777949d</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1241.txt">
+      <id>61ada9d8-20c4-465f-824a-427722267345</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1262.txt">
+      <id>c33e2e69-568a-42a6-8b89-74e046e16ba1</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1263.txt">
+      <id>df05eeed-2e1a-4d5a-9f10-0166d647eb44</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1266.txt">
+      <id>cf87f4d7-033c-434a-ad8f-7f74ee9ef8e3</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1267.txt">
+      <id>8dccde86-053a-478b-9783-ffdaa3406b66</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1268.txt">
+      <id>424722f7-9936-4b58-96ea-0a9e4e87372a</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1269.txt">
+      <id>beb2439c-ef99-407b-a696-fb5bd874a784</id>
+    </None>
+    <None Include="Reference Files\references RecipeID = 1270.txt">
+      <id>0de1ed51-bce4-463f-9d20-af1677caf43b</id>
+    </None>
+    <None Include="SOLIDWORKSOpenFile.rxrec">
+      <BoundTo>0a657087-d564-4867-aec1-c7e8e9291819</BoundTo>
+      <id>1977bbb5-45d6-4f44-85b3-65d816d2446a</id>
+      <recordtableid>b2b7d8e2-4666-45a7-912a-48ecdbb46bf9</recordtableid>
+    </None>
+    <Content Include="Document Processor FilterTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f15f3850-d758-4c90-90a5-ad9de1cf67d2</id>
+    </Content>
+    <Content Include="Document Processor FilterTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>82853a4d-ba7e-40af-86f7-6448f65dccf0</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reference Files">
+      <id>8c18f135-2d87-4e31-bd5e-860deeb68637</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0dce316f-cc7c-45c6-b1ff-b63a40fd2f65</id>
+    </Folder>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="020b4474-634d-4272-ae3a-acf557339760"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClosePLM"
+	namespace="ATS_BTP_TESTING">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="31afac82-65e1-4ed8-8402-bad8b093088d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="188a05da-abfc-4e2f-bf7c-c8cf6a87a733"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Connected\ to\ ESR']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="95376c1b-d832-48f7-a630-d460a3c3fdb2"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b2ca1c92-8163-49a2-8e3a-e317efb93aad"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Exit Confirmation']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Exit']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="9e7d0150-9ec6-4c41-96e7-0da078654efd"
+	name="PLMTestRepository"
+	relativepath="PLMTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PLMTestRepository"
+		namespace="ATS_BTP_TESTING">
+		</codegen>
+		<rootfolder
+		id="5318eb2b-419e-487c-93e5-e275d1924c2d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClosePLM.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

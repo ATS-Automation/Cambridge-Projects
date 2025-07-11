@@ -1,0 +1,1902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1fb63a72-a4cf-455b-a035-ed57fe3351a9"
+mode="Global"
+rxversion="8.1">
+	<name>
+		RemoveCam
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RemoveCam"
+	namespace="CamDesigner">
+	</codegen>
+	<variables>
+		<var
+		id="1322b499-a80c-4445-b928-5ee94867afb0"
+		name="CamID">
+		</var>
+	</variables>
+	<recorditems>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Remove Cam
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Removing Cam"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="8a541e9c-436e-4143-9e96-2acbddaf9013">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="99628120-2f75-44cd-b883-a071b1ae6162"
+		sx="2178"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e01f7269-e1f5-433c-99fe-93a5a47ffd57"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="6"
+				prefcap="text"
+				rect="2148,522,61,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						17696
+					</attribute>
+				</element>
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[4]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2b9c585-8d47-46e3-b932-370807b116fd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			sourcename="RepositoryEditor">
+				<path>
+					/contextmenu[@processname='CamDesigner' and @win32ownerwindowlevel='1']/menuitem[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="074a6c49-8c81-410e-8e5c-b73502418b7c"
+		sx="2232"
+		sy="918"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b9fd8df3-03e6-4e71-8cae-8ccd39944206"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Confirm']/button[@text='&amp;No']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="99628120-2f75-44cd-b883-a071b1ae6162"
+		sx="2178"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e01f7269-e1f5-433c-99fe-93a5a47ffd57"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="6"
+				prefcap="text"
+				rect="2148,522,61,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						17696
+					</attribute>
+				</element>
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[4]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2b9c585-8d47-46e3-b932-370807b116fd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			sourcename="RepositoryEditor">
+				<path>
+					/contextmenu[@processname='CamDesigner' and @win32ownerwindowlevel='1']/menuitem[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="074a6c49-8c81-410e-8e5c-b73502418b7c"
+		sx="2232"
+		sy="918"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="88017db8-585a-478f-8c9c-ec23bcd619ea"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="2161,902,88,26"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1252022
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11840
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						CamDesigner
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Confirm']/button[@text='&amp;Yes']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3050a372-2895-4771-a371-1c36a03b5e68">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACuAToDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoycUx
+pAKJGwKyppZZ5mjjfYqfebGevYUAaJmHrR5w9azfs+f+W9x/30v/AMTR9m/6b3H/AH0v/wATQBpe
+cPWjzh61mfZv+m1x/wB9L/8AE0fZ/wDptcf99L/8TQBfgmGw8/xt/wChGpPOHrWWLYAcTXHr95f/
+AImjyP8Aptcf99L/APE0AannD1o84etZXkj/AJ7XH/fS/wDxNHlD/ntcf99L/wDE0AavnD1o84et
+ZXlD/ntcf99L/wDE0nlD/ntcf99L/wDE0Aa3nD1o84etZPlj/ntcf99L/wDE0eWP+e1x/wB9L/8A
+E0Aa3nD1o84etZGwf89rj/vpf/iaNo/57XH/AH0v/wATQBr+cPWjzh61j7R/z1uP++l/+JpMD/nr
+cf8AfS//ABNAGz5w9aPOHrWNx/z1uP8Avpf/AImkyP8Anrcf99r/APE0AbXnD1o84etY3H/PW4/7
+6X/4mlCj/nrcf99L/wDE0AbHnD1o84etZGwf89rj/vpf/iaXyx/z2uP++l/+JoA1vOHrR5w9ayfK
+H/Pa4/76X/4ml8of89rj/vpf/iaANXzh60ecPWsryh/z2uP++l/+Jo8of89rj/vpf/iaANXzh60e
+cPWsryh/z2uP++l/+Jo8of8APa4/76X/AOJoA1fOHrR5w9ayvKH/AD2uP++l/wDiaBCNzgz3HBGP
+mX0B/u+9AGr5w9aPOHrWZ5K/897j/vpf/iaPJT/nvcf99L/8TSuPlZp+cPWjzh61l+Sn/Pe4/wC+
+l/8AiaXyV/573H/fS/8AxNFw5WafnD1pRMD3rL8lc/6+4/76X/4mot0sEay+a0ibVLBgMjIHIx2p
+g1Y3VfNOzVG3m3AVa3UCI5zwazrTkTH/AKbH/wBBWr9x0NULP7s3/XY/+grQA95WEvlQxh3A3Nlt
+oA7djzxUhliUosjrG79EZgDUbJKk5lh2NuUBlckdOhBwfWmS287+cB5RE6gMSTleMcccj8qALBlh
+Enl+am/+7uGfyqC3u0nJZTF5YLDPmc8d8Y/r0pfspG4grkzLJnvgY/Xg0z7K/lhdy5/e9/7xJFHQ
+CYz24GTPEBnH3xS7kcsEZWKnDAHOPrUT2uegTAgMQHp/9aiKDypdw2hfLVMD1Gf8aAHMKZT2NMNA
+CUUUlABSUGkJoADTSaCaaTQApNNJoJppNACk03NITSZoAeDTwaiBpQaAJgaeDUINPBoAkzS0wGnZ
+oAWlptLQAtFJS0AFQySFZXGO4/8AQFqamPGWYsF3bsdCAQcAdyPSkyovXUjEx9P1pyysWG0HPbmj
+y2/55t/30n/xVL5Z/wCebf8AfSf41Fma80SSSQ7DsAz/AB4qEzH0/WneWf8Anm3/AH0n+NHln/nm
+3/fSf/FU7MScRizHcOO/rTmObEn/AKdj/wCi6BE2eI8fVlx+hNOkAW1kUchYGX8kIpoibT2HWTfK
+K0QeKzLLoK0h0qiAuOhrOtThJf8Arsf/AEFa0bjoazbb7kv/AF2P/oK0ATGZFOGljUjqC4Bo+0R/
+89ov+/g/xq/Yf8e3/bR//QzVigDI+0R/89ov+/g/xo+0R/8APaL/AL+D/GteigDH+0R/89ov+/g/
+xpDPGf8AltF/38H+NbNFAGIZY/8AntF/38H+NJ5kf/PWL/v4P8a3KKAMLfH/AM9Yv+/g/wAaTfH/
+AM9Yv+/g/wAa3qKAMAun/PWL/v4P8aQsn/PWL/v4v+NdBRQBzpZf+ekX/fxf8aaSv/PSP/v4v+Nd
+JRQBzRx/z0j/AO/i/wCNIcf89I/+/i/4101FAHMYH9+P/v4v+NJgf34/+/i/411FFAHL4H9+P/v4
+v+NKMf34/wDv4v8AjXT0UAc0Mf8APSP/AL+L/jTgV/56R/8Afxf8a6OigDngyf8APSL/AL+L/jTg
+6f8APWL/AL+D/Gt+igDB3x/89Yv+/g/xpd8f/PWL/v4P8a3aKAMLzI/+esX/AH8H+NL5kf8Az1i/
+7+D/ABrcooAw/Mj/AOesX/fwf40eZH/z1i/7+D/GtyigDD8yP/ntF/38H+NHmR/89Yv+/g/xrcoo
+Aw/Mj/56xf8Afwf40eZH/wA9Yv8Av4P8a3KKAMLzI/8AnrF/38H+NEwxbz/9cn/9BNbtYB/48W/6
+9j/6BQAtl0FaY6VmWXQVpjpQAXHQ1n2oyk3/AF2P/oK1oXHQ1T09dyT/APXY/wDoK0AX7H/j2/7a
+Sf8AoZqxUFj/AMe5/wCukn/oZqegAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKwmH/EvY/9Ox/9ArdrHZP+JSzf9Op/9AoAhsug
+rTHSsyy6CtMdKAC46GqNlKYkmwAczH/0FavXHQ1m2/3Jf+ux/wDQVoA1bE5tyf8AppJ/6GasVXsP
++Pb/ALaP/wChmpLgyC3fyRmTHy/WgBILmO437M/I205HX3HtUtZb2V1HE6K0cqvbtFhE2cgfLnLH
+PU/nSXFg32iIrFIYlQBRF5eUbOSfm6Z9RzxQBq0VTvlcSRtFgPLmE/Q85/DB/WoHs2FwwW3ydyGK
+YEfulAHHXI6HgcHNAGnRWcsM4njTyW2JcNKZNwwQd3vnv6VJNAx1KOVYN/ABdwpCjnpzuB/DFAF2
+isj7LctbrD5DDy7aSLcWXDEgYxz7d6dcWDfaIisUhiVAFEXl5Rs5J+bpn1HPFAGrRVO+VxJG0WA8
+uYT9Dzn8MH9agezYXDBbfJ3IYpgR+6UAcdcjoeBwc0AadFZywzieNPJbYlw0pk3DBB3e+e/pT7u1
+lmnYR8RyKCzZ6MucfqR+VAF6isi7tLie2AaHc773ONhKsegy3QY7jnipJLF2klm8oGXzY2RiRkAb
+d2PTofrQBoxyJKpKHIDFTx3BwaIpEmiWSM5RhkHHUVUsbVYY54mtlRWdj0XDqScdPbjmqsVkyW9s
+klj5iRqyvF8nLcYfrg9D780Aa9FUpbaRtMjgYb3BTcN3YMCeT7VD9iZdS8zy5NgK+WY/L2ooGMc/
+MB14HrQBp0VlW+mKothLbqR5REwODluMZ9cc49KabOYxRia385vIVFJYfunGcnJP05GTxQBr0VSW
+2kFxsIBhyJd3+3jGMfX5vrUWlWj27MZUlEhXDsdm1znrx8x/4FQBcN1FlMEtvkMYwOjDOf5GpSx3
+hdpII+9xgVlpp+Nsf2VVQXLOxG0BlIbHQ+4GDSiykChDG3lqsygIwyAzDaBnjpQBqUVTghmGnPEq
+LbyEMECqFx6EgEjP0qCS3L2ixx2HlKXHmKFjJPHUZJB5xyeaANOmyuY0LLG0h7KuMn88Csr+z5Xg
+PmRbpFtVRMsDhxu6e/Tmp/sjQm48mLarwjhGCln5zz69OaALsEqzwrIoIDDoeop9IqhUCqoUAYAH
+aloAKKKKACsVpz/ZbR4GPsx5/wCAVtVgH/jxb/r2P/oFAC2XQVpjpWZZdBWmOlABcdDWZb/cl/67
+H/0Fa07joazIPuS/9dj/AOgrQBrWH/Ht/wBtH/8AQzViq9h/x7f9tH/9DNWKACiiigBvlp5gk2Lv
+AwGxzj0zTqKKACiiigAooooAb5aeYJNi7wMBsc49M06iigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACsA/wDHk3/Xsf8A0Ct+ufP/AB5N/wBex/8AQKAHWXQVpjpW
+ZZdBWmOlABcdDWZB9yX/AK7H/wBBWtO46GsuH7kv/XY/+grQBr2H/Ht/20f/ANDNWKq2LEW3/bR/
+/QzVjcaAHUU3caNxoAdRTdxo3GgB1FN3GjcaAHUU3caNxoAdRTdxo3GgB1FN3GjcaAHUU3caNxoA
+dRTdxo3GgB1FN3GjcaAHUU3caNxoAdRTdxo3GgB1FN3GjcaAHUU3caNxoAdRTdxo3GgB1FN3Gjca
+AHUU3caNxoAdXPn/AI8m/wCvY/8AoFb241gn/jzb/r2P/oFADrLoK0x0rMsugrTHSgAuOhrKi+5L
+/wBdj/6Ctatx0NZUf3JP+ux/9BWgDUsv+Pf/ALaP/wChGrFV7H/j3/7aP/6EasUAFFFFABRRRQAU
+UUUAFFFFAFa+u/scIk2b8ttxnHr/AIVR/ts/8+p/77/+tUuu/wDHkn/XQfyNXbX/AI9YeT/q17+w
+qNW9zoXJGmm43vczf7bP/Pqf++//AK1H9tn/AJ9T/wB9/wD1q1+fU/nRz6n86dn3F7Sn/J+LMj+2
+z/z6n/vv/wCtR/bZ/wCfU/8Aff8A9atfn1P50m4btu75sZxnnFFn3D2lP+T8WZP9tn/n1P8A33/9
+aj+2z/z6n/vv/wCtWsrBhlWyPUGl59T+dFn3D2lP+T8WZH9tn/n1P/ff/wBaj+2z/wA+p/77/wDr
+Vr8+p/Ojn1P50WfcPaU/5PxZkf22f+fU/wDff/1qP7bP/Pqf++//AK1a/PqfzqnqpIsjyeWGeaLP
+uHtKf8n4sWxvTdtKrRGMxkAgnPr7e1XMH0rM0z/j9vv+un9WrSIGT9aIu61JrRUZtR8vyFwfSjB9
+KTA9KMD0qjIXB9KMH0pMD0prMibd7Ku44GTjJ9KAH4PpRg+lMyu4rkbgMkd8U7A9KAFwfSjB9KTA
+9KMD0oAXB9KQ/KCW4A5JPajA9Kr34H2KX6UAWKwj/wAejf8AXsf/AECt2sE/8erf9ex/9F0ASWXQ
+VpjpWZZdBWmOlABcdDWSn3JP+uzf+grWtcdDWQv3JP8Ars3/AKCtAGtY/wDHt/wN/wD0I1YqvY/8
+e3/A3/8AQjVigAooooAKKKKACiiigAooooAzdd/48k/66D+Rq7a/8esX+4v8hVLXf+PJP+ug/kan
+gu7dLeNWlUEIufyFSviZvP8AhR+f6Fuiq/222/57LR9ttv8AnstUYFiqmohljWaI7ZFIQH2Ygf4H
+8Kf9ttv+ey0fbbb/AJ7LQBUuZZbe5jgiljhiVBt8xwoc5wRypz26YPNT2c5kuZo2m80qc/KVKqMn
+A4GQfY1J9ttv+ey0fbbb/nstAFikZlRSzEKoGSScACoPttt/z2WoL+8t20+5VZVJMTAD8DQBeVld
+QykMpGQQcgiqerf8eR/3hTZEbS3MkYLWTHLoOTCfUf7PqO3UUzUbqCa0xFIrHIPFABpn/H7ff9dP
+6tWl3P1rN0z/AI/b7/rp/Vq0DLGGILqDk96mGxviP4n3fkOopnmx/wDPRP8AvoUebH/z0T/voVRg
+PqnqMaym2jbo0uOO3ytVnzY/+eif99CjzY/+eif99CgDMa4lSe4JO2WOONHfbwBuOWH4HNXbKQyC
+T9958athJOPm456cHn0qbzY/+eif99CjzY/+eif99CgB9FM82P8A56J/30KPNj/56J/30KAH1Xv/
+APjyl+lS+bH/AM9E/wC+hUF7IjWcoDqTjoDQBarAP/Hs3/Xsf/Rdb9c+f+Pdv+vc/wDougCay6Ct
+MdKzLLoK0x0oArz3SkH57f8ACX/61ZqNujc5BzM3Q5H3Vq1NcKQfmf8A74b/AAqlG4aJ8E5EpJyM
+dVXH8j+VAG5Y/wDHt/wN/wD0I1YrKhv/ACY9iqjDcxyWIPJJ/u+9P/tQ/wDPOP8A7+N/8TQBpUVm
+/wBqH/nnH/38b/4mj+1D/wA84/8Av43/AMTQBpUVm/2of+ecf/fxv/iaP7UP/POP/v43/wATQBpU
+Vnf2of8AnnH/AN/G/wDiaP7UP/POP/v43/xNAGjRWd/ah/55x/8Afxv/AImk/tQ/884/+/jf/E0A
+T6lavd26xxlQQ+75voap/YL7+/a/9+x/8TUv9qH/AJ5x/wDfxv8A4mj+1D/zzj/7+N/8TUuN3c1j
+WcY8tk/kRfYL7+/a/wDfsf8AxNH2C+/v2v8A37H/AMTUv9qH/nnH/wB/G/8AiaP7UP8Azzj/AO/j
+f/E0cvmV7Z/yr7iL7Bff37X/AL9j/wCJo+wX39+1/wC/Y/8Aial/tQ/884/+/jf/ABNH9qH/AJ5x
+/wDfxv8A4mjl8w9s/wCVfcRfYL7+/a/9+x/8TR9gvv79r/37H/xNS/2qf+ecf/fxv/iaP7VP/POP
+/v43/wATRy+Ye2f8q+4i+wX39+1/79j/AOJqK7srxLOZna22iNicIM4x/u1a/tU/884/+/jf/E0f
+2qf+ecf/AH8b/wCJo5ROs+y+4S41VnEi2kYb5SYnb7spXG4ADk8Hj15qtbafdGPzIXtfLk+dQE4A
+I7ZBI+lSz3yXCqJIkO07gVmdSDjHUL7mnR6ksUaxpFGFQBVHmNwB/wABptXM4y5XexY060mt3med
+kZpSDlfXnPb3qx9mg/54R/8AfAqj/a3/AEzj/wC/jf8AxNH9rf8ATOP/AL+N/wDE0JWVgnNzlzMv
+fZoP+eEf/fAo+zQf88I/++BVH+1v+mcf/fxv/iaP7W/6Zx/9/G/+Jpkl77NB/wA8I/8AvgUfZoP+
+eEf/AHwKo/2t/wBM4/8Av43/AMTR/a//AEzj/wC/jf8AxNAF77NB/wA8I/8AvgUfZoP+eEf/AHwK
+o/2v/wBM4/8Avtv/AImj+1/+mcf/AH23/wATQBe+zQf88I/++BR9mg/54R/98CqP9rf9M4/+/jf/
+ABNL/av/AEzj/wC/jf8AxNAF37NB/wA8I/8AvgUfZoP+eEf/AHwKpf2qf+ecf/fxv/iaP7UP/POP
+/v43/wATQBpVzxP7hv8Ar3P/AKLq/wD2of8AnnH/AN/G/wDiaznIWKTnIWErn324/nQBNZzRADMq
+D/gQrRFzBj/XR/8AfYrHtpQAPmb/AL5P+FXfPXH33/74b/CgCSTSYwPvzf8AfdUnsGgYtC7Anghu
+Qa6JhkVWkiBoAwz5w/5Ywfk3/wAVSZl/54wfk3/xVazQLTfs60AZeZf+eMH5N/8AFUZl/wCeMH5N
+/wDFVqfZ1o+zrQBl5l/54wfk3/xVGZf+eMH5N/8AFVqfZ1o+zrQBmZm/54wfk3/xVGZv+eMH5N/8
+VWn9nWj7OtAGZmb/AJ4wfk3/AMVRmb/njB+Tf/FVp/Z1o+zrQBmZm/54wfk3/wAVRmb/AJ4wfk3/
+AMVWn9nWj7OtAGZmb/njB+Tf/FUZl/54wfk3/wAVWn9nWj7OtAGZmX/njB+Tf/FUmZf+eMH5N/8A
+FVqfZ1o+zrQBl5l/54wfk3/xVGZf+eMH5N/8VWp9nWj7OtAGXmX/AJ4wfk3/AMVR+9/54wfk3/xV
+an2daPs60AZf73/njB+Tf/FUfvf+eMH5N/8AFVqfZ1o+zrQBl/vf+eMH5N/8VR+9/wCeMH5N/wDF
+VqfZ1o+zrQBl4k/54wfk3/xVJiT/AJ4wfk3/AMVWr9nWj7OtAGViT/njB+T/APxVGJP+eMH5P/8A
+FVq/Z1o+zrQBlYk/54wfk/8A8VRiT/njB+T/APxVav2daPs60AZWJP8AnjB+T/8AxVL+9/54wfk3
+/wAVWp9nWj7OtAGXmX/njB+Tf/FUuZf+eMH5N/8AFVp/Z1o+zrQBmZm/54wfk3/xVJ5Uspw+0JnO
+xBgfrk1qfZ1p6QKDQBWt7bpxV37OPSpY4wKmxQB//9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="99628120-2f75-44cd-b883-a071b1ae6162"
+		sx="2178"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e01f7269-e1f5-433c-99fe-93a5a47ffd57"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="6"
+				prefcap="text"
+				rect="2148,522,61,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						CAM 00165
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						17696
+					</attribute>
+				</element>
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']/text[4]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2b9c585-8d47-46e3-b932-370807b116fd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			sourcename="RepositoryEditor">
+				<path>
+					/contextmenu[@processname='CamDesigner' and @win32ownerwindowlevel='1']/menuitem[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="074a6c49-8c81-410e-8e5c-b73502418b7c"
+		sx="2232"
+		sy="918"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="88017db8-585a-478f-8c9c-ec23bcd619ea"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="2161,902,88,26"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1252022
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11840
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						CamDesigner
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Confirm']/button[@text='&amp;Yes']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3050a372-2895-4771-a371-1c36a03b5e68">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="NotExists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f4f93aeb-4945-4c92-8d46-20c0263977f2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="CamID">
+				</binding>
+			</bindings>
+			<info
+			id="8ec1b4cf-939a-4771-81e3-b90b3710c061"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/treeitem[last()='True']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				CAM 00170
+			</matchvalue>
+		</validationitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Remove Station
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Removing Station"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="aeceba82-ab4d-4551-9943-6e4a2736b2d0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="99628120-2f75-44cd-b883-a071b1ae6162"
+		sx="2178"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4f4ccb56-c9ce-4d1a-9bdf-f26aac0de404"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/text[2]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2b9c585-8d47-46e3-b932-370807b116fd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			sourcename="RepositoryEditor">
+				<path>
+					/contextmenu[@processname='CamDesigner' and @win32ownerwindowlevel='1']/menuitem[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="074a6c49-8c81-410e-8e5c-b73502418b7c"
+		sx="2232"
+		sy="918"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b9fd8df3-03e6-4e71-8cae-8ccd39944206"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Confirm']/button[@text='&amp;No']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="99628120-2f75-44cd-b883-a071b1ae6162"
+		sx="2178"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4f4ccb56-c9ce-4d1a-9bdf-f26aac0de404"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem/text[2]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2b9c585-8d47-46e3-b932-370807b116fd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			sourcename="RepositoryEditor">
+				<path>
+					/contextmenu[@processname='CamDesigner' and @win32ownerwindowlevel='1']/menuitem[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="074a6c49-8c81-410e-8e5c-b73502418b7c"
+		sx="2232"
+		sy="918"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="88017db8-585a-478f-8c9c-ec23bcd619ea"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="2161,902,88,26"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1252022
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11840
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						CamDesigner
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Confirm']/button[@text='&amp;Yes']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3050a372-2895-4771-a371-1c36a03b5e68">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACuAToDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoycUx
+pAKJGwKyppZZ5mjjfYqfebGevYUAaJmHrR5w9azfs+f+W9x/30v/AMTR9m/6b3H/AH0v/wATQBpe
+cPWjzh61mfZv+m1x/wB9L/8AE0fZ/wDptcf99L/8TQBfgmGw8/xt/wChGpPOHrWWLYAcTXHr95f/
+AImjyP8Aptcf99L/APE0AannD1o84etZXkj/AJ7XH/fS/wDxNHlD/ntcf99L/wDE0AavnD1o84et
+ZXlD/ntcf99L/wDE0nlD/ntcf99L/wDE0Aa3nD1o84etZPlj/ntcf99L/wDE0eWP+e1x/wB9L/8A
+E0Aa3nD1o84etZGwf89rj/vpf/iaNo/57XH/AH0v/wATQBr+cPWjzh61j7R/z1uP++l/+JpMD/nr
+cf8AfS//ABNAGz5w9aPOHrWNx/z1uP8Avpf/AImkyP8Anrcf99r/APE0AbXnD1o84etY3H/PW4/7
+6X/4mlCj/nrcf99L/wDE0AbHnD1o84etZGwf89rj/vpf/iaXyx/z2uP++l/+JoA1vOHrR5w9ayfK
+H/Pa4/76X/4ml8of89rj/vpf/iaANXzh60ecPWsryh/z2uP++l/+Jo8of89rj/vpf/iaANXzh60e
+cPWsryh/z2uP++l/+Jo8of8APa4/76X/AOJoA1fOHrR5w9ayvKH/AD2uP++l/wDiaBCNzgz3HBGP
+mX0B/u+9AGr5w9aPOHrWZ5K/897j/vpf/iaPJT/nvcf99L/8TSuPlZp+cPWjzh61l+Sn/Pe4/wC+
+l/8AiaXyV/573H/fS/8AxNFw5WafnD1pRMD3rL8lc/6+4/76X/4mot0sEay+a0ibVLBgMjIHIx2p
+g1Y3VfNOzVG3m3AVa3UCI5zwazrTkTH/AKbH/wBBWr9x0NULP7s3/XY/+grQA95WEvlQxh3A3Nlt
+oA7djzxUhliUosjrG79EZgDUbJKk5lh2NuUBlckdOhBwfWmS287+cB5RE6gMSTleMcccj8qALBlh
+Enl+am/+7uGfyqC3u0nJZTF5YLDPmc8d8Y/r0pfspG4grkzLJnvgY/Xg0z7K/lhdy5/e9/7xJFHQ
+CYz24GTPEBnH3xS7kcsEZWKnDAHOPrUT2uegTAgMQHp/9aiKDypdw2hfLVMD1Gf8aAHMKZT2NMNA
+CUUUlABSUGkJoADTSaCaaTQApNNJoJppNACk03NITSZoAeDTwaiBpQaAJgaeDUINPBoAkzS0wGnZ
+oAWlptLQAtFJS0AFQySFZXGO4/8AQFqamPGWYsF3bsdCAQcAdyPSkyovXUjEx9P1pyysWG0HPbmj
+y2/55t/30n/xVL5Z/wCebf8AfSf41Fma80SSSQ7DsAz/AB4qEzH0/WneWf8Anm3/AH0n+NHln/nm
+3/fSf/FU7MScRizHcOO/rTmObEn/AKdj/wCi6BE2eI8fVlx+hNOkAW1kUchYGX8kIpoibT2HWTfK
+K0QeKzLLoK0h0qiAuOhrOtThJf8Arsf/AEFa0bjoazbb7kv/AF2P/oK0ATGZFOGljUjqC4Bo+0R/
+89ov+/g/xq/Yf8e3/bR//QzVigDI+0R/89ov+/g/xo+0R/8APaL/AL+D/GteigDH+0R/89ov+/g/
+xpDPGf8AltF/38H+NbNFAGIZY/8AntF/38H+NJ5kf/PWL/v4P8a3KKAMLfH/AM9Yv+/g/wAaTfH/
+AM9Yv+/g/wAa3qKAMAun/PWL/v4P8aQsn/PWL/v4v+NdBRQBzpZf+ekX/fxf8aaSv/PSP/v4v+Nd
+JRQBzRx/z0j/AO/i/wCNIcf89I/+/i/4101FAHMYH9+P/v4v+NJgf34/+/i/411FFAHL4H9+P/v4
+v+NKMf34/wDv4v8AjXT0UAc0Mf8APSP/AL+L/jTgV/56R/8Afxf8a6OigDngyf8APSL/AL+L/jTg
+6f8APWL/AL+D/Gt+igDB3x/89Yv+/g/xpd8f/PWL/v4P8a3aKAMLzI/+esX/AH8H+NL5kf8Az1i/
+7+D/ABrcooAw/Mj/AOesX/fwf40eZH/z1i/7+D/GtyigDD8yP/ntF/38H+NHmR/89Yv+/g/xrcoo
+Aw/Mj/56xf8Afwf40eZH/wA9Yv8Av4P8a3KKAMLzI/8AnrF/38H+NEwxbz/9cn/9BNbtYB/48W/6
+9j/6BQAtl0FaY6VmWXQVpjpQAXHQ1n2oyk3/AF2P/oK1oXHQ1T09dyT/APXY/wDoK0AX7H/j2/7a
+Sf8AoZqxUFj/AMe5/wCukn/oZqegAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKwmH/EvY/9Ox/9ArdrHZP+JSzf9Op/9AoAhsug
+rTHSsyy6CtMdKAC46GqNlKYkmwAczH/0FavXHQ1m2/3Jf+ux/wDQVoA1bE5tyf8AppJ/6GasVXsP
++Pb/ALaP/wChmpLgyC3fyRmTHy/WgBILmO437M/I205HX3HtUtZb2V1HE6K0cqvbtFhE2cgfLnLH
+PU/nSXFg32iIrFIYlQBRF5eUbOSfm6Z9RzxQBq0VTvlcSRtFgPLmE/Q85/DB/WoHs2FwwW3ydyGK
+YEfulAHHXI6HgcHNAGnRWcsM4njTyW2JcNKZNwwQd3vnv6VJNAx1KOVYN/ABdwpCjnpzuB/DFAF2
+isj7LctbrD5DDy7aSLcWXDEgYxz7d6dcWDfaIisUhiVAFEXl5Rs5J+bpn1HPFAGrRVO+VxJG0WA8
+uYT9Dzn8MH9agezYXDBbfJ3IYpgR+6UAcdcjoeBwc0AadFZywzieNPJbYlw0pk3DBB3e+e/pT7u1
+lmnYR8RyKCzZ6MucfqR+VAF6isi7tLie2AaHc773ONhKsegy3QY7jnipJLF2klm8oGXzY2RiRkAb
+d2PTofrQBoxyJKpKHIDFTx3BwaIpEmiWSM5RhkHHUVUsbVYY54mtlRWdj0XDqScdPbjmqsVkyW9s
+klj5iRqyvF8nLcYfrg9D780Aa9FUpbaRtMjgYb3BTcN3YMCeT7VD9iZdS8zy5NgK+WY/L2ooGMc/
+MB14HrQBp0VlW+mKothLbqR5REwODluMZ9cc49KabOYxRia385vIVFJYfunGcnJP05GTxQBr0VSW
+2kFxsIBhyJd3+3jGMfX5vrUWlWj27MZUlEhXDsdm1znrx8x/4FQBcN1FlMEtvkMYwOjDOf5GpSx3
+hdpII+9xgVlpp+Nsf2VVQXLOxG0BlIbHQ+4GDSiykChDG3lqsygIwyAzDaBnjpQBqUVTghmGnPEq
+LbyEMECqFx6EgEjP0qCS3L2ixx2HlKXHmKFjJPHUZJB5xyeaANOmyuY0LLG0h7KuMn88Csr+z5Xg
+PmRbpFtVRMsDhxu6e/Tmp/sjQm48mLarwjhGCln5zz69OaALsEqzwrIoIDDoeop9IqhUCqoUAYAH
+aloAKKKKACsVpz/ZbR4GPsx5/wCAVtVgH/jxb/r2P/oFAC2XQVpjpWZZdBWmOlABcdDWZb/cl/67
+H/0Fa07joazIPuS/9dj/AOgrQBrWH/Ht/wBtH/8AQzViq9h/x7f9tH/9DNWKACiiigBvlp5gk2Lv
+AwGxzj0zTqKKACiiigAooooAb5aeYJNi7wMBsc49M06iigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACsA/wDHk3/Xsf8A0Ct+ufP/AB5N/wBex/8AQKAHWXQVpjpW
+ZZdBWmOlABcdDWZB9yX/AK7H/wBBWtO46GsuH7kv/XY/+grQBr2H/Ht/20f/ANDNWKq2LEW3/bR/
+/QzVjcaAHUU3caNxoAdRTdxo3GgB1FN3GjcaAHUU3caNxoAdRTdxo3GgB1FN3GjcaAHUU3caNxoA
+dRTdxo3GgB1FN3GjcaAHUU3caNxoAdRTdxo3GgB1FN3GjcaAHUU3caNxoAdRTdxo3GgB1FN3Gjca
+AHUU3caNxoAdXPn/AI8m/wCvY/8AoFb241gn/jzb/r2P/oFADrLoK0x0rMsugrTHSgAuOhrKi+5L
+/wBdj/6Ctatx0NZUf3JP+ux/9BWgDUsv+Pf/ALaP/wChGrFV7H/j3/7aP/6EasUAFFFFABRRRQAU
+UUUAFFFFAFa+u/scIk2b8ttxnHr/AIVR/ts/8+p/77/+tUuu/wDHkn/XQfyNXbX/AI9YeT/q17+w
+qNW9zoXJGmm43vczf7bP/Pqf++//AK1H9tn/AJ9T/wB9/wD1q1+fU/nRz6n86dn3F7Sn/J+LMj+2
+z/z6n/vv/wCtR/bZ/wCfU/8Aff8A9atfn1P50m4btu75sZxnnFFn3D2lP+T8WZP9tn/n1P8A33/9
+aj+2z/z6n/vv/wCtWsrBhlWyPUGl59T+dFn3D2lP+T8WZH9tn/n1P/ff/wBaj+2z/wA+p/77/wDr
+Vr8+p/Ojn1P50WfcPaU/5PxZkf22f+fU/wDff/1qP7bP/Pqf++//AK1a/PqfzqnqpIsjyeWGeaLP
+uHtKf8n4sWxvTdtKrRGMxkAgnPr7e1XMH0rM0z/j9vv+un9WrSIGT9aIu61JrRUZtR8vyFwfSjB9
+KTA9KMD0qjIXB9KMH0pMD0prMibd7Ku44GTjJ9KAH4PpRg+lMyu4rkbgMkd8U7A9KAFwfSjB9KTA
+9KMD0oAXB9KQ/KCW4A5JPajA9Kr34H2KX6UAWKwj/wAejf8AXsf/AECt2sE/8erf9ex/9F0ASWXQ
+VpjpWZZdBWmOlABcdDWSn3JP+uzf+grWtcdDWQv3JP8Ars3/AKCtAGtY/wDHt/wN/wD0I1YqvY/8
+e3/A3/8AQjVigAooooAKKKKACiiigAooooAzdd/48k/66D+Rq7a/8esX+4v8hVLXf+PJP+ug/kan
+gu7dLeNWlUEIufyFSviZvP8AhR+f6Fuiq/222/57LR9ttv8AnstUYFiqmohljWaI7ZFIQH2Ygf4H
+8Kf9ttv+ey0fbbb/AJ7LQBUuZZbe5jgiljhiVBt8xwoc5wRypz26YPNT2c5kuZo2m80qc/KVKqMn
+A4GQfY1J9ttv+ey0fbbb/nstAFikZlRSzEKoGSScACoPttt/z2WoL+8t20+5VZVJMTAD8DQBeVld
+QykMpGQQcgiqerf8eR/3hTZEbS3MkYLWTHLoOTCfUf7PqO3UUzUbqCa0xFIrHIPFABpn/H7ff9dP
+6tWl3P1rN0z/AI/b7/rp/Vq0DLGGILqDk96mGxviP4n3fkOopnmx/wDPRP8AvoUebH/z0T/voVRg
+PqnqMaym2jbo0uOO3ytVnzY/+eif99CjzY/+eif99CgDMa4lSe4JO2WOONHfbwBuOWH4HNXbKQyC
+T9958athJOPm456cHn0qbzY/+eif99CjzY/+eif99CgB9FM82P8A56J/30KPNj/56J/30KAH1Xv/
+APjyl+lS+bH/AM9E/wC+hUF7IjWcoDqTjoDQBarAP/Hs3/Xsf/Rdb9c+f+Pdv+vc/wDougCay6Ct
+MdKzLLoK0x0oArz3SkH57f8ACX/61ZqNujc5BzM3Q5H3Vq1NcKQfmf8A74b/AAqlG4aJ8E5EpJyM
+dVXH8j+VAG5Y/wDHt/wN/wD0I1YrKhv/ACY9iqjDcxyWIPJJ/u+9P/tQ/wDPOP8A7+N/8TQBpUVm
+/wBqH/nnH/38b/4mj+1D/wA84/8Av43/AMTQBpUVm/2of+ecf/fxv/iaP7UP/POP/v43/wATQBpU
+Vnf2of8AnnH/AN/G/wDiaP7UP/POP/v43/xNAGjRWd/ah/55x/8Afxv/AImk/tQ/884/+/jf/E0A
+T6lavd26xxlQQ+75voap/YL7+/a/9+x/8TUv9qH/AJ5x/wDfxv8A4mj+1D/zzj/7+N/8TUuN3c1j
+WcY8tk/kRfYL7+/a/wDfsf8AxNH2C+/v2v8A37H/AMTUv9qH/nnH/wB/G/8AiaP7UP8Azzj/AO/j
+f/E0cvmV7Z/yr7iL7Bff37X/AL9j/wCJo+wX39+1/wC/Y/8Aial/tQ/884/+/jf/ABNH9qH/AJ5x
+/wDfxv8A4mjl8w9s/wCVfcRfYL7+/a/9+x/8TR9gvv79r/37H/xNS/2qf+ecf/fxv/iaP7VP/POP
+/v43/wATRy+Ye2f8q+4i+wX39+1/79j/AOJqK7srxLOZna22iNicIM4x/u1a/tU/884/+/jf/E0f
+2qf+ecf/AH8b/wCJo5ROs+y+4S41VnEi2kYb5SYnb7spXG4ADk8Hj15qtbafdGPzIXtfLk+dQE4A
+I7ZBI+lSz3yXCqJIkO07gVmdSDjHUL7mnR6ksUaxpFGFQBVHmNwB/wABptXM4y5XexY060mt3med
+kZpSDlfXnPb3qx9mg/54R/8AfAqj/a3/AEzj/wC/jf8AxNH9rf8ATOP/AL+N/wDE0JWVgnNzlzMv
+fZoP+eEf/fAo+zQf88I/++BVH+1v+mcf/fxv/iaP7W/6Zx/9/G/+Jpkl77NB/wA8I/8AvgUfZoP+
+eEf/AHwKo/2t/wBM4/8Av43/AMTR/a//AEzj/wC/jf8AxNAF77NB/wA8I/8AvgUfZoP+eEf/AHwK
+o/2v/wBM4/8Avtv/AImj+1/+mcf/AH23/wATQBe+zQf88I/++BR9mg/54R/98CqP9rf9M4/+/jf/
+ABNL/av/AEzj/wC/jf8AxNAF37NB/wA8I/8AvgUfZoP+eEf/AHwKpf2qf+ecf/fxv/iaP7UP/POP
+/v43/wATQBpVzxP7hv8Ar3P/AKLq/wD2of8AnnH/AN/G/wDiaznIWKTnIWErn324/nQBNZzRADMq
+D/gQrRFzBj/XR/8AfYrHtpQAPmb/AL5P+FXfPXH33/74b/CgCSTSYwPvzf8AfdUnsGgYtC7Anghu
+Qa6JhkVWkiBoAwz5w/5Ywfk3/wAVSZl/54wfk3/xVazQLTfs60AZeZf+eMH5N/8AFUZl/wCeMH5N
+/wDFVqfZ1o+zrQBl5l/54wfk3/xVGZf+eMH5N/8AFVqfZ1o+zrQBmZm/54wfk3/xVGZv+eMH5N/8
+VWn9nWj7OtAGZmb/AJ4wfk3/AMVRmb/njB+Tf/FVp/Z1o+zrQBmZm/54wfk3/wAVRmb/AJ4wfk3/
+AMVWn9nWj7OtAGZmb/njB+Tf/FUZl/54wfk3/wAVWn9nWj7OtAGZmX/njB+Tf/FUmZf+eMH5N/8A
+FVqfZ1o+zrQBl5l/54wfk3/xVGZf+eMH5N/8VWp9nWj7OtAGXmX/AJ4wfk3/AMVR+9/54wfk3/xV
+an2daPs60AZf73/njB+Tf/FUfvf+eMH5N/8AFVqfZ1o+zrQBl/vf+eMH5N/8VR+9/wCeMH5N/wDF
+VqfZ1o+zrQBl4k/54wfk3/xVJiT/AJ4wfk3/AMVWr9nWj7OtAGViT/njB+T/APxVGJP+eMH5P/8A
+FVq/Z1o+zrQBlYk/54wfk/8A8VRiT/njB+T/APxVav2daPs60AZWJP8AnjB+T/8AxVL+9/54wfk3
+/wAVWp9nWj7OtAGXmX/njB+Tf/FUuZf+eMH5N/8AFVp/Z1o+zrQBmZm/54wfk3/xVJ5Uspw+0JnO
+xBgfrk1qfZ1p6QKDQBWt7bpxV37OPSpY4wKmxQB//9k=
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="NotExists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f4f93aeb-4945-4c92-8d46-20c0263977f2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="CamID">
+				</binding>
+			</bindings>
+			<info
+			id="5099c8e3-e0b9-4904-a8cb-1b2338b8ff22"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/treeitem
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				CAM 00170
+			</matchvalue>
+		</validationitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Remove Project
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Removing Project"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="aeceba82-ab4d-4551-9943-6e4a2736b2d0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="99628120-2f75-44cd-b883-a071b1ae6162"
+		sx="2178"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3b344ca6-f7f2-4ac2-aa05-7ec37d520402"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/text[1]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2b9c585-8d47-46e3-b932-370807b116fd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			sourcename="RepositoryEditor">
+				<path>
+					/contextmenu[@processname='CamDesigner' and @win32ownerwindowlevel='1']/menuitem[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="074a6c49-8c81-410e-8e5c-b73502418b7c"
+		sx="2232"
+		sy="918"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b9fd8df3-03e6-4e71-8cae-8ccd39944206"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Confirm']/button[@text='&amp;No']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="99628120-2f75-44cd-b883-a071b1ae6162"
+		sx="2178"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3b344ca6-f7f2-4ac2-aa05-7ec37d520402"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Cam Designer 1.1.0' and @classname='Window' and @orientation='None']/?/?/tree[@classname='TreeView']/treeitem[last()='True']/text[1]
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2b9c585-8d47-46e3-b932-370807b116fd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c74cc0bb-74a3-4f09-977b-ed57c4738ee4"
+			sourcename="RepositoryEditor">
+				<path>
+					/contextmenu[@processname='CamDesigner' and @win32ownerwindowlevel='1']/menuitem[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="71;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="074a6c49-8c81-410e-8e5c-b73502418b7c"
+		sx="2232"
+		sy="918"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="88017db8-585a-478f-8c9c-ec23bcd619ea"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="True"
+				index="0"
+				prefcap="button"
+				rect="2161,902,88,26"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1252022
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11840
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						CamDesigner
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Confirm']/button[@text='&amp;Yes']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3050a372-2895-4771-a371-1c36a03b5e68">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="f397231c-781f-483d-997f-7fdb5e0a817e"
+	name="CamDesignerRepository"
+	relativepath="CamDesignerRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="CamDesignerRepository"
+		namespace="CamDesigner">
+		</codegen>
+		<rootfolder
+		id="95645d5a-794d-472d-b538-8587e65881f6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RemoveCam.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

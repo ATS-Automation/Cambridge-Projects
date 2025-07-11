@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5dceed5c-b6f4-4736-9e0a-1b8516f7310a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseOFSC"
+	namespace="GlobalServicesPlatformTesting">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="03aa3c2b-fc2e-4e96-b3f6-68a272bcfd81">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="41cdb0cb-893d-465f-b8cd-06ef71d8eaf6"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~'.*.etadirect.com']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="12269275-6b4a-4279-a0e9-90be381986cd"
+	name="GlobalServicesPlatformTestingRepository"
+	relativepath="GlobalServicesPlatformTestingRepository.rxrep">
+		<codegen
+		classname="GlobalServicesPlatformTestingRepository"
+		namespace="GlobalServicesPlatformTesting">
+		</codegen>
+		<rootfolder
+		id="83c57c16-a03c-494e-96f0-8376d0daef20"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseOFSC.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

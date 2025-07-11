@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="49.24s"
+		durationms="49235"
+		type="root"
+		rid="c551d59b2466784"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="anpatel"
+		rxversion="8.1.1.0"
+		host="CA01A3839"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3360x1050"
+		timestamp="1/21/2019 2:14:32 PM"
+		timestampiso="2019-01-21T19:14:32"
+		endtime="1/21/2019 2:15:21 PM"
+		timeoutfactor="1"
+		module="GenerateReport">
+		<detail>
+			GenerateReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.954"
+			timeRelativeToTestModuleStartTime="00:00.961"
+			timeWallClock="14:14:33"
+			time="00:00.954"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varPathtoSaveto, varProcessingCompletedFile
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.990"
+			timeRelativeToTestModuleStartTime="00:00.997"
+			timeWallClock="14:14:33"
+			time="00:00.990"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.CategoryItemButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']//text[@caption='REPORTING']"
+				itempath=".//text[@caption='REPORTING']"
+				fullname="BPCReportRepository.FileBrowserDialog2.CategoryItemButton"
+				id="5eb5fadf86fd4c07a57c2b42265f39ba"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="108"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.183"
+			timeRelativeToTestModuleStartTime="00:04.190"
+			timeWallClock="14:14:36"
+			time="00:04.183"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.
+
+Could not set-up managed injection endpoint: Could not connect to remoting service: Rx8_Managed_12124. System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.<br/> <br/><br/>Server stack trace: <br/>   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)<br/>   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)<br/>   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)<br/><br/>Exception rethrown at [0]: <br/>   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)<br/>   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)<br/>   at Ranorex.Core.IpcRemotingService.IPingable.Ping()<br/>   at Ranorex.Core.Injection.DotNetThingy.GetInstance(Int32 pid) InnerException: <br/>Process: 'EXCEL' (pid 12124)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Reason#2:.1<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="109"
+				loglvl="Warn"
+				itemindex="11">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.318"
+			timeRelativeToTestModuleStartTime="00:06.325"
+			timeWallClock="14:14:38"
+			time="00:06.318"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.INDEVELOPMENT' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']/container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//container[@controlname='panel2']//tree[@controlname='treeViewHierarchy']/?/?/treeitem[@accessiblename='TEAMREPORTLIBRARY']/treeitem[@accessiblename='IN DEVELOPMENT']"
+				itempath="container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//container[@controlname='panel2']//tree[@controlname='treeViewHierarchy']/?/?/treeitem[@accessiblename='TEAMREPORTLIBRARY']/treeitem[@accessiblename='IN DEVELOPMENT']"
+				fullname="BPCReportRepository.FileBrowserDialog2.INDEVELOPMENT"
+				id="2d07deace50a42139bb349ce58c89d55"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="112"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.420"
+			timeRelativeToTestModuleStartTime="00:14.427"
+			timeWallClock="14:14:46"
+			time="00:14.420"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.IntercompanyReconciliationReportSched' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']/container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//table[@controlname='listViewElement']/row/cell[@text='Intercompany Reconciliation Report_Scheduled.xlsm']"
+				itempath="container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//table[@controlname='listViewElement']/row/cell[@text='Intercompany Reconciliation Report_Scheduled.xlsm']"
+				fullname="BPCReportRepository.FileBrowserDialog2.IntercompanyReconciliationReportSched"
+				id="bdc487450f304ac58ca8e523b35d0efd"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="116"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.622"
+			timeRelativeToTestModuleStartTime="00:16.629"
+			timeWallClock="14:14:49"
+			time="00:16.622"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.BtnOpen' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']/?/?/button[@controlname='btnOpen' and @enabled='True']"
+				itempath="?/?/button[@controlname='btnOpen' and @enabled='True']"
+				fullname="BPCReportRepository.FileBrowserDialog2.BtnOpen"
+				id="b63d40b736a6451bab171f516bc38b64"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="120"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.449"
+			timeRelativeToTestModuleStartTime="00:17.456"
+			timeWallClock="14:14:49"
+			time="00:17.449"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5m to exist. Associated repository item: 'FormEXCEL.btnRefreshReportTakeOffline'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL' and @windowtext~'Intercompany Reconciliation Report_Scheduled']//table[@name='ControlSheet']/shape[@alternativetext='Refresh Report and Take Offline']"
+				itempath=".//table[@name='ControlSheet']/shape[@alternativetext='Refresh Report and Take Offline']"
+				fullname="BPCReportRepository.FormEXCEL.btnRefreshReportTakeOffline"
+				id="703faf12629140c0b3e0232c00ec5395"
+				timeout="300000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="124"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.982"
+			timeRelativeToTestModuleStartTime="00:43.989"
+			timeWallClock="14:15:16"
+			time="00:43.982"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormEXCEL.btnRefreshReportTakeOffline' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL' and @windowtext~'Intercompany Reconciliation Report_Scheduled']//table[@name='ControlSheet']/shape[@alternativetext='Refresh Report and Take Offline']"
+				itempath=".//table[@name='ControlSheet']/shape[@alternativetext='Refresh Report and Take Offline']"
+				fullname="BPCReportRepository.FormEXCEL.btnRefreshReportTakeOffline"
+				id="703faf12629140c0b3e0232c00ec5395"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="127"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.760"
+			timeRelativeToTestModuleStartTime="00:45.767"
+			timeWallClock="14:15:18"
+			time="00:45.760"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ExcelShape:Button 1}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="128"
+				loglvl="Warn"
+				itemindex="16">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.234"
+			timeRelativeToTestModuleStartTime="00:49.241"
+			timeWallClock="14:15:21"
+			time="00:49.234"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

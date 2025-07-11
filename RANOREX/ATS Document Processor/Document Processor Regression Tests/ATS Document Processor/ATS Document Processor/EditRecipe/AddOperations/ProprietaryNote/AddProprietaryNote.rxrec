@@ -1,0 +1,1986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="87213138-a704-4651-8d74-5052a4cf2741"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddProprietaryNote"
+	namespace="ATS_Document_Processor.EditRecipe.AddOperations.ProprietaryNote">
+	</codegen>
+	<variables>
+		<var
+		id="f3308efb-64b8-4e1a-926b-f4f42fec6a93"
+		name="ProprietaryImageFullPath">
+			\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\Ranorex\Insert Proprietary Note\Proprietary.png
+		</var>
+		<var
+		id="35a743e4-d3dd-4c28-b030-4f35fa6245bc"
+		name="PropietaryPartFullPath">
+			\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\Ranorex\Insert Proprietary Note\PartPicture.SLDPRT
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5d07b2c9-8e56-4590-9d13-b5019ef13b3c"
+		sx="2464"
+		sy="266"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="603814ab-f6bb-4d0e-badc-5cf6229a029d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/tabpagelist/tabpage[@title='Recipe Tools']/container[@caption='Operations']/menuitem
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dd921838-d425-45e6-8e3d-c3388c9d48cd"
+		sx="2757"
+		sy="365"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e125bff3-80df-4e89-82d2-7eb9a861f0dc"
+			sourcename="Recorder">
+				<element
+				capabilities="wpfelement"
+				dontcache="False"
+				enabled="True"
+				flavor="wpf"
+				hasfocus="False"
+				index="5"
+				prefcap="button"
+				rect="2661,353,100,66"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.Button
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Microsoft.Windows.Controls.Ribbon.RibbonButton
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						RibbonButton
+					</attribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ActualHeight property of type Double."
+					name="ActualHeight"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ActualWidth property of type Double."
+					name="ActualWidth"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.AllowDrop property of type Boolean."
+					name="AllowDrop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Background property of type Brush."
+					name="Background"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.BindingGroup property of type BindingGroup."
+					name="BindingGroup"
+					readonly="False"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.BitmapEffect property of type BitmapEffect."
+					name="BitmapEffect"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.BitmapEffectInput property of type BitmapEffectInput."
+					name="BitmapEffectInput"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.BorderBrush property of type Brush."
+					name="BorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.CacheMode property of type CacheMode."
+					name="CacheMode"
+					readonly="False"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.CanAddToQuickAccessToolBarDirectly property of type Boolean."
+					name="CanAddToQuickAccessToolBarDirectly"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ClickMode property of type ClickMode."
+					name="ClickMode"
+					readonly="False"
+					type="System.Windows.Controls.ClickMode, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Clip property of type Geometry."
+					name="Clip"
+					readonly="False"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ClipToBounds property of type Boolean."
+					name="ClipToBounds"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.CommandParameter property of type Object."
+					name="CommandParameter"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Content property of type Object."
+					name="Content"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ContentStringFormat property of type String."
+					name="ContentStringFormat"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ContextMenu property of type ContextMenu."
+					name="ContextMenu"
+					readonly="False"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.DataContext property of type Object."
+					name="DataContext"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Effect property of type Effect."
+					name="Effect"
+					readonly="False"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.FlowDirection property of type FlowDirection."
+					name="FlowDirection"
+					readonly="False"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Focusable property of type Boolean."
+					name="Focusable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.FocusedBackground property of type Brush."
+					name="FocusedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.FocusedBorderBrush property of type Brush."
+					name="FocusedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.FontSize property of type Double."
+					name="FontSize"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ForceCursor property of type Boolean."
+					name="ForceCursor"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Foreground property of type Brush."
+					name="Foreground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.HasContent property of type Boolean."
+					name="HasContent"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.HorizontalAlignment property of type HorizontalAlignment."
+					name="HorizontalAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.HorizontalContentAlignment property of type HorizontalAlignment."
+					name="HorizontalContentAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsCancel property of type Boolean."
+					name="IsCancel"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsDefault property of type Boolean."
+					name="IsDefault"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsDefaulted property of type Boolean."
+					name="IsDefaulted"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsHitTestVisible property of type Boolean."
+					name="IsHitTestVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsInControlGroup property of type Boolean."
+					name="IsInControlGroup"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsInQuickAccessToolBar property of type Boolean."
+					name="IsInQuickAccessToolBar"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsManipulationEnabled property of type Boolean."
+					name="IsManipulationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsPressed property of type Boolean."
+					name="IsPressed"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.IsTabStop property of type Boolean."
+					name="IsTabStop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.KeyTip property of type String."
+					name="KeyTip"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Label property of type String."
+					name="Label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.LargeImageSource property of type ImageSource."
+					name="LargeImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.LayoutTransform property of type Transform."
+					name="LayoutTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.MaxHeight property of type Double."
+					name="MaxHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.MaxWidth property of type Double."
+					name="MaxWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.MinHeight property of type Double."
+					name="MinHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.MinWidth property of type Double."
+					name="MinWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.MouseOverBackground property of type Brush."
+					name="MouseOverBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.MouseOverBorderBrush property of type Brush."
+					name="MouseOverBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.OpacityMask property of type Brush."
+					name="OpacityMask"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.OverridesDefaultStyle property of type Boolean."
+					name="OverridesDefaultStyle"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.PressedBackground property of type Brush."
+					name="PressedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.PressedBorderBrush property of type Brush."
+					name="PressedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.QuickAccessToolBarId property of type Object."
+					name="QuickAccessToolBarId"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.RenderTransform property of type Transform."
+					name="RenderTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.RenderTransformOrigin property of type Point."
+					name="RenderTransformOrigin"
+					readonly="False"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ShowKeyboardCues property of type Boolean."
+					name="ShowKeyboardCues"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.SmallImageSource property of type ImageSource."
+					name="SmallImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.SnapsToDevicePixels property of type Boolean."
+					name="SnapsToDevicePixels"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.TabIndex property of type Int32."
+					name="TabIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Tag property of type Object."
+					name="Tag"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ToolTip property of type Object."
+					name="ToolTip"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ToolTipDescription property of type String."
+					name="ToolTipDescription"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ToolTipFooterDescription property of type String."
+					name="ToolTipFooterDescription"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ToolTipFooterImageSource property of type ImageSource."
+					name="ToolTipFooterImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ToolTipFooterTitle property of type String."
+					name="ToolTipFooterTitle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ToolTipImageSource property of type ImageSource."
+					name="ToolTipImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.ToolTipTitle property of type String."
+					name="ToolTipTitle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Uid property of type String."
+					name="Uid"
+					readonly="False"
+					type="System.String"
+					weight="150">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.UseLayoutRounding property of type Boolean."
+					name="UseLayoutRounding"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.VerticalAlignment property of type VerticalAlignment."
+					name="VerticalAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.VerticalContentAlignment property of type VerticalAlignment."
+					name="VerticalContentAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Visibility property of type Visibility."
+					name="Visibility"
+					readonly="False"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.Width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonButton.OnApplyTemplate method."
+					displayName="OnApplyTemplate">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/contextmenu/?/?/container[@automationid='MainGrid']/container/container[2]/button[6]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="32100029-1cee-40b0-b248-c51d605f1309">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1eafd4d6-705e-4911-9dca-2007fada2c56"
+		sx="2323"
+		sy="478"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ab9989ff-eabd-47a2-afa8-8da26f37f06f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="wpfelement"
+				dontcache="False"
+				enabled="True"
+				flavor="wpf"
+				hasfocus="False"
+				index="0"
+				prefcap="checkbox"
+				rect="-1,-1,0,0"
+				role="checkbox"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="checkstate"
+					type="System.Windows.Forms.CheckState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Unchecked
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						fileTypePart
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.CheckBox
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Microsoft.Windows.Controls.Ribbon.RibbonCheckBox
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						fileTypePart
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						RibbonCheckBox
+					</attribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ActualHeight property of type Double."
+					name="ActualHeight"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ActualWidth property of type Double."
+					name="ActualWidth"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.AllowDrop property of type Boolean."
+					name="AllowDrop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Background property of type Brush."
+					name="Background"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BindingGroup property of type BindingGroup."
+					name="BindingGroup"
+					readonly="False"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BitmapEffect property of type BitmapEffect."
+					name="BitmapEffect"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BitmapEffectInput property of type BitmapEffectInput."
+					name="BitmapEffectInput"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BorderBrush property of type Brush."
+					name="BorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CacheMode property of type CacheMode."
+					name="CacheMode"
+					readonly="False"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CanAddToQuickAccessToolBarDirectly property of type Boolean."
+					name="CanAddToQuickAccessToolBarDirectly"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CheckedBackground property of type Brush."
+					name="CheckedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CheckedBorderBrush property of type Brush."
+					name="CheckedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ClickMode property of type ClickMode."
+					name="ClickMode"
+					readonly="False"
+					type="System.Windows.Controls.ClickMode, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Clip property of type Geometry."
+					name="Clip"
+					readonly="False"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ClipToBounds property of type Boolean."
+					name="ClipToBounds"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CommandParameter property of type Object."
+					name="CommandParameter"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Content property of type Object."
+					name="Content"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ContentStringFormat property of type String."
+					name="ContentStringFormat"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ContextMenu property of type ContextMenu."
+					name="ContextMenu"
+					readonly="False"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.DataContext property of type Object."
+					name="DataContext"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Effect property of type Effect."
+					name="Effect"
+					readonly="False"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FlowDirection property of type FlowDirection."
+					name="FlowDirection"
+					readonly="False"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Focusable property of type Boolean."
+					name="Focusable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FocusedBackground property of type Brush."
+					name="FocusedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FocusedBorderBrush property of type Brush."
+					name="FocusedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FontSize property of type Double."
+					name="FontSize"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ForceCursor property of type Boolean."
+					name="ForceCursor"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Foreground property of type Brush."
+					name="Foreground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.HasContent property of type Boolean."
+					name="HasContent"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.HorizontalAlignment property of type HorizontalAlignment."
+					name="HorizontalAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.HorizontalContentAlignment property of type HorizontalAlignment."
+					name="HorizontalContentAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsHitTestVisible property of type Boolean."
+					name="IsHitTestVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsInControlGroup property of type Boolean."
+					name="IsInControlGroup"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsInQuickAccessToolBar property of type Boolean."
+					name="IsInQuickAccessToolBar"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsManipulationEnabled property of type Boolean."
+					name="IsManipulationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsPressed property of type Boolean."
+					name="IsPressed"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsTabStop property of type Boolean."
+					name="IsTabStop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsThreeState property of type Boolean."
+					name="IsThreeState"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.KeyTip property of type String."
+					name="KeyTip"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Label property of type String."
+					name="Label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.LargeImageSource property of type ImageSource."
+					name="LargeImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.LayoutTransform property of type Transform."
+					name="LayoutTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MaxHeight property of type Double."
+					name="MaxHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MaxWidth property of type Double."
+					name="MaxWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MinHeight property of type Double."
+					name="MinHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MinWidth property of type Double."
+					name="MinWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MouseOverBackground property of type Brush."
+					name="MouseOverBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MouseOverBorderBrush property of type Brush."
+					name="MouseOverBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.OpacityMask property of type Brush."
+					name="OpacityMask"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.OverridesDefaultStyle property of type Boolean."
+					name="OverridesDefaultStyle"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.PressedBackground property of type Brush."
+					name="PressedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.PressedBorderBrush property of type Brush."
+					name="PressedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.QuickAccessToolBarId property of type Object."
+					name="QuickAccessToolBarId"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.RenderTransform property of type Transform."
+					name="RenderTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.RenderTransformOrigin property of type Point."
+					name="RenderTransformOrigin"
+					readonly="False"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ShowKeyboardCues property of type Boolean."
+					name="ShowKeyboardCues"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.SmallImageSource property of type ImageSource."
+					name="SmallImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.SnapsToDevicePixels property of type Boolean."
+					name="SnapsToDevicePixels"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.TabIndex property of type Int32."
+					name="TabIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Tag property of type Object."
+					name="Tag"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTip property of type Object."
+					name="ToolTip"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipDescription property of type String."
+					name="ToolTipDescription"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterDescription property of type String."
+					name="ToolTipFooterDescription"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterImageSource property of type ImageSource."
+					name="ToolTipFooterImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterTitle property of type String."
+					name="ToolTipFooterTitle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipImageSource property of type ImageSource."
+					name="ToolTipImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipTitle property of type String."
+					name="ToolTipTitle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Uid property of type String."
+					name="Uid"
+					readonly="False"
+					type="System.String"
+					weight="150">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.UseLayoutRounding property of type Boolean."
+					name="UseLayoutRounding"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.VerticalAlignment property of type VerticalAlignment."
+					name="VerticalAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.VerticalContentAlignment property of type VerticalAlignment."
+					name="VerticalContentAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Visibility property of type Visibility."
+					name="Visibility"
+					readonly="False"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.OnApplyTemplate method."
+					displayName="OnApplyTemplate">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='filters']/?/?/container[@automationid='filesTab']/?/?/checkbox[@automationid='fileTypePart']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="acd52124-a8e3-4e3e-9004-4120e239c4c6"
+		sx="2325"
+		sy="500"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="38fc2eb8-3d85-46bd-b47e-608e4d8a6ade"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="wpfelement"
+				dontcache="False"
+				enabled="True"
+				flavor="wpf"
+				hasfocus="False"
+				index="1"
+				prefcap="checkbox"
+				rect="-1,-1,0,0"
+				role="checkbox"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="checkstate"
+					type="System.Windows.Forms.CheckState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Unchecked
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						fileTypeAssembly
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.CheckBox
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Microsoft.Windows.Controls.Ribbon.RibbonCheckBox
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						fileTypeAssembly
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						RibbonCheckBox
+					</attribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ActualHeight property of type Double."
+					name="ActualHeight"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ActualWidth property of type Double."
+					name="ActualWidth"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.AllowDrop property of type Boolean."
+					name="AllowDrop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Background property of type Brush."
+					name="Background"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BindingGroup property of type BindingGroup."
+					name="BindingGroup"
+					readonly="False"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BitmapEffect property of type BitmapEffect."
+					name="BitmapEffect"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BitmapEffectInput property of type BitmapEffectInput."
+					name="BitmapEffectInput"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.BorderBrush property of type Brush."
+					name="BorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CacheMode property of type CacheMode."
+					name="CacheMode"
+					readonly="False"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CanAddToQuickAccessToolBarDirectly property of type Boolean."
+					name="CanAddToQuickAccessToolBarDirectly"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CheckedBackground property of type Brush."
+					name="CheckedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CheckedBorderBrush property of type Brush."
+					name="CheckedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ClickMode property of type ClickMode."
+					name="ClickMode"
+					readonly="False"
+					type="System.Windows.Controls.ClickMode, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Clip property of type Geometry."
+					name="Clip"
+					readonly="False"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ClipToBounds property of type Boolean."
+					name="ClipToBounds"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.CommandParameter property of type Object."
+					name="CommandParameter"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Content property of type Object."
+					name="Content"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ContentStringFormat property of type String."
+					name="ContentStringFormat"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ContextMenu property of type ContextMenu."
+					name="ContextMenu"
+					readonly="False"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.DataContext property of type Object."
+					name="DataContext"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Effect property of type Effect."
+					name="Effect"
+					readonly="False"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FlowDirection property of type FlowDirection."
+					name="FlowDirection"
+					readonly="False"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Focusable property of type Boolean."
+					name="Focusable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FocusedBackground property of type Brush."
+					name="FocusedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FocusedBorderBrush property of type Brush."
+					name="FocusedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.FontSize property of type Double."
+					name="FontSize"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ForceCursor property of type Boolean."
+					name="ForceCursor"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Foreground property of type Brush."
+					name="Foreground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.HasContent property of type Boolean."
+					name="HasContent"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.HorizontalAlignment property of type HorizontalAlignment."
+					name="HorizontalAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.HorizontalContentAlignment property of type HorizontalAlignment."
+					name="HorizontalContentAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsHitTestVisible property of type Boolean."
+					name="IsHitTestVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsInControlGroup property of type Boolean."
+					name="IsInControlGroup"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsInQuickAccessToolBar property of type Boolean."
+					name="IsInQuickAccessToolBar"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsManipulationEnabled property of type Boolean."
+					name="IsManipulationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsPressed property of type Boolean."
+					name="IsPressed"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsTabStop property of type Boolean."
+					name="IsTabStop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.IsThreeState property of type Boolean."
+					name="IsThreeState"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.KeyTip property of type String."
+					name="KeyTip"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Label property of type String."
+					name="Label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.LargeImageSource property of type ImageSource."
+					name="LargeImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.LayoutTransform property of type Transform."
+					name="LayoutTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MaxHeight property of type Double."
+					name="MaxHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MaxWidth property of type Double."
+					name="MaxWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MinHeight property of type Double."
+					name="MinHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MinWidth property of type Double."
+					name="MinWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MouseOverBackground property of type Brush."
+					name="MouseOverBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.MouseOverBorderBrush property of type Brush."
+					name="MouseOverBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.OpacityMask property of type Brush."
+					name="OpacityMask"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.OverridesDefaultStyle property of type Boolean."
+					name="OverridesDefaultStyle"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.PressedBackground property of type Brush."
+					name="PressedBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.PressedBorderBrush property of type Brush."
+					name="PressedBorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.QuickAccessToolBarId property of type Object."
+					name="QuickAccessToolBarId"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.RenderTransform property of type Transform."
+					name="RenderTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.RenderTransformOrigin property of type Point."
+					name="RenderTransformOrigin"
+					readonly="False"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ShowKeyboardCues property of type Boolean."
+					name="ShowKeyboardCues"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.SmallImageSource property of type ImageSource."
+					name="SmallImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.SnapsToDevicePixels property of type Boolean."
+					name="SnapsToDevicePixels"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.TabIndex property of type Int32."
+					name="TabIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Tag property of type Object."
+					name="Tag"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTip property of type Object."
+					name="ToolTip"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipDescription property of type String."
+					name="ToolTipDescription"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterDescription property of type String."
+					name="ToolTipFooterDescription"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterImageSource property of type ImageSource."
+					name="ToolTipFooterImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterTitle property of type String."
+					name="ToolTipFooterTitle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipImageSource property of type ImageSource."
+					name="ToolTipImageSource"
+					readonly="False"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipTitle property of type String."
+					name="ToolTipTitle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Uid property of type String."
+					name="Uid"
+					readonly="False"
+					type="System.String"
+					weight="150">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.UseLayoutRounding property of type Boolean."
+					name="UseLayoutRounding"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.VerticalAlignment property of type VerticalAlignment."
+					name="VerticalAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.VerticalContentAlignment property of type VerticalAlignment."
+					name="VerticalContentAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Visibility property of type Visibility."
+					name="Visibility"
+					readonly="False"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.Width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicaction
+					description="The WPF Microsoft.Windows.Controls.Ribbon.RibbonCheckBox.OnApplyTemplate method."
+					displayName="OnApplyTemplate">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='filters']/?/?/container[@automationid='filesTab']/?/?/checkbox[@automationid='fileTypeAssembly']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4c3d48b3-de46-443d-9ec8-f37d9c69eb45"
+		sx="2644"
+		sy="564"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6a44dc0c-831f-4883-abff-f3bc04a929be"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title='Insert Proprietary Note' and @processname='ATSDocumentProcessor']/container/container[2]/button[1]
+				</path>
+			</info>
+		</mouseitem>
+		<setvaluerecorditem
+		attrname="Text"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2d3929cd-427e-43cd-978a-5a41771ccdd7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="ProprietaryImageFullPath">
+				</binding>
+			</bindings>
+			<info
+			id="d5e98117-e680-4269-9ffd-f949ce474511"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Open']/?/?/text[@controlid='1148']
+				</path>
+			</info>
+			<AttributeValue>
+				yourValue
+			</AttributeValue>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="99e90014-eccd-4b97-aa02-e9d37cc83a8b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="126687a6-eee4-43f0-b70d-d4ebe9a7d3b0"
+		sx="3092"
+		sy="589"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="30850b05-2576-4b69-9955-8235addb9589"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title='Insert Proprietary Note' and @processname='ATSDocumentProcessor']/container/container[2]/button[2]
+				</path>
+			</info>
+		</mouseitem>
+		<setvaluerecorditem
+		attrname="Text"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2d3929cd-427e-43cd-978a-5a41771ccdd7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="PropietaryPartFullPath">
+				</binding>
+			</bindings>
+			<info
+			id="d5e98117-e680-4269-9ffd-f949ce474511"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Open']/?/?/text[@controlid='1148']
+				</path>
+			</info>
+			<AttributeValue>
+				yourValue
+			</AttributeValue>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="99e90014-eccd-4b97-aa02-e9d37cc83a8b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5b5d6c62-1c08-44ad-909e-638d3dbcc116"
+		sx="3007"
+		sy="629"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2dc1e794-e411-41d6-a735-1c8465573856"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title='Insert Proprietary Note' and @processname='ATSDocumentProcessor']//button[@text='Okay']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5b5d6c62-1c08-44ad-909e-638d3dbcc116"
+		sx="3007"
+		sy="629"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2dc1e794-e411-41d6-a735-1c8465573856"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title='Insert Proprietary Note' and @processname='ATSDocumentProcessor']//button[@text='Okay']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="..\..\..\DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddProprietaryNote.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

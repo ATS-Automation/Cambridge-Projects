@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{5F0E1691-171F-4F00-B0CD-BB772C91BD8F}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>JDE_Heartbeat</RootNamespace>
+    <AssemblyName>JDE_Heartbeat</AssemblyName>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <projectdefaultrepository>1798ca0e-86b6-4236-a832-2a2b2942d36a</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <StartAction>Project</StartAction>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ATSCodeLibrary">
+      <HintPath>..\packages\ATSCodeLibrary.1.0.0.5\lib\net452\ATSCodeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>9cdb23fe-0f6b-43ed-9b0c-51d00fd606c2</id>
+    </Compile>
+    <Compile Include="ATSEmail.cs">
+      <id>19f20819-eecb-4922-908b-26e860fb1f82</id>
+    </Compile>
+    <Compile Include="CloseJDE.cs">
+      <BoundTo>1b96b4a6-9b28-4696-8c0d-1c96f1e009f2</BoundTo>
+      <DependentUpon>CloseJDE.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be395aa0-fc71-443b-aa00-6a629c70f75c</id>
+    </Compile>
+    <Compile Include="CloseJDE.UserCode.cs">
+      <BoundTo>1b96b4a6-9b28-4696-8c0d-1c96f1e009f2</BoundTo>
+      <DependentUpon>CloseJDE.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5de40957-4a06-437b-be25-daef24428bc8</id>
+    </Compile>
+    <Compile Include="CreatePO.cs">
+      <BoundTo>eab73802-deac-4b2b-80dc-92328e83cba4</BoundTo>
+      <DependentUpon>CreatePO.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0c9702e3-f812-4259-b662-351e756e2cd2</id>
+    </Compile>
+    <Compile Include="CreatePO.UserCode.cs">
+      <BoundTo>eab73802-deac-4b2b-80dc-92328e83cba4</BoundTo>
+      <DependentUpon>CreatePO.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2db9692-c049-48f9-9a28-07fd5651c89b</id>
+    </Compile>
+    <Compile Include="DurationofPrevious.cs">
+      <id>60786adc-f28a-4bc4-bd5b-41ff48accfd6</id>
+    </Compile>
+    <Compile Include="FP_BV.cs">
+      <BoundTo>8e230c80-27a6-402e-b99b-534a16747fc6</BoundTo>
+      <DependentUpon>FP_BV.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dd672f85-d49d-4a72-9299-5d15eea84b53</id>
+    </Compile>
+    <Compile Include="FP_BV.UserCode.cs">
+      <BoundTo>8e230c80-27a6-402e-b99b-534a16747fc6</BoundTo>
+      <DependentUpon>FP_BV.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d27f46fa-1ded-4400-b25b-e1c4e36912fa</id>
+    </Compile>
+    <Compile Include="FP_P01012.cs">
+      <BoundTo>bb6a0990-b934-4ca3-b23a-015168659e09</BoundTo>
+      <DependentUpon>FP_P01012.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a1fba217-0d4b-43f4-b2af-03f704a65bd3</id>
+    </Compile>
+    <Compile Include="FP_P01012.UserCode.cs">
+      <BoundTo>bb6a0990-b934-4ca3-b23a-015168659e09</BoundTo>
+      <DependentUpon>FP_P01012.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>90b7a563-5c42-44cb-a145-b41842473d60</id>
+    </Compile>
+    <Compile Include="JDE_HeartbeatRepository.cs">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <DependentUpon>JDE_HeartbeatRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e16e3e48-70e9-419b-92e5-47626ee26560</id>
+    </Compile>
+    <Compile Include="KillProcessIE.cs">
+      <DependentUpon>KillProcessIE.rxrec</DependentUpon>
+      <id>b512c961-4293-46fd-955d-45ba01b46a2c</id>
+      <BoundTo>c6a21fca-e10e-49c0-845b-22889d7b0c4d</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="KillProcessIE.UserCode.cs">
+      <DependentUpon>KillProcessIE.rxrec</DependentUpon>
+      <id>9fa954e5-6251-44f1-9729-a1e1014adf13</id>
+      <BoundTo>c6a21fca-e10e-49c0-845b-22889d7b0c4d</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>8b7a5cc7-4615-4e3b-9ada-69367d520182</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>85c185e4-3588-40e1-ab0a-fb617d2df5ff</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>8b7a5cc7-4615-4e3b-9ada-69367d520182</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e18e2dac-9aea-4352-b526-2380b527160d</id>
+    </Compile>
+    <Compile Include="OpenBrowserUrl.cs">
+      <BoundTo>eafc195d-6e32-4d11-8773-ffaf61d27158</BoundTo>
+      <DependentUpon>OpenBrowserUrl.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10801233-be1f-400b-a5c9-bece6e743906</id>
+    </Compile>
+    <Compile Include="OpenBrowserUrl.UserCode.cs">
+      <BoundTo>eafc195d-6e32-4d11-8773-ffaf61d27158</BoundTo>
+      <DependentUpon>OpenBrowserUrl.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bd3ef78b-15a2-4c19-be09-cee83470fa41</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>5d17cb3a-22d1-4fd9-8a3a-0e7435ba4d7b</id>
+    </Compile>
+    <Compile Include="FP_P4111.cs">
+      <BoundTo>6353311c-a67a-4847-b5d7-d5a892059eb5</BoundTo>
+      <DependentUpon>FP_P4111.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2b8a8388-6a53-4252-8947-8e7ee9aa7a5d</id>
+    </Compile>
+    <Compile Include="FP_P4111.UserCode.cs">
+      <BoundTo>6353311c-a67a-4847-b5d7-d5a892059eb5</BoundTo>
+      <DependentUpon>FP_P4111.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>714149bb-7c95-49ed-9a27-66a6cdcd22da</id>
+    </Compile>
+    <Compile Include="Ranorex Automation HelpersRepository.cs">
+      <DependentUpon>Ranorex Automation HelpersRepository.rxrep</DependentUpon>
+      <id>353e4085-5dbb-44ec-bc9a-e31e3e446449</id>
+      <BoundTo>1e6f42af-049b-4743-a23f-3909f660c464</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="StartTimerModule.cs">
+      <BoundTo>26aaab6a-4d84-422f-aad3-8eddaa308820</BoundTo>
+      <DependentUpon>StartTimerModule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e3b536e8-4ede-45be-b9c6-c598b5021be2</id>
+    </Compile>
+    <Compile Include="StartTimerModule.UserCode.cs">
+      <BoundTo>26aaab6a-4d84-422f-aad3-8eddaa308820</BoundTo>
+      <DependentUpon>StartTimerModule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9b99eecc-3621-45fd-8060-52b16c82f767</id>
+    </Compile>
+    <Compile Include="StopTimerModule.cs">
+      <BoundTo>26277329-e1fa-4a0c-9368-a796cf31246e</BoundTo>
+      <DependentUpon>StopTimerModule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1fc6b10e-9f1d-49b5-b027-7d267ecc8ab6</id>
+    </Compile>
+    <Compile Include="StopTimerModule.UserCode.cs">
+      <BoundTo>26277329-e1fa-4a0c-9368-a796cf31246e</BoundTo>
+      <DependentUpon>StopTimerModule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6bb1d654-8a41-4037-bfc4-eddd04f9218a</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>0f9b43eb-2254-418b-8850-8c79e35d1fde</id>
+    </None>
+    <None Include="CloseJDE.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>1b96b4a6-9b28-4696-8c0d-1c96f1e009f2</id>
+      <recordtableid>0f841daf-df84-4473-9554-e2fa66130954</recordtableid>
+    </None>
+    <None Include="CreatePO.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>eab73802-deac-4b2b-80dc-92328e83cba4</id>
+      <recordtableid>d1379a3c-68df-44eb-926f-c28812d9331f</recordtableid>
+    </None>
+    <None Include="FP_BV.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>8e230c80-27a6-402e-b99b-534a16747fc6</id>
+      <recordtableid>02f64d47-9e25-48ad-81de-8ef11abd8300</recordtableid>
+    </None>
+    <None Include="FP_P01012.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>bb6a0990-b934-4ca3-b23a-015168659e09</id>
+      <recordtableid>251b6f97-8dc6-40ce-9933-9895a0451ec7</recordtableid>
+    </None>
+    <None Include="JDE_HeartbeatRepository.rximg">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <DependentUpon>JDE_HeartbeatRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>6579345d-e6dd-489b-bb35-fdee53a558d8</id>
+    </None>
+    <None Include="JDE_HeartbeatRepository.rxrep">
+      <id>1798ca0e-86b6-4236-a832-2a2b2942d36a</id>
+      <repoid>de096260-56e3-48c7-b240-9554d7426db3</repoid>
+      <reporootid>2a747583-596f-4b8e-9668-bc61c1079c58</reporootid>
+    </None>
+    <None Include="FP_P4111.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>6353311c-a67a-4847-b5d7-d5a892059eb5</id>
+      <recordtableid>2c527780-2c28-4342-9a3c-713994670e5b</recordtableid>
+    </None>
+    <None Include="KillProcessIE.rxrec">
+      <id>c6a21fca-e10e-49c0-845b-22889d7b0c4d</id>
+      <BoundTo>1e6f42af-049b-4743-a23f-3909f660c464</BoundTo>
+      <recordtableid>924a0a34-2885-410d-af4b-d8bba31c5bc1</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>8b7a5cc7-4615-4e3b-9ada-69367d520182</id>
+      <recordtableid>61e33a8c-3df7-47bf-8f4b-e894a5d60c0d</recordtableid>
+    </None>
+    <None Include="OpenBrowserUrl.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>eafc195d-6e32-4d11-8773-ffaf61d27158</id>
+      <recordtableid>533f7045-2e9a-4161-a348-01693c86950d</recordtableid>
+    </None>
+    <None Include="packages.config">
+      <id>dca35c22-58fe-4539-92e1-1959fbad3567</id>
+    </None>
+    <None Include="Ranorex Automation HelpersRepository.rximg">
+      <DependentUpon>Ranorex Automation HelpersRepository.rxrep</DependentUpon>
+      <id>aff14764-93bd-4998-b773-a1ed3afcf4bd</id>
+      <BoundTo>1e6f42af-049b-4743-a23f-3909f660c464</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Ranorex Automation HelpersRepository.rxrep">
+      <id>1e6f42af-049b-4743-a23f-3909f660c464</id>
+      <repoid>2cdb5b17-e7e8-4997-98b6-1ab22844e761</repoid>
+      <reporootid>4632b2f6-dffb-4a70-9f7b-d862a1d816fb</reporootid>
+    </None>
+    <None Include="StartTimerModule.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>26aaab6a-4d84-422f-aad3-8eddaa308820</id>
+      <recordtableid>e7a2a655-2571-43cf-b78b-3230cea81173</recordtableid>
+    </None>
+    <None Include="StopTimerModule.rxrec">
+      <BoundTo>1798ca0e-86b6-4236-a832-2a2b2942d36a</BoundTo>
+      <id>26277329-e1fa-4a0c-9368-a796cf31246e</id>
+      <recordtableid>d7d847a4-ba2e-43a9-b3eb-8d573efddace</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JDE_Heartbeat.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>fca2c3b9-3721-45f4-9aeb-d3d3b0bc17e4</id>
+    </Content>
+    <Content Include="JDE_Heartbeat.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>962d78fc-4442-45f0-876f-10b9061c49b1</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{88CA0104-D7B5-4A08-B67E-83BD23AD1C39}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <PostBuildEvent>rmdir /Q /S \\ca01a9001\pgmis\Deployment_DEV\Ranorex\JDE_Heartbeat\Build
+mkdir \\ca01a9001\pgmis\Deployment_DEV\Ranorex\JDE_Heartbeat\Build
+ROBOCOPY "$(TargetDir) " "\\ca01a9001\pgmis\Deployment_DEV\Ranorex\JDE_Heartbeat\Build" *.exe *.rxtst
+if %errorlevel% leq 1 exit 0 else exit %errorlevel%
+</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

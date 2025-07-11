@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://atsportal/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://atsportal/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://atsportal/">
+      <s:element name="IsUserGroupMember">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="groupName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserGroupMemberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsUserGroupMemberResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleUserProperty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleUserPropertyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSingleUserPropertyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyByAccountID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="accountID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="propertyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyByAccountIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPropertyByAccountIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyByAccountIDCurrentContext">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="propertyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPropertyByAccountIDCurrentContextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPropertyByAccountIDCurrentContextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserDomainName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserDomainNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserDomainNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="IsUserGroupMemberSoapIn">
+    <wsdl:part name="parameters" element="tns:IsUserGroupMember" />
+  </wsdl:message>
+  <wsdl:message name="IsUserGroupMemberSoapOut">
+    <wsdl:part name="parameters" element="tns:IsUserGroupMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleUserPropertySoapIn">
+    <wsdl:part name="parameters" element="tns:GetSingleUserProperty" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleUserPropertySoapOut">
+    <wsdl:part name="parameters" element="tns:GetSingleUserPropertyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyByAccountIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPropertyByAccountID" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyByAccountIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPropertyByAccountIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyByAccountIDCurrentContextSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPropertyByAccountIDCurrentContext" />
+  </wsdl:message>
+  <wsdl:message name="GetPropertyByAccountIDCurrentContextSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPropertyByAccountIDCurrentContextResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDomainNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserDomainName" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDomainNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserDomainNameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ATSGlobalCatalogQuerySoap">
+    <wsdl:operation name="IsUserGroupMember">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The purpose of the IsUserGroupMember function is to validate that the user is a member of the group specified.  If both the userName and emailAddress values are specified then we will query for that user matching on userName and emailAddress.  Then we will retrieve the memberOf property and compare each group with the group specified by caller.  If more than one user account is specified then we will check each one.  If any are valid then the user is concidered a member of the group.If either the userName or the emailAddress are blank, then the current Windows Identity of the calleris automatically used by the CheckTokenMembership function.</wsdl:documentation>
+      <wsdl:input message="tns:IsUserGroupMemberSoapIn" />
+      <wsdl:output message="tns:IsUserGroupMemberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleUserProperty">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The purpose of the GetSingleUserProperty function is to return the value of the the property specified.  If both the userName and emailAddress values are specified then we will query for that user matching on userName and emailAddress.  However, because the email address is unique across all domains, only the email address and the property name is required.</wsdl:documentation>
+      <wsdl:input message="tns:GetSingleUserPropertySoapIn" />
+      <wsdl:output message="tns:GetSingleUserPropertySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyByAccountID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The purpose of the GetPropertyByAccountID function is to return the value of the the property specified.  The accountID must be in the format of DOMAIN\Username. This method is to be used when the email address is unknown.</wsdl:documentation>
+      <wsdl:input message="tns:GetPropertyByAccountIDSoapIn" />
+      <wsdl:output message="tns:GetPropertyByAccountIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyByAccountIDCurrentContext">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The purpose of the GetPropertyByAccountIDCurrentContext function is to return the value of the the property specified. We will use the calling users ID to query the results with.</wsdl:documentation>
+      <wsdl:input message="tns:GetPropertyByAccountIDCurrentContextSoapIn" />
+      <wsdl:output message="tns:GetPropertyByAccountIDCurrentContextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDomainName">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">The purpose of the GetUserDomainName function is to return the domain name of the the user specified.</wsdl:documentation>
+      <wsdl:input message="tns:GetUserDomainNameSoapIn" />
+      <wsdl:output message="tns:GetUserDomainNameSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ATSGlobalCatalogQuerySoap" type="tns:ATSGlobalCatalogQuerySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="IsUserGroupMember">
+      <soap:operation soapAction="http://atsportal/IsUserGroupMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleUserProperty">
+      <soap:operation soapAction="http://atsportal/GetSingleUserProperty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyByAccountID">
+      <soap:operation soapAction="http://atsportal/GetPropertyByAccountID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyByAccountIDCurrentContext">
+      <soap:operation soapAction="http://atsportal/GetPropertyByAccountIDCurrentContext" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDomainName">
+      <soap:operation soapAction="http://atsportal/GetUserDomainName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ATSGlobalCatalogQuerySoap12" type="tns:ATSGlobalCatalogQuerySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="IsUserGroupMember">
+      <soap12:operation soapAction="http://atsportal/IsUserGroupMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleUserProperty">
+      <soap12:operation soapAction="http://atsportal/GetSingleUserProperty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyByAccountID">
+      <soap12:operation soapAction="http://atsportal/GetPropertyByAccountID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPropertyByAccountIDCurrentContext">
+      <soap12:operation soapAction="http://atsportal/GetPropertyByAccountIDCurrentContext" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDomainName">
+      <soap12:operation soapAction="http://atsportal/GetUserDomainName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ATSGlobalCatalogQuery">
+    <wsdl:port name="ATSGlobalCatalogQuerySoap" binding="tns:ATSGlobalCatalogQuerySoap">
+      <soap:address location="http://gcwebservice/ATSGlobalCatalogQueryService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ATSGlobalCatalogQuerySoap12" binding="tns:ATSGlobalCatalogQuerySoap12">
+      <soap12:address location="http://gcwebservice/ATSGlobalCatalogQueryService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

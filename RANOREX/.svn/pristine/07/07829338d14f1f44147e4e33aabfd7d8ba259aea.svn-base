@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="268b8b89-637d-4b65-a782-8022450d06e5"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddLookupColumn"
+	namespace="ATS_Document_Processor.NewRecipe.AddCustomProperties">
+	</codegen>
+	<variables>
+		<var
+		id="a23a8b5b-21f7-482d-9328-0da3c6bc1bb3"
+		name="ColumnNameVar">
+			Drawing Number
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="8;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b56a6615-0c9c-4b2f-b43c-31ace6a664f0"
+		sx="247"
+		sy="468"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b30031b5-8960-48ca-8a60-dc729bffd1d9"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@wpfnative='True' and @title='Create Lookup Table' and (@processname='ATSDocumentProcessor.vshost' or @processname='ATSDocumentProcessor')]//list[@automationid='LookupColumns']/listitem//checkbox/text[@caption~$ColumnNameVar]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="..\..\DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddLookupColumn.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,1759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{BD48D75D-2982-4B40-895A-A150FBDA822C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ATS_Document_Processor</RootNamespace>
+    <AssemblyName>DocumentProcessorRegression</AssemblyName>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <projectdefaultrepository>3cc81643-7bd4-4605-9bdc-51c5a3928333</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+    <TargetFrameworkProfile />
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="ATSCodeLibrary">
+      <HintPath>..\packages\ATSCodeLibrary.1.0.0.5\lib\net452\ATSCodeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATSEmail.cs">
+      <id>cd5ba22f-8838-486e-9b74-b5507210d292</id>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplicationOpenAsSystem.cs">
+      <BoundTo>a4d2d35b-f2d1-4434-8c2d-4586a3f04e72</BoundTo>
+      <DependentUpon>CloseApplicationOpenAsSystem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6efacba1-314c-42e1-858f-a7ff12b0cc40</id>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplicationOpenAsSystem.UserCode.cs">
+      <BoundTo>a4d2d35b-f2d1-4434-8c2d-4586a3f04e72</BoundTo>
+      <DependentUpon>CloseApplicationOpenAsSystem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f81b76c0-7142-47ef-aab9-ca7f9f123bee</id>
+    </Compile>
+    <Compile Include="DocumentProcessorRegressionRepository.cs">
+      <DependentUpon>DocumentProcessorRegressionRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e07c3f6b-030a-46c7-a0fa-54067cbac38d</id>
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+    </Compile>
+    <Compile Include="CloseExcel.cs">
+      <BoundTo>663c08f5-5b12-4428-9a64-c2f65ba9aae2</BoundTo>
+      <DependentUpon>CloseExcel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06f6b37c-afeb-4666-953e-8c1934f78ed7</id>
+    </Compile>
+    <Compile Include="CloseExcel.UserCode.cs">
+      <BoundTo>663c08f5-5b12-4428-9a64-c2f65ba9aae2</BoundTo>
+      <DependentUpon>CloseExcel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>66674a6b-27cc-4825-9a7b-e3adb64f5290</id>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplication.cs">
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>489f4e71-3139-4eb9-811c-201e949a40f4</id>
+      <BoundTo>3fb3bd8d-60d1-41a5-867c-422fdd9219a0</BoundTo>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplication.UserCode.cs">
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3a83db54-a751-4d8e-a1e0-1fd557028c56</id>
+      <BoundTo>3fb3bd8d-60d1-41a5-867c-422fdd9219a0</BoundTo>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplicationOpenAsAdministrator.cs">
+      <DependentUpon>CloseApplicationOpenAsAdministrator.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3093e1c0-dde0-4ef3-9a6b-3511a87f6962</id>
+      <BoundTo>5a40c064-af11-4a40-9aad-fe5f31661e4f</BoundTo>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplicationOpenAsAdministrator.UserCode.cs">
+      <DependentUpon>CloseApplicationOpenAsAdministrator.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c5bdde41-eccd-431f-bf51-aa01290eb0fe</id>
+      <BoundTo>5a40c064-af11-4a40-9aad-fe5f31661e4f</BoundTo>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplicationOpenAsOperator.cs">
+      <DependentUpon>CloseApplicationOpenAsOperator.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f838a922-09b3-4e4d-9788-f89c2c44e080</id>
+      <BoundTo>3067af08-6559-454d-9712-aaa7cf912f3f</BoundTo>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\CloseApplicationOpenAsOperator.UserCode.cs">
+      <DependentUpon>CloseApplicationOpenAsOperator.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c76802a-5686-4dd1-a6ca-572c48b720b4</id>
+      <BoundTo>3067af08-6559-454d-9712-aaa7cf912f3f</BoundTo>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\OpenDocumentProcessor.cs">
+      <BoundTo>efd46809-903f-4e9a-8dc4-8609682b7e9b</BoundTo>
+      <DependentUpon>OpenDocumentProcessor.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1083a707-23bd-46b9-8321-ed714a0b3f4f</id>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\OpenDocumentProcessor.UserCode.cs">
+      <BoundTo>efd46809-903f-4e9a-8dc4-8609682b7e9b</BoundTo>
+      <DependentUpon>OpenDocumentProcessor.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b18dece6-01ff-4820-b2c9-0f5362530f5b</id>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\StartApplication.cs">
+      <DependentUpon>StartApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e355e4f8-c38d-4c5e-85ca-b0ce04f420c5</id>
+      <BoundTo>82ee8bc9-d4ac-402e-9e7d-28a8aa85ea30</BoundTo>
+    </Compile>
+    <Compile Include="CloseOrOpenApplication\StartApplication.UserCode.cs">
+      <DependentUpon>StartApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fa40b68c-1793-433a-811f-64b37b487c44</id>
+      <BoundTo>82ee8bc9-d4ac-402e-9e7d-28a8aa85ea30</BoundTo>
+    </Compile>
+    <Compile Include="Document Processor FilterTestRepository.cs">
+      <DependentUpon>Document Processor FilterTestRepository.rxrep</DependentUpon>
+      <id>1a3036ec-6dd9-4eb4-a4c4-e10b05963d94</id>
+      <RepositoryCode>true</RepositoryCode>
+      <BoundTo>fb7006fd-556d-4ab2-b820-013a57e6adca</BoundTo>
+    </Compile>
+    <Compile Include="DownloadWithReport.cs">
+      <BoundTo>5c21169e-8066-4b5e-8fc5-ee861d19a441</BoundTo>
+      <DependentUpon>DownloadWithReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3921bfd0-13e6-4161-84af-22e1fee00878</id>
+    </Compile>
+    <Compile Include="DownloadWithReport.UserCode.cs">
+      <BoundTo>5c21169e-8066-4b5e-8fc5-ee861d19a441</BoundTo>
+      <DependentUpon>DownloadWithReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>78d6b1fa-d679-4fd4-bee8-52660b9d4d90</id>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\AddOperation.cs">
+      <DependentUpon>AddOperation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1306a45d-1ce5-48fc-9f3e-508579336f5d</id>
+      <BoundTo>590236dc-9f04-40b4-9af6-67c73641d8ea</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\AddOperation.UserCode.cs">
+      <DependentUpon>AddOperation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ccec6672-c1c2-4441-9a2e-bfa4ec10f6f3</id>
+      <BoundTo>590236dc-9f04-40b4-9af6-67c73641d8ea</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeBalloonStyle\AddChangeBalloonStyle.cs">
+      <DependentUpon>AddChangeBalloonStyle.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a62f2f6a-ea08-43c4-86f6-92c711d3308f</id>
+      <BoundTo>0db206c8-124e-4065-bd91-1e9451630798</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeBalloonStyle\AddChangeBalloonStyle.UserCode.cs">
+      <DependentUpon>AddChangeBalloonStyle.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b27171eb-2f58-4df2-9d4e-a771c22e614f</id>
+      <BoundTo>0db206c8-124e-4065-bd91-1e9451630798</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\AcceptChangeTitleblocks.cs">
+      <DependentUpon>AcceptChangeTitleblocks.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff134608-bb31-4a8b-9b17-d3e9e26b4ebc</id>
+      <BoundTo>1eb55ffb-40d2-41df-bc11-531eb3bc1998</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\AcceptChangeTitleblocks.UserCode.cs">
+      <DependentUpon>AcceptChangeTitleblocks.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4112f678-ed3f-411c-9eb0-e8c9948023cd</id>
+      <BoundTo>1eb55ffb-40d2-41df-bc11-531eb3bc1998</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\AddChangeTitleblocks.cs">
+      <DependentUpon>AddChangeTitleblocks.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>82e069a6-fade-46f6-8f33-3105e768edbf</id>
+      <BoundTo>6130d1e6-d905-446c-811e-f2fcd85014b9</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\AddChangeTitleblocks.UserCode.cs">
+      <DependentUpon>AddChangeTitleblocks.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09df0a57-c1c3-4b07-b775-7b873bc1d1e3</id>
+      <BoundTo>6130d1e6-d905-446c-811e-f2fcd85014b9</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\AddSheetFormat.cs">
+      <DependentUpon>AddSheetFormat.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>96a134e9-f199-4dba-a20c-d8187d5698d5</id>
+      <BoundTo>132c310c-a1a3-47cc-8295-6c505993638f</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\AddSheetFormat.UserCode.cs">
+      <DependentUpon>AddSheetFormat.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b155d8f1-1a3e-4e5f-a9a0-cab6184742d2</id>
+      <BoundTo>132c310c-a1a3-47cc-8295-6c505993638f</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\SetFiletypeDrawing.cs">
+      <DependentUpon>SetFiletypeDrawing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>32f81936-9202-4282-a2f0-e73fff75112d</id>
+      <BoundTo>9639b427-f157-45f2-a68e-40a834c0bca8</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ChangeTitleblocks\SetFiletypeDrawing.UserCode.cs">
+      <DependentUpon>SetFiletypeDrawing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3930bacd-3421-41df-9ee4-1f52a096fe21</id>
+      <BoundTo>9639b427-f157-45f2-a68e-40a834c0bca8</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AcceptCreateReport.cs">
+      <DependentUpon>AcceptCreateReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>db8ccabb-b7a1-481f-8ef4-99b53213abd2</id>
+      <BoundTo>d0c71e2f-4d61-40d8-8ad1-d953f2f8872a</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AcceptCreateReport.UserCode.cs">
+      <DependentUpon>AcceptCreateReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6e2bce3b-28fb-45fb-81a2-e0d7e28dcda7</id>
+      <BoundTo>d0c71e2f-4d61-40d8-8ad1-d953f2f8872a</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddCreateCustomReport.cs">
+      <DependentUpon>AddCreateCustomReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7ab19d05-a837-4c04-9c71-e07d944e6dca</id>
+      <BoundTo>1db650c8-4f7b-47a6-bd60-2c3b9704381b</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddCreateCustomReport.UserCode.cs">
+      <DependentUpon>AddCreateCustomReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>afe92231-ce2d-4fc4-a001-9b3cc5a46afe</id>
+      <BoundTo>1db650c8-4f7b-47a6-bd60-2c3b9704381b</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddCreateReport.cs">
+      <DependentUpon>AddCreateReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>78bdb7dd-2510-4448-8bd1-c0d00c1cba99</id>
+      <BoundTo>db845cd4-0fdd-48f6-bc47-ad6cf1eb732f</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddCreateReport.UserCode.cs">
+      <DependentUpon>AddCreateReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f88d4d2c-56a4-4346-a82b-23ab6723e62f</id>
+      <BoundTo>db845cd4-0fdd-48f6-bc47-ad6cf1eb732f</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddCustomColumn.cs">
+      <DependentUpon>AddCustomColumn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e7e49ebe-0f04-4b8d-8201-70dd86809cfc</id>
+      <BoundTo>7821436e-0680-4c50-989e-02f7199c2282</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddCustomColumn.UserCode.cs">
+      <DependentUpon>AddCustomColumn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>616a7f44-a459-498d-8127-6fa88291cafa</id>
+      <BoundTo>7821436e-0680-4c50-989e-02f7199c2282</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddMultibom.cs">
+      <DependentUpon>AddMultibom.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d35e997-d7cf-4c87-8486-d7239843d736</id>
+      <BoundTo>33259219-fa51-41e7-8e86-adbae3b72292</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\CreateReport\AddMultibom.UserCode.cs">
+      <DependentUpon>AddMultibom.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>688e2fd4-bfe1-4939-81a4-eda74fe423f5</id>
+      <BoundTo>33259219-fa51-41e7-8e86-adbae3b72292</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\DeleteCustomProperties\AddDeleteCustomProperties.cs">
+      <DependentUpon>AddDeleteCustomProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d709129-711e-47e8-a413-8b0e0afb7f99</id>
+      <BoundTo>4996e6f6-2f91-45ce-aa9b-d34ff75e3666</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\DeleteCustomProperties\AddDeleteCustomProperties.UserCode.cs">
+      <DependentUpon>AddDeleteCustomProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>faf43603-1d5f-4647-ba00-60f02d8ed0e6</id>
+      <BoundTo>4996e6f6-2f91-45ce-aa9b-d34ff75e3666</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\Download\AddDownloadFilesOPG.cs">
+      <DependentUpon>AddDownloadFilesOPG.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>baadf2ca-1015-4f81-aeb3-5448fa0bd05e</id>
+      <BoundTo>6a8f1274-5c90-4b51-bef7-29819cb8860d</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\Download\AddDownloadFilesOPG.UserCode.cs">
+      <DependentUpon>AddDownloadFilesOPG.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a9c8ef3-c696-41b6-827f-425d34f3d126</id>
+      <BoundTo>6a8f1274-5c90-4b51-bef7-29819cb8860d</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\Download\AddDownloadFilesSourceAndPDFs.cs">
+      <DependentUpon>AddDownloadFilesSourceAndPDFs.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cc0d4b60-2954-4200-8ae5-0c89b8fe9421</id>
+      <BoundTo>b86cba8c-c798-4948-a99d-23f27444709e</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\Download\AddDownloadFilesSourceAndPDFs.UserCode.cs">
+      <DependentUpon>AddDownloadFilesSourceAndPDFs.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>172b3285-eab8-4c99-adbd-78274b5a7bd6</id>
+      <BoundTo>b86cba8c-c798-4948-a99d-23f27444709e</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ExportFormats\AddExportFormatsCreatePDFs.cs">
+      <DependentUpon>AddExportFormatsCreatePDFs.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>626a5ca9-589a-43ed-bf68-d26d342e40ad</id>
+      <BoundTo>a2fa9e43-d521-4663-aaab-7018ba9e78e9</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ExportFormats\AddExportFormatsCreatePDFs.UserCode.cs">
+      <DependentUpon>AddExportFormatsCreatePDFs.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>905c7314-02dd-47ff-a71d-da03787de521</id>
+      <BoundTo>a2fa9e43-d521-4663-aaab-7018ba9e78e9</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\Pause\AddPause.cs">
+      <DependentUpon>AddPause.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3edb028-976b-4622-a7c5-122c6380ea0f</id>
+      <BoundTo>d3c699bb-1371-4d32-b1ba-1f711542db4c</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\Pause\AddPause.UserCode.cs">
+      <DependentUpon>AddPause.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a031fa4-824c-42ee-b8fd-de39782f9347</id>
+      <BoundTo>d3c699bb-1371-4d32-b1ba-1f711542db4c</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ProprietaryNote\AddProprietaryNote.cs">
+      <DependentUpon>AddProprietaryNote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c24589d-50b9-45ee-829e-dcdf4f7d2066</id>
+      <BoundTo>292f6c09-99e4-4376-a11b-3d7fca738c95</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\ProprietaryNote\AddProprietaryNote.UserCode.cs">
+      <DependentUpon>AddProprietaryNote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b6926c5e-0424-47d4-b0e9-e1864d660364</id>
+      <BoundTo>292f6c09-99e4-4376-a11b-3d7fca738c95</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\SolidWorksMacro\AddSolidWorksMacro.cs">
+      <DependentUpon>AddSolidWorksMacro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1809c343-0eff-4762-a02c-73321b96fb71</id>
+      <BoundTo>a77518a0-7daa-4726-9c3d-d5a420f23cc4</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\SolidWorksMacro\AddSolidWorksMacro.UserCode.cs">
+      <DependentUpon>AddSolidWorksMacro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>890152e7-554f-404e-8a6e-be8101849daa</id>
+      <BoundTo>a77518a0-7daa-4726-9c3d-d5a420f23cc4</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\AcceptWriteCustomProperties.cs">
+      <DependentUpon>AcceptWriteCustomProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2049e410-d61f-4474-8e94-fa53a0266903</id>
+      <BoundTo>9f19cda2-8807-4e78-8d9f-420132d8e1a8</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\AcceptWriteCustomProperties.UserCode.cs">
+      <DependentUpon>AcceptWriteCustomProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d63500b8-3697-401f-827c-3459dfb4e264</id>
+      <BoundTo>9f19cda2-8807-4e78-8d9f-420132d8e1a8</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\AddWriteCustomProperties.cs">
+      <DependentUpon>AddWriteCustomProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>44e8fecb-3079-487f-80a8-c5353fb2b44e</id>
+      <BoundTo>ea1d7e8e-68fb-4acd-ac14-671a07853443</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\AddWriteCustomProperties.UserCode.cs">
+      <DependentUpon>AddWriteCustomProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6903707d-b9f6-4976-801e-0c8083548a47</id>
+      <BoundTo>ea1d7e8e-68fb-4acd-ac14-671a07853443</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\AddWriteCustomProperty.cs">
+      <DependentUpon>AddWriteCustomProperty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a105c215-3ad8-4a74-a7dd-5c5970bedc9a</id>
+      <BoundTo>7f23cd8f-572b-49c4-9813-253287849574</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\AddWriteCustomProperty.UserCode.cs">
+      <DependentUpon>AddWriteCustomProperty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8ecaf0c3-9dd9-47ec-bbdb-630beed5217a</id>
+      <BoundTo>7f23cd8f-572b-49c4-9813-253287849574</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\SetFiletypePartAssyDrawing.cs">
+      <DependentUpon>SetFiletypePartAssyDrawing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ca9f040-24cf-45af-af70-4cf5adec5046</id>
+      <BoundTo>d759a285-551f-4318-9e4b-80a7bf7aa38a</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\AddOperations\WriteCustomProperties\SetFiletypePartAssyDrawing.UserCode.cs">
+      <DependentUpon>SetFiletypePartAssyDrawing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9bf13531-069d-4dea-87c8-59aa22198fa0</id>
+      <BoundTo>d759a285-551f-4318-9e4b-80a7bf7aa38a</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\ArchiveRecipe.cs">
+      <DependentUpon>ArchiveRecipe.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>24802a30-2c9e-4ab7-b284-4a4b9c4e1c36</id>
+      <BoundTo>db400ac0-38b6-46a6-8aae-729938361ee8</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\ArchiveRecipe.UserCode.cs">
+      <DependentUpon>ArchiveRecipe.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d4b43fe-bdd5-483b-8f88-61d4f9d286fa</id>
+      <BoundTo>db400ac0-38b6-46a6-8aae-729938361ee8</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\GetRecipeVersion.cs">
+      <DependentUpon>GetRecipeVersion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>50c589d9-4436-4192-8d61-498c4a1a5306</id>
+      <BoundTo>aa01b252-e8fb-466e-ab5a-de959a66d03a</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\GetRecipeVersion.UserCode.cs">
+      <DependentUpon>GetRecipeVersion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4232879-85bd-4987-b027-5690c4e7e735</id>
+      <BoundTo>aa01b252-e8fb-466e-ab5a-de959a66d03a</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\PublishRecipe.cs">
+      <DependentUpon>PublishRecipe.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff2360ba-4c9a-4a40-be70-ab6e449c32a7</id>
+      <BoundTo>ecd384a2-bddc-46fa-b549-b8f09a78f691</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\PublishRecipe.UserCode.cs">
+      <DependentUpon>PublishRecipe.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>41c16215-04c1-4b26-a744-a0cc35d08272</id>
+      <BoundTo>ecd384a2-bddc-46fa-b549-b8f09a78f691</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\SaveRecipeSimple.cs">
+      <DependentUpon>SaveRecipeSimple.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>54172724-ab8f-47d0-943d-b74e7765abe9</id>
+      <BoundTo>7a4be7a7-ed6f-4afa-848c-725012d256b2</BoundTo>
+    </Compile>
+    <Compile Include="EditRecipe\SaveRecipeSimple.UserCode.cs">
+      <DependentUpon>SaveRecipeSimple.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f302b52e-a069-4e14-afa2-c92734f981c6</id>
+      <BoundTo>7a4be7a7-ed6f-4afa-848c-725012d256b2</BoundTo>
+    </Compile>
+    <Compile Include="KillDocProcProcesses.cs">
+      <BoundTo>934984d5-0da0-41e9-87df-a5307360e04e</BoundTo>
+      <DependentUpon>KillDocProcProcesses.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cad21a16-ab81-4949-a293-a72332d4a605</id>
+    </Compile>
+    <Compile Include="KillDocProcProcesses.UserCode.cs">
+      <BoundTo>934984d5-0da0-41e9-87df-a5307360e04e</BoundTo>
+      <DependentUpon>KillDocProcProcesses.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>24b4503a-9aa7-43cc-82ba-e300f54b4fbf</id>
+    </Compile>
+    <Compile Include="KillExcelProcesses.cs">
+      <BoundTo>b15af3ae-2814-4018-aecc-bb4776279f90</BoundTo>
+      <DependentUpon>KillExcelProcesses.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f953b50c-c8a9-436b-bb4d-269f77739b2f</id>
+    </Compile>
+    <Compile Include="KillExcelProcesses.UserCode.cs">
+      <BoundTo>b15af3ae-2814-4018-aecc-bb4776279f90</BoundTo>
+      <DependentUpon>KillExcelProcesses.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ad0ce08d-082d-470f-9856-0918f68f0085</id>
+    </Compile>
+    <Compile Include="KimsTestRecipe.cs">
+      <BoundTo>e252c7e3-dbfa-4a8c-bfaf-f20c59036b52</BoundTo>
+      <DependentUpon>KimsTestRecipe.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff9da961-5c78-42d7-8776-2402ed0cbb1f</id>
+    </Compile>
+    <Compile Include="KimsTestRecipe.UserCode.cs">
+      <BoundTo>e252c7e3-dbfa-4a8c-bfaf-f20c59036b52</BoundTo>
+      <DependentUpon>KimsTestRecipe.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ed3c64a6-98e8-43cb-b012-e43df61d5140</id>
+    </Compile>
+    <Compile Include="NewJob\CreateJobFolderAsSource.cs">
+      <DependentUpon>CreateJobFolderAsSource.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e48157ec-837d-47f4-b687-f9306cf71689</id>
+      <BoundTo>70426322-7c66-483b-af67-5afb3210ad36</BoundTo>
+    </Compile>
+    <Compile Include="NewJob\CreateJobFolderAsSource.UserCode.cs">
+      <DependentUpon>CreateJobFolderAsSource.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4e61608f-16fb-4e33-9a3d-5d28015c77cd</id>
+      <BoundTo>70426322-7c66-483b-af67-5afb3210ad36</BoundTo>
+    </Compile>
+    <Compile Include="NewJob\CreateJobPLMAsSource.cs">
+      <DependentUpon>CreateJobPLMAsSource.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0c263bfe-709c-4e2f-bc94-ead2147a82f8</id>
+      <BoundTo>ea5e2720-340e-4d10-b97a-cd82a47b4728</BoundTo>
+    </Compile>
+    <Compile Include="NewJob\CreateJobPLMAsSource.UserCode.cs">
+      <DependentUpon>CreateJobPLMAsSource.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb2eb0ba-2430-4021-9f46-9d8487345d83</id>
+      <BoundTo>ea5e2720-340e-4d10-b97a-cd82a47b4728</BoundTo>
+    </Compile>
+    <Compile Include="NewJob\CreateOPGJob.cs">
+      <DependentUpon>CreateOPGJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c8cec567-3e8b-42dd-80f4-6b59eb548ded</id>
+      <BoundTo>881b918c-83ed-48cc-a925-87088e3eee16</BoundTo>
+    </Compile>
+    <Compile Include="NewJob\CreateOPGJob.UserCode.cs">
+      <DependentUpon>CreateOPGJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>31222d83-acdb-41ac-b7c6-f12f6d5f3859</id>
+      <BoundTo>881b918c-83ed-48cc-a925-87088e3eee16</BoundTo>
+    </Compile>
+    <Compile Include="NewJob\NewJob99999Operations.cs">
+      <DependentUpon>NewJob99999Operations.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>19c6cc57-b34f-4480-8e0b-bfcce0f122e4</id>
+      <BoundTo>de0b28e7-14c6-4384-8787-929e3c117b80</BoundTo>
+    </Compile>
+    <Compile Include="NewJob\NewJob99999Operations.UserCode.cs">
+      <DependentUpon>NewJob99999Operations.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f3f9bb7-bdd0-4fa3-872b-94a6573cc298</id>
+      <BoundTo>de0b28e7-14c6-4384-8787-929e3c117b80</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomer.cs">
+      <DependentUpon>AddCustomer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>840ad8c4-0ad9-4066-a5f8-9485355020e5</id>
+      <BoundTo>4e0bff8a-f259-4932-9567-0e408d245ee3</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomer.UserCode.cs">
+      <DependentUpon>AddCustomer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32256ed8-c2f4-4300-af4b-c8eeda2c52f8</id>
+      <BoundTo>4e0bff8a-f259-4932-9567-0e408d245ee3</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AcceptCustomProperties.cs">
+      <DependentUpon>AcceptCustomProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bbe9e475-9dce-49c9-a067-f3bfa6c21463</id>
+      <BoundTo>af37921e-d67a-46a0-9f57-b22844ce9abb</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AcceptCustomProperties.UserCode.cs">
+      <DependentUpon>AcceptCustomProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>12742d24-bb5e-4727-8b71-d4aafe709954</id>
+      <BoundTo>af37921e-d67a-46a0-9f57-b22844ce9abb</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddLookupColumn.cs">
+      <DependentUpon>AddLookupColumn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bb0a8a71-579c-4689-a566-0eac44067e63</id>
+      <BoundTo>ab7bf3de-e400-46a4-9bbe-b8d9d132cb1d</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddLookupColumn.UserCode.cs">
+      <DependentUpon>AddLookupColumn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9badbc0c-f7fe-40b8-b228-f1b42904b8e6</id>
+      <BoundTo>ab7bf3de-e400-46a4-9bbe-b8d9d132cb1d</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddParent.cs">
+      <DependentUpon>AddParent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3042cd09-4af9-4246-a395-3b7ba0c86c12</id>
+      <BoundTo>b43907c1-d869-46b1-b739-4d4bec439796</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddParent.UserCode.cs">
+      <DependentUpon>AddParent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c850c9a3-8dc4-4612-9ec2-aa9856cdd743</id>
+      <BoundTo>b43907c1-d869-46b1-b739-4d4bec439796</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddReadProperties.cs">
+      <DependentUpon>AddReadProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0553e872-5740-45fc-ab38-35f55cfa5672</id>
+      <BoundTo>f407b900-be64-4481-a2f9-fd49af503695</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddReadProperties.UserCode.cs">
+      <DependentUpon>AddReadProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>282294e8-f587-4b6e-8df9-9aeb999bbba4</id>
+      <BoundTo>f407b900-be64-4481-a2f9-fd49af503695</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddWriteProperty.cs">
+      <DependentUpon>AddWriteProperty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a5885f7e-39db-4144-a4ab-a1e5e6e8475d</id>
+      <BoundTo>f588e48c-5673-4fa2-82fe-d920965605e2</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\AddWriteProperty.UserCode.cs">
+      <DependentUpon>AddWriteProperty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a0ae1e6-5b3d-4961-9716-8169c23f1942</id>
+      <BoundTo>f588e48c-5673-4fa2-82fe-d920965605e2</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\Custom_Properties.cs">
+      <DependentUpon>Custom_Properties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2a58b567-1879-4cc0-b933-7dd7e97262bf</id>
+      <BoundTo>ac552fd7-0a08-4083-9cdc-ef699f34234e</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddCustomProperties\Custom_Properties.UserCode.cs">
+      <DependentUpon>Custom_Properties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1b5d1ee-4d5c-44a6-a537-c4b4b0f6315f</id>
+      <BoundTo>ac552fd7-0a08-4083-9cdc-ef699f34234e</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddFilenameRulesReadProps.cs">
+      <DependentUpon>AddFilenameRulesReadProps.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c8f80b53-5f12-4c8c-9571-a5f88cbec6df</id>
+      <BoundTo>2cdc47ac-9484-4ca2-99fb-803faceb4769</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddFilenameRulesReadProps.UserCode.cs">
+      <DependentUpon>AddFilenameRulesReadProps.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>13a2ad5a-55be-49ac-8954-ca9e0a5c5eea</id>
+      <BoundTo>2cdc47ac-9484-4ca2-99fb-803faceb4769</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddFilenameRulesRecording.cs">
+      <DependentUpon>AddFilenameRulesRecording.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d1d1a410-9de0-4a01-8b3b-252ab2bd3b92</id>
+      <BoundTo>ccbabe73-441f-485a-a5c5-f87555f04871</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddFilenameRulesRecording.UserCode.cs">
+      <DependentUpon>AddFilenameRulesRecording.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b447e882-0e4b-48ca-a7ba-3e6a49189769</id>
+      <BoundTo>ccbabe73-441f-485a-a5c5-f87555f04871</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddValidationRulesRecording.cs">
+      <DependentUpon>AddValidationRulesRecording.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bb8ff411-47b4-49c0-bc65-bb5b696895da</id>
+      <BoundTo>2d190887-843e-414a-875c-8c096cfba663</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\AddValidationRulesRecording.UserCode.cs">
+      <DependentUpon>AddValidationRulesRecording.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1f5f790e-9919-4ac5-ba70-3086e3ceadd4</id>
+      <BoundTo>2d190887-843e-414a-875c-8c096cfba663</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\CreateRecipe.cs">
+      <DependentUpon>CreateRecipe.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3404f6a-9222-4cb0-bea7-a2f05c6455b5</id>
+      <BoundTo>877055e9-a357-4e34-8c0d-ef0019ff1a5e</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\CreateRecipe.UserCode.cs">
+      <DependentUpon>CreateRecipe.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>36a1eb45-fdcb-43f2-979d-80c064b3dca3</id>
+      <BoundTo>877055e9-a357-4e34-8c0d-ef0019ff1a5e</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SaveRecipeNewJob.cs">
+      <DependentUpon>SaveRecipeNewJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cf0f7d4a-48b6-4052-af85-44bc10562850</id>
+      <BoundTo>35dacbc7-9cbd-472f-bcac-196123834ae4</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SaveRecipeNewJob.UserCode.cs">
+      <DependentUpon>SaveRecipeNewJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c9fff83f-7e59-4679-ba3f-2b9642ce5943</id>
+      <BoundTo>35dacbc7-9cbd-472f-bcac-196123834ae4</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetFolderAsSource.cs">
+      <DependentUpon>SetFolderAsSource.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ded7f2d5-18b1-4ae3-ac42-27804e850407</id>
+      <BoundTo>6cfcf14a-2605-498e-8986-2162c370462f</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetFolderAsSource.UserCode.cs">
+      <DependentUpon>SetFolderAsSource.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>15a0d138-f3b0-4ee4-8504-6b3416825abe</id>
+      <BoundTo>6cfcf14a-2605-498e-8986-2162c370462f</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetOutputSettingsFolderAsSource.cs">
+      <DependentUpon>SetOutputSettingsFolderAsSource.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0783de82-abaf-415a-9290-a863cd4bcaef</id>
+      <BoundTo>362490aa-7314-4482-8457-fb1583fe711b</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetOutputSettingsFolderAsSource.UserCode.cs">
+      <DependentUpon>SetOutputSettingsFolderAsSource.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ec6a5abd-a6eb-4070-921f-02325d620aee</id>
+      <BoundTo>362490aa-7314-4482-8457-fb1583fe711b</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetOutputSettingsRecording.cs">
+      <DependentUpon>SetOutputSettingsRecording.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6d9cc132-2f0a-46f9-8327-f45ea71eea67</id>
+      <BoundTo>8906ddb1-5c89-46f2-8211-aafa3fe97d64</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetOutputSettingsRecording.UserCode.cs">
+      <DependentUpon>SetOutputSettingsRecording.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a3f83cf2-aed6-4f67-bcbf-e21d36b842fd</id>
+      <BoundTo>8906ddb1-5c89-46f2-8211-aafa3fe97d64</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetRecipePLMSource.cs">
+      <DependentUpon>SetRecipePLMSource.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5209818f-c23e-4a69-acaf-d90e8f32944c</id>
+      <BoundTo>15031142-dddf-44b1-bece-d058cca3fe36</BoundTo>
+    </Compile>
+    <Compile Include="NewRecipe\SetRecipePLMSource.UserCode.cs">
+      <DependentUpon>SetRecipePLMSource.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6dc94f69-f992-44ce-af06-9e12ef094956</id>
+      <BoundTo>15031142-dddf-44b1-bece-d058cca3fe36</BoundTo>
+    </Compile>
+    <Compile Include="NonRecordings\AssemblyInfo.cs">
+      <id>5c34f86f-bff2-47d3-aa89-feb62da2135a</id>
+    </Compile>
+    <Compile Include="NonRecordings\Program.cs">
+      <id>173cd789-4091-48f4-a2a4-59e682fe72ec</id>
+    </Compile>
+    <Compile Include="OpenJob\OpenJob99999Operations.cs">
+      <DependentUpon>OpenJob99999Operations.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>31ba39b0-2f17-4a44-bcfd-ca892ca3e7fd</id>
+      <BoundTo>cc67abac-510a-403c-999a-8d25d2c73602</BoundTo>
+    </Compile>
+    <Compile Include="OpenJob\OpenJob99999Operations.UserCode.cs">
+      <DependentUpon>OpenJob99999Operations.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40051415-1727-45b9-ac13-619b4748772b</id>
+      <BoundTo>cc67abac-510a-403c-999a-8d25d2c73602</BoundTo>
+    </Compile>
+    <Compile Include="OpenRecipe\OpenRecipe.cs">
+      <DependentUpon>OpenRecipe.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3e952c8c-1e45-43fb-ae2f-28affe0a4a1d</id>
+      <BoundTo>07894772-a386-4c8e-9817-c3a17b974488</BoundTo>
+    </Compile>
+    <Compile Include="OpenRecipe\OpenRecipe.UserCode.cs">
+      <DependentUpon>OpenRecipe.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>608e676e-b418-4491-b3fc-256ead9843db</id>
+      <BoundTo>07894772-a386-4c8e-9817-c3a17b974488</BoundTo>
+    </Compile>
+    <Compile Include="OutputCompare\ExcelOutputCompare.cs">
+      <DependentUpon>ExcelOutputCompare.rxrec</DependentUpon>
+      <id>3f38f231-f4dc-403b-8601-564d71cd3dc8</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>7a775d4c-b279-4057-83ca-4fef519da188</BoundTo>
+    </Compile>
+    <Compile Include="OutputCompare\ExcelOutputCompare.UserCode.cs">
+      <DependentUpon>ExcelOutputCompare.rxrec</DependentUpon>
+      <id>7601961b-2f51-47c1-8dbc-f10da9d08313</id>
+      <UserCode>true</UserCode>
+      <BoundTo>7a775d4c-b279-4057-83ca-4fef519da188</BoundTo>
+    </Compile>
+    <Compile Include="OutputCompare\FilesListReferencesPropertiesOutputCompare.cs">
+      <DependentUpon>FilesListReferencesPropertiesOutputCompare.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>607b8cdb-727c-4d8a-9734-714417060347</id>
+      <BoundTo>01a0f1e3-924b-4cd6-bd64-75aac549a8d8</BoundTo>
+    </Compile>
+    <Compile Include="OutputCompare\FilesListReferencesPropertiesOutputCompare.UserCode.cs">
+      <DependentUpon>FilesListReferencesPropertiesOutputCompare.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e734e4f1-47fc-4cc7-beae-1ad2619f7929</id>
+      <BoundTo>01a0f1e3-924b-4cd6-bd64-75aac549a8d8</BoundTo>
+    </Compile>
+    <Compile Include="OutputCompare\OutputFilesCompare.cs">
+      <DependentUpon>OutputFilesCompare.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>59045bf5-463d-42a9-9090-3ed9bb88413e</id>
+      <BoundTo>a0460c48-aea8-46ff-a6a0-f0cabf36abbf</BoundTo>
+    </Compile>
+    <Compile Include="OutputCompare\OutputFilesCompare.UserCode.cs">
+      <DependentUpon>OutputFilesCompare.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>645cd1db-cb1f-4f9a-b832-7f9a21079959</id>
+      <BoundTo>a0460c48-aea8-46ff-a6a0-f0cabf36abbf</BoundTo>
+    </Compile>
+    <Compile Include="OutputCompare\PDFOutputCompare.cs">
+      <BoundTo>cf14830d-24d2-44c9-b67a-209aa01b4628</BoundTo>
+      <DependentUpon>PDFOutputCompare.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dc706251-fda0-4271-801f-ce497b43fd2f</id>
+    </Compile>
+    <Compile Include="OutputCompare\PDFOutputCompare.UserCode.cs">
+      <BoundTo>cf14830d-24d2-44c9-b67a-209aa01b4628</BoundTo>
+      <DependentUpon>PDFOutputCompare.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5e1403b8-09af-4207-a77f-3cde1bcc96b3</id>
+    </Compile>
+    <Compile Include="RepairExcel.cs">
+      <BoundTo>31092b33-d706-406f-b46c-4545c39ee93b</BoundTo>
+      <DependentUpon>RepairExcel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff9a03ef-7540-441b-a45e-0346b07cb4ed</id>
+    </Compile>
+    <Compile Include="RepairExcel.UserCode.cs">
+      <BoundTo>31092b33-d706-406f-b46c-4545c39ee93b</BoundTo>
+      <DependentUpon>RepairExcel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a8ce21d2-1f25-4b18-b9c3-45f001e8c171</id>
+    </Compile>
+    <Compile Include="RunJobTools\DeleteJob.cs">
+      <DependentUpon>DeleteJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5f9cbfb3-45d0-4f3c-9ff4-8b6d5ae9a5ce</id>
+      <BoundTo>078dc3f1-e235-4f13-bbe0-238e6d47f210</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\DeleteJob.UserCode.cs">
+      <DependentUpon>DeleteJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e70f70ea-f8c7-4bdd-9033-3a063e9dd73d</id>
+      <BoundTo>078dc3f1-e235-4f13-bbe0-238e6d47f210</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\Deploy_Test_Filter_Test.cs">
+      <DependentUpon>Deploy Test Filter Test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>547aba43-779f-4960-8a9b-b5842d0a82e7</id>
+      <BoundTo>7626b680-3366-4afb-9af4-1b849973e77c</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\Deploy_Test_Filter_Test.UserCode.cs">
+      <DependentUpon>Deploy Test Filter Test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0208aa72-9998-4337-ba7f-8df08d071078</id>
+      <BoundTo>7626b680-3366-4afb-9af4-1b849973e77c</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\ExportCustomProperties.cs">
+      <DependentUpon>ExportCustomProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a865578-d8e0-46cc-b6c9-b6999ea1af77</id>
+      <BoundTo>074f0b8b-75b5-47ac-96b3-4553cc4fe92f</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\ExportCustomProperties.UserCode.cs">
+      <DependentUpon>ExportCustomProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eeade755-112e-434e-a687-a5e9b304141c</id>
+      <BoundTo>074f0b8b-75b5-47ac-96b3-4553cc4fe92f</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\FilterFileAndProcess.cs">
+      <DependentUpon>FilterFileAndProcess.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ddb5f9f1-11a9-4e7b-bd00-583e74d64272</id>
+      <BoundTo>b203de05-5469-4d1a-a681-dd0cde91d45d</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\FilterFileAndProcess.UserCode.cs">
+      <DependentUpon>FilterFileAndProcess.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ce1e7e3f-905f-4a32-9bb5-48c36eb24a1e</id>
+      <BoundTo>b203de05-5469-4d1a-a681-dd0cde91d45d</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\FilterItemAndProcessFile.cs">
+      <DependentUpon>FilterItemAndProcessFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7d27cef8-b027-4093-b0f1-aa62a8b8322e</id>
+      <BoundTo>16bf892a-acb6-445e-bbff-f032d826b9b7</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\FilterItemAndProcessFile.UserCode.cs">
+      <DependentUpon>FilterItemAndProcessFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d60e2748-12de-4c57-b987-ba9842c60d7d</id>
+      <BoundTo>16bf892a-acb6-445e-bbff-f032d826b9b7</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\ImportCustomProperties.cs">
+      <DependentUpon>ImportCustomProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2ca2f75-0514-4c88-b3cc-f4121d16bce4</id>
+      <BoundTo>b377c2e9-05c0-4c25-845e-9a3d79cd7499</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\ImportCustomProperties.UserCode.cs">
+      <DependentUpon>ImportCustomProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2f8be4b2-129a-4d04-89fe-181e00b2e763</id>
+      <BoundTo>b377c2e9-05c0-4c25-845e-9a3d79cd7499</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\MarkComplete.cs">
+      <DependentUpon>MarkComplete.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>116c75f6-2e80-46c6-962c-48eff9891a96</id>
+      <BoundTo>10a752a4-362d-4a34-a8e5-735c2d893cf5</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\MarkComplete.UserCode.cs">
+      <DependentUpon>MarkComplete.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>56aa37ad-fb86-4a1f-a78a-bfe0ecf70666</id>
+      <BoundTo>10a752a4-362d-4a34-a8e5-735c2d893cf5</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\OpenCustomProperties.cs">
+      <DependentUpon>OpenCustomProperties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f491628d-8ff6-4b02-a6d1-86e526aa3625</id>
+      <BoundTo>1247a568-d019-4640-8a19-0107e71b7095</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\OpenCustomProperties.UserCode.cs">
+      <DependentUpon>OpenCustomProperties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>247a5062-e319-489b-a078-18617370f176</id>
+      <BoundTo>1247a568-d019-4640-8a19-0107e71b7095</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\Download.cs">
+      <DependentUpon>Download.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2dfa9682-1270-4b11-bc8d-09b07042ea39</id>
+      <BoundTo>96f1c111-32a1-44c4-ad6e-f78ff94098a2</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\Download.UserCode.cs">
+      <DependentUpon>Download.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e164ef03-7106-42bc-9c7a-54b034ae5ad7</id>
+      <BoundTo>96f1c111-32a1-44c4-ad6e-f78ff94098a2</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\RunJob.cs">
+      <DependentUpon>RunJob.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>399d897b-f027-4b1c-adc7-afbd126ad88c</id>
+      <BoundTo>b5a34404-afcf-4efe-98cc-7e4f260fc61a</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\RunJob.UserCode.cs">
+      <DependentUpon>RunJob.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c55bd23e-8e97-4456-ab1b-8dd26b11d99d</id>
+      <BoundTo>b5a34404-afcf-4efe-98cc-7e4f260fc61a</BoundTo>
+    </Compile>
+    <Compile Include="RunJobTools\WaitForProgressBarToNotExist.cs">
+      <BoundTo>90918206-285f-4199-a8ee-b2bb0f7a7a7c</BoundTo>
+      <DependentUpon>WaitForProgressBarToNotExist.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c57729b2-42e5-49cc-af10-32d252593628</id>
+    </Compile>
+    <Compile Include="RunJobTools\WaitForProgressBarToNotExist.UserCode.cs">
+      <BoundTo>90918206-285f-4199-a8ee-b2bb0f7a7a7c</BoundTo>
+      <DependentUpon>WaitForProgressBarToNotExist.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4e6541e0-1366-4ade-b269-ad1927c9c00a</id>
+    </Compile>
+    <Compile Include="RunWithReport.cs">
+      <BoundTo>4a4f9f8b-351a-4320-8c7a-0ff4c4d2eed3</BoundTo>
+      <DependentUpon>RunWithReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4f0f52c0-43a3-4ef6-90e0-49ca0bd84104</id>
+    </Compile>
+    <Compile Include="RunWithReport.UserCode.cs">
+      <BoundTo>4a4f9f8b-351a-4320-8c7a-0ff4c4d2eed3</BoundTo>
+      <DependentUpon>RunWithReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>84ea7eec-3b84-4308-aaf9-3fc62075c56d</id>
+    </Compile>
+    <Compile Include="TestValidation.cs">
+      <BoundTo>77d8e5b8-ed42-42e6-9ea4-db801bd2ab26</BoundTo>
+      <DependentUpon>TestValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>656713f3-3811-4cbf-8eed-522383b49b61</id>
+    </Compile>
+    <Compile Include="TestValidation.UserCode.cs">
+      <BoundTo>77d8e5b8-ed42-42e6-9ea4-db801bd2ab26</BoundTo>
+      <DependentUpon>TestValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b145370b-b840-4982-b893-5c2bd2f82360</id>
+    </Compile>
+    <Compile Include="SetSubFolder.cs">
+      <BoundTo>860964e5-f732-41d6-9b6c-9b89086f3824</BoundTo>
+      <DependentUpon>SetSubFolder.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e88e46d-e8c3-4040-9f91-16c9d04d2993</id>
+    </Compile>
+    <Compile Include="SetSubFolder.UserCode.cs">
+      <BoundTo>860964e5-f732-41d6-9b6c-9b89086f3824</BoundTo>
+      <DependentUpon>SetSubFolder.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ff26cf1-5b73-4321-8524-c7d6848d2feb</id>
+    </Compile>
+    <Compile Include="ValidateAll.cs">
+      <BoundTo>76327339-d8ff-4bb9-bca2-cd5f6cf8d7ba</BoundTo>
+      <DependentUpon>ValidateAll.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cdeea978-e6ec-4a05-973c-0780e1416b5b</id>
+    </Compile>
+    <Compile Include="ValidateAll.UserCode.cs">
+      <BoundTo>76327339-d8ff-4bb9-bca2-cd5f6cf8d7ba</BoundTo>
+      <DependentUpon>ValidateAll.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>322c8ff3-e5fb-4e3a-85b1-fe01616a5bc7</id>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateArchivedRecipe.cs">
+      <DependentUpon>ValidateArchivedRecipe.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0bbbd9a0-ae97-436f-ae1b-06dfeb2dabd8</id>
+      <BoundTo>b1835aa0-5fa6-4409-9677-577024c97bb3</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateArchivedRecipe.UserCode.cs">
+      <DependentUpon>ValidateArchivedRecipe.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9c03f89c-99b8-4d00-9baf-5e1c36160a9a</id>
+      <BoundTo>b1835aa0-5fa6-4409-9677-577024c97bb3</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateCheckedDrawings.cs">
+      <DependentUpon>ValidateCheckedDrawings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f83eb79-6bbe-4cb4-b896-0911f449cb09</id>
+      <BoundTo>4a4f4e89-cbb7-4560-bffc-c17c87982a8c</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateCheckedDrawings.UserCode.cs">
+      <DependentUpon>ValidateCheckedDrawings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>085fc4ec-2850-4514-a9c6-92705500bbf7</id>
+      <BoundTo>4a4f4e89-cbb7-4560-bffc-c17c87982a8c</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateDownloadFilesError.cs">
+      <DependentUpon>ValidateDownloadFilesError.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9f6c2112-84ec-4e75-b3bd-e4d42c00454a</id>
+      <BoundTo>32d5ea17-cbb1-4177-858a-e2f094b9d9e0</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateDownloadFilesError.UserCode.cs">
+      <DependentUpon>ValidateDownloadFilesError.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b91a7fd8-b036-4e84-86f1-2c402b1fa122</id>
+      <BoundTo>32d5ea17-cbb1-4177-858a-e2f094b9d9e0</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateDownloadSuccess.cs">
+      <BoundTo>9326971b-2cd8-4117-b230-4db1361a0885</BoundTo>
+      <DependentUpon>ValidateDownloadSuccess.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff86152a-fc46-4811-9e1d-7f0c78c214b9</id>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateDownloadSuccess.UserCode.cs">
+      <BoundTo>9326971b-2cd8-4117-b230-4db1361a0885</BoundTo>
+      <DependentUpon>ValidateDownloadSuccess.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2136ed71-6fea-4a3e-be54-629ef67f5700</id>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateExportedHeaders.cs">
+      <DependentUpon>ValidateExportedHeaders.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e2f19984-845c-45f5-9420-e06493486c2e</id>
+      <BoundTo>d0831008-595c-410d-b4a1-f3a5522842bf</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateExportedHeaders.UserCode.cs">
+      <DependentUpon>ValidateExportedHeaders.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a6ebd79a-7956-4b27-9a17-8c1c7b206705</id>
+      <BoundTo>d0831008-595c-410d-b4a1-f3a5522842bf</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateMoveReport.cs">
+      <DependentUpon>ValidateMoveReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>248538d6-d38a-42b4-9d54-dd076efd77db</id>
+      <BoundTo>50b77708-ddb1-4b58-9a92-8b5f9f4454dc</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateMoveReport.UserCode.cs">
+      <DependentUpon>ValidateMoveReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fa34b352-e39f-4a1b-ad4e-714e705daf9c</id>
+      <BoundTo>50b77708-ddb1-4b58-9a92-8b5f9f4454dc</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateRecipeMoves.cs">
+      <DependentUpon>ValidateRecipeMoves.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7aec0913-9307-4428-922e-5b343f5d7d32</id>
+      <BoundTo>31feb27d-f61a-4383-81c6-0f73515d2273</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateRecipeMoves.UserCode.cs">
+      <DependentUpon>ValidateRecipeMoves.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2ed03d04-13ab-4e66-ac97-36456ff6ad15</id>
+      <BoundTo>31feb27d-f61a-4383-81c6-0f73515d2273</BoundTo>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateStatusMessageBar.cs">
+      <BoundTo>dcdf685e-9015-439f-8456-cde646324086</BoundTo>
+      <DependentUpon>ValidateStatusMessageBar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7b2a23ef-ca79-4603-b7d3-9a7001daca4a</id>
+    </Compile>
+    <Compile Include="ValidationRecordings\ValidateStatusMessageBar.UserCode.cs">
+      <BoundTo>dcdf685e-9015-439f-8456-cde646324086</BoundTo>
+      <DependentUpon>ValidateStatusMessageBar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>516801c7-2fc7-4c5e-959d-7f3c4b06ec58</id>
+    </Compile>
+    <None Include="app.config">
+      <id>0b51bdfc-2bf5-491a-8b24-c1020919cf53</id>
+    </None>
+    <None Include="CloseOrOpenApplication\CloseApplicationOpenAsSystem.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>a4d2d35b-f2d1-4434-8c2d-4586a3f04e72</id>
+      <recordtableid>b9145015-1379-4b56-b3e2-22e6c04f310f</recordtableid>
+    </None>
+    <None Include="DocumentProcessorRegressionRepository.rximg">
+      <DependentUpon>DocumentProcessorRegressionRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>de7bd4e7-37c3-4286-bd93-ffcab7fa8154</id>
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+    </None>
+    <None Include="DocumentProcessorRegressionRepository.rxrep">
+      <id>3cc81643-7bd4-4605-9bdc-51c5a3928333</id>
+      <repoid>8d4a945a-08b1-4257-8ff3-16e98ac8416c</repoid>
+      <reporootid>8556a4d9-5bde-4e35-a12d-955dd8b939f3</reporootid>
+    </None>
+    <None Include="CloseOrOpenApplication\CloseApplication.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>3fb3bd8d-60d1-41a5-867c-422fdd9219a0</id>
+      <recordtableid>08f636bb-b0c8-4aab-81ae-d4c8054d41c0</recordtableid>
+    </None>
+    <None Include="CloseOrOpenApplication\CloseApplicationOpenAsAdministrator.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>5a40c064-af11-4a40-9aad-fe5f31661e4f</id>
+      <recordtableid>fb91f65b-926e-4c97-bd82-fc8a66350230</recordtableid>
+    </None>
+    <None Include="CloseOrOpenApplication\CloseApplicationOpenAsOperator.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>3067af08-6559-454d-9712-aaa7cf912f3f</id>
+      <recordtableid>df376e3d-4769-45f4-a44d-a1e0a36e265c</recordtableid>
+    </None>
+    <None Include="CloseOrOpenApplication\StartApplication.rxrec">
+      <id>82ee8bc9-d4ac-402e-9e7d-28a8aa85ea30</id>
+      <recordtableid>7100968b-ceff-4a67-b91d-45b8e83aa92e</recordtableid>
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+    </None>
+    <None Include="Document Processor FilterTestRepository.rximg">
+      <DependentUpon>Document Processor FilterTestRepository.rxrep</DependentUpon>
+      <id>6ca524ec-f434-4242-994d-a5aa1d0d87e0</id>
+      <imageblob>true</imageblob>
+      <BoundTo>fb7006fd-556d-4ab2-b820-013a57e6adca</BoundTo>
+    </None>
+    <None Include="Document Processor FilterTestRepository.rxrep">
+      <id>fb7006fd-556d-4ab2-b820-013a57e6adca</id>
+      <repoid>ff09c591-289c-41bc-977c-48022bcb0e6c</repoid>
+      <reporootid>4c17f6b9-32f0-414a-a804-95d21ea4356d</reporootid>
+    </None>
+    <None Include="DownloadWithReport.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>5c21169e-8066-4b5e-8fc5-ee861d19a441</id>
+      <recordtableid>321b7ace-2e26-4346-9276-a3eb4b9c20d6</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\AddOperation.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>590236dc-9f04-40b4-9af6-67c73641d8ea</id>
+      <recordtableid>fc563c27-3301-48e5-94e6-fe5fa70aefa9</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\ChangeBalloonStyle\AddChangeBalloonStyle.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>0db206c8-124e-4065-bd91-1e9451630798</id>
+      <recordtableid>d6700a30-11e0-4344-972d-be3c407f28a0</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\ChangeTitleblocks\AcceptChangeTitleblocks.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>1eb55ffb-40d2-41df-bc11-531eb3bc1998</id>
+      <recordtableid>04f14115-9fdb-4e81-a88b-bd74f14ff1fd</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\ChangeTitleblocks\AddChangeTitleblocks.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>6130d1e6-d905-446c-811e-f2fcd85014b9</id>
+      <recordtableid>675ed41a-d4ff-49d8-ac16-c9d3a31c7c92</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\ChangeTitleblocks\AddSheetFormat.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>132c310c-a1a3-47cc-8295-6c505993638f</id>
+      <recordtableid>1fed867e-88c4-4dc0-9b86-4b62c09e95a3</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\ChangeTitleblocks\SetFiletypeDrawing.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>9639b427-f157-45f2-a68e-40a834c0bca8</id>
+      <recordtableid>c9ca2e8a-72bc-41f5-81cd-79261f2817d5</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\CreateReport\AcceptCreateReport.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>d0c71e2f-4d61-40d8-8ad1-d953f2f8872a</id>
+      <recordtableid>2acdeb40-9d95-4049-aabf-1bf6ff0dd8ba</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\CreateReport\AddCreateCustomReport.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>1db650c8-4f7b-47a6-bd60-2c3b9704381b</id>
+      <recordtableid>4afdfaff-b860-44a6-a51b-ef5a0220132a</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\CreateReport\AddCreateReport.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>db845cd4-0fdd-48f6-bc47-ad6cf1eb732f</id>
+      <recordtableid>cd0636a4-3da0-41c6-b6c0-7daa52da4995</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\CreateReport\AddCustomColumn.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>7821436e-0680-4c50-989e-02f7199c2282</id>
+      <recordtableid>af205ceb-562b-4385-bc84-baa964528fcf</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\CreateReport\AddMultibom.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>33259219-fa51-41e7-8e86-adbae3b72292</id>
+      <recordtableid>5fc333a3-222d-4971-9565-751b1ebd629e</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\DeleteCustomProperties\AddDeleteCustomProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>4996e6f6-2f91-45ce-aa9b-d34ff75e3666</id>
+      <recordtableid>aa8deda4-a7a6-47de-8564-8c31cfa91876</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\Download\AddDownloadFilesOPG.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>6a8f1274-5c90-4b51-bef7-29819cb8860d</id>
+      <recordtableid>2dd424ff-8d1f-45bb-b2f9-955759e6aa59</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\Download\AddDownloadFilesSourceAndPDFs.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>b86cba8c-c798-4948-a99d-23f27444709e</id>
+      <recordtableid>a1e0a825-dacc-4bf2-ac3e-16178cb222dc</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\ExportFormats\AddExportFormatsCreatePDFs.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>a2fa9e43-d521-4663-aaab-7018ba9e78e9</id>
+      <recordtableid>a11326fb-550f-44ed-9ab9-781a3a314f6d</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\Pause\AddPause.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>d3c699bb-1371-4d32-b1ba-1f711542db4c</id>
+      <recordtableid>34fbe73a-23d2-4827-a8d7-6274fb8813a4</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\ProprietaryNote\AddProprietaryNote.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>292f6c09-99e4-4376-a11b-3d7fca738c95</id>
+      <recordtableid>87213138-a704-4651-8d74-5052a4cf2741</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\SolidWorksMacro\AddSolidWorksMacro.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>a77518a0-7daa-4726-9c3d-d5a420f23cc4</id>
+      <recordtableid>7b2ca41b-68c1-4b94-a0bb-4a9f4c69cae5</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\WriteCustomProperties\AcceptWriteCustomProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>9f19cda2-8807-4e78-8d9f-420132d8e1a8</id>
+      <recordtableid>819fa61c-74ae-4277-aa4b-74881f7d854a</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\WriteCustomProperties\AddWriteCustomProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>ea1d7e8e-68fb-4acd-ac14-671a07853443</id>
+      <recordtableid>bcaaf1bd-9959-4cf1-8fa1-f61bb52fdaea</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\WriteCustomProperties\AddWriteCustomProperty.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>7f23cd8f-572b-49c4-9813-253287849574</id>
+      <recordtableid>3dcd145c-7953-41c9-b7ac-e8bc2fddb8c3</recordtableid>
+    </None>
+    <None Include="EditRecipe\AddOperations\WriteCustomProperties\SetFiletypePartAssyDrawing.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>d759a285-551f-4318-9e4b-80a7bf7aa38a</id>
+      <recordtableid>46c1b861-9823-4af6-87b2-208343f8ff38</recordtableid>
+    </None>
+    <None Include="EditRecipe\ArchiveRecipe.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>db400ac0-38b6-46a6-8aae-729938361ee8</id>
+      <recordtableid>ddead538-aa02-46f3-afdc-1fd57e2930ce</recordtableid>
+    </None>
+    <None Include="EditRecipe\GetRecipeVersion.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>aa01b252-e8fb-466e-ab5a-de959a66d03a</id>
+      <recordtableid>03516334-2519-4a78-83a8-9344a4a11567</recordtableid>
+    </None>
+    <None Include="EditRecipe\PublishRecipe.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>ecd384a2-bddc-46fa-b549-b8f09a78f691</id>
+      <recordtableid>49cb1d30-04a8-4e86-8ae7-ff99c5916412</recordtableid>
+    </None>
+    <None Include="EditRecipe\SaveRecipeSimple.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>7a4be7a7-ed6f-4afa-848c-725012d256b2</id>
+      <recordtableid>7f3feeac-ed10-4388-b1e7-3ddc9726962c</recordtableid>
+    </None>
+    <None Include="KillDocProcProcesses.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>934984d5-0da0-41e9-87df-a5307360e04e</id>
+      <recordtableid>874c5eef-b38f-4fb0-889d-b4c0e1ff0502</recordtableid>
+    </None>
+    <None Include="KillExcelProcesses.rxrec">
+      <id>b15af3ae-2814-4018-aecc-bb4776279f90</id>
+      <recordtableid>fe7d5f6f-cc2c-44e2-95ca-6841da2c6189</recordtableid>
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+    </None>
+    <None Include="KimsTestRecipe.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>e252c7e3-dbfa-4a8c-bfaf-f20c59036b52</id>
+      <recordtableid>7bfcf9f9-7cb6-481b-b4d1-b5c4e437a11d</recordtableid>
+    </None>
+    <None Include="NewJob\CreateJobFolderAsSource.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>70426322-7c66-483b-af67-5afb3210ad36</id>
+      <recordtableid>68f042d8-e154-4971-b7df-2f8557e4406e</recordtableid>
+    </None>
+    <None Include="NewJob\CreateJobPLMAsSource.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>ea5e2720-340e-4d10-b97a-cd82a47b4728</id>
+      <recordtableid>646133f3-46c7-446e-9a4a-51d12878d354</recordtableid>
+    </None>
+    <None Include="NewJob\CreateOPGJob.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>881b918c-83ed-48cc-a925-87088e3eee16</id>
+      <recordtableid>2704c9b9-7a9f-468c-8b46-9cce475ac446</recordtableid>
+    </None>
+    <None Include="NewJob\NewJob99999Operations.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>de0b28e7-14c6-4384-8787-929e3c117b80</id>
+      <recordtableid>b4495de1-8f76-4b1c-ac42-6992dc9583d6</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddCustomer.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>4e0bff8a-f259-4932-9567-0e408d245ee3</id>
+      <recordtableid>e7e3f34a-e55a-4045-a8d7-9f0753df6706</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddCustomProperties\AcceptCustomProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>af37921e-d67a-46a0-9f57-b22844ce9abb</id>
+      <recordtableid>34fb0d5f-8293-41e7-a7c6-090e37874aa0</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddCustomProperties\AddLookupColumn.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>ab7bf3de-e400-46a4-9bbe-b8d9d132cb1d</id>
+      <recordtableid>268b8b89-637d-4b65-a782-8022450d06e5</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddCustomProperties\AddParent.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>b43907c1-d869-46b1-b739-4d4bec439796</id>
+      <recordtableid>4079310a-a3c3-4478-9000-ad70d572b9f8</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddCustomProperties\AddReadProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>f407b900-be64-4481-a2f9-fd49af503695</id>
+      <recordtableid>21a84dbe-a7a3-4051-8422-9282bfc07b29</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddCustomProperties\AddWriteProperty.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>f588e48c-5673-4fa2-82fe-d920965605e2</id>
+      <recordtableid>07acf9a1-a000-4ed9-8310-be252a5f5ed4</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddCustomProperties\Custom_Properties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>ac552fd7-0a08-4083-9cdc-ef699f34234e</id>
+      <recordtableid>cd729b5f-f829-4bbd-adaf-41a3ad83255e</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddFilenameRulesReadProps.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>2cdc47ac-9484-4ca2-99fb-803faceb4769</id>
+      <recordtableid>ad43ee7c-a250-42d8-8903-862401359202</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddFilenameRulesRecording.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>ccbabe73-441f-485a-a5c5-f87555f04871</id>
+      <recordtableid>8174bcfd-1341-4be8-ac01-07aea2f4ac5c</recordtableid>
+    </None>
+    <None Include="NewRecipe\AddValidationRulesRecording.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>2d190887-843e-414a-875c-8c096cfba663</id>
+      <recordtableid>870615eb-657d-4aac-bb67-df449cf58686</recordtableid>
+    </None>
+    <None Include="NewRecipe\CreateRecipe.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>877055e9-a357-4e34-8c0d-ef0019ff1a5e</id>
+      <recordtableid>217d8a98-5324-4732-8dec-d2506339d597</recordtableid>
+    </None>
+    <None Include="NewRecipe\SaveRecipeNewJob.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>35dacbc7-9cbd-472f-bcac-196123834ae4</id>
+      <recordtableid>fd34a2de-74e0-4e50-989a-1a9c55a14b16</recordtableid>
+    </None>
+    <None Include="NewRecipe\SetFolderAsSource.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>6cfcf14a-2605-498e-8986-2162c370462f</id>
+      <recordtableid>139a74b4-af5e-44f2-810c-837bcfd24ef5</recordtableid>
+    </None>
+    <None Include="NewRecipe\SetOutputSettingsFolderAsSource.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>362490aa-7314-4482-8457-fb1583fe711b</id>
+      <recordtableid>d9414af5-7b44-4223-a13d-0b6c994be9b6</recordtableid>
+    </None>
+    <None Include="NewRecipe\SetOutputSettingsRecording.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>8906ddb1-5c89-46f2-8211-aafa3fe97d64</id>
+      <recordtableid>0a3f088d-d091-4073-a24e-e93f21a18e26</recordtableid>
+    </None>
+    <None Include="NewRecipe\SetRecipePLMSource.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>15031142-dddf-44b1-bece-d058cca3fe36</id>
+      <recordtableid>e1f3c262-98ea-4b8f-b5b3-e283ca9fa555</recordtableid>
+    </None>
+    <Content Include="DocumentProcessorRegression.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d799151d-efe3-4edd-bbf6-0489a4f85741</id>
+    </Content>
+    <Content Include="DocumentProcessorRegression.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c8a908fd-77ac-4a0f-ab45-c8e22bbbb430</id>
+    </Content>
+    <None Include="OpenJob\OpenJob99999Operations.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>cc67abac-510a-403c-999a-8d25d2c73602</id>
+      <recordtableid>9f5662ad-b2f2-4758-b3da-8b28ff8fc336</recordtableid>
+    </None>
+    <Content Include="PropertyNameToColumnLetters.xlsx">
+      <BoundTo>c8a908fd-77ac-4a0f-ab45-c8e22bbbb430</BoundTo>
+      <DependentUpon>ATS Document Processor.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>688f23f6-a707-4265-a4fe-25688f97aa43</id>
+    </Content>
+    <Content Include="OPGNumbers.xlsx">
+      <BoundTo>c8a908fd-77ac-4a0f-ab45-c8e22bbbb430</BoundTo>
+      <DependentUpon>ATS Document Processor.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>abb58306-b7d8-4704-8f01-a87219568fd1</id>
+    </Content>
+    <None Include="OpenRecipe\OpenRecipe.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>07894772-a386-4c8e-9817-c3a17b974488</id>
+      <recordtableid>3ffd6f53-2252-46ad-aba5-2859923d9295</recordtableid>
+    </None>
+    <Content Include="OPGNumbers.xlsx">
+      <Link>OPGNumbers.xlsx</Link>
+      <BoundTo>c8a908fd-77ac-4a0f-ab45-c8e22bbbb430</BoundTo>
+      <DependentUpon>DocumentProcessorRegression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d23c28cf-7bbf-4b1b-8ff0-094f683a58c2</id>
+    </Content>
+    <None Include="OutputCompare\ExcelOutputCompare.rxrec">
+      <id>7a775d4c-b279-4057-83ca-4fef519da188</id>
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <recordtableid>5ad39cfc-150a-4618-9e07-c37d8faaa53b</recordtableid>
+    </None>
+    <None Include="OutputCompare\FilesListReferencesPropertiesOutputCompare.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>01a0f1e3-924b-4cd6-bd64-75aac549a8d8</id>
+      <recordtableid>9911eec2-ee57-4041-8f9f-24659970ad20</recordtableid>
+    </None>
+    <None Include="OutputCompare\OutputFilesCompare.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>a0460c48-aea8-46ff-a6a0-f0cabf36abbf</id>
+      <recordtableid>e4b25e91-3fff-4703-bd01-1793d3748b06</recordtableid>
+    </None>
+    <None Include="OutputCompare\PDFOutputCompare.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>cf14830d-24d2-44c9-b67a-209aa01b4628</id>
+      <recordtableid>f27a6a99-2039-4a4f-8e53-12726704199b</recordtableid>
+    </None>
+    <None Include="packages.config">
+      <id>c27ee7e4-7f6a-4b41-a86d-0aea097c2dca</id>
+    </None>
+    <Content Include="PropertyNameToColumnLetters.xlsx">
+      <Link>PropertyNameToColumnLetters.xlsx</Link>
+      <BoundTo>c8a908fd-77ac-4a0f-ab45-c8e22bbbb430</BoundTo>
+      <DependentUpon>DocumentProcessorRegression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f1d0d67f-a50e-4f86-b564-eb12281a4eb2</id>
+    </Content>
+    <None Include="RepairExcel.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>31092b33-d706-406f-b46c-4545c39ee93b</id>
+      <recordtableid>92f95634-c1f5-476b-9b2f-aa00069df0a2</recordtableid>
+    </None>
+    <Content Include="TestCase3Table.csv">
+      <BoundTo>c8a908fd-77ac-4a0f-ab45-c8e22bbbb430</BoundTo>
+      <DependentUpon>ATS Document Processor.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3fc0e4d3-753b-4276-ae7a-611f621f44a5</id>
+    </Content>
+    <None Include="RunJobTools\DeleteJob.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>078dc3f1-e235-4f13-bbe0-238e6d47f210</id>
+      <recordtableid>a1a7f5fd-d1c9-4458-baf9-81a88b50e869</recordtableid>
+    </None>
+    <None Include="RunJobTools\Deploy Test Filter Test.rxrec">
+      <id>7626b680-3366-4afb-9af4-1b849973e77c</id>
+      <recordtableid>b0a405da-5c9f-46cf-82fd-b53c31fd022e</recordtableid>
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+    </None>
+    <None Include="RunJobTools\ExportCustomProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>074f0b8b-75b5-47ac-96b3-4553cc4fe92f</id>
+      <recordtableid>1d212394-4095-4885-839e-fd32671373a7</recordtableid>
+    </None>
+    <None Include="RunJobTools\FilterFileAndProcess.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>b203de05-5469-4d1a-a681-dd0cde91d45d</id>
+      <recordtableid>2990461e-e848-4c54-820f-3b645fc7a4f6</recordtableid>
+    </None>
+    <None Include="RunJobTools\FilterItemAndProcessFile.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>16bf892a-acb6-445e-bbff-f032d826b9b7</id>
+      <recordtableid>3a5092e1-646e-4f2b-99dc-4651dfd7bd18</recordtableid>
+    </None>
+    <None Include="RunJobTools\ImportCustomProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>b377c2e9-05c0-4c25-845e-9a3d79cd7499</id>
+      <recordtableid>429a0849-dc25-4d44-af8a-56bde4087ecb</recordtableid>
+    </None>
+    <None Include="RunJobTools\MarkComplete.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>10a752a4-362d-4a34-a8e5-735c2d893cf5</id>
+      <recordtableid>0de8e9b4-dc47-4e09-ad9e-06237a429507</recordtableid>
+    </None>
+    <None Include="RunJobTools\OpenCustomProperties.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>1247a568-d019-4640-8a19-0107e71b7095</id>
+      <recordtableid>f8818cc0-9155-401e-bae3-c4dc56897c70</recordtableid>
+    </None>
+    <None Include="RunJobTools\Download.rxrec">
+      <id>96f1c111-32a1-44c4-ad6e-f78ff94098a2</id>
+      <recordtableid>14ce0ffb-ebc8-43a9-a29d-355ed290d4ba</recordtableid>
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+    </None>
+    <None Include="RunJobTools\RunJob.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>b5a34404-afcf-4efe-98cc-7e4f260fc61a</id>
+      <recordtableid>53b88785-10cd-4299-8543-78b214668b0b</recordtableid>
+    </None>
+    <None Include="RunJobTools\WaitForProgressBarToNotExist.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>90918206-285f-4199-a8ee-b2bb0f7a7a7c</id>
+      <recordtableid>cf4ae8be-3060-4522-88aa-99594fa97587</recordtableid>
+    </None>
+    <None Include="RunWithReport.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>4a4f9f8b-351a-4320-8c7a-0ff4c4d2eed3</id>
+      <recordtableid>ce2d0294-1351-43f7-9514-88d01ce1411d</recordtableid>
+    </None>
+    <Content Include="TestCase3Table.csv">
+      <Link>TestCase3Table.csv</Link>
+      <BoundTo>c8a908fd-77ac-4a0f-ab45-c8e22bbbb430</BoundTo>
+      <DependentUpon>DocumentProcessorRegression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ee9fd486-b105-46b0-961b-777707aafffb</id>
+    </Content>
+    <None Include="TestValidation.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>77d8e5b8-ed42-42e6-9ea4-db801bd2ab26</id>
+      <recordtableid>033ba577-aa76-4215-b33e-d26e414e2d22</recordtableid>
+    </None>
+    <None Include="SetSubFolder.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>860964e5-f732-41d6-9b6c-9b89086f3824</id>
+      <recordtableid>75be87ee-b6cf-448c-867a-4a42bc752fa4</recordtableid>
+    </None>
+    <None Include="ValidateAll.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>76327339-d8ff-4bb9-bca2-cd5f6cf8d7ba</id>
+      <recordtableid>dfad5364-0163-42e7-b75d-a5e5b10e900d</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateArchivedRecipe.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>b1835aa0-5fa6-4409-9677-577024c97bb3</id>
+      <recordtableid>d858f766-9c54-4f81-b7db-d2f1ab938d05</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateCheckedDrawings.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>4a4f4e89-cbb7-4560-bffc-c17c87982a8c</id>
+      <recordtableid>7fc10c39-1be5-4f75-b048-eb543f8ec14e</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateDownloadFilesError.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>32d5ea17-cbb1-4177-858a-e2f094b9d9e0</id>
+      <recordtableid>f27d06d0-b808-45c6-b311-b48ed0834bdb</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateDownloadSuccess.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>9326971b-2cd8-4117-b230-4db1361a0885</id>
+      <recordtableid>4dc52d2a-424e-4d3a-ad97-a620e04aa45d</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateExportedHeaders.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>d0831008-595c-410d-b4a1-f3a5522842bf</id>
+      <recordtableid>cb9af4d6-da6d-40d1-beed-83a4b667014c</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateMoveReport.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>50b77708-ddb1-4b58-9a92-8b5f9f4454dc</id>
+      <recordtableid>1d19456b-8ea6-4b44-9a85-3797a9414ae4</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateRecipeMoves.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>31feb27d-f61a-4383-81c6-0f73515d2273</id>
+      <recordtableid>51e164cb-1e43-45ec-9b54-eb3abb380ac5</recordtableid>
+    </None>
+    <None Include="ValidationRecordings\ValidateStatusMessageBar.rxrec">
+      <BoundTo>3cc81643-7bd4-4605-9bdc-51c5a3928333</BoundTo>
+      <id>dcdf685e-9015-439f-8456-cde646324086</id>
+      <recordtableid>e92f8f3e-486b-4d2d-bc70-33fbf471bbe6</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EditRecipe">
+      <id>b2b19f02-7891-4191-825d-d8987962623f</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations">
+      <id>01a708bd-b8de-486a-9000-5ad1f2386a6b</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\ChangeBalloonStyle">
+      <id>13406ce2-ce45-42b9-a000-2a6f46526447</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\ChangeTitleblocks">
+      <id>56061851-7d34-4b50-9648-50ea235b5427</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\CreateReport">
+      <id>e0059216-18c2-4950-9b93-58899a316caf</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\DeleteCustomProperties">
+      <id>1de0ff2a-7dea-486c-95d8-9128fcc6a27a</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\Download">
+      <id>a5614c71-57f5-46ce-a438-66dccf8d9bd9</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\ExportFormats">
+      <id>dd6c2d58-9c84-4905-8df1-5d585494f9ea</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\SolidWorksMacro">
+      <id>25306aed-3726-490a-ae4b-a1d6710d2fb0</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\ProprietaryNote">
+      <id>e084eb60-41b3-4016-b37d-cc86f3dcabfb</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\Pause">
+      <id>84027c15-282e-467f-804c-76d383ac5aff</id>
+    </Folder>
+    <Folder Include="EditRecipe\AddOperations\WriteCustomProperties">
+      <id>251a7eae-c281-4d71-9bae-33f52d73b3ac</id>
+    </Folder>
+    <Folder Include="NonRecordings">
+      <id>71b667aa-8172-46d3-90c7-15b4544687c4</id>
+    </Folder>
+    <Folder Include="ValidationRecordings">
+      <id>292babda-5083-4bbf-ac9c-86ae363a5b21</id>
+    </Folder>
+    <Folder Include="RunJobTools">
+      <id>572e7847-6d8d-4a46-97e0-cfffea16739e</id>
+    </Folder>
+    <Folder Include="NewRecipe\AddCustomProperties">
+      <id>652a4098-008c-4927-9c93-1e2acc0af4c9</id>
+    </Folder>
+    <Folder Include="OpenRecipe">
+      <id>c38d2ea1-80b1-48db-bb79-b67573a3ccbd</id>
+    </Folder>
+    <Folder Include="OpenJob">
+      <id>53bc9d42-8d35-4f3f-b653-708ad9329a05</id>
+    </Folder>
+    <Folder Include="NewRecipe">
+      <id>d451710f-0019-45fa-be37-d6386e2146ed</id>
+    </Folder>
+    <Folder Include="CloseOrOpenApplication">
+      <id>207beb31-ea38-454c-b46b-80e94a73937b</id>
+    </Folder>
+    <Folder Include="NewJob">
+      <id>2396f7db-97ba-48a7-a605-49be885051bf</id>
+    </Folder>
+    <Folder Include="OutputCompare">
+      <id>e22a6787-20ec-4206-8a23-12d1be1b4536</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{31442572-374C-49C7-83C0-9A3D35B15B21}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

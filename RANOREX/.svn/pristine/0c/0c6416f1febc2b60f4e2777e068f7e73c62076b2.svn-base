@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5ad39cfc-150a-4618-9e07-c37d8faaa53b"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ExcelOutputCompare"
+	namespace="ATS_Document_Processor.OutputCompare">
+	</codegen>
+	<variables>
+		<var
+		id="1e6779fd-d8eb-493a-819b-0165fee64017"
+		name="ReferenceFilesFolder">
+			\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\Ranorex\Download\ReferenceFiles\
+		</var>
+		<var
+		id="a366c252-2eaa-4624-8523-2bc5cf2af4b3"
+		name="OutputRootFolder">
+			\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\Ranorex\Download
+		</var>
+		<var
+		id="cb2fc465-b9f7-457c-8c6e-b21ba85efa0e"
+		name="OutputSubFolder">
+			2017-Oct-27 16-44-19
+		</var>
+		<var
+		id="4b27354b-a956-49fc-8c1e-54e136a986fd"
+		name="ProjectName">
+			Test Case 8
+		</var>
+		<var
+		id="5c6621ab-85d6-43f0-8739-c28db16c36af"
+		name="ProjectSubFolder">
+		</var>
+		<var
+		id="65c2c3be-e657-4d55-a696-17463cce3e73"
+		name="ExcelFileCompareApplicationPath">
+			\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\Ranorex\CompareExcelFiles\CompareExcelFiles.exe
+		</var>
+		<var
+		id="610e8ac0-7991-45e8-805b-de3636eb2aeb"
+		name="ReferenceFilesSubFolder">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="ExcelOutputCompare"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CompareExcelFiles"
+		namespace="ATS_Document_Processor.OutputCompare"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="beb6b833-5d4f-4e38-ac98-9a15c01cd82e">
+				<argument
+				argname="ExcelFilePath"
+				id="0cf389c1-5a39-462a-9a60-af2acf3921e4"
+				variable="ExcelFileCompareApplicationPath">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="8d4a945a-08b1-4257-8ff3-16e98ac8416c"
+	name="DocumentProcessorRegressionRepository"
+	relativepath="..\DocumentProcessorRegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ATS_Document_ProcessorRepository"
+		namespace="ATS_Document_Processor">
+		</codegen>
+		<rootfolder
+		id="8556a4d9-5bde-4e35-a12d-955dd8b939f3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ExcelOutputCompare.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="c2970e49-695a-4e27-b066-6d765b9b1009"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		CreateWithToolbarIcon
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateWithToolbarIcon"
+	namespace="RanorexTraining.CreatePassword"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="2eb4784e-92a6-4fb4-b1bb-2cc90789c343"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="8080b79a-1993-44e5-9590-5c1b27c94ee5">
+				<path>
+					/form[@controlname='MainForm']/?/?/button[@accessiblename='Add Entry']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="RanorexTrainingRepository"
+	id="a3b784c7-b185-45ce-9fdf-a4961843ea8e"
+	rxversion="5.4.5.19886"
+	relativepath="..\RanorexTrainingRepository.rxrep">
+		<codegen
+		classname="RanorexTrainingRepository"
+		namespace="RanorexTraining"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="216adab3-0f07-4d89-b7ce-77f6bd50d515"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateWithToolbarIcon.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

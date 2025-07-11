@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="2074ms"
+		durationms="2074"
+		type="root"
+		rid="f5f038142505fb4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="abridgman"
+		host="CA01A1900"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3360x1050"
+		timestamp="5/31/2016 11:17:13 AM"
+		timestampiso="2016-05-31T15:17:13"
+		timeoutfactor="1"
+		module="Deploy_Test_Filter_Test">
+		<detail>
+			Deploy_Test_Filter_Test
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.198"
+			timeRelativeToTestModuleStartTime="00:00.199"
+			timeWallClock="11:17:14"
+			time="00:00.198"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>FormTitle, ResultsFolder, ReferenceName, NewTextName, RecipeIndex, FolderID
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.219"
+			timeRelativeToTestModuleStartTime="00:00.220"
+			timeWallClock="11:17:14"
+			time="00:00.219"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>Killing application containing item 'ATSDocumentProcessorMainWindow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+				fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+				id="42a086c92e6f4248857874f38fb7077e"
+				timeout="100"
+				codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+				codeline="157"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.612"
+			timeRelativeToTestModuleStartTime="00:01.613"
+			timeWallClock="11:17:15"
+			time="00:01.612"
+			level="Info"
+			category="Application">
+			<message>
+				Run application '\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe' with arguments '2' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+				codeline="161"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.658"
+			timeRelativeToTestModuleStartTime="00:01.659"
+			timeWallClock="11:17:15"
+			time="00:01.658"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab' at 129;37.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list"
+				fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab"
+				id="f8d25c1ea20e42b8a5940b7ecc4873c0"
+				timeout="60100"
+				codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+				codeline="164"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.073"
+			timeRelativeToTestModuleStartTime="00:02.074"
+			timeWallClock="11:17:16"
+			time="00:02.073"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

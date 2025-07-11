@@ -1,0 +1,507 @@
+﻿<repository
+name="PLMWorxVaultUpdateRepository"
+id="0f0da1da-c2d4-47f5-ba1e-ed0f1245e273"
+rxversion="6.1">
+	<codegen
+	classname="PLMWorxVaultUpdateRepository"
+	namespace="PLMWorxVaultUpdate"/>
+	<rootfolder
+	name="Root"
+	id="b2eae87a-e3d8-46ec-aaf8-437dbe802bfd"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="ConnectedToESRWorxQAAsAdamBridgman"
+		id="b5ac24fc-0730-49f2-ad73-f1c67db10e07"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Connected to ESRWorx_QA as Adam Bridgman (SYSTEM ADMINISTRATOR)']"
+		addcaps="form,javaelement,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Find"
+			id="c29c1730-ccdb-41b2-892d-745794a1e3b7"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/element[@type='JRibbon']/container[@type='Box']/toolbar/button[2]"
+			addcaps="button,javaelement"
+			refimgid="e0ec9fcf-434b-4278-b2a2-90d4b6bce824">
+				/form[@title~'^Connected\ to\ ESRWorx_QA\ a']//toolbar[@name='toolBar']/button[2]
+			</item>
+			<folder
+			name="MainHonSplitPane"
+			id="9da88d9f-b458-49ca-b194-77c37e06be60"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Connected to ESRWorx_QA as Adam Bridgman (SYSTEM ADMINISTRATOR)']/container[@name='mainHonSplitPane']"
+			addcaps="container,javaelement"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="SearchFavourites"
+				id="b6a42b7a-ebed-4739-871e-1f48d301fb2b"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container/container/container/container/container/combobox[@name='selectSearchCombo']"
+				addcaps="combobox,javaelement"
+				refimgid="89d2f772-6aea-4887-b912-6814b9b8af9c">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/?/?/container[@name='leftComponent']/?/?/container[@name='visComp']/container[@name='viewport']//container[@name='saveSearchPanel']/combobox[@name='selectSearchCombo']
+				</item>
+				<item
+				name="Search"
+				id="bed43f64-f9e1-4842-a5d3-40d3b9554256"
+				searchtimeout="30000ms"
+				capname="button"
+				addcaps="button,javaelement"
+				refimgid="2a897db5-8033-465f-b742-b29d5af4e37d">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/button[@name='searchButton']
+				</item>
+				<item
+				name="SecondFilter"
+				id="3819d4c5-0ce0-40c4-b415-289f5b3026b9"
+				searchtimeout="30000ms"
+				capname="combobox"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container/container/container/container/combobox[5]"
+				addcaps="combobox,javaelement"
+				refimgid="205d0bcb-a1fe-45ff-8485-07eba82bd103">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/combobox[5]
+				</item>
+				<item
+				name="FirstValue"
+				id="c3fa27ec-31f7-438e-89ea-3f5226a418b6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container/container/container/container/text[2]"
+				addcaps="text,javaelement"
+				refimgid="846213ad-e2a4-4496-99f5-fd371be78a36">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/text[2]
+				</item>
+				<item
+				name="SecondValue"
+				id="ea877c28-d814-4b6c-8890-14f4215000f7"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container/container/container/container/text[3]"
+				addcaps="text,javaelement"
+				refimgid="e6ebb497-0160-4286-9767-a554beef7319">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/text[3]
+				</item>
+				<item
+				name="SLDASM"
+				id="b03b52f7-94fb-4f3f-b5a7-d49367c66d8d"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container[3]/container/container[@name='viewport']/table/row/cell[@text='SLDASM' and @columnindex='0']"
+				addcaps="cell"
+				refimgid="f0bdec8c-c57b-4733-be50-eefbbdc77961">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']//container[@type='JideSplitPane']//container[@name='viewport']/table[@name='a']/row[@index='0']/cell[@columnindex='0']
+				</item>
+				<item
+				name="TxtCadSoftwareVersion"
+				id="aa4907f7-b7b4-4d3c-8c65-019763eb6f26"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container/container/container/container[@name='tabbedPane']/container[@name='visComp']/container/container/container[@name='cadPropsPanel']/text[@name='txtCadSoftwareVersion']"
+				addcaps="text,javaelement"
+				refimgid="8e7d5198-0b5a-4c9a-b8b2-010e08f66ecb">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='docpropertyScrollPane']/container[@name='viewport']/?/?/container[@name='tabbedPane']/container[@name='visComp']//container[@name='cadPropsPanel']/text[@name='txtCadSoftwareVersion']
+				</item>
+				<folder
+				name="VersionHistory"
+				id="540f6d5e-c8ea-42d6-95ff-792e291fca51"
+				searchtimeout="30000ms"
+				capname="table"
+				isrooted="True"
+				usecache="False">
+					<folder
+					name="VersionHistoryRow"
+					id="8e61e47f-2e79-41cc-b6df-118cfb2ba7d0"
+					searchtimeout="30000ms"
+					capname="row"
+					isrooted="True"
+					usecache="False">
+						<item
+						name="AssociatedItem"
+						id="a0667ae6-5a7e-4d99-9ac1-5299352a6673"
+						searchtimeout="30000ms"
+						capname="cell"
+						addcaps="cell"
+						refimgid="4c05bfe4-f6d1-4dba-baea-fe90d22bc198">
+							/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']//container[@accessiblename='Attributes']/container[@name='visComp']/container[@name='viewport']/?/?/container[@name='versionHistoryPanel']/?/?/container[@name='viewport']/table[@name='table']/row[@index=$VersionRowNumber]/cell[@columnindex='4']
+						</item>
+						<basepath>
+							/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']//container[@accessiblename='Attributes']/container[@name='visComp']/container[@name='viewport']/?/?/container[@name='versionHistoryPanel']/?/?/container[@name='viewport']/table[@name='table']/row[@index=$VersionRowNumber]
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']//container[@accessiblename='Attributes']/container[@name='visComp']/container[@name='viewport']/?/?/container[@name='versionHistoryPanel']/?/?/container[@name='viewport']/table[@name='table']
+					</basepath>
+				</folder>
+				<item
+				name="History"
+				id="ccbef5f6-19ae-455e-9a05-c73199aec919"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container[@name='tabbedPane']/tabpage[@title='History']"
+				addcaps="tabpage"
+				refimgid="25eafe0e-ebed-4c0a-a11b-b2570efcf24e">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/?/?/container[@name='rightComponent']/container[@name='viewport']//tabpage[@title='History']
+				</item>
+				<item
+				name="Attributes"
+				id="5f533ed9-a611-432e-aa1a-2f3f8fcd0f75"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container[@name='tabbedPane']/tabpage[@title='Attributes']"
+				addcaps="tabpage"
+				refimgid="365799e0-c443-439f-ada4-789e2ac92f05">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/?/?/container[@name='rightComponent']/container[@name='viewport']//tabpage[@title='Attributes']
+				</item>
+				<item
+				name="Documents"
+				id="dd781cca-b49d-4210-a6af-13a28e3a9893"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container[@name='tabbedPane']/tabpage[@title='Documents']"
+				addcaps="tabpage"
+				refimgid="ab012387-15e6-40a7-8f59-d6a0ae4d4ec0">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/?/?/container[@name='rightComponent']/container[@name='viewport']//tabpage[@title='Documents']
+				</item>
+				<folder
+				name="NewFolder"
+				id="fab57d4e-5026-45e1-a2f2-c5a819960e98"
+				searchtimeout="30000ms"
+				capname="container"
+				isrooted="True"
+				usecache="False">
+					<item
+					name="SomeCell"
+					id="f03cefde-f47a-4052-8263-0451ff26f3ba"
+					searchtimeout="30000ms"
+					capname="cell"
+					refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container[@name='tabbedPane']/container[@name='visComp']/container/container/container[@name='designPanel']/container[@type='JScrollPane']/container[@name='viewport']/table/row[@index='3']/cell[@text='' and @columnindex='8']"
+					addcaps="cell"
+					refimgid="f1e82888-4a1a-401c-a1a7-bf7383cfe395">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//container[@name='visComp']//container[@name='viewport']/table[@name='designTreeTable']/row[@index='3']/cell[@columnindex='8']
+					</item>
+					<item
+					name="HistoryCell"
+					id="e6c4751b-b971-4c57-8508-81b4bf8250a5"
+					searchtimeout="30000ms"
+					capname="cell"
+					addcaps="cell"
+					refimgid="6921b306-bffd-4fe4-92f4-58b6551e32f3">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp' and @type='JPanel']//container[@name='viewport']/table[@name='pHistoryTable']/?/cell[@text~'^Updated\ file.*'+$Filename+'.*'+$FileVersion]
+					</item>
+					<folder
+					name="DocumentsContent"
+					id="df800773-473e-48b1-9348-22054f108e3f"
+					searchtimeout="30000ms"
+					capname="table"
+					isrooted="True"
+					usecache="False">
+						<folder
+						name="FileDocument"
+						id="8203204f-e00f-4d1e-987a-aaebb225b2eb"
+						searchtimeout="30000ms"
+						capname="cell"
+						refimgid="76ba8692-c794-4c7c-98a8-0062235d33e9"
+						isrooted="True"
+						usecache="False">
+							<item
+							name="DocumentVersion"
+							id="e6179a41-59a4-47b2-bbf6-a36438569658"
+							searchtimeout="30000ms"
+							capname="cell"
+							addcaps="cell"
+							refimgid="abb2fba2-6d44-4f2a-8a74-3ed1fde0d682">
+								/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']//container[@name='visComp']//container[@name='viewport']/table[@name='designTreeTable']/?/cell[@text&gt;$Filename and @text&lt;$FileExtension]/parent::row/cell[@columnindex='4']
+							</item>
+							<item
+							name="Translation"
+							id="9792a189-89d7-43ed-9b68-b06c23c3febc"
+							searchtimeout="30000ms"
+							capname="cell"
+							addcaps="cell"
+							refimgid="baa34e6e-652e-422f-88e7-c71eeb01bd9e">
+								/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']//container[@name='visComp']//container[@name='viewport']/table[@name='designTreeTable']/?/cell[@text&gt;$Filename and @text&lt;$FileExtension]/parent::row/cell[@columnindex='11']
+							</item>
+							<basepath>
+								/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']//container[@name='visComp']//container[@name='viewport']/table[@name='designTreeTable']/?/cell[@text&gt;$Filename and @text&lt;$FileExtension]
+							</basepath>
+						</folder>
+						<basepath>
+							/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']//container[@name='visComp']//container[@name='viewport']/table[@name='designTreeTable']
+						</basepath>
+					</folder>
+					<item
+					name="AddThirdFilter"
+					id="95d2ee4f-bff8-4f40-a9a3-82ba6d117e20"
+					searchtimeout="30000ms"
+					capname="button"
+					refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container/container/container/container/button[3]"
+					addcaps="button,javaelement"
+					refimgid="80e0c2e4-a70d-4118-959b-d3f5e99d3ef7">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/button[3]
+					</item>
+					<item
+					name="WorxComboBox"
+					id="5f980f98-ced4-4f63-a444-6bcf9a71494b"
+					searchtimeout="30000ms"
+					capname="combobox"
+					refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container/container/container/container/combobox[7]"
+					addcaps="combobox,javaelement"
+					refimgid="ff88217a-dc50-4c53-9952-6f8863f37e9f">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/combobox[7]
+					</item>
+					<item
+					name="WorxTextField"
+					id="6fe467bf-8830-4d8c-92b4-fd885846d94d"
+					searchtimeout="30000ms"
+					capname="text"
+					refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container/container[@name='visComp']/container/container/container/container/text[4]"
+					addcaps="text,javaelement"
+					refimgid="1a84409c-f227-439e-be3a-8428c183f5f3">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/text[4]
+					</item>
+					<item
+					name="AddSecondFilter"
+					id="6e77c29e-2ed9-4c3e-94c6-ad8592826d79"
+					searchtimeout="30000ms"
+					capname="button"
+					refpath="/form[@title='Connected to ESRWorx_QA as Adam Bridgman (SYSTEM ADMINISTRATOR)']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='leftComponent']/container[@name='tabbedPane']/container[@name='visComp']/container[@name='viewport']/container[@type='JPanel']/container[@type='AdvancedSearchPanel']/container[@name='pTop']/button[2]"
+					addcaps="button,javaelement"
+					refimgid="3c8a3989-acd9-4585-b66f-f2d89e5be724">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']//container[@name='visComp']/container[@name='viewport']//container[@name='pTop']/button[2]
+					</item>
+					<item
+					name="DesignDocuments"
+					id="5dcea457-526a-44e6-b375-f0632b4f56dc"
+					searchtimeout="30000ms"
+					capname="tabpage"
+					refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container[@name='tabbedPane']/container[@name='visComp']/container/tabpage[@title='Design Documents']"
+					addcaps="tabpage"
+					refimgid="3e8b81c3-b1ba-4887-ba42-57d626bcf69b">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/?/?/container[@name='viewport']//container[@name='visComp']/?/?/tabpage[@title='Design Documents']
+					</item>
+					<item
+					name="Link"
+					id="dd2feec2-acfd-490c-968a-5ecbc8a50ea7"
+					searchtimeout="30000ms"
+					capname="cell"
+					addcaps="cell"
+					refimgid="ecde077e-c685-426e-9c49-69e66f12dbae">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container[@name='viewport']//container[@name='visComp']//table[@name='treeTable']/?/cell[@columnindex='0' and @text~$Filename]
+					</item>
+					<item
+					name="JViewport"
+					id="b3b1eb16-7252-409a-b24e-21cd9b5d471b"
+					searchtimeout="30000ms"
+					capname="container"
+					refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container[@name='tabbedPane']/container[@name='visComp']/container/container[@type='JScrollPane']/container/container/container[@type='JideScrollPane']/container[1]"
+					addcaps="container,javaelement"
+					refimgid="d80e242a-da2b-4823-898a-3159b7358c7f">
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container[@name='viewport']//container[@name='visComp']//container[@name='viewport']/?/?/container[@type='JideScrollPane']/container[1]
+					</item>
+					<basepath>
+						/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']
+					</basepath>
+				</folder>
+				<item
+				name="JavaxSwingImageIconAt6e56d06c"
+				id="25db18c7-b654-45d1-a8b6-e9e6220de6e4"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']/container[@name='rightComponent']/container[@name='rightComponent']/container/container/container[@name='tabbedPane']/container[@name='visComp']/container/container/container[@name='designPanel']/container[@type='JScrollPane']/container[@name='viewport']/table/row[@index='4']/cell[@text~'^javax\.swing\.ImageIcon@6e5']"
+				addcaps="cell"
+				refimgid="f014b479-531f-454d-8a14-6431bb9f3c16">
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']//container[@name='viewport']//container[@name='visComp']/?/?/container[@name='pnlCADCategory']//container[@name='viewport']/table[@name='designTreeTable']/row[@index='4']/cell[@text~'^javax\.swing\.ImageIcon@6e5']
+				</item>
+				<basepath>
+					/form[@title~'^Connected\ to\ ESRWorx_QA\ a']/container[@name='mainHonSplitPane']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Connected\ to\ ESRWorx_QA\ a']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAG5SURBVDhPY8AFWjfZa7RtdtjdvtnhNpAdABUm
+DnRutTcBavwOxP9hGGRY62Z7HagS7EBzwp4Yrf79BiB220Z7FaDGzciGtG9y+N222X5GzyZ7EbAG
+GNCYuN9Cc8K+00D8X2PC3t8a/XvnaE3ZLwGSa99i7wLUfB3FoM0O72vX2eeANYOAXO3W/xr9+/6D
+DAAbgmQACNTvt2cBuigHpBFkQOpyx//m05z/Q6UZGISz1vwXy1v3X7Fp+3X1vv0mUGEM0L/eXsBp
+ltN1/cnO/0EYKgwxAIoXQIVwAqDGAxQboDfZ+b3eZJcSqBBpBhhMdkoxnWIPDx8wIMUAEOjVslCZ
+oGWxHsol3oB+fXuBfk2Lnoma5r+BBuAOgxopOZ96SUl4Yqm3t2fp07BImahp8XySpsV/EJ6IbIBQ
+1toQ4cw1t+EGSMosqJWQeV8rJVPSp2niMkHT4vwkoAa4Zk2L9xO0zCvAmmFAPn4/h1DGWgsQu1Zc
+ZkG9hMz/OiDuUTNCaAQa0q9lPmeKlilqIKKDWgnZDKALfsMMAGkE2nq4T8cUZyLDAPUyMiq1krKb
+u9UMHk/QNo+ACqMBBgYAFfXwgYU9XEkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Java"
+		id="35698d83-dc65-4fce-ad30-171c335b2f10"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@processname='java' and @class='SunAwtWindow']"
+		addcaps="form,javaelement,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="FileName"
+			id="e456c32b-1acc-4f40-9720-7b2f5dfae45a"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@processname='java' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='File name']"
+			addcaps="listitem"
+			refimgid="51985b73-fbb2-44e1-b6e2-a20291f0d2ee">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='File name']
+			</item>
+			<item
+			name="Version"
+			id="2aa52c55-0788-49b9-8b99-3a40c673aa39"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@processname='java' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='Version']"
+			addcaps="listitem"
+			refimgid="a3b9ba6f-310d-49e0-9869-a763188a16f8">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Version']
+			</item>
+			<item
+			name="FileExtension"
+			id="03dfcaa5-cb54-4af3-85be-0fe32bff6cc1"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@processname='java' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='File extension']"
+			addcaps="listitem"
+			refimgid="f95ba3a4-e2a0-4937-8f52-d23e50384578">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='File extension']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Translations"
+		id="9bf05628-846d-4455-b0f0-0bc1ba3cc655"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Translations']"
+		addcaps="form,javaelement,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="CheckBoxHtmltableCellpaddingEq0trtdimg"
+			id="ef4bdf6c-c25a-459d-bcff-e4eafe5dd0e3"
+			searchtimeout="30000ms"
+			capname="checkbox"
+			refpath="/form[@title='Translations']/container/container/container/container/checkbox[@text~'^&lt;html>&lt;table\ cellpadding=']"
+			addcaps="checkbox,javaelement"
+			refimgid="2bf38af5-049d-457a-aef9-ef9417eb6d6b">
+				/form[@title='Translations']/?/?/container[@name='listScrollPane']/container[@name='viewport']/?/?/checkbox[@text~'^&lt;html&gt;&lt;table\ cellpadding=']
+			</item>
+			<item
+			name="Close"
+			id="0bbc468a-410f-4cae-af5a-a951b0772bc8"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Translations']/container/button[@name='btnCancel']"
+			addcaps="button,javaelement"
+			refimgid="a1018b9b-85de-45d5-b56f-1eb4ade29fdb">
+				/form[@title='Translations']/?/?/button[@name='btnCancel']
+			</item>
+			<basepath>
+				/form[@title='Translations']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAG5SURBVDhPY8AFWjfZa7RtdtjdvtnhNpAdABUm
+DnRutTcBavwOxP9hGGRY62Z7HagS7EBzwp4Yrf79BiB220Z7FaDGzciGtG9y+N222X5GzyZ7EbAG
+GNCYuN9Cc8K+00D8X2PC3t8a/XvnaE3ZLwGSa99i7wLUfB3FoM0O72vX2eeANYOAXO3W/xr9+/6D
+DAAbgmQACNTvt2cBuigHpBFkQOpyx//m05z/Q6UZGISz1vwXy1v3X7Fp+3X1vv0mUGEM0L/eXsBp
+ltN1/cnO/0EYKgwxAIoXQIVwAqDGAxQboDfZ+b3eZJcSqBBpBhhMdkoxnWIPDx8wIMUAEOjVslCZ
+oGWxHsol3oB+fXuBfk2Lnoma5r+BBuAOgxopOZ96SUl4Yqm3t2fp07BImahp8XySpsV/EJ6IbIBQ
+1toQ4cw1t+EGSMosqJWQeV8rJVPSp2niMkHT4vwkoAa4Zk2L9xO0zCvAmmFAPn4/h1DGWgsQu1Zc
+ZkG9hMz/OiDuUTNCaAQa0q9lPmeKlilqIKKDWgnZDKALfsMMAGkE2nq4T8cUZyLDAPUyMiq1krKb
+u9UMHk/QNo+ACqMBBgYAFfXwgYU9XEkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="StartFoxitReader"
+		id="d068278b-2f79-45b6-99e4-5446f8ca7619"
+		searchtimeout="30000ms"
+		capname="form"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<basepath>
+				/form[@processname='FoxitReader']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGWSURBVDhPlZM/SwNBEMXzCYwmiH9i0otgIdgF
+FERsROuIYGEpWFprosaoICIWakRIYxBttBDUwu9gYSFooYiFCBF37867y3N2zkvuvETjwGOPZeY3
+s2/3QiKX+JCrCTQifS2BEIX6VivHz6Tf5AUo/QkQK10Q2Q5aOyFz8Qrgc72aUxMgVmIQmQjkZi+0
+YgpaYRRiMQpJIO7qjUBxth1yqw/Wyw3KAMt+e4BtapD5QYaoSVz5AKqz3O7nIjfKtgW79Ay9OIHP
+21OnAR3HrfED0mFKfnQKSfrZLMRCEykMWRiHWGqDlh9ibwIANmp/mItVGFfzjg/UTeRiMM7nIHeT
+bKpb4wfQaMbpzHc5yMAex8x0C/TjKZ7IuCTocls9QAe0w5RTTcGjpiMw7y4qnmhHk/Un4FEXW1G2
+TE62S0/QDkYg6Cqt+2vYH68M9BroB5DYh50kbEMwxA0Fkxvdzi158pV8ACUFEZkoPZ4xaCfTkHsD
+1LmZ9qvOexUAsNRxFIifcbCrV7UB/1BDvzPlWGI1YfrEe/H3LyrGtNHFdrTLAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="RowIndex"
+		id="06b58a1d-25e0-4dc6-81b3-26a49bb39702">
+			1
+		</var>
+		<var
+		name="ColumnIndex"
+		id="1fa75359-49ab-4645-830c-e2ca61fd5b1f">
+			1
+		</var>
+		<var
+		name="ItemVersion"
+		id="33fe922a-ee6d-4fad-8a4d-8f5d656ee9d2">
+			002
+		</var>
+		<var
+		name="VersionRowNumber"
+		id="e2b01adb-293d-4195-ad23-042eab786c98">
+			0
+		</var>
+		<var
+		name="Filename"
+		id="e03d1122-9c80-45fd-b92b-948482170ae0">
+			AP25669174
+		</var>
+		<var
+		name="FileVersion"
+		id="f5763892-4ef7-4c4a-b4ad-491ecc43f999">
+			009
+		</var>
+		<var
+		name="FileExtension"
+		id="114fd7ef-aa38-49c6-be7b-41e4bddde118">
+			SLDDRW
+		</var>
+	</variables>
+</repository>

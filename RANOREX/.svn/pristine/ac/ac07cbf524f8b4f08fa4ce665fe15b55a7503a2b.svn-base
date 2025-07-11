@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5f75c862-830d-4c8c-b642-dccb34317035"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClosePLM"
+	namespace="UpchainMechDeployTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="16992523-e4db-44f8-8c7a-438354132fdc">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c744a828-b4d2-41eb-b1c0-27983601a21a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Connected\ to\ ESR']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="aed1354a-86ee-481b-93d2-1f90fb9b0f08"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="46c06deb-8f70-43a4-84d7-6a3c0748d431"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Exit Confirmation']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Exit']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="01926ae2-84bf-4f35-90fb-31c71a6364f1"
+	name="PLM_Mechanical_Deploy_TestRepository"
+	relativepath="PLM_Mechanical_Deploy_TestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PLM_Mechanical_Deploy_TestRepository"
+		namespace="UpchainMechDeployTest">
+		</codegen>
+		<rootfolder
+		id="bf98ede6-bc7d-4290-847e-c7ad47c510cc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClosePLM.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

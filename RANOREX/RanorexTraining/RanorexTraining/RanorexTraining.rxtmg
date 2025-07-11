@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroups
+name="RanorexTraining"
+rxversion="5.4.5.19886">
+	<modulegroupdef
+	name="CloseAndDiscard"
+	id="ae942703-6879-459d-946a-04659b70dd11">
+		<testmodule
+		name="Close"
+		id="577e1ca9-f431-41ca-9df0-7e86a96ea592"
+		ref="89c0f64c-76b4-4229-9501-623d34093028"
+		type="Recording"/>
+		<testmodule
+		name="DiscardChanges"
+		id="0ffd4784-d45b-4318-b39e-eecc1ad252ec"
+		ref="0bc97117-3598-41a7-9643-7b9232c22d9e"
+		type="Recording"/>
+	</modulegroupdef>
+	<modulegroupdef
+	name="CloseExistingAndOpen"
+	id="f2870819-aba7-467a-8737-340579460752">
+		<testmodule
+		name="CloseApplication"
+		id="1552c721-f5b4-4b89-92cb-88f0db423a6b"
+		ref="1150b2a2-368e-4386-a10c-a0209a8397aa"
+		type="Recording"/>
+		<testmodule
+		name="OpenLogin"
+		id="07716ee0-990b-4399-b488-a1b701f68fa2"
+		ref="b0ab904c-34d1-475e-9537-b2274ed170e4"
+		type="Recording"/>
+	</modulegroupdef>
+</modulegroups>

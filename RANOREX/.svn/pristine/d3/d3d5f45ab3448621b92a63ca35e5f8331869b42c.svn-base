@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d00fa32b-15d2-4b5d-9ff2-092183fc6716"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PrepareNewAssembly"
+	namespace="UpchainMechDeployTest">
+	</codegen>
+	<variables>
+		<var
+		id="19642a0b-e8c1-4192-950f-b7f6593ebca1"
+		name="assemblyFolderName">
+			Doors-SW2018
+		</var>
+		<var
+		id="bea470dc-d0da-4c18-93bd-7bc81939234a"
+		name="assemblyNamePlusIndex">
+			nonenone
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="PrepareNewAssembly"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="SetAssemblyNamePlusIndex"
+		namespace="UpchainMechDeployTest"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="827dcb2c-ac92-435d-a836-608f1ed10acf">
+			</arguments>
+		</userrecorditem>
+		<runapprecorditem
+		enabled="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Arguments"
+				variable="assemblyFolderName">
+				</binding>
+			</bindings>
+			<filename>
+				\\ca01a9001\pgmis\Deployment_DEV\ATSPLM PLM Test Files\Generate Test Assembly\app_files\2019-01-30\CreatePLMTestAssembly.exe
+			</filename>
+			<workingdir>
+				\\ca01a9001\pgmis\Deployment_DEV\ATSPLM PLM Test Files\Generate Test Assembly\app_files\2019-01-30
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Arguments"
+				variable="assemblyFolderName">
+				</binding>
+			</bindings>
+			<filename>
+				\\ca01a9001\pgmis\Deployment_DEV\ATSPLM PLM Test Files\Generate Test Assembly\app_files\2019-04-03\CreatePLMTestAssembly.exe
+			</filename>
+			<workingdir>
+				\\ca01a9001\pgmis\Deployment_DEV\ATSPLM PLM Test Files\Generate Test Assembly\app_files\2019-04-03
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="9d894477-4c0b-47ec-af4c-9a60679fe97c"
+	name="UpchainMechDeployTestRepository"
+	relativepath="UpchainMechDeployTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="UpchainMechDeployTestRepository"
+		namespace="UpchainMechDeployTest">
+		</codegen>
+		<rootfolder
+		id="397711e0-9cf9-4fd1-b60f-219dc8d44fa0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PrepareNewAssembly.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

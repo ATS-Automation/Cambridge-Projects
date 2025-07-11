@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d0fbb754-7718-4b4e-8acd-38c3662f3412"
+mode="Global"
+rxversion="8.1">
+	<name>
+		CloseApplication
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseApplication"
+	namespace="CamDesigner">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		autogenmethod="True"
+		classname="RestartApplication"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="KillProcesses"
+		namespace="CamDesigner"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="48b075cf-4495-4713-8f7e-4ca49448ef0f">
+				<argument
+				argname="ProcessName"
+				id="16c265ae-1fbc-497a-83dc-6400c9143da1">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						CamDesigner
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="f397231c-781f-483d-997f-7fdb5e0a817e"
+	name="CamDesignerRepository"
+	relativepath="CamDesignerRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="CamDesignerRepository"
+		namespace="CamDesigner">
+		</codegen>
+		<rootfolder
+		id="95645d5a-794d-472d-b538-8587e65881f6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseApplication.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

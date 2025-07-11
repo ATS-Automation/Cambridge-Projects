@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bd185c07-0227-4f94-bdb2-f870beb9c25f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="KillFLASHPLAYER"
+	namespace="GlobalServicesPlatformTesting">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GSPUserCodeCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="KillProcess"
+		namespace="GlobalServicesPlatformTesting"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="c30536df-35e7-4744-89f1-2ed31b2bbaea">
+				<argument
+				argname="processname"
+				id="79cbd1f5-1ff0-4de2-9b25-2c059bfbaf98">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						FlashUtil32
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="12269275-6b4a-4279-a0e9-90be381986cd"
+	name="GlobalServicesPlatformTestingRepository"
+	relativepath="GlobalServicesPlatformTestingRepository.rxrep">
+		<codegen
+		classname="GlobalServicesPlatformTestingRepository"
+		namespace="GlobalServicesPlatformTesting">
+		</codegen>
+		<rootfolder
+		id="83c57c16-a03c-494e-96f0-8376d0daef20"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		KillFLASHPLAYER.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

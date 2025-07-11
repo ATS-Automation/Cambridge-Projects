@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="1bd4515c-faf7-48f4-8e56-67fb0958aa52"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		CreateWithFileMenu
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateWithFileMenu"
+	namespace="RanorexTraining.CreatePassword"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="1906613c-4b72-45b7-a030-a8cf9fd850d3"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="79f093d2-73c3-444e-bafd-ebfc40e4b9e6">
+				<path>
+					/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Edit']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="b3823fbb-64b4-4b50-a6ab-7de09ef88b9c"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d9160012-cbfe-42a3-9a8d-bcd21f13eb9e">
+				<path>
+					/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Add Entry...']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="RanorexTrainingRepository"
+	id="a3b784c7-b185-45ce-9fdf-a4961843ea8e"
+	rxversion="5.4.5.19886"
+	relativepath="..\RanorexTrainingRepository.rxrep">
+		<codegen
+		classname="RanorexTrainingRepository"
+		namespace="RanorexTraining"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="216adab3-0f07-4d89-b7ce-77f6bd50d515"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateWithFileMenu.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

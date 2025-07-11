@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="e02de3aa-42c3-4ee4-b0c3-eb422650717d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		PressEnter
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PressEnter"
+	namespace="RanorexTraining.CreatePassword"/>
+	<variables/>
+	<recorditems>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="f1c23a22-e4c3-40ce-93b1-d8f5f0a91938"
+		KeySequence="{Return}"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="RanorexTrainingRepository"
+	id="a3b784c7-b185-45ce-9fdf-a4961843ea8e"
+	rxversion="5.4.5.19886"
+	relativepath="..\RanorexTrainingRepository.rxrep">
+		<codegen
+		classname="RanorexTrainingRepository"
+		namespace="RanorexTraining"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="216adab3-0f07-4d89-b7ce-77f6bd50d515"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PressEnter.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

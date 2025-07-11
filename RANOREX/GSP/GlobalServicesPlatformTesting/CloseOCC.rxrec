@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2070b8c0-edc9-4c7a-8519-9918ee4c3a4c"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseOCC"
+	namespace="GlobalServicesPlatformTesting">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CloseOCC"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="KillOCC"
+		namespace="GlobalServicesPlatformTesting"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="0ae4c114-b323-4e5d-994d-a525675c2138">
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="12269275-6b4a-4279-a0e9-90be381986cd"
+	name="GlobalServicesPlatformTestingRepository"
+	relativepath="GlobalServicesPlatformTestingRepository.rxrep">
+		<codegen
+		classname="GlobalServicesPlatformTestingRepository"
+		namespace="GlobalServicesPlatformTesting">
+		</codegen>
+		<rootfolder
+		id="83c57c16-a03c-494e-96f0-8376d0daef20"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseOCC.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

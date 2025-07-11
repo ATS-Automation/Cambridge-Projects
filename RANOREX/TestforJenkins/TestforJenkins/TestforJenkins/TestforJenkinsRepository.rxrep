@@ -1,0 +1,128 @@
+﻿<repository
+id="a0a5c659-9fa2-491c-8151-414cdce7c158"
+name="TestforJenkinsRepository"
+rxversion="9.0">
+	<codegen
+	classname="TestforJenkinsRepository"
+	namespace="TestforJenkins">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cfd3ca57-6f1c-431d-acb4-4d3128160660"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0ca82b7c-f99c-4223-b200-6ff15fad8811"
+		isrooted="True"
+		name="Google"
+		refpath="/dom[@domain='www.google.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f72885e0-1b92-4562-9baf-6061f470cbd5"
+			name="LstIb"
+			refimgid="df28309b-8adf-4707-8a40-cdaa6d9ef95d"
+			refpath="/dom[@domain='www.google.com']//input[#'lst-ib']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.com']//input[#'lst-ib']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="980f67f8-8c7b-4f52-a647-629377c33ee4"
+			name="Bread"
+			refimgid="7466ecbb-06d6-4909-8f74-5b077a724611"
+			refpath="/dom[@domain='www.google.com']//div[#'rhs_block']/div[1]/div[1]/div/div[1]/div[2]/div[1]/div/div[2]/div/div/div[2]/div[1]/span[@innertext='Bread']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.com']//div[#'rhs_block']/div[1]/div[1]/div/div[1]/div[2]/div[1]//span[@innertext='Bread']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="88a98f80-9a15-4bb7-be6e-394692e264cc"
+			name="InputTagQ"
+			refimgid="0e453658-b54e-452a-aeee-6c659d84856c"
+			refpath="/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div/div[1]/div/div[1]/input[@title='Search']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div/div[1]//input[@title='Search']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f2589535-d9e4-4866-9463-78292d60fcb8"
+			name="Bread1"
+			refimgid="01f21fbf-ff79-4126-9529-2221c55902cc"
+			refpath="/dom[@domain='www.google.com']//div[#'rhs_block']/div[1]/div[1]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[1]/span[@innertext='Bread']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.com']//div[#'rhs_block']/div[1]/div[1]/div/div[1]/div[2]/div[2]//span[@innertext='Bread']
+			</item>
+			<basepath>
+				/dom[@domain='www.google.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="886f288a-35a9-4679-8d40-1efbb5cac49e"
+		isrooted="True"
+		name="BreadGoogleSearchGoogleChrome"
+		refpath="/form[@title='bread - Google Search - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c72e3cf4-fb85-4e21-aa7a-f69e9b593f63"
+			name="Close"
+			refimgid="a5aba94d-945c-499c-9f45-83af6311e250"
+			refpath="/form[@title='bread - Google Search - Google Chrome']/container[@accessiblename='bread - Google Search - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/tabpagelist[@accessiblerole='PageTabList']/tabpage[@accessiblename='bread - Google Search']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title~'^bread\ -\ Google\ Search\ -\ G']/container[@accessiblename~'^bread\ -\ Google\ Search\ -\ G']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='bread - Google Search']/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^bread\ -\ Google\ Search\ -\ G']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,100 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{63A4485C-0577-4F07-A8AB-AEC8315CECDE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ImageBasedSelection</RootNamespace>
+    <AssemblyName>ImageBasedSelection</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>c78b96bb-0d9c-4aee-89fe-0ebaf80d8fb2</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageBasedSelectionRepository.rximg">
+      <BoundTo>c78b96bb-0d9c-4aee-89fe-0ebaf80d8fb2</BoundTo>
+      <DependentUpon>ImageBasedSelectionRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>3354f71f-e4b5-4e85-9d7b-34142ab9950e</id>
+    </None>
+    <None Include="ImageBasedSelectionRepository.rxrep">
+      <id>c78b96bb-0d9c-4aee-89fe-0ebaf80d8fb2</id>
+      <repoid>1229fd8f-9508-4398-abb2-09a9deedc737</repoid>
+      <reporootid>f7a53376-21cb-4ad7-bf44-b51dc803aaeb</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>c78b96bb-0d9c-4aee-89fe-0ebaf80d8fb2</BoundTo>
+      <id>27db2db7-1fcb-4e02-a48f-79ccd2d08038</id>
+      <recordtableid>b1f86b5c-7ec8-444c-a4be-7ef2e240b45c</recordtableid>
+    </None>
+    <Content Include="ImageBasedSelection.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>b438a836-3548-4e6f-9541-0230f1d911a8</id>
+    </Content>
+    <Compile Include="AssemblyInfo.cs">
+      <id>7fc8d22c-2598-4321-82dc-3810555bc669</id>
+    </Compile>
+    <Compile Include="ImageBasedSelectionRepository.cs">
+      <BoundTo>c78b96bb-0d9c-4aee-89fe-0ebaf80d8fb2</BoundTo>
+      <DependentUpon>ImageBasedSelectionRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>66521381-902a-4c3d-beb3-3d9b7adfb129</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>27db2db7-1fcb-4e02-a48f-79ccd2d08038</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d52bd04c-3cce-4c9a-b4d4-87c2468ff09e</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>27db2db7-1fcb-4e02-a48f-79ccd2d08038</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a181604-ff82-4645-baa1-eaa552417f39</id>
+    </Compile>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

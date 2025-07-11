@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cd3b9492a5a458"
+		totalerrorcount="0"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="anpatel"
+		rxversion="8.1.1.0"
+		host="CA01A3839"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3360x1050"
+		timestamp="1/21/2019 2:41:03 PM"
+		timestampiso="2019-01-21T19:41:03"
+		endtime="1/21/2019 2:41:55 PM"
+		timeoutfactor="1"
+		module="GenerateReport">
+		<detail>
+			GenerateReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.971"
+			timeRelativeToTestModuleStartTime="00:00.978"
+			timeWallClock="14:41:04"
+			time="00:00.971"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varPathtoSaveto, varProcessingCompletedFile
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.994"
+			timeRelativeToTestModuleStartTime="00:01.001"
+			timeWallClock="14:41:04"
+			time="00:00.994"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Microsoft Office\Office16\EXCEL.EXE' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.115"
+			timeRelativeToTestModuleStartTime="00:01.122"
+			timeWallClock="14:41:04"
+			time="00:01.115"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Maximize() on item 'FormEXCELClose'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				itempath="/form[@processname='EXCEL']"
+				fullname="BPCReportRepository.FormEXCELClose.Self"
+				id="3f584f07c0f344a08c7d9f63daec9ffa"
+				timeout="30000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.544"
+			timeRelativeToTestModuleStartTime="00:03.551"
+			timeWallClock="14:41:06"
+			time="00:03.544"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book1Excel.TabPageEPM' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='XLMAIN']/element[2]//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='EPM']"
+				itempath="element[2]//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpage[@name='EPM']"
+				fullname="BPCReportRepository.Book1Excel.TabPageEPM"
+				id="eb060fb9e8984d4cb985f5daf3c686b4"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="119"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.404"
+			timeRelativeToTestModuleStartTime="00:06.411"
+			timeWallClock="14:41:09"
+			time="00:06.404"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book1Excel.LogOn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='XLMAIN']//container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Connection']/button[@name='Log On']"
+				itempath=".//container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Connection']/button[@name='Log On']"
+				fullname="BPCReportRepository.Book1Excel.LogOn"
+				id="8d427e7852034bc1b3db14325f75abd9"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="123"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.159"
+			timeRelativeToTestModuleStartTime="00:09.166"
+			timeWallClock="14:41:12"
+			time="00:09.159"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 1m to exist. Associated repository item: 'ConnectionCredentialsDialog.ButtonOk'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ConnectionCredentialsDialog']/container[@controlname='panelBottom']//button[@controlname='buttonOk']"
+				itempath="container[@controlname='panelBottom']//button[@controlname='buttonOk']"
+				fullname="BPCReportRepository.ConnectionCredentialsDialog.ButtonOk"
+				id="816d30565b1c4805810fe7a16af05349"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="127"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.837"
+			timeRelativeToTestModuleStartTime="00:09.844"
+			timeWallClock="14:41:13"
+			time="00:09.837"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ConnectionCredentialsDialog.ButtonOk' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ConnectionCredentialsDialog']/container[@controlname='panelBottom']//button[@controlname='buttonOk']"
+				itempath="container[@controlname='panelBottom']//button[@controlname='buttonOk']"
+				fullname="BPCReportRepository.ConnectionCredentialsDialog.ButtonOk"
+				id="816d30565b1c4805810fe7a16af05349"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="130"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.477"
+			timeRelativeToTestModuleStartTime="00:10.484"
+			timeWallClock="14:41:13"
+			time="00:10.477"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ConnectionCredentialsDialog.ButtonOk' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='ConnectionCredentialsDialog']/container[@controlname='panelBottom']//button[@controlname='buttonOk']"
+				itempath="container[@controlname='panelBottom']//button[@controlname='buttonOk']"
+				fullname="BPCReportRepository.ConnectionCredentialsDialog.ButtonOk"
+				id="816d30565b1c4805810fe7a16af05349"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="134"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.256"
+			timeRelativeToTestModuleStartTime="00:11.263"
+			timeWallClock="14:41:14"
+			time="00:11.256"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 1m to exist. Associated repository item: 'Book1Excel.Open'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='XLMAIN']////container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Reports']/menuitem[@name='Open' and @text='Open' and @enabled='True']"
+				itempath=".////container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Reports']/menuitem[@name='Open' and @text='Open' and @enabled='True']"
+				fullname="BPCReportRepository.Book1Excel.Open"
+				id="ae130b6e302643408d7baf017cb1f3bc"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="138"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.607"
+			timeRelativeToTestModuleStartTime="00:17.614"
+			timeWallClock="14:41:21"
+			time="00:17.607"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Book1Excel.Open' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='XLMAIN']////container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Reports']/menuitem[@name='Open' and @text='Open' and @enabled='True']"
+				itempath=".////container[@name='Ribbon']/container[@name='Lower Ribbon']/element[@name='EPM']/container[@name='Reports']/menuitem[@name='Open' and @text='Open' and @enabled='True']"
+				fullname="BPCReportRepository.Book1Excel.Open"
+				id="ae130b6e302643408d7baf017cb1f3bc"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="141"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.110"
+			timeRelativeToTestModuleStartTime="00:19.117"
+			timeWallClock="14:41:22"
+			time="00:19.110"
+			level="Warn"
+			category="WinForms">
+			<message>
+				The control was recognized as a WinForms .NET 1.1 control. If this application targets the .NET Framework v1.1, then please ignore this message. Otherwise, the object recognition is not correct, most probably due to an installation issue. Please, uninstall and reinstall Ranorex and try again.<br/>Process: 'EXCEL' (pid 20944)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-.NETWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsNet11"
+				showInProgressDialog="False"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="142"
+				loglvl="Warn"
+				itemindex="9">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.563"
+			timeRelativeToTestModuleStartTime="00:20.570"
+			timeWallClock="14:41:23"
+			time="00:20.563"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EXCEL.OpenServerReportFolder' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL' and @class='Net UI Tool Window' and @instance='0']/?/?/container[@name='Menu Group']/?/?/menuitem[@name~'^Open\ Server\ Report\ Folder']"
+				itempath="?/?/container[@name='Menu Group']/?/?/menuitem[@name~'^Open\ Server\ Report\ Folder']"
+				fullname="BPCReportRepository.EXCEL.OpenServerReportFolder"
+				id="bfed37fb347e4a32a2db2a066f4943c9"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="145"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.948"
+			timeRelativeToTestModuleStartTime="00:21.955"
+			timeWallClock="14:41:25"
+			time="00:21.948"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.CategoryItemButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']//text[@caption='REPORTING']/../radiobutton[@automationid='CategoryItemButton']"
+				itempath=".//text[@caption='REPORTING']/../radiobutton[@automationid='CategoryItemButton']"
+				fullname="BPCReportRepository.FileBrowserDialog2.CategoryItemButton"
+				id="5eb5fadf86fd4c07a57c2b42265f39ba"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="149"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.190"
+			timeRelativeToTestModuleStartTime="00:23.196"
+			timeWallClock="14:41:26"
+			time="00:23.190"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.
+
+Could not set-up managed injection endpoint: Could not connect to remoting service: Rx8_Managed_20944. System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.<br/> <br/><br/>Server stack trace: <br/>   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)<br/>   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)<br/>   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)<br/>   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)<br/><br/>Exception rethrown at [0]: <br/>   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)<br/>   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)<br/>   at Ranorex.Core.IpcRemotingService.IPingable.Ping()<br/>   at Ranorex.Core.Injection.DotNetThingy.GetInstance(Int32 pid) InnerException: <br/>Process: 'EXCEL' (pid 20944)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.1/technology-instrumentation/general-troubleshooting#GeneralTroubleshooting-Reason#2:.1<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="150"
+				loglvl="Warn"
+				itemindex="11">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.940"
+			timeRelativeToTestModuleStartTime="00:24.947"
+			timeWallClock="14:41:28"
+			time="00:24.940"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.INDEVELOPMENT' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']/container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//container[@controlname='panel2']//tree[@controlname='treeViewHierarchy']/?/?/treeitem[@accessiblename='TEAMREPORTLIBRARY']/treeitem[@accessiblename='IN DEVELOPMENT']"
+				itempath="container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//container[@controlname='panel2']//tree[@controlname='treeViewHierarchy']/?/?/treeitem[@accessiblename='TEAMREPORTLIBRARY']/treeitem[@accessiblename='IN DEVELOPMENT']"
+				fullname="BPCReportRepository.FileBrowserDialog2.INDEVELOPMENT"
+				id="2d07deace50a42139bb349ce58c89d55"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="153"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.869"
+			timeRelativeToTestModuleStartTime="00:25.876"
+			timeWallClock="14:41:29"
+			time="00:25.869"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.IntercompanyReconciliationReportSched' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']/container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//table[@controlname='listViewElement']/row/cell[@text='Intercompany Reconciliation Report_Scheduled.xlsm']"
+				itempath="container[@controlname='FileBrowserUserControl']/container[@controlname='panelMain']//table[@controlname='listViewElement']/row/cell[@text='Intercompany Reconciliation Report_Scheduled.xlsm']"
+				fullname="BPCReportRepository.FileBrowserDialog2.IntercompanyReconciliationReportSched"
+				id="bdc487450f304ac58ca8e523b35d0efd"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="157"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.764"
+			timeRelativeToTestModuleStartTime="00:27.771"
+			timeWallClock="14:41:31"
+			time="00:27.764"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileBrowserDialog2.BtnOpen' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FileBrowserDialog2']/?/?/button[@controlname='btnOpen' and @enabled='True']"
+				itempath="?/?/button[@controlname='btnOpen' and @enabled='True']"
+				fullname="BPCReportRepository.FileBrowserDialog2.BtnOpen"
+				id="b63d40b736a6451bab171f516bc38b64"
+				timeout="60000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="161"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.704"
+			timeRelativeToTestModuleStartTime="00:28.711"
+			timeWallClock="14:41:32"
+			time="00:28.704"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5m to exist. Associated repository item: 'FormEXCEL.btnRefreshReportTakeOffline'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL' and @windowtext~'Intercompany Reconciliation Report_Scheduled']//table[@name='ControlSheet']/shape[@alternativetext='Refresh Report and Take Offline']"
+				itempath=".//table[@name='ControlSheet']/shape[@alternativetext='Refresh Report and Take Offline']"
+				fullname="BPCReportRepository.FormEXCEL.btnRefreshReportTakeOffline"
+				id="703faf12629140c0b3e0232c00ec5395"
+				timeout="300000"
+				codefile="C:\Users\anpatel\Documents\Ranorex\RanorexStudio Projects\BPC Report\BPCReport\GenerateReport.cs"
+				codeline="165"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

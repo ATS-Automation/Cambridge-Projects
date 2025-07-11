@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a6734ca6-f7c5-463e-a57c-003324a64156"
+mode="Global"
+rxversion="9.0">
+	<name>
+		ClickRemoveDesignTables2014
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickRemoveDesignTables2014"
+	namespace="SolidWorksTaskPaneTools">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e2f53a7b-f055-46f5-9455-cb351b208fd6"
+		sx="0"
+		sy="0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="eaa58784-4b18-44ea-b584-6e080ce824fe"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^SolidWorks\ Premium\ 2014\ x']/element[@controlid='59421']/element[@controlid='59465']/element[@class='Afx:0000000140000000:80']/element[3]//element[@controlname='ControlAxSourcingSite']/element[@controlname='elementHost1']/element[@win32parentwindowlevel='9' and @win32ownerwindowlevel='0']/container/container/container/container/container/container[2]/text[@text='Environments (PLM Active)']/../../../container/container[3]/container/button[@automationid='RemoveDesignTables']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ad681eab-1b6d-45a7-b59d-17ff21dadb9f"
+	name="SolidWorksTaskPaneToolsRepository"
+	relativepath="SolidWorksTaskPaneToolsRepository.rxrep"
+	rxversion="6.1">
+		<codegen
+		classname="SolidWorksTaskPaneToolsRepository"
+		namespace="SolidWorksTaskPaneTools">
+		</codegen>
+		<rootfolder
+		id="0b6b6021-b1f2-43ff-a507-812bf5ac100f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickRemoveDesignTables2014.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

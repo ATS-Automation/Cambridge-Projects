@@ -1,0 +1,4024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="6m"
+		durationms="357868"
+		type="root"
+		rid="71e495af66e1460"
+		totalerrorcount="11"
+		totalwarningcount="6"
+		totalsuccesscount="0"
+		totalfailedcount="6"
+		totalblockedcount="0"
+		user="abridgman"
+		host="CA01A1900"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3360x1050"
+		timestamp="5/31/2016 12:03:18 PM"
+		timestampiso="2016-05-31T16:03:18"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="6m"
+			durationms="357771"
+			type="test suite"
+			rid="936bf83d82db210"
+			totalerrorcount="11"
+			totalwarningcount="6"
+			totalsuccesscount="0"
+			totalfailedcount="6"
+			totalblockedcount="0"
+			testsuitename="Document Processor FilterTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="6m"
+				durationms="357755"
+				type="test case"
+				rid="120968fb22e593f2"
+				totalerrorcount="11"
+				totalwarningcount="6"
+				totalsuccesscount="0"
+				totalfailedcount="6"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="836f2ead-88f7-4ae9-a35e-6a16c9de3a94"
+				datasource="NewConnector"
+				iterationcount="14"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.2m"
+					durationms="71855"
+					type="test case iteration"
+					rid="5086a7fed1a5a7e"
+					totalerrorcount="2"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="RecipeIndex">
+							1
+						</field>
+						<field
+							name="ReferenceName">
+							references RecipeID = 1182.txt
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.2m"
+						durationms="71769"
+						type="test module"
+						rid="14936ff44d3a3d1d"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2917\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1182.txt'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="RecipeIndex"
+								value="1"/>
+							<varbinding
+								name="ReferenceName"
+								value="references RecipeID = 1182.txt"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.138"
+							timeRelativeToTestModuleStartTime="00:00.005"
+							timeWallClock="12:03:18"
+							time="00:00.138"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$RecipeIndex = '1', $ReferenceName = 'references RecipeID = 1182.txt'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.193"
+							timeRelativeToTestModuleStartTime="00:00.060"
+							timeWallClock="12:03:18"
+							time="00:00.193"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>FormTitle, ResultsFolder, NewTextName, FolderID
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.240"
+							timeRelativeToTestModuleStartTime="00:00.107"
+							timeWallClock="12:03:18"
+							time="00:00.240"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="155"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.790"
+							timeRelativeToTestModuleStartTime="00:00.657"
+							timeWallClock="12:03:19"
+							time="00:00.790"
+							level="Info"
+							category="Application">
+							<message>
+								(Optional Action)<br/>Killing application containing item 'ATSDocumentProcessorMainWindow'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="159"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.511"
+							timeRelativeToTestModuleStartTime="00:02.378"
+							timeWallClock="12:03:20"
+							time="00:02.511"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe' with arguments '2' in normal mode.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="163"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.633"
+							timeRelativeToTestModuleStartTime="00:02.500"
+							timeWallClock="12:03:21"
+							time="00:02.633"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab' at 129;37.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab"
+								id="f8d25c1ea20e42b8a5940b7ecc4873c0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="166"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.452"
+							timeRelativeToTestModuleStartTime="00:12.319"
+							timeWallClock="12:03:30"
+							time="00:12.452"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu' at 28;30.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/container[@caption='Job Tools']/container[@caption='Main']/menubar[@automationid='NewJobMenu']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu"
+								id="d52f7ec724df490ba571353485af4fb4"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="169"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.823"
+							timeRelativeToTestModuleStartTime="00:12.690"
+							timeWallClock="12:03:31"
+							time="00:12.823"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.ProjectNumberInput' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="172"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.299"
+							timeRelativeToTestModuleStartTime="00:13.166"
+							timeWallClock="12:03:31"
+							time="00:13.299"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '99615' with focus on 'NewJobMenu.NewJobGrid.ProjectNumberInput'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="175"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.805"
+							timeRelativeToTestModuleStartTime="00:13.672"
+							timeWallClock="12:03:32"
+							time="00:13.805"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.Load' at 16;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/container[1]/button[@text='Load']"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.Load"
+								id="7a05510747e74cdeb2abad99d4283231"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="178"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.141"
+							timeRelativeToTestModuleStartTime="00:14.008"
+							timeWallClock="12:03:32"
+							time="00:14.141"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox' at 93;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[3]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox"
+								id="ed4f2c26bf304829bcf6aa4d2c5cb382"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="181"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.626"
+							timeRelativeToTestModuleStartTime="00:14.493"
+							timeWallClock="12:03:33"
+							time="00:14.626"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.FilterTest' at 53;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text='filter test']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.FilterTest"
+								id="fd4625796a594d2598783e00aa3d54bb"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="184"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.228"
+							timeRelativeToTestModuleStartTime="00:15.095"
+							timeWallClock="12:03:33"
+							time="00:15.228"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox1' at 61;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[4]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox1"
+								id="69ab2a74fd9142f5844b7b4c349489b3"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.616"
+							timeRelativeToTestModuleStartTime="00:15.483"
+							timeWallClock="12:03:34"
+							time="00:15.616"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.SomeListItem' at 46;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[1]"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.SomeListItem"
+								id="9ed853d6022048068f13a527ad147145"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="190"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.059"
+							timeRelativeToTestModuleStartTime="00:15.926"
+							timeWallClock="12:03:34"
+							time="00:16.059"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox2' at 57;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[5]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox2"
+								id="9db582f43ff24223b375d66cbc5f883c"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="193"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.380"
+							timeRelativeToTestModuleStartTime="00:16.247"
+							timeWallClock="12:03:34"
+							time="00:16.380"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM' at 57;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text~'^25243897-XX-XX\.001-KIM-KIM']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM"
+								id="f358bbec06b443a6885758c82a4eff3c"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="196"
+								itemindex="13"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.800"
+							timeRelativeToTestModuleStartTime="00:16.667"
+							timeWallClock="12:03:35"
+							time="00:16.800"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.SomeButton' at 124;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']/menuitem/container/container[2]/button[1]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.SomeButton"
+								id="b8cd3c8b938f43488b5a1313772a51e7"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="199"
+								itemindex="14"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.105"
+							timeRelativeToTestModuleStartTime="00:16.972"
+							timeWallClock="12:03:35"
+							time="00:17.105"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 8.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="500000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="202"
+								itemindex="15"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.176"
+							timeRelativeToTestModuleStartTime="00:39.043"
+							timeWallClock="12:03:57"
+							time="00:39.176"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Text' from item 'ATSDocumentProcessorMainWindow.ProjectLabel' and assigning its value to variable 'FolderID'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/text"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.ProjectLabel"
+								id="63b4b9a2815b4335b1da2f3ce1ab2a8e"
+								timeout="30100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="205"
+								itemindex="16"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.324"
+							timeRelativeToTestModuleStartTime="00:39.191"
+							timeWallClock="12:03:57"
+							time="00:39.324"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Title' from item 'ATSDocumentProcessorMainWindow' and assigning its value to variable 'FormTitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="208"
+								itemindex="17"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.381"
+							timeRelativeToTestModuleStartTime="00:39.248"
+							timeWallClock="12:03:57"
+							time="00:39.381"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.RunJob' at 8;2.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/?/?/container[@caption='Run']/button[1]/container[@automationid='StackPanel']/element[@automationid='TwoLineText']/?/?/text[@automationid='PART_TextBlock1' and @enabled='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.RunJob"
+								id="ad4a8208c9f547bca8b36237be68bac0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="211"
+								itemindex="18"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.997"
+							timeRelativeToTestModuleStartTime="00:39.864"
+							timeWallClock="12:03:58"
+							time="00:39.997"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.PreviousLocations' at 7;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/element[@class='WorkerW']//progressbar/toolbar[@class='ToolbarWindow32']/button[@text='Previous Locations']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.PreviousLocations"
+								id="d49dcdb4f929496fab32003446413b6f"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="214"
+								itemindex="19"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:41.383"
+							timeRelativeToTestModuleStartTime="00:41.250"
+							timeWallClock="12:03:59"
+							time="00:41.383"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$ResultsFolder'.
+							</message>
+							<metainfo
+								itemindex="20"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="217"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.131"
+							timeRelativeToTestModuleStartTime="00:41.998"
+							timeWallClock="12:04:00"
+							time="00:42.131"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}'.
+							</message>
+							<metainfo
+								itemindex="21"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="220"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.303"
+							timeRelativeToTestModuleStartTime="00:42.170"
+							timeWallClock="12:04:00"
+							time="00:42.303"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1' at 46;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1"
+								id="0bde49ebc6a249b09850a06a4463dbd1"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="223"
+								itemindex="22"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.666"
+							timeRelativeToTestModuleStartTime="00:42.533"
+							timeWallClock="12:04:01"
+							time="00:42.666"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$FolderID'.
+							</message>
+							<metainfo
+								itemindex="23"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="226"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.007"
+							timeRelativeToTestModuleStartTime="00:43.874"
+							timeWallClock="12:04:02"
+							time="00:44.007"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="24"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="229"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.566"
+							timeRelativeToTestModuleStartTime="00:44.433"
+							timeWallClock="12:04:02"
+							time="00:44.566"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}{Return}'.
+							</message>
+							<metainfo
+								itemindex="25"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="232"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.755"
+							timeRelativeToTestModuleStartTime="00:44.622"
+							timeWallClock="12:04:03"
+							time="00:44.755"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.SelectFolder' at 7;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/button[@text='Select Folder']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.SelectFolder"
+								id="d002f4c9312d4b2baad7306680def4db"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="235"
+								itemindex="26"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.965"
+							timeRelativeToTestModuleStartTime="00:44.832"
+							timeWallClock="12:04:03"
+							time="00:44.965"
+							level="Info"
+							category="Wait"
+							errimg="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_3b85040c_trace.jpg"
+							errthumb="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_3b85040c_trace_thumb.jpg">
+							<message>
+								Waiting 10.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="619998"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="238"
+								itemindex="27"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:11.639"
+							timeRelativeToTestModuleStartTime="01:11.506"
+							timeWallClock="12:04:30"
+							time="01:11.639"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\software$\IT Utilities\Internally Developed\Print SOLIDWORKS References\app_files\PrintReferences.exe' with arguments '22 &quot;C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2917&quot; &quot;ATS Document Processor version 2.1.1.18734 Recipe - filter test 1182&quot;' in normal mode.
+							</message>
+							<metainfo
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="39"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:11.771"
+							timeRelativeToTestModuleStartTime="01:11.638"
+							timeWallClock="12:04:30"
+							time="01:11.771"
+							level="Error"
+							category="Module">
+							<message>
+								Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2917\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1182.txt'.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.compareFiles(String file1, String file2) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 60
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.CompareTextFiles(String ResultsFolderRoot, String ResultsSubFolder, String CurrentTextFileName, String ReferenceFileFolder, String ReferenceTextFile) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 51
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs:line 245
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="60"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="64ms"
+						durationms="64"
+						type="test module"
+						rid="c2edd27e8d55da4"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+						</errmsg>
+						<item
+							timeRelativeToTestSuiteStartTime="01:11.911"
+							timeRelativeToTestModuleStartTime="00:00.005"
+							timeWallClock="12:04:30"
+							time="01:11.911"
+							level="Error"
+							category="Module">
+							<message>
+								The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.PathHelper.GetFullPathName()&#13;&#10;   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#13;&#10;   at System.IO.Path.GetFullPathInternal(String path)&#13;&#10;   at System.IO.Path.GetFullPath(String path)&#13;&#10;   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)&#13;&#10;   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.1m"
+					durationms="64712"
+					type="test case iteration"
+					rid="2806d3ace75b7e52"
+					totalerrorcount="2"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="2">
+					<datarow>
+						<field
+							name="RecipeIndex">
+							2
+						</field>
+						<field
+							name="ReferenceName">
+							references RecipeID = 1204.txt
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.1m"
+						durationms="64643"
+						type="test module"
+						rid="c3cf78cc68cd804"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2918\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1204.txt'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="RecipeIndex"
+								value="2"/>
+							<varbinding
+								name="ReferenceName"
+								value="references RecipeID = 1204.txt"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:11.976"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="12:04:30"
+							time="01:11.976"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$RecipeIndex = '2', $ReferenceName = 'references RecipeID = 1204.txt'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.037"
+							timeRelativeToTestModuleStartTime="00:00.062"
+							timeWallClock="12:04:30"
+							time="01:12.037"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>FormTitle, ResultsFolder, NewTextName, FolderID
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.135"
+							timeRelativeToTestModuleStartTime="00:00.160"
+							timeWallClock="12:04:30"
+							time="01:12.135"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="155"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.704"
+							timeRelativeToTestModuleStartTime="00:00.729"
+							timeWallClock="12:04:31"
+							time="01:12.704"
+							level="Info"
+							category="Application">
+							<message>
+								(Optional Action)<br/>Killing application containing item 'ATSDocumentProcessorMainWindow'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="159"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.836"
+							timeRelativeToTestModuleStartTime="00:00.861"
+							timeWallClock="12:04:31"
+							time="01:12.836"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe' with arguments '2' in normal mode.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="163"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.958"
+							timeRelativeToTestModuleStartTime="00:00.983"
+							timeWallClock="12:04:31"
+							time="01:12.958"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab' at 129;37.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab"
+								id="f8d25c1ea20e42b8a5940b7ecc4873c0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="166"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:22.754"
+							timeRelativeToTestModuleStartTime="00:10.779"
+							timeWallClock="12:04:41"
+							time="01:22.754"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu' at 28;30.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/container[@caption='Job Tools']/container[@caption='Main']/menubar[@automationid='NewJobMenu']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu"
+								id="d52f7ec724df490ba571353485af4fb4"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="169"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:23.096"
+							timeRelativeToTestModuleStartTime="00:11.121"
+							timeWallClock="12:04:41"
+							time="01:23.096"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.ProjectNumberInput' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="172"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:23.560"
+							timeRelativeToTestModuleStartTime="00:11.585"
+							timeWallClock="12:04:41"
+							time="01:23.560"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '99615' with focus on 'NewJobMenu.NewJobGrid.ProjectNumberInput'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="175"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:24.035"
+							timeRelativeToTestModuleStartTime="00:12.060"
+							timeWallClock="12:04:42"
+							time="01:24.035"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.Load' at 16;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/container[1]/button[@text='Load']"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.Load"
+								id="7a05510747e74cdeb2abad99d4283231"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="178"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:24.384"
+							timeRelativeToTestModuleStartTime="00:12.409"
+							timeWallClock="12:04:42"
+							time="01:24.384"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox' at 93;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[3]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox"
+								id="ed4f2c26bf304829bcf6aa4d2c5cb382"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="181"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:24.845"
+							timeRelativeToTestModuleStartTime="00:12.870"
+							timeWallClock="12:04:43"
+							time="01:24.845"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.FilterTest' at 53;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text='filter test']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.FilterTest"
+								id="fd4625796a594d2598783e00aa3d54bb"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="184"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:25.450"
+							timeRelativeToTestModuleStartTime="00:13.475"
+							timeWallClock="12:04:43"
+							time="01:25.450"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox1' at 61;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[4]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox1"
+								id="69ab2a74fd9142f5844b7b4c349489b3"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:25.838"
+							timeRelativeToTestModuleStartTime="00:13.863"
+							timeWallClock="12:04:44"
+							time="01:25.838"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.SomeListItem' at 46;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[2]"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.SomeListItem"
+								id="9ed853d6022048068f13a527ad147145"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="190"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:26.280"
+							timeRelativeToTestModuleStartTime="00:14.305"
+							timeWallClock="12:04:44"
+							time="01:26.280"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox2' at 57;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[5]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox2"
+								id="9db582f43ff24223b375d66cbc5f883c"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="193"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:26.627"
+							timeRelativeToTestModuleStartTime="00:14.652"
+							timeWallClock="12:04:45"
+							time="01:26.627"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM' at 57;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text~'^25243897-XX-XX\.001-KIM-KIM']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM"
+								id="f358bbec06b443a6885758c82a4eff3c"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="196"
+								itemindex="13"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:27.044"
+							timeRelativeToTestModuleStartTime="00:15.069"
+							timeWallClock="12:04:45"
+							time="01:27.044"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.SomeButton' at 124;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']/menuitem/container/container[2]/button[1]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.SomeButton"
+								id="b8cd3c8b938f43488b5a1313772a51e7"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="199"
+								itemindex="14"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:27.346"
+							timeRelativeToTestModuleStartTime="00:15.371"
+							timeWallClock="12:04:45"
+							time="01:27.346"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 8.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="500000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="202"
+								itemindex="15"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:49.536"
+							timeRelativeToTestModuleStartTime="00:37.561"
+							timeWallClock="12:05:07"
+							time="01:49.536"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Text' from item 'ATSDocumentProcessorMainWindow.ProjectLabel' and assigning its value to variable 'FolderID'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/text"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.ProjectLabel"
+								id="63b4b9a2815b4335b1da2f3ce1ab2a8e"
+								timeout="30100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="205"
+								itemindex="16"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:49.688"
+							timeRelativeToTestModuleStartTime="00:37.713"
+							timeWallClock="12:05:08"
+							time="01:49.688"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Title' from item 'ATSDocumentProcessorMainWindow' and assigning its value to variable 'FormTitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="208"
+								itemindex="17"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:49.743"
+							timeRelativeToTestModuleStartTime="00:37.768"
+							timeWallClock="12:05:08"
+							time="01:49.743"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.RunJob' at 8;2.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/?/?/container[@caption='Run']/button[1]/container[@automationid='StackPanel']/element[@automationid='TwoLineText']/?/?/text[@automationid='PART_TextBlock1' and @enabled='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.RunJob"
+								id="ad4a8208c9f547bca8b36237be68bac0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="211"
+								itemindex="18"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:50.349"
+							timeRelativeToTestModuleStartTime="00:38.373"
+							timeWallClock="12:05:08"
+							time="01:50.349"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.PreviousLocations' at 7;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/element[@class='WorkerW']//progressbar/toolbar[@class='ToolbarWindow32']/button[@text='Previous Locations']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.PreviousLocations"
+								id="d49dcdb4f929496fab32003446413b6f"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="214"
+								itemindex="19"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:51.589"
+							timeRelativeToTestModuleStartTime="00:39.613"
+							timeWallClock="12:05:10"
+							time="01:51.589"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$ResultsFolder'.
+							</message>
+							<metainfo
+								itemindex="20"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="217"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:52.485"
+							timeRelativeToTestModuleStartTime="00:40.510"
+							timeWallClock="12:05:10"
+							time="01:52.485"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}'.
+							</message>
+							<metainfo
+								itemindex="21"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="220"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:52.650"
+							timeRelativeToTestModuleStartTime="00:40.675"
+							timeWallClock="12:05:11"
+							time="01:52.650"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1' at 46;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1"
+								id="0bde49ebc6a249b09850a06a4463dbd1"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="223"
+								itemindex="22"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:52.993"
+							timeRelativeToTestModuleStartTime="00:41.018"
+							timeWallClock="12:05:11"
+							time="01:52.993"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$FolderID'.
+							</message>
+							<metainfo
+								itemindex="23"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="226"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:54.324"
+							timeRelativeToTestModuleStartTime="00:42.349"
+							timeWallClock="12:05:12"
+							time="01:54.324"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="24"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="229"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:54.866"
+							timeRelativeToTestModuleStartTime="00:42.891"
+							timeWallClock="12:05:13"
+							time="01:54.866"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}{Return}'.
+							</message>
+							<metainfo
+								itemindex="25"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="232"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.039"
+							timeRelativeToTestModuleStartTime="00:43.064"
+							timeWallClock="12:05:13"
+							time="01:55.039"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.SelectFolder' at 7;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/button[@text='Select Folder']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.SelectFolder"
+								id="d002f4c9312d4b2baad7306680def4db"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="235"
+								itemindex="26"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:55.281"
+							timeRelativeToTestModuleStartTime="00:43.306"
+							timeWallClock="12:05:13"
+							time="01:55.281"
+							level="Info"
+							category="Wait"
+							errimg="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_69fc793e_trace.jpg"
+							errthumb="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_69fc793e_trace_thumb.jpg">
+							<message>
+								Waiting 10.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="619998"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="238"
+								itemindex="27"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:16.426"
+							timeRelativeToTestModuleStartTime="01:04.451"
+							timeWallClock="12:05:34"
+							time="02:16.426"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\software$\IT Utilities\Internally Developed\Print SOLIDWORKS References\app_files\PrintReferences.exe' with arguments '22 &quot;C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2918&quot; &quot;ATS Document Processor version 2.1.1.18734 Recipe - filter test 1204&quot;' in normal mode.
+							</message>
+							<metainfo
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="39"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:16.523"
+							timeRelativeToTestModuleStartTime="01:04.548"
+							timeWallClock="12:05:34"
+							time="02:16.523"
+							level="Error"
+							category="Module">
+							<message>
+								Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2918\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1204.txt'.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.compareFiles(String file1, String file2) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 60
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.CompareTextFiles(String ResultsFolderRoot, String ResultsSubFolder, String CurrentTextFileName, String ReferenceFileFolder, String ReferenceTextFile) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 51
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs:line 245
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="60"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="63ms"
+						durationms="63"
+						type="test module"
+						rid="3455508bc9b8bb02"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+						</errmsg>
+						<item
+							timeRelativeToTestSuiteStartTime="02:16.625"
+							timeRelativeToTestModuleStartTime="00:00.004"
+							timeWallClock="12:05:35"
+							time="02:16.625"
+							level="Error"
+							category="Module">
+							<message>
+								The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.PathHelper.GetFullPathName()&#13;&#10;   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#13;&#10;   at System.IO.Path.GetFullPathInternal(String path)&#13;&#10;   at System.IO.Path.GetFullPath(String path)&#13;&#10;   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)&#13;&#10;   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.1m"
+					durationms="66197"
+					type="test case iteration"
+					rid="22a2445607f3c4e"
+					totalerrorcount="2"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="3">
+					<datarow>
+						<field
+							name="RecipeIndex">
+							3
+						</field>
+						<field
+							name="ReferenceName">
+							references RecipeID = 1205.txt
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.1m"
+						durationms="66145"
+						type="test module"
+						rid="24043535da07fa5"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2919\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1205.txt'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="RecipeIndex"
+								value="3"/>
+							<varbinding
+								name="ReferenceName"
+								value="references RecipeID = 1205.txt"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="02:16.691"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="12:05:35"
+							time="02:16.691"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$RecipeIndex = '3', $ReferenceName = 'references RecipeID = 1205.txt'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:16.747"
+							timeRelativeToTestModuleStartTime="00:00.058"
+							timeWallClock="12:05:35"
+							time="02:16.747"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>FormTitle, ResultsFolder, NewTextName, FolderID
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:16.813"
+							timeRelativeToTestModuleStartTime="00:00.124"
+							timeWallClock="12:05:35"
+							time="02:16.813"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="155"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:17.381"
+							timeRelativeToTestModuleStartTime="00:00.692"
+							timeWallClock="12:05:35"
+							time="02:17.381"
+							level="Info"
+							category="Application">
+							<message>
+								(Optional Action)<br/>Killing application containing item 'ATSDocumentProcessorMainWindow'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="159"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:17.523"
+							timeRelativeToTestModuleStartTime="00:00.834"
+							timeWallClock="12:05:35"
+							time="02:17.523"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe' with arguments '2' in normal mode.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="163"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:17.655"
+							timeRelativeToTestModuleStartTime="00:00.966"
+							timeWallClock="12:05:36"
+							time="02:17.655"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab' at 129;37.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab"
+								id="f8d25c1ea20e42b8a5940b7ecc4873c0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="166"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.212"
+							timeRelativeToTestModuleStartTime="00:11.523"
+							timeWallClock="12:05:46"
+							time="02:28.212"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu' at 28;30.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/container[@caption='Job Tools']/container[@caption='Main']/menubar[@automationid='NewJobMenu']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu"
+								id="d52f7ec724df490ba571353485af4fb4"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="169"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.573"
+							timeRelativeToTestModuleStartTime="00:11.884"
+							timeWallClock="12:05:46"
+							time="02:28.573"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.ProjectNumberInput' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="172"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:29.037"
+							timeRelativeToTestModuleStartTime="00:12.348"
+							timeWallClock="12:05:47"
+							time="02:29.037"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '99615' with focus on 'NewJobMenu.NewJobGrid.ProjectNumberInput'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="175"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:29.516"
+							timeRelativeToTestModuleStartTime="00:12.827"
+							timeWallClock="12:05:47"
+							time="02:29.516"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.Load' at 16;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/container[1]/button[@text='Load']"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.Load"
+								id="7a05510747e74cdeb2abad99d4283231"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="178"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:29.858"
+							timeRelativeToTestModuleStartTime="00:13.169"
+							timeWallClock="12:05:48"
+							time="02:29.858"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox' at 93;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[3]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox"
+								id="ed4f2c26bf304829bcf6aa4d2c5cb382"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="181"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:30.336"
+							timeRelativeToTestModuleStartTime="00:13.646"
+							timeWallClock="12:05:48"
+							time="02:30.336"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.FilterTest' at 53;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text='filter test']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.FilterTest"
+								id="fd4625796a594d2598783e00aa3d54bb"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="184"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:30.955"
+							timeRelativeToTestModuleStartTime="00:14.265"
+							timeWallClock="12:05:49"
+							time="02:30.955"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox1' at 61;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[4]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox1"
+								id="69ab2a74fd9142f5844b7b4c349489b3"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:31.432"
+							timeRelativeToTestModuleStartTime="00:14.742"
+							timeWallClock="12:05:49"
+							time="02:31.432"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.SomeListItem' at 46;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[3]"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.SomeListItem"
+								id="9ed853d6022048068f13a527ad147145"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="190"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:31.888"
+							timeRelativeToTestModuleStartTime="00:15.198"
+							timeWallClock="12:05:50"
+							time="02:31.888"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox2' at 57;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[5]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox2"
+								id="9db582f43ff24223b375d66cbc5f883c"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="193"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:32.266"
+							timeRelativeToTestModuleStartTime="00:15.576"
+							timeWallClock="12:05:50"
+							time="02:32.266"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM' at 57;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text~'^25243897-XX-XX\.001-KIM-KIM']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM"
+								id="f358bbec06b443a6885758c82a4eff3c"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="196"
+								itemindex="13"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:32.706"
+							timeRelativeToTestModuleStartTime="00:16.016"
+							timeWallClock="12:05:51"
+							time="02:32.706"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.SomeButton' at 124;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']/menuitem/container/container[2]/button[1]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.SomeButton"
+								id="b8cd3c8b938f43488b5a1313772a51e7"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="199"
+								itemindex="14"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:33.039"
+							timeRelativeToTestModuleStartTime="00:16.349"
+							timeWallClock="12:05:51"
+							time="02:33.039"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 8.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="500000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="202"
+								itemindex="15"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:56.146"
+							timeRelativeToTestModuleStartTime="00:39.456"
+							timeWallClock="12:06:14"
+							time="02:56.146"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Text' from item 'ATSDocumentProcessorMainWindow.ProjectLabel' and assigning its value to variable 'FolderID'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/text"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.ProjectLabel"
+								id="63b4b9a2815b4335b1da2f3ce1ab2a8e"
+								timeout="30100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="205"
+								itemindex="16"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:56.312"
+							timeRelativeToTestModuleStartTime="00:39.622"
+							timeWallClock="12:06:14"
+							time="02:56.312"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Title' from item 'ATSDocumentProcessorMainWindow' and assigning its value to variable 'FormTitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="208"
+								itemindex="17"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:56.362"
+							timeRelativeToTestModuleStartTime="00:39.672"
+							timeWallClock="12:06:14"
+							time="02:56.362"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.RunJob' at 8;2.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/?/?/container[@caption='Run']/button[1]/container[@automationid='StackPanel']/element[@automationid='TwoLineText']/?/?/text[@automationid='PART_TextBlock1' and @enabled='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.RunJob"
+								id="ad4a8208c9f547bca8b36237be68bac0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="211"
+								itemindex="18"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:57.002"
+							timeRelativeToTestModuleStartTime="00:40.313"
+							timeWallClock="12:06:15"
+							time="02:57.002"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.PreviousLocations' at 7;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/element[@class='WorkerW']//progressbar/toolbar[@class='ToolbarWindow32']/button[@text='Previous Locations']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.PreviousLocations"
+								id="d49dcdb4f929496fab32003446413b6f"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="214"
+								itemindex="19"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:58.300"
+							timeRelativeToTestModuleStartTime="00:41.611"
+							timeWallClock="12:06:16"
+							time="02:58.300"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$ResultsFolder'.
+							</message>
+							<metainfo
+								itemindex="20"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="217"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:59.298"
+							timeRelativeToTestModuleStartTime="00:42.609"
+							timeWallClock="12:06:17"
+							time="02:59.298"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}'.
+							</message>
+							<metainfo
+								itemindex="21"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="220"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:59.456"
+							timeRelativeToTestModuleStartTime="00:42.767"
+							timeWallClock="12:06:17"
+							time="02:59.456"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1' at 46;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1"
+								id="0bde49ebc6a249b09850a06a4463dbd1"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="223"
+								itemindex="22"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:59.835"
+							timeRelativeToTestModuleStartTime="00:43.146"
+							timeWallClock="12:06:18"
+							time="02:59.835"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$FolderID'.
+							</message>
+							<metainfo
+								itemindex="23"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="226"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:01.160"
+							timeRelativeToTestModuleStartTime="00:44.470"
+							timeWallClock="12:06:19"
+							time="03:01.160"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="24"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="229"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:01.721"
+							timeRelativeToTestModuleStartTime="00:45.031"
+							timeWallClock="12:06:20"
+							time="03:01.721"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}{Return}'.
+							</message>
+							<metainfo
+								itemindex="25"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="232"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:01.910"
+							timeRelativeToTestModuleStartTime="00:45.220"
+							timeWallClock="12:06:20"
+							time="03:01.910"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.SelectFolder' at 7;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/button[@text='Select Folder']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.SelectFolder"
+								id="d002f4c9312d4b2baad7306680def4db"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="235"
+								itemindex="26"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:02.161"
+							timeRelativeToTestModuleStartTime="00:45.471"
+							timeWallClock="12:06:20"
+							time="03:02.161"
+							level="Info"
+							category="Wait"
+							errimg="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_fdd507b3_trace.jpg"
+							errthumb="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_fdd507b3_trace_thumb.jpg">
+							<message>
+								Waiting 10.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="619998"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="238"
+								itemindex="27"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:22.649"
+							timeRelativeToTestModuleStartTime="01:05.959"
+							timeWallClock="12:06:41"
+							time="03:22.649"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\software$\IT Utilities\Internally Developed\Print SOLIDWORKS References\app_files\PrintReferences.exe' with arguments '22 &quot;C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2919&quot; &quot;ATS Document Processor version 2.1.1.18734 Recipe - filter test 1205&quot;' in normal mode.
+							</message>
+							<metainfo
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="39"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:22.736"
+							timeRelativeToTestModuleStartTime="01:06.046"
+							timeWallClock="12:06:41"
+							time="03:22.736"
+							level="Error"
+							category="Module">
+							<message>
+								Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2919\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1205.txt'.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.compareFiles(String file1, String file2) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 60
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.CompareTextFiles(String ResultsFolderRoot, String ResultsSubFolder, String CurrentTextFileName, String ReferenceFileFolder, String ReferenceTextFile) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 51
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs:line 245
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="60"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="46ms"
+						durationms="46"
+						type="test module"
+						rid="6ab1e3cea349a31"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+						</errmsg>
+						<item
+							timeRelativeToTestSuiteStartTime="03:22.841"
+							timeRelativeToTestModuleStartTime="00:00.004"
+							timeWallClock="12:06:41"
+							time="03:22.841"
+							level="Error"
+							category="Module">
+							<message>
+								The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.PathHelper.GetFullPathName()&#13;&#10;   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#13;&#10;   at System.IO.Path.GetFullPathInternal(String path)&#13;&#10;   at System.IO.Path.GetFullPath(String path)&#13;&#10;   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)&#13;&#10;   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="59.73s"
+					durationms="59729"
+					type="test case iteration"
+					rid="149aedad61b268c0"
+					totalerrorcount="2"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="4">
+					<datarow>
+						<field
+							name="RecipeIndex">
+							4
+						</field>
+						<field
+							name="ReferenceName">
+							references RecipeID = 1206.txt
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="59.68s"
+						durationms="59680"
+						type="test module"
+						rid="6c3c454cabed8b"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2920\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1206.txt'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="RecipeIndex"
+								value="4"/>
+							<varbinding
+								name="ReferenceName"
+								value="references RecipeID = 1206.txt"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="03:22.888"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="12:06:41"
+							time="03:22.888"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$RecipeIndex = '4', $ReferenceName = 'references RecipeID = 1206.txt'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:22.936"
+							timeRelativeToTestModuleStartTime="00:00.049"
+							timeWallClock="12:06:41"
+							time="03:22.936"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>FormTitle, ResultsFolder, NewTextName, FolderID
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:22.985"
+							timeRelativeToTestModuleStartTime="00:00.098"
+							timeWallClock="12:06:41"
+							time="03:22.985"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="155"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:23.552"
+							timeRelativeToTestModuleStartTime="00:00.665"
+							timeWallClock="12:06:41"
+							time="03:23.552"
+							level="Info"
+							category="Application">
+							<message>
+								(Optional Action)<br/>Killing application containing item 'ATSDocumentProcessorMainWindow'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="159"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:23.715"
+							timeRelativeToTestModuleStartTime="00:00.828"
+							timeWallClock="12:06:42"
+							time="03:23.715"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe' with arguments '2' in normal mode.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="163"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:23.846"
+							timeRelativeToTestModuleStartTime="00:00.959"
+							timeWallClock="12:06:42"
+							time="03:23.846"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab' at 129;37.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab"
+								id="f8d25c1ea20e42b8a5940b7ecc4873c0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="166"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:34.525"
+							timeRelativeToTestModuleStartTime="00:11.638"
+							timeWallClock="12:06:52"
+							time="03:34.525"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu' at 28;30.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/container[@caption='Job Tools']/container[@caption='Main']/menubar[@automationid='NewJobMenu']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu"
+								id="d52f7ec724df490ba571353485af4fb4"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="169"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:34.909"
+							timeRelativeToTestModuleStartTime="00:12.022"
+							timeWallClock="12:06:53"
+							time="03:34.909"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.ProjectNumberInput' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="172"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:35.403"
+							timeRelativeToTestModuleStartTime="00:12.516"
+							timeWallClock="12:06:53"
+							time="03:35.403"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '99615' with focus on 'NewJobMenu.NewJobGrid.ProjectNumberInput'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="175"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:35.917"
+							timeRelativeToTestModuleStartTime="00:13.030"
+							timeWallClock="12:06:54"
+							time="03:35.917"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.Load' at 16;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/container[1]/button[@text='Load']"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.Load"
+								id="7a05510747e74cdeb2abad99d4283231"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="178"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:36.248"
+							timeRelativeToTestModuleStartTime="00:13.361"
+							timeWallClock="12:06:54"
+							time="03:36.248"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox' at 93;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[3]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox"
+								id="ed4f2c26bf304829bcf6aa4d2c5cb382"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="181"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:36.770"
+							timeRelativeToTestModuleStartTime="00:13.883"
+							timeWallClock="12:06:55"
+							time="03:36.770"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.FilterTest' at 53;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text='filter test']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.FilterTest"
+								id="fd4625796a594d2598783e00aa3d54bb"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="184"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:37.411"
+							timeRelativeToTestModuleStartTime="00:14.524"
+							timeWallClock="12:06:55"
+							time="03:37.411"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox1' at 61;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[4]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox1"
+								id="69ab2a74fd9142f5844b7b4c349489b3"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:37.819"
+							timeRelativeToTestModuleStartTime="00:14.932"
+							timeWallClock="12:06:56"
+							time="03:37.819"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.SomeListItem' at 46;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[4]"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.SomeListItem"
+								id="9ed853d6022048068f13a527ad147145"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="190"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:38.266"
+							timeRelativeToTestModuleStartTime="00:15.379"
+							timeWallClock="12:06:56"
+							time="03:38.266"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox2' at 57;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[5]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox2"
+								id="9db582f43ff24223b375d66cbc5f883c"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="193"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:38.607"
+							timeRelativeToTestModuleStartTime="00:15.720"
+							timeWallClock="12:06:57"
+							time="03:38.607"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM' at 57;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text~'^25243897-XX-XX\.001-KIM-KIM']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM"
+								id="f358bbec06b443a6885758c82a4eff3c"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="196"
+								itemindex="13"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:39.049"
+							timeRelativeToTestModuleStartTime="00:16.162"
+							timeWallClock="12:06:57"
+							time="03:39.049"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.SomeButton' at 124;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']/menuitem/container/container[2]/button[1]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.SomeButton"
+								id="b8cd3c8b938f43488b5a1313772a51e7"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="199"
+								itemindex="14"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:39.355"
+							timeRelativeToTestModuleStartTime="00:16.468"
+							timeWallClock="12:06:57"
+							time="03:39.355"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 8.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="500000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="202"
+								itemindex="15"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:00.486"
+							timeRelativeToTestModuleStartTime="00:37.598"
+							timeWallClock="12:07:18"
+							time="04:00.486"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Text' from item 'ATSDocumentProcessorMainWindow.ProjectLabel' and assigning its value to variable 'FolderID'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/text"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.ProjectLabel"
+								id="63b4b9a2815b4335b1da2f3ce1ab2a8e"
+								timeout="30100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="205"
+								itemindex="16"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:00.659"
+							timeRelativeToTestModuleStartTime="00:37.771"
+							timeWallClock="12:07:19"
+							time="04:00.659"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Title' from item 'ATSDocumentProcessorMainWindow' and assigning its value to variable 'FormTitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="208"
+								itemindex="17"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:00.714"
+							timeRelativeToTestModuleStartTime="00:37.826"
+							timeWallClock="12:07:19"
+							time="04:00.714"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.RunJob' at 8;2.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/?/?/container[@caption='Run']/button[1]/container[@automationid='StackPanel']/element[@automationid='TwoLineText']/?/?/text[@automationid='PART_TextBlock1' and @enabled='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.RunJob"
+								id="ad4a8208c9f547bca8b36237be68bac0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="211"
+								itemindex="18"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:01.393"
+							timeRelativeToTestModuleStartTime="00:38.505"
+							timeWallClock="12:07:19"
+							time="04:01.393"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.PreviousLocations' at 7;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/element[@class='WorkerW']//progressbar/toolbar[@class='ToolbarWindow32']/button[@text='Previous Locations']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.PreviousLocations"
+								id="d49dcdb4f929496fab32003446413b6f"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="214"
+								itemindex="19"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:02.695"
+							timeRelativeToTestModuleStartTime="00:39.807"
+							timeWallClock="12:07:21"
+							time="04:02.695"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$ResultsFolder'.
+							</message>
+							<metainfo
+								itemindex="20"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="217"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:03.424"
+							timeRelativeToTestModuleStartTime="00:40.537"
+							timeWallClock="12:07:21"
+							time="04:03.424"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}'.
+							</message>
+							<metainfo
+								itemindex="21"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="220"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:03.588"
+							timeRelativeToTestModuleStartTime="00:40.701"
+							timeWallClock="12:07:22"
+							time="04:03.588"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1' at 46;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1"
+								id="0bde49ebc6a249b09850a06a4463dbd1"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="223"
+								itemindex="22"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:03.935"
+							timeRelativeToTestModuleStartTime="00:41.048"
+							timeWallClock="12:07:22"
+							time="04:03.935"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$FolderID'.
+							</message>
+							<metainfo
+								itemindex="23"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="226"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:05.258"
+							timeRelativeToTestModuleStartTime="00:42.371"
+							timeWallClock="12:07:23"
+							time="04:05.258"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="24"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="229"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:05.802"
+							timeRelativeToTestModuleStartTime="00:42.915"
+							timeWallClock="12:07:24"
+							time="04:05.802"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}{Return}'.
+							</message>
+							<metainfo
+								itemindex="25"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="232"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:05.991"
+							timeRelativeToTestModuleStartTime="00:43.104"
+							timeWallClock="12:07:24"
+							time="04:05.991"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.SelectFolder' at 7;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/button[@text='Select Folder']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.SelectFolder"
+								id="d002f4c9312d4b2baad7306680def4db"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="235"
+								itemindex="26"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:06.211"
+							timeRelativeToTestModuleStartTime="00:43.324"
+							timeWallClock="12:07:24"
+							time="04:06.211"
+							level="Info"
+							category="Wait"
+							errimg="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_39b51420_trace.jpg"
+							errthumb="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_39b51420_trace_thumb.jpg">
+							<message>
+								Waiting 10.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="619998"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="238"
+								itemindex="27"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:22.380"
+							timeRelativeToTestModuleStartTime="00:59.492"
+							timeWallClock="12:07:40"
+							time="04:22.380"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\software$\IT Utilities\Internally Developed\Print SOLIDWORKS References\app_files\PrintReferences.exe' with arguments '22 &quot;C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2920&quot; &quot;ATS Document Processor version 2.1.1.18734 Recipe - filter test 1206&quot;' in normal mode.
+							</message>
+							<metainfo
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="39"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:22.469"
+							timeRelativeToTestModuleStartTime="00:59.581"
+							timeWallClock="12:07:40"
+							time="04:22.469"
+							level="Error"
+							category="Module">
+							<message>
+								Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2920\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1206.txt'.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.compareFiles(String file1, String file2) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 60
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.CompareTextFiles(String ResultsFolderRoot, String ResultsSubFolder, String CurrentTextFileName, String ReferenceFileFolder, String ReferenceTextFile) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 51
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs:line 245
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="60"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="46ms"
+						durationms="46"
+						type="test module"
+						rid="126d4cd6a1672dde"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+						</errmsg>
+						<item
+							timeRelativeToTestSuiteStartTime="04:22.572"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="12:07:40"
+							time="04:22.572"
+							level="Error"
+							category="Module">
+							<message>
+								The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.PathHelper.GetFullPathName()&#13;&#10;   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#13;&#10;   at System.IO.Path.GetFullPathInternal(String path)&#13;&#10;   at System.IO.Path.GetFullPath(String path)&#13;&#10;   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)&#13;&#10;   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.1m"
+					durationms="65168"
+					type="test case iteration"
+					rid="4bf1d8cce53f9ac"
+					totalerrorcount="2"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="5">
+					<datarow>
+						<field
+							name="RecipeIndex">
+							5
+						</field>
+						<field
+							name="ReferenceName">
+							references RecipeID = 1207.txt
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.1m"
+						durationms="65106"
+						type="test module"
+						rid="2b8a7194b11dd74"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2921\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1207.txt'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="RecipeIndex"
+								value="5"/>
+							<varbinding
+								name="ReferenceName"
+								value="references RecipeID = 1207.txt"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="04:22.620"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="12:07:41"
+							time="04:22.620"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$RecipeIndex = '5', $ReferenceName = 'references RecipeID = 1207.txt'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:22.667"
+							timeRelativeToTestModuleStartTime="00:00.049"
+							timeWallClock="12:07:41"
+							time="04:22.667"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>FormTitle, ResultsFolder, NewTextName, FolderID
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:22.714"
+							timeRelativeToTestModuleStartTime="00:00.096"
+							timeWallClock="12:07:41"
+							time="04:22.714"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="155"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:23.281"
+							timeRelativeToTestModuleStartTime="00:00.663"
+							timeWallClock="12:07:41"
+							time="04:23.281"
+							level="Info"
+							category="Application">
+							<message>
+								(Optional Action)<br/>Killing application containing item 'ATSDocumentProcessorMainWindow'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="159"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:23.400"
+							timeRelativeToTestModuleStartTime="00:00.782"
+							timeWallClock="12:07:41"
+							time="04:23.400"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe' with arguments '2' in normal mode.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="163"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:23.493"
+							timeRelativeToTestModuleStartTime="00:00.875"
+							timeWallClock="12:07:41"
+							time="04:23.493"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab' at 129;37.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab"
+								id="f8d25c1ea20e42b8a5940b7ecc4873c0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="166"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:33.160"
+							timeRelativeToTestModuleStartTime="00:10.542"
+							timeWallClock="12:07:51"
+							time="04:33.160"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu' at 28;30.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/container[@caption='Job Tools']/container[@caption='Main']/menubar[@automationid='NewJobMenu']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu"
+								id="d52f7ec724df490ba571353485af4fb4"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="169"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:33.522"
+							timeRelativeToTestModuleStartTime="00:10.904"
+							timeWallClock="12:07:51"
+							time="04:33.522"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.ProjectNumberInput' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="172"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:34.017"
+							timeRelativeToTestModuleStartTime="00:11.399"
+							timeWallClock="12:07:52"
+							time="04:34.017"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '99615' with focus on 'NewJobMenu.NewJobGrid.ProjectNumberInput'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="175"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:34.513"
+							timeRelativeToTestModuleStartTime="00:11.895"
+							timeWallClock="12:07:52"
+							time="04:34.513"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.Load' at 16;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/container[1]/button[@text='Load']"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.Load"
+								id="7a05510747e74cdeb2abad99d4283231"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="178"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:34.854"
+							timeRelativeToTestModuleStartTime="00:12.236"
+							timeWallClock="12:07:53"
+							time="04:34.854"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox' at 93;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[3]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox"
+								id="ed4f2c26bf304829bcf6aa4d2c5cb382"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="181"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:35.335"
+							timeRelativeToTestModuleStartTime="00:12.717"
+							timeWallClock="12:07:53"
+							time="04:35.335"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.FilterTest' at 53;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text='filter test']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.FilterTest"
+								id="fd4625796a594d2598783e00aa3d54bb"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="184"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:35.959"
+							timeRelativeToTestModuleStartTime="00:13.341"
+							timeWallClock="12:07:54"
+							time="04:35.959"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox1' at 61;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[4]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox1"
+								id="69ab2a74fd9142f5844b7b4c349489b3"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:36.371"
+							timeRelativeToTestModuleStartTime="00:13.753"
+							timeWallClock="12:07:54"
+							time="04:36.371"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.SomeListItem' at 46;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[5]"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.SomeListItem"
+								id="9ed853d6022048068f13a527ad147145"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="190"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:36.811"
+							timeRelativeToTestModuleStartTime="00:14.193"
+							timeWallClock="12:07:55"
+							time="04:36.811"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox2' at 57;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[5]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox2"
+								id="9db582f43ff24223b375d66cbc5f883c"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="193"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:37.149"
+							timeRelativeToTestModuleStartTime="00:14.531"
+							timeWallClock="12:07:55"
+							time="04:37.149"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM' at 57;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text~'^25243897-XX-XX\.001-KIM-KIM']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM"
+								id="f358bbec06b443a6885758c82a4eff3c"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="196"
+								itemindex="13"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:37.592"
+							timeRelativeToTestModuleStartTime="00:14.974"
+							timeWallClock="12:07:56"
+							time="04:37.592"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.SomeButton' at 124;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']/menuitem/container/container[2]/button[1]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.SomeButton"
+								id="b8cd3c8b938f43488b5a1313772a51e7"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="199"
+								itemindex="14"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:37.963"
+							timeRelativeToTestModuleStartTime="00:15.345"
+							timeWallClock="12:07:56"
+							time="04:37.963"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 8.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="500000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="202"
+								itemindex="15"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:59.105"
+							timeRelativeToTestModuleStartTime="00:36.487"
+							timeWallClock="12:08:17"
+							time="04:59.105"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Text' from item 'ATSDocumentProcessorMainWindow.ProjectLabel' and assigning its value to variable 'FolderID'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/text"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.ProjectLabel"
+								id="63b4b9a2815b4335b1da2f3ce1ab2a8e"
+								timeout="30100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="205"
+								itemindex="16"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:59.252"
+							timeRelativeToTestModuleStartTime="00:36.634"
+							timeWallClock="12:08:17"
+							time="04:59.252"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'Title' from item 'ATSDocumentProcessorMainWindow' and assigning its value to variable 'FormTitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="208"
+								itemindex="17"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:59.316"
+							timeRelativeToTestModuleStartTime="00:36.698"
+							timeWallClock="12:08:17"
+							time="04:59.316"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.RunJob' at 8;2.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/?/?/container[@caption='Run']/button[1]/container[@automationid='StackPanel']/element[@automationid='TwoLineText']/?/?/text[@automationid='PART_TextBlock1' and @enabled='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.RunJob"
+								id="ad4a8208c9f547bca8b36237be68bac0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="211"
+								itemindex="18"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:59.920"
+							timeRelativeToTestModuleStartTime="00:37.302"
+							timeWallClock="12:08:18"
+							time="04:59.920"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.PreviousLocations' at 7;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/element[@class='WorkerW']//progressbar/toolbar[@class='ToolbarWindow32']/button[@text='Previous Locations']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.PreviousLocations"
+								id="d49dcdb4f929496fab32003446413b6f"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="214"
+								itemindex="19"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:01.164"
+							timeRelativeToTestModuleStartTime="00:38.545"
+							timeWallClock="12:08:19"
+							time="05:01.164"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$ResultsFolder'.
+							</message>
+							<metainfo
+								itemindex="20"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="217"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:02.071"
+							timeRelativeToTestModuleStartTime="00:39.452"
+							timeWallClock="12:08:20"
+							time="05:02.071"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}'.
+							</message>
+							<metainfo
+								itemindex="21"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="220"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:02.244"
+							timeRelativeToTestModuleStartTime="00:39.625"
+							timeWallClock="12:08:20"
+							time="05:02.244"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1' at 46;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']//toolbar[@automationid='FolderBandModuleInner']/button[@automationid='{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.ButtonE44616AD6DF14B9485A4E465AE8A1"
+								id="0bde49ebc6a249b09850a06a4463dbd1"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="223"
+								itemindex="22"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:02.631"
+							timeRelativeToTestModuleStartTime="00:40.013"
+							timeWallClock="12:08:21"
+							time="05:02.631"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$FolderID'.
+							</message>
+							<metainfo
+								itemindex="23"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="226"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:04.008"
+							timeRelativeToTestModuleStartTime="00:41.390"
+							timeWallClock="12:08:22"
+							time="05:04.008"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="24"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="229"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:04.572"
+							timeRelativeToTestModuleStartTime="00:41.954"
+							timeWallClock="12:08:22"
+							time="05:04.572"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}{Return}'.
+							</message>
+							<metainfo
+								itemindex="25"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="232"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:04.764"
+							timeRelativeToTestModuleStartTime="00:42.146"
+							timeWallClock="12:08:23"
+							time="05:04.764"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SelectOutputFolder.SelectFolder' at 7;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Select Output Folder']/button[@text='Select Folder']"
+								fullname="Deploy_Test_Filter_TestRepository.SelectOutputFolder.SelectFolder"
+								id="d002f4c9312d4b2baad7306680def4db"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="235"
+								itemindex="26"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:04.994"
+							timeRelativeToTestModuleStartTime="00:42.376"
+							timeWallClock="12:08:23"
+							time="05:04.994"
+							level="Info"
+							category="Wait"
+							errimg="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_bb17c5b6_trace.jpg"
+							errthumb="C:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\bin\Debug\images_Document_Processor_FilterTest_20160531_120318\Document_Processor_FilterTest_20160531_120318_bb17c5b6_trace_thumb.jpg">
+							<message>
+								Waiting 10.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="619998"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="238"
+								itemindex="27"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:27.520"
+							timeRelativeToTestModuleStartTime="01:04.902"
+							timeWallClock="12:08:45"
+							time="05:27.520"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\software$\IT Utilities\Internally Developed\Print SOLIDWORKS References\app_files\PrintReferences.exe' with arguments '22 &quot;C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2921&quot; &quot;ATS Document Processor version 2.1.1.18734 Recipe - filter test 1207&quot;' in normal mode.
+							</message>
+							<metainfo
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="39"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:27.613"
+							timeRelativeToTestModuleStartTime="01:04.995"
+							timeWallClock="12:08:46"
+							time="05:27.613"
+							level="Error"
+							category="Module">
+							<message>
+								Could not find file 'C:\Test Results\Filter Tests\Project 99615 - End Item 25243897-XX-XX.001-KIM-KIM - 2921\references ATS Document Processor version 2.1.1.18734 Recipe - filter test 1207.txt'.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.compareFiles(String file1, String file2) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 60
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.CompareTextFiles(String ResultsFolderRoot, String ResultsSubFolder, String CurrentTextFileName, String ReferenceFileFolder, String ReferenceTextFile) in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs:line 51
+   at Document_Processor_FilterTest.Deploy_Test_Filter_Test.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs:line 245
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.UserCode.cs"
+								codeline="60"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="56ms"
+						durationms="56"
+						type="test module"
+						rid="2c8b9b01e8a49489"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+						</errmsg>
+						<item
+							timeRelativeToTestSuiteStartTime="05:27.732"
+							timeRelativeToTestModuleStartTime="00:00.005"
+							timeWallClock="12:08:46"
+							time="05:27.732"
+							level="Error"
+							category="Module">
+							<message>
+								The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+							</message>
+							<metainfo
+								stacktrace="   at System.IO.PathHelper.GetFullPathName()&#13;&#10;   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)&#13;&#10;   at System.IO.Path.GetFullPathInternal(String path)&#13;&#10;   at System.IO.Path.GetFullPath(String path)&#13;&#10;   at System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)&#13;&#10;   at System.Drawing.IntSecurity.DemandWriteFileIO(String fileName)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)&#13;&#10;   at System.Drawing.Image.Save(String filename, ImageFormat format)&#13;&#10;   at Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   at Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   at Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer()&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteModule.Run(DataContext parentDataContext, Boolean childSkip)"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="30.08s"
+					durationms="30082"
+					type="test case iteration"
+					rid="6451a1bc3cab721"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="6">
+					<datarow>
+						<field
+							name="RecipeIndex">
+							6
+						</field>
+						<field
+							name="ReferenceName">
+							references RecipeID = 1209.txt
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="30.08s"
+						durationms="30081"
+						type="test module"
+						rid="a12aaaa9dfcd048"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Deploy_Test_Filter_Test"
+						moduleid="acec346c-2999-4d13-baba-218c6ff0dc4a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="RecipeIndex"
+								value="6"/>
+							<varbinding
+								name="ReferenceName"
+								value="references RecipeID = 1209.txt"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="05:27.789"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="12:08:46"
+							time="05:27.789"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$RecipeIndex = '6', $ReferenceName = 'references RecipeID = 1209.txt'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:27.849"
+							timeRelativeToTestModuleStartTime="00:00.062"
+							timeWallClock="12:08:46"
+							time="05:27.849"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>FormTitle, ResultsFolder, NewTextName, FolderID
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:27.901"
+							timeRelativeToTestModuleStartTime="00:00.114"
+							timeWallClock="12:08:46"
+							time="05:27.901"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="155"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:28.465"
+							timeRelativeToTestModuleStartTime="00:00.678"
+							timeWallClock="12:08:46"
+							time="05:28.465"
+							level="Info"
+							category="Application">
+							<message>
+								(Optional Action)<br/>Killing application containing item 'ATSDocumentProcessorMainWindow'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Self"
+								id="42a086c92e6f4248857874f38fb7077e"
+								timeout="100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="159"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:28.614"
+							timeRelativeToTestModuleStartTime="00:00.827"
+							timeWallClock="12:08:47"
+							time="05:28.614"
+							level="Info"
+							category="Application">
+							<message>
+								Run application '\\ca01a9001\pgmis\Deployment_DEV\ATS Document Processor\app_files\ATSDocumentProcessor.exe' with arguments '2' in normal mode.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="163"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:28.728"
+							timeRelativeToTestModuleStartTime="00:00.941"
+							timeWallClock="12:08:47"
+							time="05:28.728"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab' at 129;37.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.Job_Tools_Tab"
+								id="f8d25c1ea20e42b8a5940b7ecc4873c0"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="166"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:39.087"
+							timeRelativeToTestModuleStartTime="00:11.300"
+							timeWallClock="12:08:57"
+							time="05:39.087"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu' at 28;30.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/container/list/container[@caption='Job Tools']/container[@caption='Main']/menubar[@automationid='NewJobMenu']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.Ribbon.NewJobMenu"
+								id="d52f7ec724df490ba571353485af4fb4"
+								timeout="60100"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="169"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:39.454"
+							timeRelativeToTestModuleStartTime="00:11.667"
+							timeWallClock="12:08:57"
+							time="05:39.454"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.ProjectNumberInput' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="172"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:39.926"
+							timeRelativeToTestModuleStartTime="00:12.139"
+							timeWallClock="12:08:58"
+							time="05:39.926"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '99615' with focus on 'NewJobMenu.NewJobGrid.ProjectNumberInput'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/?/?/text[@automationid='newProjectNumberText']/element[2]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.ProjectNumberInput"
+								id="4bb00bdce2b24703b5db492f6239f150"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="175"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:40.431"
+							timeRelativeToTestModuleStartTime="00:12.643"
+							timeWallClock="12:08:58"
+							time="05:40.431"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.Load' at 16;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/container[1]/button[@text='Load']"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.Load"
+								id="7a05510747e74cdeb2abad99d4283231"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="178"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:40.775"
+							timeRelativeToTestModuleStartTime="00:12.987"
+							timeWallClock="12:08:59"
+							time="05:40.775"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox' at 93;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[3]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox"
+								id="ed4f2c26bf304829bcf6aa4d2c5cb382"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="181"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:41.266"
+							timeRelativeToTestModuleStartTime="00:13.478"
+							timeWallClock="12:08:59"
+							time="05:41.266"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.FilterTest' at 53;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text='filter test']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.FilterTest"
+								id="fd4625796a594d2598783e00aa3d54bb"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="184"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:41.890"
+							timeRelativeToTestModuleStartTime="00:14.102"
+							timeWallClock="12:09:00"
+							time="05:41.890"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox1' at 61;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[4]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox1"
+								id="69ab2a74fd9142f5844b7b4c349489b3"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:42.299"
+							timeRelativeToTestModuleStartTime="00:14.511"
+							timeWallClock="12:09:00"
+							time="05:42.299"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.SomeListItem' at 46;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[6]"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.SomeListItem"
+								id="9ed853d6022048068f13a527ad147145"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="190"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:42.746"
+							timeRelativeToTestModuleStartTime="00:14.958"
+							timeWallClock="12:09:01"
+							time="05:42.746"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.NewJobGrid.SomeCheckBox2' at 57;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']//container[@automationid='newJobGrid']/combobox[5]/?/?/checkbox"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.NewJobGrid.SomeCheckBox2"
+								id="9db582f43ff24223b375d66cbc5f883c"
+								timeout="90000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="193"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:43.112"
+							timeRelativeToTestModuleStartTime="00:15.324"
+							timeWallClock="12:09:01"
+							time="05:43.112"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM' at 57;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='2']/listitem[@text~'^25243897-XX-XX\.001-KIM-KIM']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessor1.ListItem25243928XXXX001ADAMADAM"
+								id="f358bbec06b443a6885758c82a4eff3c"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="196"
+								itemindex="13"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:43.536"
+							timeRelativeToTestModuleStartTime="00:15.748"
+							timeWallClock="12:09:01"
+							time="05:43.536"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewJobMenu.SomeButton' at 124;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='ATSDocumentProcessor' and @win32ownerwindowlevel='1']/menuitem/container/container[2]/button[1]"
+								fullname="Deploy_Test_Filter_TestRepository.NewJobMenu.SomeButton"
+								id="b8cd3c8b938f43488b5a1313772a51e7"
+								timeout="60000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="199"
+								itemindex="14"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:43.835"
+							timeRelativeToTestModuleStartTime="00:16.047"
+							timeWallClock="12:09:02"
+							time="05:43.835"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 8.3m for item 'ATSDocumentProcessorMainWindow.MainProgressBar' to not exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^ATS\ Document\ Processor\ ve' and @processname='ATSDocumentProcessor']/?/?/container[@automationid='grpJob']/container[@automationid='Job']/?/?/progressbar[@visible='True']"
+								fullname="Deploy_Test_Filter_TestRepository.ATSDocumentProcessorMainWindow.MainProgressBar"
+								id="efd54af4536846e2baaa2fa729bdd130"
+								timeout="500000"
+								codefile="c:\Users\abridgman\Documents\Projects\ATSDocumentProcessor\Test Automation\Document Processor FilterTest\Document Processor FilterTest\Deploy_Test_Filter_Test.cs"
+								codeline="202"
+								itemindex="15"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:57.868"
+							timeRelativeToTestModuleStartTime="00:30.081"
+							timeWallClock="12:09:16"
+							time="05:57.868"
+							level="Error"
+							category="Module">
+							<message>
+								Test run was aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
